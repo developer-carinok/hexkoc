@@ -8,7 +8,7 @@ import jwt
 
 KEY_ID = os.environ.get("ASC_KEY_ID", "K5565AAZPA")
 ISSUER_ID = os.environ.get("ASC_ISSUER_ID", "2b798c52-072f-470e-8808-fe953150cba6")
-APP_ID = os.environ.get("ASC_APP_ID", "HEXKOC_APP_ID")
+APP_ID = os.environ.get("ASC_APP_ID", "6814912778")
 KEY_PATH = os.path.expanduser(f"~/.appstoreconnect/private_keys/AuthKey_{KEY_ID}.p8")
 
 
