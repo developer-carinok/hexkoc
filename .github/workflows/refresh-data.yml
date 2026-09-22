@@ -1,0 +1,43 @@
+name: Refresh data
+
+on:
+  schedule:
+    # 06:00 UTC every day
+    - cron: "0 6 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: refresh-data
+  cancel-in-progress: false
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out main
+        uses: actions/checkout@v4
+        with:
+          ref: main
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Install requirements
+        run: python3 -m pip install --upgrade pip && python3 -m pip install -r tools/requirements.txt
+
+      - name: Build JSON data
+        run: python3 tools/build_data.py --skip-images --out data/v1 --resources /tmp/unused
+
+      - name: Commit refreshed data
+        uses: stefanzweifel/git-auto-commit-action@v5
+        with:
+          commit_message: "chore(data): refresh MetaTFT/CommunityDragon data"
+          file_pattern: data/v1/*.json
+          branch: main
+          commit_user_name: hexkoc-bot
+          commit_user_email: developer@carinok.com

@@ -5,3 +5,5 @@ build/
 *.xcodeproj/project.xcworkspace/xcuserdata/
 DerivedData/
 .DS_Store
+.venv-icon/
+*.xcodeproj/
