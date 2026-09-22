@@ -1,0 +1,51 @@
+import SwiftUI
+
+/// Bir seviye tahtası: solda "Sv 8" etiketi, yanında birim kareleri.
+/// Veride olmayan id'ler atlanır; kompun birim listesinde olmayanlar eşyasız gösterilir.
+struct UnitTileRow: View {
+    let ids: [String]
+    let comp: Comp
+    var label: String?
+    var size: CGFloat = 56
+    var showItems: Bool = true
+
+    @Environment(DataStore.self) private var store
+
+    static let labelWidth: CGFloat = 32
+    static let spacing: CGFloat = 4
+
+    var body: some View {
+        HStack(alignment: .top, spacing: Self.spacing) {
+            if let label {
+                Text(label)
+                    .font(.caption2.bold())
+                    .foregroundStyle(Theme.secondaryText)
+                    .lineLimit(1)
+                    .minimumScaleFactor(0.8)
+                    .frame(width: Self.labelWidth, alignment: .leading)
+                    .padding(.top, UnitTile.starHeight + size * 0.3)
+            }
+            FlowRow(spacing: Self.spacing) {
+                ForEach(Array(units.enumerated()), id: \.offset) { _, unit in
+                    UnitTile(unit: unit, size: size, showItems: showItems)
+                }
+            }
+        }
+    }
+
+    private var units: [CompUnit] { store.units(ids, in: comp) }
+}
+
+extension UnitTileRow {
+    /// Etiket + `count` kare + aralar verilen alana sığsın.
+    static func tileSize(height: CGFloat, width: CGFloat, count: Int, labelled: Bool = true, showItems: Bool) -> CGFloat {
+        let count = max(count, 1)
+        let label = labelled ? labelWidth + spacing : 0
+        let gaps = spacing * CGFloat(count - 1)
+        // Yuvarlama yüzünden satır alta kaymasın diye küçük bir pay bırak.
+        let byWidth = (width - label - gaps - 2) / CGFloat(count) - UnitTile.horizontalPadding
+        let byHeight = height - UnitTile.spacing - UnitTile.chromeHeight(showItems: showItems)
+        let size = min(max(min(byWidth, byHeight), UnitTile.minSize), UnitTile.maxSize)
+        return (size * 2).rounded(.down) / 2
+    }
+}

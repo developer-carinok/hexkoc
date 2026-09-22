@@ -5,21 +5,26 @@ struct CompDetailView: View {
 
     @Environment(DataStore.self) private var store
     @Environment(AppSettings.self) private var settings
+    @Environment(\.verticalSizeClass) private var verticalSizeClass
     @State private var toast: String?
     @State private var layout: CGSize = .zero
 
-    /// Bu genişlikten sonra kartlar iki sütuna ayrılır (yatay iPhone hâlâ compact sınıfta).
-    private static let twoColumnWidth: CGFloat = 640
+    /// Bu genişlikten sonra yatay "oyun modu" açılır (yatay iPhone hâlâ compact sınıfta).
+    private static let gameModeWidth: CGFloat = 640
 
     var body: some View {
         Group {
             if let comp = store.comp(compID) {
-                ScrollView {
-                    cards(comp)
-                        .padding(.horizontal, 16)
-                        .padding(.bottom, 28)
+                if isGameMode {
+                    CompGameModeView(comp: comp, toast: $toast)
+                } else {
+                    ScrollView {
+                        cards(comp)
+                            .padding(.horizontal, 16)
+                            .padding(.bottom, 28)
+                    }
+                    .navigationTitle(comp.name.text(settings.nameLanguage))
                 }
-                .navigationTitle(comp.name.text(settings.nameLanguage))
             } else {
                 EmptyStateView(title: "Komp bulunamadı", message: "Bu komp güncel veride yok.")
             }
@@ -27,34 +32,22 @@ struct CompDetailView: View {
         .onGeometryChange(for: CGSize.self) { $0.size } action: { layout = $0 }
         .background(Theme.background)
         .navigationBarTitleDisplayMode(.inline)
+        // Oyun modu kendi üst çubuğunu taşır; ekranın tamamı içeriğe kalsın.
+        // (Sekme çubuğunu CompListView gizler: itilmiş ekranda geri açılmıyor.)
+        .toolbar(isLandscape ? .hidden : .visible, for: .navigationBar)
         .toast($toast)
     }
 
-    /// Yatayda sol sütun tahtayı, sağ sütun kodu ve birimleri tutar:
-    /// üçü de kaydırmadan görünsün diye tahta en üste alınır. Dikeyde sıra değişmez.
-    @ViewBuilder
-    private func cards(_ comp: Comp) -> some View {
-        if layout.width >= Self.twoColumnWidth {
-            HStack(alignment: .top, spacing: 12) {
-                VStack(spacing: 12) {
-                    CompBoardCard(comp: comp, maxBoardHeight: boardMaxHeight)
-                    CompHeaderCard(comp: comp)
-                }
-                .frame(maxWidth: .infinity)
+    private var isGameMode: Bool { layout.width >= Self.gameModeWidth }
 
-                VStack(spacing: 12) {
-                    CompTeamCodeCard(comp: comp, toast: $toast)
-                    remainingCards(comp)
-                }
-                .frame(maxWidth: .infinity)
-            }
-        } else {
-            LazyVStack(spacing: 12) {
-                CompHeaderCard(comp: comp)
-                CompTeamCodeCard(comp: comp, toast: $toast)
-                CompBoardCard(comp: comp, maxBoardHeight: boardMaxHeight)
-                remainingCards(comp)
-            }
+    private var isLandscape: Bool { verticalSizeClass == .compact }
+
+    private func cards(_ comp: Comp) -> some View {
+        LazyVStack(spacing: 12) {
+            CompHeaderCard(comp: comp)
+            CompTeamCodeCard(comp: comp, toast: $toast)
+            CompBoardCard(comp: comp, maxBoardHeight: boardMaxHeight)
+            remainingCards(comp)
         }
     }
 

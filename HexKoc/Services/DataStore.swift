@@ -112,6 +112,16 @@ final class DataStore {
         comps.filter { comp in comp.augments.values.contains { $0.contains(augmentID) } }
     }
 
+    /// Seviye tahtasındaki id'leri gösterilebilir birimlere çevirir: id kompun birim
+    /// listesindeyse eşyaları ve yıldızıyla, değilse yalın olarak. Bilinmeyen id atlanır.
+    func units(_ ids: [String], in comp: Comp) -> [CompUnit] {
+        ids.compactMap { id in
+            guard let champion = champion(id) else { return nil }
+            let match = comp.units.first { (self.champion($0.id)?.id ?? $0.id) == champion.id }
+            return match ?? CompUnit(id: champion.id)
+        }
+    }
+
     /// Bir kompun aktif özelliklerini, isimleriyle birlikte.
     func resolvedTraits(of comp: Comp) -> [(trait: Trait, entry: CompTrait)] {
         comp.traits.compactMap { entry in

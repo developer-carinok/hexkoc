@@ -38,6 +38,25 @@ enum Playstyle: String, TolerantEnum {
         case .standard: "Standart"
         }
     }
+
+    /// Oyun modunda erken oyun sayfasındaki tek cümlelik yol haritası.
+    var plan: String {
+        switch self {
+        case .fast8: "Ekonomi yap, 8'e koş."
+        case .fast9: "Ekonomi yap, 9'a koş."
+        case .reroll5: "5. seviyede dur ve çevir."
+        case .reroll6: "6. seviyede dur ve çevir."
+        case .reroll7: "7. seviyede dur ve çevir."
+        case .standard: "Seviye atla, tahtayı güçlü tut."
+        }
+    }
+
+    var isReroll: Bool {
+        switch self {
+        case .reroll5, .reroll6, .reroll7: true
+        case .fast8, .fast9, .standard: false
+        }
+    }
 }
 
 enum Difficulty: String, TolerantEnum {
@@ -201,6 +220,20 @@ struct Comp: Decodable, Identifiable, Hashable {
 
     func board(level: Int) -> [String] {
         levelBoards[String(level)] ?? earlyBoards[String(level)] ?? []
+    }
+
+    /// `earlyBoards` seviyeleri, artan.
+    var earlyLevels: [Int] { earlyBoards.keys.compactMap(Int.init).sorted() }
+
+    /// `levelBoards` seviyeleri, artan.
+    var lateLevels: [Int] { levelBoards.keys.compactMap(Int.init).sorted() }
+
+    /// İstenen seviyeye en yakın geç oyun tahtası; veri yoksa nil.
+    func closestLevelBoard(to level: Int) -> (level: Int, ids: [String])? {
+        guard let closest = lateLevels.min(by: { abs($0 - level) < abs($1 - level) }),
+              let ids = levelBoards[String(closest)], !ids.isEmpty
+        else { return nil }
+        return (closest, ids)
     }
 }
 

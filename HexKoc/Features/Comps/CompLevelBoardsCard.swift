@@ -38,7 +38,7 @@ struct CompLevelBoardsCard: View {
                                 .font(.caption.bold())
                                 .foregroundStyle(Theme.secondaryText)
                         }
-                        championGrid(ids: comp.board(level: level))
+                        tileGrid(ids: comp.board(level: level))
                     }
                 }
 
@@ -59,13 +59,9 @@ struct CompLevelBoardsCard: View {
         }
     }
 
-    private var earlyLevels: [Int] {
-        comp.earlyBoards.keys.compactMap(Int.init).sorted()
-    }
+    private var earlyLevels: [Int] { comp.earlyLevels }
 
-    private var lateLevels: [Int] {
-        comp.levelBoards.keys.compactMap(Int.init).sorted()
-    }
+    private var lateLevels: [Int] { comp.lateLevels }
 
     private var segments: [BoardSelection] {
         (earlyLevels.isEmpty ? [] : [.early]) + lateLevels.map { .level($0) }
@@ -78,13 +74,11 @@ struct CompLevelBoardsCard: View {
         }
     }
 
-    private func championGrid(ids: [String]) -> some View {
+    /// Dikeyde de isim + eşya görünsün diye kareler kullanılır.
+    private func tileGrid(ids: [String]) -> some View {
         FlowRow(spacing: 6) {
-            ForEach(Array(ids.enumerated()), id: \.offset) { _, id in
-                NavigationLink(value: Route.champion(store.champion(id)?.id ?? id)) {
-                    ChampionIcon(champion: store.champion(id), size: 40)
-                }
-                .buttonStyle(.plain)
+            ForEach(Array(store.units(ids, in: comp).enumerated()), id: \.offset) { _, unit in
+                UnitTile(unit: unit, size: 44)
             }
         }
     }

@@ -5,6 +5,7 @@ struct CompListView: View {
 
     @Environment(DataStore.self) private var store
     @Environment(AppSettings.self) private var settings
+    @Environment(\.verticalSizeClass) private var verticalSizeClass
 
     @State private var search = ""
     @State private var filter: CompFilter = .all
@@ -52,6 +53,14 @@ struct CompListView: View {
             .searchable(text: $search, prompt: "Komp veya şampiyon ara")
             .hexKocDestinations()
         }
+        // Yatayda komp detayı oyun moduna geçip tüm ekranı kullanıyor. Gizleme yığının
+        // kökünde duruyor; itilmiş ekranda yapılırsa sekme çubuğu geri gelmiyor.
+        .toolbar(hidesTabBar ? .hidden : .visible, for: .tabBar)
+    }
+
+    /// Yatayda bir detay açıkken sekme çubuğu yer kaplamasın.
+    private var hidesTabBar: Bool {
+        verticalSizeClass == .compact && !path.isEmpty
     }
 
     private var header: some View {

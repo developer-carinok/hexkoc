@@ -8,6 +8,7 @@ struct BoardView: View {
     var maxHeight: CGFloat = .infinity
 
     @Environment(DataStore.self) private var store
+    @Environment(AppSettings.self) private var settings
 
     var body: some View {
         Color.clear
@@ -24,6 +25,16 @@ struct BoardView: View {
                                 .frame(width: hexWidth, height: hexHeight)
                                 .position(BoardLayout.center(of: slot, hexWidth: hexWidth))
                         }
+
+                        // İsimler tüm altıgenlerin üstünde kalsın; dokunuş altıgene geçsin.
+                        ForEach(BoardLayout.slots, id: \.cell) { slot in
+                            if let unit = unitsByCell[slot.cell] {
+                                namePill(unit: unit, hexWidth: hexWidth)
+                                    .frame(width: hexWidth, height: hexHeight, alignment: .bottom)
+                                    .position(BoardLayout.center(of: slot, hexWidth: hexWidth))
+                            }
+                        }
+                        .allowsHitTesting(false)
                     }
                 }
             }
@@ -57,13 +68,27 @@ struct BoardView: View {
                 }
             }
             .buttonStyle(.plain)
-            .accessibilityLabel(champion?.name.tr ?? unit.id)
+            .accessibilityLabel(champion?.name.text(settings.nameLanguage) ?? unit.id)
         } else {
             HexagonShape()
                 .fill(Theme.elevated.opacity(0.55))
                 .overlay(HexagonShape().strokeBorder(Theme.hairline, lineWidth: 1))
                 .accessibilityHidden(true)
         }
+    }
+
+    /// Altıgenin alt kenarına binen küçük isim etiketi.
+    private func namePill(unit: CompUnit, hexWidth: CGFloat) -> some View {
+        Text(store.champion(unit.id)?.name.text(settings.nameLanguage) ?? unit.id)
+            .font(.system(size: min(9, hexWidth * 0.22), weight: .semibold))
+            .foregroundStyle(Theme.text)
+            .lineLimit(1)
+            .truncationMode(.tail)
+            .padding(.horizontal, 4)
+            .padding(.vertical, 1)
+            .frame(maxWidth: hexWidth)
+            .background(Color.black.opacity(0.72), in: Capsule())
+            .accessibilityHidden(true)
     }
 }
 

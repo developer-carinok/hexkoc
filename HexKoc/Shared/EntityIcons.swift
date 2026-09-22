@@ -61,6 +61,54 @@ struct AugmentIcon: View {
     }
 }
 
+/// Güçlendirme rozeti: altıgen simge + isim.
+struct AugmentChip: View {
+    let augmentID: String
+    @Environment(DataStore.self) private var store
+    @Environment(AppSettings.self) private var settings
+
+    var body: some View {
+        let augment = store.augment(augmentID)
+        let color = Theme.rarity(augment?.rarity ?? .unknown)
+        return HStack(spacing: 6) {
+            AugmentIcon(augment: augment, size: 26)
+            Text(augment?.name.text(settings.nameLanguage) ?? augmentID)
+                .font(.caption.weight(.semibold))
+                .foregroundStyle(Theme.text)
+                .lineLimit(1)
+        }
+        .padding(.horizontal, 8)
+        .padding(.vertical, 5)
+        .background(Theme.elevated, in: Capsule())
+        .overlay(Capsule().strokeBorder(color.opacity(0.45), lineWidth: 1))
+    }
+}
+
+/// Aktif özellik rozeti: simge + isim + birim sayısı, kademe renginde.
+struct TraitCountChip: View {
+    let entry: CompTrait
+    @Environment(DataStore.self) private var store
+    @Environment(AppSettings.self) private var settings
+
+    var body: some View {
+        let trait = store.trait(entry.id)
+        let color = Theme.traitStyle(entry.style)
+        return HStack(spacing: 5) {
+            TraitIcon(trait: trait, size: 16, style: entry.style)
+            Text(trait?.name.text(settings.nameLanguage) ?? entry.id)
+                .font(.caption.weight(.semibold))
+                .lineLimit(1)
+            Text("\(entry.count)")
+                .font(.caption.bold().monospacedDigit())
+        }
+        .foregroundStyle(color)
+        .padding(.horizontal, 8)
+        .padding(.vertical, 5)
+        .background(color.opacity(0.14), in: Capsule())
+        .overlay(Capsule().strokeBorder(color.opacity(0.4), lineWidth: 1))
+    }
+}
+
 /// Bir taşıyıcının eşyalarını simge şeridi olarak gösterir.
 struct ItemStrip: View {
     let itemIDs: [String]
