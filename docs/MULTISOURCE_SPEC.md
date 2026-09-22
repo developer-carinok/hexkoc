@@ -4,6 +4,13 @@ Goal: comps and their tiers reflect several widely used TFT sites, not only Meta
 sources list it and what each source says; the consensus tier is a weighted blend. Curated content (guides,
 early/mid boards, item priorities, augments, positioning) is preferred over pure statistics when available.
 
+
+> **2026-09-22 research update:** final source set = MetaTFT (1.0), TFT Academy (1.0, use `/tierlist/comps/__data.json`
+> devalue payload), Blitz (0.9, `data.v2.iesdev.com … analyzed_comps`), tactics.tools (0.9, `api.tft.tools/team-compositions/1/<patchId>`),
+> tftactics.gg (0.7, comps JSON inside the JS bundle, display names mapped via gamedata), TFTFlow (0.6, tier-list HTML + WP REST boards).
+> **Dropped:** OP.GG/lolchess and BunnyMuffins (terms of service prohibit scraping), Mobalytics (Cloudflare challenge), tftsense (no audience).
+> Popularity (SimilarWeb, monthly visits): TFT Academy 8.7M, MetaTFT 7.8M, Blitz 3.6M (all games), tftactics 2.6M, tactics.tools 1.6M, TFTFlow 0.95M.
+
 ## Sources (verified 2026-09-22; ids are the game's `DA_*` api names in all of them)
 
 | key | site | fetch | weight | tier scale |
