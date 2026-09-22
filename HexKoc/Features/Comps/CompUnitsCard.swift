@@ -14,9 +14,24 @@ struct CompUnitsCard: View {
                     if index > 0 { Hairline().padding(.vertical, 2) }
                     CompUnitRow(unit: unit, champion: store.champion(unit.id))
                 }
+
+                if !altBuilds.isEmpty {
+                    Hairline().padding(.vertical, 8)
+                    Text("Alternatif Eşyalar")
+                        .font(.caption.bold())
+                        .foregroundStyle(Theme.secondaryText)
+                        .padding(.bottom, 6)
+                    FlowRow(spacing: 6) {
+                        ForEach(Array(altBuilds.enumerated()), id: \.offset) { _, build in
+                            AltBuildChip(build: build, iconSize: 26, itemSize: 18)
+                        }
+                    }
+                }
             }
         }
     }
+
+    private var altBuilds: [AltBuild] { comp.altBuilds ?? [] }
 }
 
 struct CompUnitRow: View {

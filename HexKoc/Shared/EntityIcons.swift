@@ -123,3 +123,35 @@ struct ItemStrip: View {
         }
     }
 }
+
+/// Alternatif eşya kurgusu: birim → eşyalar.
+struct AltBuildChip: View {
+    let build: AltBuild
+    var iconSize: CGFloat = 22
+    var itemSize: CGFloat = 16
+
+    @Environment(DataStore.self) private var store
+    @Environment(AppSettings.self) private var settings
+
+    var body: some View {
+        let champion = store.champion(build.unit)
+        return NavigationLink(value: Route.champion(champion?.id ?? build.unit)) {
+            HStack(spacing: 5) {
+                ChampionIcon(champion: champion, size: iconSize)
+                Text(champion?.name.text(settings.nameLanguage) ?? build.unit)
+                    .font(.caption2.weight(.semibold))
+                    .foregroundStyle(Theme.text)
+                    .lineLimit(1)
+                Image(systemName: "arrow.right")
+                    .font(.system(size: 8, weight: .bold))
+                    .foregroundStyle(Theme.secondaryText)
+                    .accessibilityHidden(true)
+                ItemStrip(itemIDs: build.items, size: itemSize)
+            }
+            .padding(.horizontal, 7)
+            .padding(.vertical, 4)
+            .background(Theme.elevated, in: Capsule())
+        }
+        .buttonStyle(.plain)
+    }
+}

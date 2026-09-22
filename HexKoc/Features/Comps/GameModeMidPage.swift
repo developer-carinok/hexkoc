@@ -1,6 +1,7 @@
 import SwiftUI
 
-/// Orta oyun: 7 ve 8. seviye tahtaları, zamanlama ve (çevirme kompuysa) 3★ hedefleri.
+/// Orta oyun: küratörlü orta tahta, 7 ve 8. seviye tahtaları, zamanlama ve
+/// (çevirme kompuysa) 3★ hedefleri.
 struct GameModeMidPage: View {
     let comp: Comp
     let pageSize: CGSize
@@ -12,13 +13,26 @@ struct GameModeMidPage: View {
 
     var body: some View {
         VStack(alignment: .leading, spacing: Self.rowSpacing) {
+            if let stage = curatedStage {
+                StageTileRow(stage: stage, comp: comp, size: tileSize)
+                    .frame(maxHeight: .infinity, alignment: .top)
+            }
+
             if boards.isEmpty {
-                Text("Bu komp için orta oyun tahtası verisi yok.")
-                    .font(.subheadline)
-                    .foregroundStyle(Theme.secondaryText)
+                if curatedStage == nil {
+                    Text("Bu komp için orta oyun tahtası verisi yok.")
+                        .font(.subheadline)
+                        .foregroundStyle(Theme.secondaryText)
+                }
             } else {
                 ForEach(boards, id: \.level) { board in
-                    UnitTileRow(ids: board.ids, comp: comp, label: "Sv \(board.level)", size: tileSize)
+                    UnitTileRow(
+                        ids: board.ids,
+                        comp: comp,
+                        label: "Sv \(board.level)",
+                        size: tileSize,
+                        showItems: showsLevelItems
+                    )
                         .frame(maxHeight: .infinity, alignment: .top)
                 }
             }
@@ -48,6 +62,11 @@ struct GameModeMidPage: View {
             }
         }
     }
+
+    private var curatedStage: CompStage? { comp.stage(\.mid) }
+
+    /// Küratörlü satır eşyaları taşıyor; seviye satırları eşyasız daha kısa.
+    private var showsLevelItems: Bool { curatedStage == nil }
 
     /// 7 ve 8; veri yoksa en yakın seviyeye düşer, aynı tahtayı iki kez göstermez.
     private var boards: [(level: Int, ids: [String])] {
@@ -79,9 +98,14 @@ struct GameModeMidPage: View {
     }
 
     private var tileSize: CGFloat {
-        let rows = CGFloat(max(boards.count, 1))
-        let cellHeight = (pageSize.height - footerHeight - Self.rowSpacing * rows) / rows
-        let count = boards.map(\.ids.count).max() ?? 1
-        return UnitTileRow.tileSize(height: cellHeight, width: pageSize.width, count: count, showItems: true)
+        let stageRow: CGFloat = curatedStage == nil ? 0 : 1
+        let rows = max(CGFloat(boards.count) + stageRow, 1)
+        // Küratörlü satır etiketi ve eşya şeridi kadar fazladan yer kaplar.
+        let stageChrome = curatedStage == nil
+            ? 0
+            : StageTileRow.chromeHeight + UnitTile.itemHeight + UnitTile.spacing
+        let cellHeight = (pageSize.height - footerHeight - stageChrome - Self.rowSpacing * rows) / rows
+        let count = max(boards.map(\.ids.count).max() ?? 1, curatedStage?.units.count ?? 1)
+        return UnitTileRow.tileSize(height: cellHeight, width: pageSize.width, count: count, showItems: showsLevelItems)
     }
 }

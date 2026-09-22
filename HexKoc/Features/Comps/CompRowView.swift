@@ -20,16 +20,24 @@ struct CompRowView: View {
                         HStack(spacing: 6) {
                             Chip(text: comp.playstyle.title, color: Theme.accent)
                             Chip(text: comp.difficulty.title, color: difficultyColor)
+                            if comp.listedSourceCount >= 2 {
+                                Chip(text: "\(comp.listedSourceCount) kaynak", color: Theme.secondaryText)
+                            }
                         }
                     }
 
                     Spacer(minLength: 4)
 
                     VStack(alignment: .trailing, spacing: 4) {
-                        Image(systemName: comp.trend.symbol)
-                            .font(.caption.bold())
-                            .foregroundStyle(Theme.trend(comp.trend))
-                            .accessibilityLabel(comp.trend.title)
+                        // Durumsal komplar için sıralama eğilimi anlamsız.
+                        if comp.isSituational {
+                            Chip(text: "Durumsal", color: Theme.secondaryText)
+                        } else {
+                            Image(systemName: comp.trend.symbol)
+                                .font(.caption.bold())
+                                .foregroundStyle(Theme.trend(comp.trend))
+                                .accessibilityLabel(comp.trend.title)
+                        }
                         Text("Ort. \(Format.placement(comp.stats.avgPlacement))")
                             .font(.caption.monospacedDigit())
                             .foregroundStyle(Theme.secondaryText)

@@ -7,11 +7,15 @@ struct CompLevelBoardsCard: View {
 
     private enum BoardSelection: Hashable {
         case early
+        case mid
+        case late
         case level(Int)
 
         var title: String {
             switch self {
             case .early: "Erken"
+            case .mid: "Orta"
+            case .late: "Tavan"
             case .level(let level): "\(level)"
             }
         }
@@ -29,6 +33,15 @@ struct CompLevelBoardsCard: View {
                         }
                     }
                     .pickerStyle(.segmented)
+                }
+
+                if let stage = curatedStage {
+                    VStack(alignment: .leading, spacing: 6) {
+                        Text(stage.label)
+                            .font(.caption.bold())
+                            .foregroundStyle(Theme.accent)
+                        tileGrid(units: stage.units)
+                    }
                 }
 
                 ForEach(visibleLevels, id: \.self) { level in
@@ -64,20 +77,39 @@ struct CompLevelBoardsCard: View {
     private var lateLevels: [Int] { comp.lateLevels }
 
     private var segments: [BoardSelection] {
-        (earlyLevels.isEmpty ? [] : [.early]) + lateLevels.map { .level($0) }
+        var result: [BoardSelection] = []
+        if !earlyLevels.isEmpty || comp.stage(\.early) != nil { result.append(.early) }
+        if comp.stage(\.mid) != nil { result.append(.mid) }
+        if comp.stage(\.late) != nil { result.append(.late) }
+        return result + lateLevels.map { .level($0) }
+    }
+
+    /// Seçili sekmenin küratörlü tahtası; MetaTFT seviyelerinde yok.
+    private var curatedStage: CompStage? {
+        switch selection {
+        case .early: comp.stage(\.early)
+        case .mid: comp.stage(\.mid)
+        case .late: comp.stage(\.late)
+        case .level: nil
+        }
     }
 
     private var visibleLevels: [Int] {
         switch selection {
         case .early: earlyLevels
+        case .mid, .late: []
         case .level(let level): [level]
         }
     }
 
     /// Dikeyde de isim + eşya görünsün diye kareler kullanılır.
     private func tileGrid(ids: [String]) -> some View {
+        tileGrid(units: store.units(ids, in: comp))
+    }
+
+    private func tileGrid(units: [CompUnit]) -> some View {
         FlowRow(spacing: 6) {
-            ForEach(Array(store.units(ids, in: comp).enumerated()), id: \.offset) { _, unit in
+            ForEach(Array(units.enumerated()), id: \.offset) { _, unit in
                 UnitTile(unit: unit, size: 44)
             }
         }

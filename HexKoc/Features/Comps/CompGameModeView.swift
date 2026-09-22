@@ -12,6 +12,10 @@ struct CompGameModeView: View {
     var body: some View {
         VStack(spacing: 6) {
             GameModeTopBar(comp: comp, toast: $toast)
+            // Rozet satırı sayfa alanından en fazla 26 pt alır.
+            if !(comp.sources ?? []).isEmpty {
+                CompSourcesRow(comp: comp, compact: true)
+            }
             GameModeTabBar(page: $page)
 
             TabView(selection: $page) {

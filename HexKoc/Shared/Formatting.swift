@@ -30,6 +30,12 @@ enum Format {
         return dateTimeFormatter.string(from: date)
     }
 
+    /// "22 Eyl 20:05"
+    static func shortDateTime(_ date: Date?) -> String {
+        guard let date else { return "—" }
+        return shortDateTimeFormatter.string(from: date)
+    }
+
     private static let countFormatter: NumberFormatter = {
         let f = NumberFormatter()
         f.numberStyle = .decimal
@@ -41,6 +47,13 @@ enum Format {
         let f = DateFormatter()
         f.locale = Locale(identifier: "tr_TR")
         f.dateFormat = "d MMM yyyy HH:mm"
+        return f
+    }()
+
+    private static let shortDateTimeFormatter: DateFormatter = {
+        let f = DateFormatter()
+        f.locale = Locale(identifier: "tr_TR")
+        f.dateFormat = "d MMM HH:mm"
         return f
     }()
 }

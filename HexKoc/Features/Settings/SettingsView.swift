@@ -88,7 +88,22 @@ struct SettingsView: View {
                                 .font(.subheadline.bold().monospacedDigit())
                                 .foregroundStyle(Theme.text)
                         }
-                        Text("Veriler MetaTFT ve CommunityDragon'dan alınır. HexKoç, Riot Games ile bağlantılı değildir.")
+                        if !store.compSources.isEmpty {
+                            Hairline().padding(.vertical, 2)
+                            ForEach(Array(store.compSources.enumerated()), id: \.offset) { _, source in
+                                Text(sourceLine(source))
+                                    .font(.caption.monospacedDigit())
+                                    .foregroundStyle(source.ok ? Theme.secondaryText : Theme.tier(.s))
+                                    .fixedSize(horizontal: false, vertical: true)
+                            }
+                        }
+
+                        Text("Komp verileri: MetaTFT, TFT Academy, Blitz, tactics.tools, tftactics.gg, TFTFlow")
+                            .font(.caption)
+                            .foregroundStyle(Theme.secondaryText)
+                            .fixedSize(horizontal: false, vertical: true)
+
+                        Text("Oyun verileri CommunityDragon'dan alınır. HexKoç, Riot Games ile bağlantılı değildir.")
                             .font(.caption)
                             .foregroundStyle(Theme.secondaryText)
                             .fixedSize(horizontal: false, vertical: true)
@@ -107,6 +122,15 @@ struct SettingsView: View {
     private func refresh() async {
         await store.refresh(force: true)
         toast = store.lastRefreshMessage
+    }
+
+    /// "TFT Academy · 63 komp · 22 Eyl 20:05 · ✓"
+    private func sourceLine(_ source: SourceStatus) -> String {
+        var parts = [source.title]
+        if source.count > 0 { parts.append("\(source.count) komp") }
+        if let date = source.fetchedDate { parts.append(Format.shortDateTime(date)) }
+        parts.append(source.ok ? "✓" : "✗")
+        return parts.joined(separator: " · ")
     }
 
     private static var versionText: String {

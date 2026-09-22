@@ -64,10 +64,16 @@ struct CompListView: View {
     }
 
     private var header: some View {
-        Text("Yama \(store.patch) · MetaTFT verisi · \(Format.dateTime(store.generatedDate))")
+        Text("Yama \(store.patch) · \(sourceSummary) · \(Format.dateTime(store.generatedDate))")
             .font(.caption)
             .foregroundStyle(Theme.secondaryText)
             .padding(.top, 4)
+    }
+
+    /// Kaynak listesi geldiyse kaç kaynaktan derlendiğini yaz.
+    private var sourceSummary: String {
+        let count = store.compSources.count
+        return count > 0 ? "\(count) kaynak" : "MetaTFT verisi"
     }
 
     private var filters: some View {

@@ -45,6 +45,9 @@ struct CompDetailView: View {
     private func cards(_ comp: Comp) -> some View {
         LazyVStack(spacing: 12) {
             CompHeaderCard(comp: comp)
+            if !(comp.sources ?? []).isEmpty {
+                CompSourcesRow(comp: comp)
+            }
             CompTeamCodeCard(comp: comp, toast: $toast)
             CompBoardCard(comp: comp, maxBoardHeight: boardMaxHeight)
             remainingCards(comp)
@@ -66,13 +69,22 @@ struct CompDetailView: View {
         if !comp.counters.isEmpty || !comp.goodAgainst.isEmpty {
             CompMatchupsCard(comp: comp)
         }
+        if !(comp.sourceTips ?? []).isEmpty {
+            CompSourceTipsCard(comp: comp)
+        }
         if !comp.tips(settings.nameLanguage).isEmpty {
             CompTipsCard(comp: comp)
         }
-        Text("Veri: MetaTFT · CommunityDragon")
+        Text("Veri: \(dataCredit(comp))")
             .font(.caption2)
             .foregroundStyle(Theme.secondaryText)
             .padding(.top, 4)
+    }
+
+    /// Kompu besleyen kaynaklar; veri eski biçimdeyse MetaTFT'ye düşer.
+    private func dataCredit(_ comp: Comp) -> String {
+        let labels = (comp.sources ?? []).map(\.title)
+        return labels.isEmpty ? "MetaTFT · CommunityDragon" : labels.joined(separator: " · ")
     }
 
     /// Tahta ekranın %70'inden uzun olmasın; yatayda kaydırmadan görünsün.
@@ -95,7 +107,7 @@ struct CompHeaderCard: View {
                             .font(.title3.bold())
                             .foregroundStyle(Theme.text)
                             .fixedSize(horizontal: false, vertical: true)
-                        if let subtitle = settings.subtitle(for: comp.name) {
+                        if let subtitle {
                             Text(subtitle)
                                 .font(.caption)
                                 .foregroundStyle(Theme.secondaryText)
@@ -119,6 +131,15 @@ struct CompHeaderCard: View {
                 }
             }
         }
+    }
+
+    /// Küratörlü İngilizce başlık varsa onu, yoksa diğer dildeki ismi göster.
+    private var subtitle: String? {
+        guard let curated = comp.subtitle?.text(.en), !curated.isEmpty else {
+            return settings.subtitle(for: comp.name)
+        }
+        guard settings.showEnglishSubtitle, curated != comp.name.text(settings.nameLanguage) else { return nil }
+        return curated
     }
 
     private func statColumn(_ title: String, _ value: String) -> some View {

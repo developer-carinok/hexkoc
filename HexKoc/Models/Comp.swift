@@ -107,9 +107,11 @@ struct CompsFile: Decodable {
     var patch: String
     var clusterId: Int?
     var comps: [Comp]
+    /// Boru hattının kullandığı kaynaklar ve son çekim durumu.
+    var sources: [SourceStatus]?
 
     private enum CodingKeys: String, CodingKey {
-        case schemaVersion, generatedAt, source, set, patch, clusterId, comps
+        case schemaVersion, generatedAt, source, set, patch, clusterId, comps, sources
     }
 
     init() {
@@ -120,6 +122,7 @@ struct CompsFile: Decodable {
         patch = ""
         clusterId = nil
         comps = []
+        sources = nil
     }
 
     init(from decoder: Decoder) throws {
@@ -131,6 +134,7 @@ struct CompsFile: Decodable {
         patch = c.value(.patch, "")
         clusterId = c.maybe(.clusterId)
         comps = c.value(.comps, [])
+        sources = c.maybe(.sources)
     }
 
     var generatedDate: Date? { ISO8601.date(generatedAt) }
@@ -156,11 +160,25 @@ struct Comp: Decodable, Identifiable, Hashable {
     var starPriority: [String]
     var coreUnits: [String]
     var tips: [String: [String]]
+    /// Kompu listeleyen kaynaklar, ağırlık sırasında.
+    var sources: [CompSource]?
+    var sourceCount: Int?
+    /// Harf kademesi veren her kaynak "durumsal" diyorsa true.
+    var situational: Bool?
+    /// Küratörlü İngilizce başlık; isim satırının altında gösterilir.
+    var subtitle: LocalizedText?
+    /// Küratörlü erken/orta/tavan tahtaları.
+    var stages: CompStages?
+    var altBuilds: [AltBuild]?
+    /// İlk karusel için bileşen önceliği.
+    var carousel: [String]?
+    var sourceTips: [SourceTip]?
 
     private enum CodingKeys: String, CodingKey {
         case id, name, tier, playstyle, difficulty, stats, trend, units, traits, teamCode
         case levelBoards, earlyBoards, levelTiming, augments, counters, goodAgainst
         case starPriority, coreUnits, tips
+        case sources, sourceCount, situational, subtitle, stages, altBuilds, carousel, sourceTips
     }
 
     init(from decoder: Decoder) throws {
@@ -184,6 +202,14 @@ struct Comp: Decodable, Identifiable, Hashable {
         starPriority = c.value(.starPriority, [])
         coreUnits = c.value(.coreUnits, [])
         tips = c.value(.tips, [:])
+        sources = c.maybe(.sources)
+        sourceCount = c.maybe(.sourceCount)
+        situational = c.maybe(.situational)
+        subtitle = c.maybe(.subtitle)
+        stages = c.maybe(.stages)
+        altBuilds = c.maybe(.altBuilds)
+        carousel = c.maybe(.carousel)
+        sourceTips = c.maybe(.sourceTips)
     }
 
     init(id: String, name: LocalizedText, tier: CompTier = .a, units: [CompUnit] = []) {
@@ -211,6 +237,31 @@ struct Comp: Decodable, Identifiable, Hashable {
     func tips(_ language: NameLanguage) -> [String] {
         let primary = tips[language.rawValue] ?? []
         return primary.isEmpty ? (tips[language.other.rawValue] ?? []) : primary
+    }
+
+    /// Kompu listeleyen kaynak sayısı; anahtar yoksa kaynak listesinden sayılır.
+    var listedSourceCount: Int { sourceCount ?? sources?.count ?? 0 }
+
+    var isSituational: Bool { situational == true }
+
+    /// Küratörlü aşama tahtası; birimi yoksa yok sayılır.
+    func stage(_ slot: KeyPath<CompStages, CompStage?>) -> CompStage? {
+        guard let stage = stages?[keyPath: slot], !stage.units.isEmpty else { return nil }
+        return stage
+    }
+
+    /// Rozette kaynağın yanında yazan değer: harf kademesi, yoksa istatistik kaynaklarının
+    /// ortalama sıralaması. İkisi de yoksa sadece kaynağın adı gösterilir.
+    func sourceValue(for source: CompSource) -> String? {
+        if let tier = source.tier, CompSource.letterTiers.contains(tier) { return tier }
+        if let score = source.score, score > 0 { return Format.placement(score) }
+        guard source.tier == nil, source.key == CompSource.statsKey, stats.avgPlacement > 0 else { return nil }
+        return Format.placement(stats.avgPlacement)
+    }
+
+    /// İpucundaki kaynak anahtarının okunur adı.
+    func sourceLabel(_ key: String) -> String {
+        sources?.first { $0.key == key }?.title ?? key
     }
 
     /// Erken + geç tahtaların seviye anahtarları, artan.
@@ -241,8 +292,10 @@ struct CompStats: Decodable, Hashable {
     var avgPlacement: Double = 0
     var playRate: Double = 0
     var games: Int = 0
+    var winRate: Double?
+    var top4Rate: Double?
 
-    private enum CodingKeys: String, CodingKey { case avgPlacement, playRate, games }
+    private enum CodingKeys: String, CodingKey { case avgPlacement, playRate, games, winRate, top4Rate }
 
     init() {}
 
@@ -251,6 +304,8 @@ struct CompStats: Decodable, Hashable {
         avgPlacement = c.value(.avgPlacement, 0)
         playRate = c.value(.playRate, 0)
         games = c.value(.games, 0)
+        winRate = c.maybe(.winRate)
+        top4Rate = c.maybe(.top4Rate)
     }
 }
 
@@ -337,4 +392,141 @@ struct CompMatchup: Decodable, Hashable, Identifiable {
         compId = c.value(.compId, "")
         placeChange = c.value(.placeChange, 0)
     }
+}
+
+/// Kompu listeleyen bir kaynak ve o kaynağın kendi kademesi.
+struct CompSource: Decodable, Hashable {
+    var key: String
+    var label: String
+    /// Kaynağın harf kademesi; istatistik kaynaklarında null olabilir.
+    var tier: String?
+    /// Kaynağın kompa verdiği isim.
+    var name: String?
+    var url: String?
+    /// Harf kademesi olmayan kaynaklarda ortalama sıralama.
+    var score: Double?
+
+    /// Rozette gösterilebilen harf kademeleri.
+    static let letterTiers: Set<String> = ["S+", "S", "A", "B", "C", "D"]
+
+    /// Kademe yerine ortalama sıralama gösteren kaynak.
+    static let statsKey = "metatft"
+
+    private enum CodingKeys: String, CodingKey { case key, label, tier, name, url, score }
+
+    init(from decoder: Decoder) throws {
+        let c = try decoder.container(keyedBy: CodingKeys.self)
+        key = c.value(.key, "")
+        label = c.value(.label, "")
+        tier = c.maybe(.tier)
+        name = c.maybe(.name)
+        url = c.maybe(.url)
+        score = c.maybe(.score)
+    }
+
+    /// Etiket boşsa anahtarı göster.
+    var title: String { label.isEmpty ? key : label }
+
+    var link: URL? { url.flatMap(URL.init(string:)) }
+}
+
+/// Küratörlü bir aşama tahtası: kendi etiketi ve eşyalı/yıldızlı birimleri.
+struct CompStage: Decodable, Hashable {
+    var label: String
+    var units: [CompUnit]
+
+    private enum CodingKeys: String, CodingKey { case label, units }
+
+    init(from decoder: Decoder) throws {
+        let c = try decoder.container(keyedBy: CodingKeys.self)
+        label = c.value(.label, "")
+        units = c.value(.units, [])
+    }
+}
+
+struct CompStages: Decodable, Hashable {
+    var early: CompStage?
+    var mid: CompStage?
+    var late: CompStage?
+
+    private enum CodingKeys: String, CodingKey { case early, mid, late }
+
+    init(from decoder: Decoder) throws {
+        let c = try decoder.container(keyedBy: CodingKeys.self)
+        early = c.maybe(.early)
+        mid = c.maybe(.mid)
+        late = c.maybe(.late)
+    }
+}
+
+/// Bir birimin alternatif eşya kurgusu.
+struct AltBuild: Decodable, Hashable {
+    var unit: String
+    var items: [String]
+
+    private enum CodingKeys: String, CodingKey { case unit, items }
+
+    init(from decoder: Decoder) throws {
+        let c = try decoder.container(keyedBy: CodingKeys.self)
+        unit = c.value(.unit, "")
+        items = c.value(.items, [])
+    }
+}
+
+/// Kaynağın kendi ipucu. Türkçesi yoksa İngilizce metin gösterilir.
+struct SourceTip: Decodable, Hashable {
+    var source: String
+    var stage: String
+    var en: String
+    var tr: String?
+
+    private enum CodingKeys: String, CodingKey { case source, stage, en, tr }
+
+    init(from decoder: Decoder) throws {
+        let c = try decoder.container(keyedBy: CodingKeys.self)
+        source = c.value(.source, "")
+        stage = c.value(.stage, "")
+        en = c.value(.en, "")
+        tr = c.maybe(.tr)
+    }
+
+    /// Gösterilecek metin ve İngilizce'ye düşülüp düşülmediği.
+    var text: (value: String, isEnglish: Bool) {
+        if let tr, !tr.isEmpty { return (tr, false) }
+        return (en, true)
+    }
+
+    /// "Stage 2" → "2. aşama"; tanınmayan etiket olduğu gibi kalır.
+    var stageTitle: String {
+        guard stage.hasPrefix("Stage "),
+              let number = Int(stage.dropFirst(6).trimmingCharacters(in: .whitespaces))
+        else { return stage }
+        return "\(number). aşama"
+    }
+}
+
+/// `comps.json` üst seviyesindeki kaynak durumu (Ayarlar → Hakkında).
+struct SourceStatus: Decodable, Hashable {
+    var key: String
+    var label: String
+    var url: String?
+    var fetchedAt: String?
+    var ok: Bool
+    var count: Int
+
+    private enum CodingKeys: String, CodingKey { case key, label, url, fetchedAt, ok, count }
+
+    init(from decoder: Decoder) throws {
+        let c = try decoder.container(keyedBy: CodingKeys.self)
+        key = c.value(.key, "")
+        label = c.value(.label, "")
+        ok = c.value(.ok, true)
+        count = c.value(.count, 0)
+        url = c.maybe(.url)
+        fetchedAt = c.maybe(.fetchedAt)
+    }
+
+    var title: String { label.isEmpty ? key : label }
+
+    var fetchedDate: Date? { fetchedAt.flatMap(ISO8601.date) }
 }

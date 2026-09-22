@@ -39,10 +39,16 @@ struct GameModeBoardPage: View {
                     UnitTileRow(ids: board.ids, comp: comp, label: "Sv \(board.level)", size: tileSize)
                         .frame(maxHeight: .infinity, alignment: .center)
                 }
+                if let stage = curatedStage {
+                    UnitTileRow(comp: comp, units: stage.units, label: "Tavan", size: tileSize)
+                        .frame(maxHeight: .infinity, alignment: .center)
+                }
             }
             .frame(maxWidth: .infinity, alignment: .leading)
         }
     }
+
+    private var curatedStage: CompStage? { comp.stage(\.late) }
 
     /// 9 ve 10. seviye kadroları — veride varsa.
     private var boards: [(level: Int, ids: [String])] {
@@ -74,9 +80,10 @@ struct GameModeBoardPage: View {
     }
 
     private var tileSize: CGFloat {
-        let rows = CGFloat(max(boards.count, 1))
+        let stageRow: CGFloat = curatedStage == nil ? 0 : 1
+        let rows = max(CGFloat(boards.count) + stageRow, 1)
         let cellHeight = (pageSize.height - Self.rowSpacing * rows) / rows
-        let count = boards.map(\.ids.count).max() ?? 1
+        let count = max(boards.map(\.ids.count).max() ?? 1, curatedStage?.units.count ?? 1)
         return UnitTileRow.tileSize(height: cellHeight, width: rightWidth, count: count, showItems: true)
     }
 }

@@ -1,6 +1,7 @@
 import SwiftUI
 
-/// İpuçları: kompun cümleleri ve kompu yenen rakip komplar.
+/// İpuçları: kaynakların kendi ipuçları, kompun üretilen cümleleri ve kompu yenen
+/// rakip komplar.
 struct GameModeTipsPage: View {
     let comp: Comp
     let pageSize: CGSize
@@ -13,15 +14,28 @@ struct GameModeTipsPage: View {
 
     var body: some View {
         VStack(alignment: .leading, spacing: 10) {
+            if hasSourceTips {
+                SourceTipsView(comp: comp, compact: true)
+            }
+
             if tips.isEmpty {
-                Text("Bu komp için ipucu yok.")
-                    .font(.subheadline)
-                    .foregroundStyle(Theme.secondaryText)
+                if !hasSourceTips {
+                    Text("Bu komp için ipucu yok.")
+                        .font(.subheadline)
+                        .foregroundStyle(Theme.secondaryText)
+                }
             } else {
-                HStack(alignment: .top, spacing: 16) {
-                    column(Array(tips.prefix(splitIndex)))
-                    if splitIndex < tips.count {
-                        column(Array(tips.dropFirst(splitIndex)))
+                VStack(alignment: .leading, spacing: 6) {
+                    if hasSourceTips {
+                        Text("Genel")
+                            .font(.caption.bold())
+                            .foregroundStyle(Theme.secondaryText)
+                    }
+                    HStack(alignment: .top, spacing: 16) {
+                        column(Array(tips.prefix(splitIndex)))
+                        if splitIndex < tips.count {
+                            column(Array(tips.dropFirst(splitIndex)))
+                        }
                     }
                 }
             }
@@ -69,13 +83,23 @@ struct GameModeTipsPage: View {
 
     private var tips: [String] { comp.tips(settings.nameLanguage) }
 
+    private var hasSourceTips: Bool { !(comp.sourceTips ?? []).isEmpty }
+
+    /// Kaynak ipuçlarının kabaca kapladığı yükseklik; sütuna bölme kararı için.
+    private var sourceTipsHeight: CGFloat {
+        let sourceTips = comp.sourceTips ?? []
+        guard !sourceTips.isEmpty else { return 0 }
+        let stages = Set(sourceTips.map(\.stage)).count
+        return CGFloat(sourceTips.count) * 36 + CGFloat(stages) * 20
+    }
+
     private var counters: [Comp] {
         comp.counters.compactMap { store.comp($0.compId) }
     }
 
     /// Tek sütuna sığmıyorsa ikiye böl.
     private var splitIndex: Int {
-        let available = pageSize.height - (counters.isEmpty ? 0 : 70)
+        let available = pageSize.height - (counters.isEmpty ? 0 : 70) - sourceTipsHeight
         guard CGFloat(tips.count) * Self.tipHeight > available else { return tips.count }
         return (tips.count + 1) / 2
     }

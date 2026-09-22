@@ -2,6 +2,7 @@ import SwiftUI
 
 /// "Hangi şampiyona hangi eşya": taşıyıcılar önce, her satırda birim → eşya kartları.
 /// Eşya kartı bileşenleri de gösterir; oyunda hangi parçayı saklayacağın belli olsun.
+/// Altta küratörlü alternatif kurgular ve ilk karusel önceliği.
 struct GameModeItemsPage: View {
     let comp: Comp
     let pageSize: CGSize
@@ -16,6 +17,8 @@ struct GameModeItemsPage: View {
     private static let arrowWidth: CGFloat = 14
     private static let nameHeight: CGFloat = 26
     private static let recipeHeight: CGFloat = 14
+    private static let stripHeight: CGFloat = 50
+    private static let carouselHeight: CGFloat = 26
 
     var body: some View {
         VStack(alignment: .leading, spacing: Self.rowSpacing) {
@@ -38,6 +41,51 @@ struct GameModeItemsPage: View {
                         }
                     }
                     .frame(maxHeight: .infinity, alignment: .center)
+                }
+            }
+
+            if !altBuilds.isEmpty {
+                altBuildsStrip
+            }
+            if !carousel.isEmpty {
+                carouselLine
+            }
+        }
+    }
+
+    /// Küratörlü alternatif eşya kurguları.
+    private var altBuildsStrip: some View {
+        VStack(alignment: .leading, spacing: 4) {
+            Text("Alternatif eşyalar")
+                .font(.caption.bold())
+                .foregroundStyle(Theme.secondaryText)
+            FlowRow(spacing: 6) {
+                ForEach(Array(altBuilds.enumerated()), id: \.offset) { _, build in
+                    AltBuildChip(build: build)
+                }
+            }
+        }
+    }
+
+    /// İlk karuselde alınacak bileşen önceliği.
+    private var carouselLine: some View {
+        HStack(alignment: .top, spacing: 8) {
+            Text("İlk karusel")
+                .font(.caption.bold())
+                .foregroundStyle(Theme.secondaryText)
+                .padding(.top, 3)
+            FlowRow(spacing: 6) {
+                ForEach(Array(carousel.enumerated()), id: \.offset) { _, itemID in
+                    NavigationLink(value: Route.item(itemID)) {
+                        HStack(spacing: 4) {
+                            ItemIcon(item: store.item(itemID), size: 18)
+                            Text(store.item(itemID)?.name.text(settings.nameLanguage) ?? itemID)
+                                .font(.caption2.weight(.semibold))
+                                .foregroundStyle(Theme.text)
+                                .lineLimit(1)
+                        }
+                    }
+                    .buttonStyle(.plain)
                 }
             }
         }
@@ -112,9 +160,23 @@ struct GameModeItemsPage: View {
         }
     }
 
+    private var altBuilds: [AltBuild] { comp.altBuilds ?? [] }
+
+    private var carousel: [String] { comp.carousel ?? [] }
+
+    /// Alt şeritlerin kapladığı yükseklik; birim satırlarına kalan yer buna göre.
+    private var extrasHeight: CGFloat {
+        var height: CGFloat = 0
+        if !altBuilds.isEmpty { height += Self.stripHeight + Self.rowSpacing }
+        if !carousel.isEmpty { height += Self.carouselHeight + Self.rowSpacing }
+        return height
+    }
+
     private var rowHeight: CGFloat {
         let rows = CGFloat(max(unitRows.count, 1))
-        return max((pageSize.height - Self.rowSpacing * (rows - 1)) / rows, 92)
+        // Alt şeritler varken satırlar biraz daha alçak olur ki karusel satırı da görünsün.
+        let minimum: CGFloat = extrasHeight > 0 ? 80 : 92
+        return max((pageSize.height - extrasHeight - Self.rowSpacing * (rows - 1)) / rows, minimum)
     }
 
     private var iconSize: CGFloat {

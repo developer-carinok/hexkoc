@@ -47,6 +47,9 @@ final class DataStore {
     var rules: Rules { gameData.rules }
     var articles: [GuideArticle] { guidesFile.articles }
 
+    /// Komp verisini besleyen kaynaklar; eski dosyalarda boş.
+    var compSources: [SourceStatus] { compsFile.sources ?? [] }
+
     var patch: String {
         let value = gameData.set.patch.isEmpty ? compsFile.patch : gameData.set.patch
         return value.isEmpty ? "—" : value
