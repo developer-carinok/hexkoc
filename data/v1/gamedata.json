@@ -1,6 +1,6 @@
 {
  "schemaVersion": 1,
- "generatedAt": "2026-09-22T17:01:33Z",
+ "generatedAt": "2026-09-22T17:08:04Z",
  "set": {
   "key": "TFTSet18",
   "number": 18,
@@ -3524,32 +3524,6 @@
    ]
   },
   {
-   "id": "DA_18_Eclipse",
-   "name": {
-    "en": "Eclipse",
-    "tr": "Tutulma"
-   },
-   "type": "origin",
-   "desc": {
-    "en": "After 10 seconds of combat, the Eclipse kills the lowest Health enemy, repeating every 3.5 seconds.",
-    "tr": "Çatışma başladıktan 10 saniye sonra Tutulma birimleri, canı en düşük olan rakibi katleder. Bu etki her 3.5 saniyede bir tekrarlanır."
-   },
-   "breakpoints": [
-    {
-     "min": 0,
-     "max": 25000,
-     "style": "bronze",
-     "desc": {
-      "en": "After 10 seconds of combat, the Eclipse kills the lowest Health enemy, repeating every 3.5 seconds.",
-      "tr": "Çatışma başladıktan 10 saniye sonra Tutulma birimleri, canı en düşük olan rakibi katleder. Bu etki her 3.5 saniyede bir tekrarlanır."
-     }
-    }
-   ],
-   "icon": "traits/DA_18_Eclipse.png",
-   "iconURL": "https://raw.communitydragon.org/latest/game/assets/ux/traiticons/trait_icon_18_eclipse.png",
-   "champions": []
-  },
-  {
    "id": "DA_18_Elderwood",
    "name": {
     "en": "Elderwood",
@@ -4808,6 +4782,32 @@
    "champions": [
     "DA_KogMaw18_AD"
    ]
+  },
+  {
+   "id": "DA_18_Eclipse",
+   "name": {
+    "en": "Eclipse",
+    "tr": "Tutulma"
+   },
+   "type": "unique",
+   "desc": {
+    "en": "After 10 seconds of combat, the Eclipse kills the lowest Health enemy, repeating every 3.5 seconds.",
+    "tr": "Çatışma başladıktan 10 saniye sonra Tutulma birimleri, canı en düşük olan rakibi katleder. Bu etki her 3.5 saniyede bir tekrarlanır."
+   },
+   "breakpoints": [
+    {
+     "min": 1,
+     "max": 25000,
+     "style": "unique",
+     "desc": {
+      "en": "After 10 seconds of combat, the Eclipse kills the lowest Health enemy, repeating every 3.5 seconds.",
+      "tr": "Çatışma başladıktan 10 saniye sonra Tutulma birimleri, canı en düşük olan rakibi katleder. Bu etki her 3.5 saniyede bir tekrarlanır."
+     }
+    }
+   ],
+   "icon": "traits/DA_18_Eclipse.png",
+   "iconURL": "https://raw.communitydragon.org/latest/game/assets/ux/traiticons/trait_icon_18_eclipse.png",
+   "champions": []
   },
   {
    "id": "DA_Emerald18",

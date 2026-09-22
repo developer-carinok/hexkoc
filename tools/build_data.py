@@ -69,6 +69,9 @@ MIN_COMPS = 40
 # CDragon trait effect style -> schema style
 TRAIT_STYLE = {1: "bronze", 3: "silver", 4: "unique", 5: "gold", 6: "prismatic"}
 TRAIT_TYPE_RANK = {"origin": 0, "class": 1, "unique": 2}
+# Mechanic traits with no champions of their own (Eclipse activates from 3 Solar + 3 Lunar),
+# so they never reach the "one champion, one breakpoint" rule below.
+FORCED_UNIQUE_TRAITS = ("DA_18_Eclipse",)
 ITEM_KIND_RANK = {"component": 0, "craftable": 1, "emblem": 2, "artifact": 3, "radiant": 4}
 RARITY_RANK = {"silver": 0, "gold": 1, "prismatic": 2, "unknown": 3}
 
@@ -791,11 +794,13 @@ def build_traits(sources, champions):
             trait_type = "origin"
         if len(members) == 1 and len(effects) == 1 and int(effects[0].get("minUnits") or 1) <= 1:
             trait_type = "unique"
+        if trait_id in FORCED_UNIQUE_TRAITS:
+            trait_type = "unique"
 
         breakpoints = []
         for index, effect in enumerate(effects):
-            minimum = int(effect.get("minUnits") or 0)
-            maximum = int(effect.get("maxUnits") or minimum)
+            minimum = int(effect.get("minUnits") or 0) or 1
+            maximum = int(effect.get("maxUnits") or 0) or minimum
             variables = dict(effect.get("variables") or {})
             variables["MinUnits"] = minimum
             variables["MaxUnits"] = maximum
@@ -808,11 +813,8 @@ def build_traits(sources, champions):
                 row_en = lookup_effects[index].get("desc")
             if not row_tr and index < len(lookup_effects_tr):
                 row_tr = lookup_effects_tr[index].get("desc")
-            text_en = clean_text(row_en, ctx, "en")
-            text_tr = clean_text(row_tr, ctx, "tr")
-            if not text_en and not text_tr:
-                text_en = desc_en
-                text_tr = desc_tr
+            text_en = clean_text(row_en, ctx, "en") or desc_en
+            text_tr = clean_text(row_tr, ctx, "tr") or desc_tr
             style = "unique" if trait_type == "unique" else TRAIT_STYLE.get(effect.get("style"), "bronze")
             breakpoints.append(OrderedDict([
                 ("min", minimum),
