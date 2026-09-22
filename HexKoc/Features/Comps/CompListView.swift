@@ -1,6 +1,8 @@
 import SwiftUI
 
 struct CompListView: View {
+    @Binding var path: [Route]
+
     @Environment(DataStore.self) private var store
     @Environment(AppSettings.self) private var settings
 
@@ -9,7 +11,7 @@ struct CompListView: View {
     @State private var easyOnly = false
 
     var body: some View {
-        NavigationStack {
+        NavigationStack(path: $path) {
             ScrollView {
                 LazyVStack(alignment: .leading, spacing: 10, pinnedViews: [.sectionHeaders]) {
                     header

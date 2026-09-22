@@ -1,10 +1,12 @@
 import SwiftUI
 
 struct GuideView: View {
+    @Binding var path: [Route]
+
     @Environment(DataStore.self) private var store
 
     var body: some View {
-        NavigationStack {
+        NavigationStack(path: $path) {
             ScrollView {
                 LazyVStack(alignment: .leading, spacing: 12) {
                     toolsRow

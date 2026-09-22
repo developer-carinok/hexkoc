@@ -1,7 +1,8 @@
 import SwiftUI
 
 /// Her ekran her varlığa gidebilsin diye tek bir değer tipi.
-enum Route: Hashable {
+/// `Codable`: sekme yığınları sahne durumuna JSON olarak yazılıyor.
+enum Route: Hashable, Codable {
     case comp(String)
     case champion(String)
     case trait(String)

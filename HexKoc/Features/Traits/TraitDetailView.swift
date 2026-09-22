@@ -6,7 +6,7 @@ struct TraitDetailView: View {
     @Environment(DataStore.self) private var store
     @Environment(AppSettings.self) private var settings
 
-    private let columns = Array(repeating: GridItem(.flexible(), spacing: 10), count: 4)
+    private let columns = [GridItem(.adaptive(minimum: 76), spacing: 10)]
 
     var body: some View {
         Group {

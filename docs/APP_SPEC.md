@@ -1,15 +1,16 @@
 # WP2 — iOS app spec (HexKoç)
 
 ## Project setup
-- `project.yml` (xcodegen 2.46): app target `HexKoc`, iOS 18.0, iPhone only, portrait, Swift language mode 5
+- `project.yml` (xcodegen 2.46): app target `HexKoc`, iOS 18.0, iPhone only, dikey + yatay, Swift language mode 5
   (`SWIFT_VERSION: "5.0"`), `SWIFT_STRICT_CONCURRENCY: minimal`, `DEVELOPMENT_TEAM: 7JZLNNY795`,
-  `CODE_SIGN_STYLE: Automatic`, `PRODUCT_BUNDLE_IDENTIFIER: com.carinok.hexkoc`, `MARKETING_VERSION: 1.0`,
+  `CODE_SIGN_STYLE: Automatic`, `PRODUCT_BUNDLE_IDENTIFIER: com.carinok.hexkoc`, `MARKETING_VERSION: 1.1`,
   `CURRENT_PROJECT_VERSION: 1`, `INFOPLIST_FILE: Config/App-Info.plist`, `GENERATE_INFOPLIST_FILE: NO`,
   `ASSETCATALOG_COMPILER_APPICON_NAME: AppIcon`, `ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME: AccentColor`,
   `ENABLE_USER_SCRIPT_SANDBOXING: YES`. Sources: `HexKoc/`; resources: `Resources` as a **folder reference**
   (`- path: Resources  type: folder`) and `Assets.xcassets`. No SPM packages.
 - `Config/App-Info.plist`: `CFBundleDisplayName` = `HexKoç`, `UILaunchScreen` dict (background color from asset
-  catalog `LaunchBackground`), `UISupportedInterfaceOrientations` portrait only, `ITSAppUsesNonExemptEncryption` = false,
+  catalog `LaunchBackground`), `UISupportedInterfaceOrientations` portrait + landscapeLeft + landscapeRight,
+  `ITSAppUsesNonExemptEncryption` = false,
   `NSAppTransportSecurity` not needed (all HTTPS), `UIUserInterfaceStyle` = `Dark`, `CFBundleLocalizations` = `["tr"]`,
   `CFBundleDevelopmentRegion` = `tr`.
 - Schemes: `HexKoc` (run Debug, archive Release). Build must pass:

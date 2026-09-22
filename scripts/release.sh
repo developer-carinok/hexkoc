@@ -38,9 +38,12 @@ AUTH=(-allowProvisioningUpdates
       -authenticationKeyID "$KEY_ID"
       -authenticationKeyIssuerID "$ISSUER_ID")
 
-# Build numarasını her seferinde artır: TestFlight aynı numarayı iki kez kabul etmiyor.
-NEXT_BUILD=$(date +%Y%m%d%H%M)
-echo "→ Build numarası: $NEXT_BUILD"
+# Build numarası depoda duruyor; TestFlight aynı numarayı iki kez kabul etmediği için
+# başarılı yüklemeden sonra bir artırılıp geri yazılır.
+BUILD_FILE="BUILD_NUMBER"
+NEXT_BUILD=$(tr -dc '0-9' < "$BUILD_FILE")
+MARKETING_VERSION=$(sed -n 's/^ *MARKETING_VERSION: *"\(.*\)"/\1/p' project.yml | head -1)
+echo "→ Sürüm $MARKETING_VERSION ($NEXT_BUILD)"
 
 echo "→ Proje üretiliyor"
 xcodegen generate
@@ -69,4 +72,5 @@ xcodebuild -exportArchive \
   -exportPath build/export \
   "${AUTH[@]}"
 
-echo "✓ Yüklendi. İşlenmesi 5-15 dakika sürer; sonra TestFlight'ta görünür."
+echo $((NEXT_BUILD + 1)) > "$BUILD_FILE"
+echo "✓ Yüklendi ($MARKETING_VERSION ($NEXT_BUILD)). İşlenmesi 5-15 dakika sürer; sonra TestFlight'ta görünür."

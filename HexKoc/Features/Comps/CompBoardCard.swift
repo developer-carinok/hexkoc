@@ -2,6 +2,9 @@ import SwiftUI
 
 struct CompBoardCard: View {
     let comp: Comp
+    /// Yatay modda tahtayı ekrana sığdırmak için üst sınır.
+    var maxBoardHeight: CGFloat = .infinity
+
     @Environment(DataStore.self) private var store
 
     var body: some View {
@@ -9,7 +12,7 @@ struct CompBoardCard: View {
             VStack(alignment: .leading, spacing: 10) {
                 SectionHeader(title: "Tahta Dizilimi")
 
-                BoardView(units: comp.units)
+                BoardView(units: comp.units, maxHeight: maxBoardHeight)
 
                 Text("Üst sıra = ön hat (rakibe yakın)")
                     .font(.caption2)

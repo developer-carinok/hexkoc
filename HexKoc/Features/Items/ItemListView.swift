@@ -6,6 +6,8 @@ struct ItemListView: View {
     @Environment(DataStore.self) private var store
     @Environment(AppSettings.self) private var settings
 
+    private let columns = [GridItem(.adaptive(minimum: 320), spacing: 10)]
+
     var body: some View {
         ScrollView {
             LazyVStack(alignment: .leading, spacing: 10) {
@@ -22,11 +24,13 @@ struct ItemListView: View {
                             .foregroundStyle(Theme.accent)
                             .padding(.top, 6)
 
-                        ForEach(section.items) { item in
-                            NavigationLink(value: Route.item(item.id)) {
-                                ItemRowView(item: item)
+                        LazyVGrid(columns: columns, spacing: 10) {
+                            ForEach(section.items) { item in
+                                NavigationLink(value: Route.item(item.id)) {
+                                    ItemRowView(item: item)
+                                }
+                                .buttonStyle(.plain)
                             }
-                            .buttonStyle(.plain)
                         }
                     }
                 }

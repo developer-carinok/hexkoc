@@ -4,6 +4,8 @@ import SwiftUI
 /// alt sıra = arka hat (hücre 1-7). 2. ve 4. sıralar yarım altıgen sağa kayık.
 struct BoardView: View {
     let units: [CompUnit]
+    /// Yatay modda tahta pencereye sığsın diye yükseklik sınırı.
+    var maxHeight: CGFloat = .infinity
 
     @Environment(DataStore.self) private var store
 
@@ -25,6 +27,8 @@ struct BoardView: View {
                     }
                 }
             }
+            .frame(maxWidth: BoardLayout.maxWidth(forHeight: maxHeight))
+            .frame(maxWidth: .infinity)
             .accessibilityLabel("Tahta dizilimi")
     }
 
@@ -72,6 +76,14 @@ enum BoardLayout {
     static let widthInHexes: CGFloat = CGFloat(columnCount) + 0.5
 
     static let aspectRatio: CGFloat = widthInHexes / (Hex.heightRatio + CGFloat(rowCount - 1) * Hex.pitchRatio)
+
+    /// Yüksekliğe sığdırırken: bir altıgen + üç satır adımı + biraz pay.
+    static let heightInHexes: CGFloat = 1 + CGFloat(rowCount - 1) * Hex.pitchRatio + 0.15
+
+    /// Verilen yüksekliğe sığan en geniş tahta; yatay modda kaydırmadan görünsün diye.
+    static func maxWidth(forHeight height: CGFloat) -> CGFloat {
+        height.isFinite ? height / heightInHexes * widthInHexes : .infinity
+    }
 
     struct Slot {
         let row: Int

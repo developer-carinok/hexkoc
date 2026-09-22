@@ -1,11 +1,15 @@
 import SwiftUI
 
 struct AugmentListView: View {
+    @Binding var path: [Route]
+
     @Environment(DataStore.self) private var store
     @Environment(AppSettings.self) private var settings
 
     @State private var search = ""
     @State private var rarity: RarityFilter = .all
+
+    private let columns = [GridItem(.adaptive(minimum: 320), spacing: 8)]
 
     enum RarityFilter: String, CaseIterable, Identifiable {
         case all
@@ -35,7 +39,7 @@ struct AugmentListView: View {
     }
 
     var body: some View {
-        NavigationStack {
+        NavigationStack(path: $path) {
             VStack(spacing: 0) {
                 Picker("Nadirlik", selection: $rarity) {
                     ForEach(RarityFilter.allCases) { option in
@@ -47,7 +51,7 @@ struct AugmentListView: View {
                 .padding(.bottom, 8)
 
                 ScrollView {
-                    LazyVStack(spacing: 8) {
+                    Group {
                         if augments.isEmpty {
                             EmptyStateView(
                                 title: store.hasData ? "Sonuç yok" : "Veri bulunamadı",
@@ -55,11 +59,13 @@ struct AugmentListView: View {
                                 systemImage: "sparkles"
                             )
                         } else {
-                            ForEach(augments) { augment in
-                                NavigationLink(value: Route.augment(augment.id)) {
-                                    AugmentRowView(augment: augment)
+                            LazyVGrid(columns: columns, spacing: 8) {
+                                ForEach(augments) { augment in
+                                    NavigationLink(value: Route.augment(augment.id)) {
+                                        AugmentRowView(augment: augment)
+                                    }
+                                    .buttonStyle(.plain)
                                 }
-                                .buttonStyle(.plain)
                             }
                         }
                     }

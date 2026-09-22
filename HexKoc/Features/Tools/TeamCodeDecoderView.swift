@@ -6,7 +6,7 @@ struct TeamCodeDecoderView: View {
     @Environment(AppSettings.self) private var settings
     @State private var code = ""
 
-    private let columns = Array(repeating: GridItem(.flexible(), spacing: 10), count: 4)
+    private let columns = [GridItem(.adaptive(minimum: 76), spacing: 10)]
 
     var body: some View {
         ScrollView {

@@ -7,7 +7,7 @@ struct ChampionsGridView: View {
     @Environment(AppSettings.self) private var settings
     @State private var selectedTraits: Set<String> = []
 
-    private let columns = Array(repeating: GridItem(.flexible(), spacing: 10), count: 3)
+    private let columns = [GridItem(.adaptive(minimum: 104), spacing: 10)]
 
     var body: some View {
         ScrollView {

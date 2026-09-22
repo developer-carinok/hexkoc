@@ -1,6 +1,8 @@
 import SwiftUI
 
 struct ChampionsTabView: View {
+    @Binding var path: [Route]
+
     @State private var segment: Segment = .champions
     @State private var search = ""
 
@@ -19,7 +21,7 @@ struct ChampionsTabView: View {
     }
 
     var body: some View {
-        NavigationStack {
+        NavigationStack(path: $path) {
             VStack(spacing: 0) {
                 Picker("Görünüm", selection: $segment) {
                     ForEach(Segment.allCases) { option in
