@@ -1,0 +1,743 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-09-22T20:26:26Z",
+  "source": "tftacademy",
+  "entries": {
+    "8d5f7963d746a8065f82d9408bfaed604cf52ed5": {
+      "en": "Only play this comp with an early Kha'zix with items so you can snowball Rival. Play any upgraded frontline tank to stall for Khazix.",
+      "tr": "Bu kompu sadece erkenden eşyalı bir Kha'Zix bulduğunda oyna ki Hasım'ı çığ gibi büyütebilesin. Kha'Zix'e zaman kazandırmak için yükseltilmiş herhangi bir ön hat tankı oyna."
+    },
+    "3009f7378f4dc65ddeccc183802609fc560b24aa": {
+      "en": "If you have a few crucial pairs on level 6, you can consider rolling slightly on 6 to get charms / upgrade units. Econ up to 7 otherwise.",
+      "tr": "6. seviyede birkaç kritik çiftin (2 kopya) varsa Ruh (Wisp) almak / birimlerini yükseltmek için 6'da biraz çevirmeyi düşünebilirsin. Aksi hâlde 7'ye kadar ekonomi yap."
+    },
+    "5f6322ee0712ce55a5429cca3eb21f0ffdf9cdd8": {
+      "en": "Slow roll on 7 for 3* upgrades on whatever 3 costs you're chasing. In this example, give leftover AP items to Diana.",
+      "tr": "Peşinde olduğun 3 bedelli birimleri 3 yıldız yapmak için 7'de yavaş çevirme (slow roll) uygula. Bu örnekte artan AP eşyalarını Diana'ya ver."
+    },
+    "55690bae96c603a5a68620a818a59f5b07dfea94": {
+      "en": "Ideally, Khazix gains Ravager > Executioner > Spellweaver > Rapidfire with takedowns. Can play 3rd Executioner/Lux/Ivern or another executioner before Alune. Double Hoj is bis after the buff but can play jg/deathcap instead of one of them too.",
+      "tr": "İdealde Kha'Zix alt etmelerle sırasıyla Tahripkâr > İnfazcı > Sihirkâr > Bombardımancı kazanır. Alune'dan önce 3. İnfazcı olarak Lux/Ivern ya da başka bir İnfazcı oynayabilirsin. Buff'tan sonra çift Adaletin Eli en iyi eşya (BIS) ama birinin yerine Mücevherli Eldiven/Rabadon'un Şapkası da oynayabilirsin."
+    },
+    "bca375926e17d22f9ec87c9a7edf5ca62da7194a": {
+      "en": "Open with a strong win streak AD tempo around Rapidfires. BIS is somewhat fake in this comp so slam aggressively to win.",
+      "tr": "Bombardımancılar etrafında güçlü, kazanç serisi veren bir AD tempo açılışı yap. Bu kompta en iyi eşya (BIS) biraz göstermelik, o yüzden kazanmak için eşyaları agresifçe bas."
+    },
+    "f36bd952022524314f78e80c2c47b1046a026049": {
+      "en": "Comp can use many items so take item augment if you don't have one yet. Mama Beak can be a strong carry here if you have Riftbeasts online.",
+      "tr": "Komp çok sayıda eşyayı değerlendirebilir, o yüzden henüz yoksa eşya güçlendirmesi al. Vadi Canavarı özelliğin aktifse Anne Gaga burada güçlü bir taşıyıcı olabilir."
+    },
+    "93369ce7ecfae972b1c87a6c201bc77e9e76194f": {
+      "en": "Level to 8 and roll heavily for Aphelios and the 4 costs. Only push for 9 once you have almost all your 4 costs upgraded. ",
+      "tr": "8. seviyeye çık ve Aphelios ile 4 bedelliler için bolca çevir. Ancak 4 bedellilerinin neredeyse hepsini yükselttikten sonra 9'a zorla."
+    },
+    "a48bc762ba83287de2899200910a171b94932814": {
+      "en": "Red Buff is BIS Aphelios but you can also play Rageblade build. Amumu or Sentinel 2 can be your main tank (you're often contested so prioritize whichever gets upgraded). Kogmaw Provides Free Shred + Sunder. ",
+      "tr": "Aphelios için en iyi eşya (BIS) Kırmızı Güçlendirme ama Guinsoo'nun Hiddeti kurgusunu da oynayabilirsin. Ana tankın Amumu ya da Gözcü 2 olabilir (genelde kontestli olursun (başkaları da oynuyor), o yüzden hangisi yükselirse ona öncelik ver). Kog'Maw bedava Örseleme + Aşındırma sağlıyor."
+    },
+    "01c48eb783742764fdd5994bc82616d9b3180ea8": {
+      "en": "Play around a strong AD opener around Cinderling 2 with Riftbeasts. Slam all your AD and tank items aggressively for win streak.",
+      "tr": "Vadi Canavarları ile birlikte Közcük 2 etrafında güçlü bir AD açılışı oyna. Kazanç serisi için tüm AD ve tank eşyalarını agresifçe bas."
+    },
+    "fd9033b3b7106722f4b33473f3566fd4354d97a2": {
+      "en": "Comp is very Sword hungry so keep taking them off augments / carousels when possible. You can flex in 5 Riftbeast for better shops or more generic frontline.",
+      "tr": "Komp çok fazla TEK Kılıcı istiyor, o yüzden fırsat buldukça güçlendirmelerden / atlıkarıncadan kılıç toplamaya devam et. Daha iyi dükkânlar için 5 Vadi Canavarı ya da daha genel bir ön hat esnek şekilde oynayabilirsin."
+    },
+    "0cae3e7c35c9669f7c6b428902abf7ff67c5d9ab": {
+      "en": "Level to 8 and roll for Nidalee, Sivir, and Malphite / tank. If Malphite is too contested, consider Sentinel or Krug tank instead.",
+      "tr": "8. seviyeye çık ve Nidalee, Sivir ile Malphite / tank için çevir. Malphite fazla kontestliyse (başkaları da oynuyor) onun yerine Gözcü ya da Kayacıl tankı düşün."
+    },
+    "a01bb4db3b5646198b9a596ed12413eb1ed55f3a": {
+      "en": "Krug on the Blackthorn hex. Prioritize Nidalee > Sivir items. Kogmaw provides free Shred and Sunder. Max cap is drop riftbeasts for Gnar + Ashe + Taric. Hunter emblem is incredible on Nidalee. Can also drop Malphite for Sett + Vanguard. Take tiger primal buff.",
+      "tr": "Kayacıl'ı Karadiken hücresine koy. Eşyalarda öncelik Nidalee > Sivir. Kog'Maw bedava Örseleme ve Aşındırma sağlıyor. Maksimum tavan (cap) için Vadi Canavarlarını bırakıp Gnar + Ashe + Taric oyna. Nidalee'de Avcı amblemi inanılmaz. Ayrıca Malphite'ı bırakıp Sett + Öncü oynayabilirsin. Kaplan İlkel lütfunu al."
+    },
+    "2597d2c21a4574c5f11ecc4039cd01b2136778b4": {
+      "en": "Slam items aggressively and play for full win streak with Riftbeast items. Ideal opener will be Riftbeasts featuring Cinderling / Gromp / Mama Beak carry.",
+      "tr": "Eşyaları agresifçe bas ve Vadi Canavarı eşyalarıyla tam kazanç serisi için oyna. İdeal açılış, taşıyıcı olarak Közcük / Gromp / Anne Gaga içeren Vadi Canavarları olacak."
+    },
+    "68727a6be360b361b88a61bed246dd8917527d52": {
+      "en": "Continue prioritize win streaking. If you have an econ augment, you can go Fast 7 (before 3-3) to maintain win streak if needed.",
+      "tr": "Kazanç serisine öncelik vermeye devam et. Ekonomi güçlendirmen varsa ve gerekiyorsa seriyi korumak için hızlıca 7. seviyeye çıkabilirsin (3-3'ten önce)."
+    },
+    "1d50e3a9c5225cb9dba1ab5a3c57386214dbfcaf": {
+      "en": "You can start losing rounds while focusing on econ. Fast 9 by the beginning of Stage 5 and look for your 5 costs. You want around 70g+ minimum for the rolldown.",
+      "tr": "Ekonomiye odaklanırken turları kaybetmeye başlayabilirsin. 5. aşamanın başına kadar hızlıca 9. seviyeye çık ve 5 bedellilerini ara. Paranı çevirmek için en az 70 altın civarı istersin."
+    },
+    "7bb9cda9d2699c7fe09bdb9c08aec7e5023d3774": {
+      "en": "Alpha Mark the Elder Dragon. Your duo carry with Elder Dragon is highly flexible. Can replace Morgana for Lux, Alune, Soraka for AP options. Can also play AD duo carry: Ashe, Draven, Ezreal, etc. ",
+      "tr": "Alfa İşareti'ni Kadim Ejderha'ya ver. Kadim Ejderha ile ikili taşıyıcın çok esnek. AP seçenekleri için Morgana yerine Lux, Alune ya da Soraka koyabilirsin. AD ikili taşıyıcı da oynayabilirsin: Ashe, Draven, Ezreal vb."
+    },
+    "4da3a8340fab12ca6d5e7cd85285fd402e37858c": {
+      "en": "Open with a strong AD opener, preferably around Yunara. Slam generic AD items and Tank items for a win streak.",
+      "tr": "Güçlü bir AD açılışı yap, tercihen Yunara etrafında. Kazanç serisi için genel AD eşyalarını ve tank eşyalarını bas."
+    },
+    "60a2efd43d8e6a8d9790153d2897f967773ab7b8": {
+      "en": "Level up for more juggernauts and executioners to pair with our blossom opener.",
+      "tr": "Çiçek açılışımızla eşleşecek daha fazla Ezergeçer ve İnfazcı için seviye atla."
+    },
+    "841805322cc6f018237594c3be424b609de74c34": {
+      "en": "Level and roll for 6 juggernauts +Sivir. Once stable, go 9 and look for Ashe and transition your board to 5 costs.",
+      "tr": "Seviye atla ve 6 Ezergeçer + Sivir için çevir. Stabil olunca 9'a çık, Ashe'i ara ve kadronu 5 bedellilere geçir."
+    },
+    "d1526300f6c2f24114e3f398b17295f1464b9452": {
+      "en": "Consider this as a flex option for a Sivir board if you were playing around Juggernauts in the midgame already. If you get Juggernaut emblem, you can play 6 Juggernauts. Can also play other 5 cost AD carries like Dragon and Draven. Take turtle primal buff.",
+      "tr": "Oyunun ortasında zaten Ezergeçer etrafında oynuyorsan bunu Sivir kadrosu için esnek bir seçenek olarak düşün. Ezergeçer amblemi bulursan 6 Ezergeçer oynayabilirsin. Kadim Ejderha ve Draven gibi başka 5 bedelli AD taşıyıcılar da oynayabilirsin. Kaplumbağa İlkel lütfunu al."
+    },
+    "44ed0d66e1c0d809ea828fca6951da572a292d8e": {
+      "en": "Open with a strong AP opener, preferably around Blossom. Slam generic AP items and Malphite items for a win streak.",
+      "tr": "Güçlü bir AP açılışı yap, tercihen Çiçek etrafında. Kazanç serisi için genel AP eşyalarını ve Malphite eşyalarını bas."
+    },
+    "94dc2bc6dd4c6acccf040a039c9f2e15c5a4decb": {
+      "en": "Add in useful 3 costs like Fiddlesticks, Cassio, Azir then flex around their traits. General rule: put items on upgraded units.",
+      "tr": "Fiddlesticks, Cassiopeia, Azir gibi işe yarar 3 bedellileri ekle ve onların özelliklerine göre esnek oyna. Genel kural: eşyaları yükseltilmiş birimlere koy."
+    },
+    "18c2efcdc4f61547a1f2475c68bad2cffac912b4": {
+      "en": "Level and roll for Malphite. You will often have to itemize and work with whoever you hit so don't overly tunnel on your roll down.",
+      "tr": "Seviye atla ve Malphite için çevir. Çoğu zaman eline ne geçerse ona eşya verip onunla idare etmen gerekecek, o yüzden paranı çevirirken tek şeye fazla kilitlenme."
+    },
+    "676ac5e61833906dae5e779815f74f7acc4d099a": {
+      "en": "Core is Malphite + Azir + 2 Flora Fatalis for healing. Can play Ahri/Zyra/Ezreal as additional carries and Lillia/Amumu/Kennen/Maokai as supporting frontline.",
+      "tr": "Çekirdek: Malphite + Azir + iyileştirme için 2 Flora Fatalis. Ek taşıyıcı olarak Ahri/Zyra/Ezreal, destek ön hat olarak Lillia/Amumu/Kennen/Maokai oynayabilirsin."
+    },
+    "3ac3f314bf0413763eaf9bf4a405d38c23956004": {
+      "en": "Look for 3 Blossom early and play for win streak. Karma can hold items for Ahri. Itemize Yorick or any other 2* tank.",
+      "tr": "Erkenden 3 Çiçek ara ve kazanç serisi için oyna. Karma, Ahri'nin eşyalarını taşıyabilir. Yorick'e ya da başka bir 2 yıldız tanka eşya ver."
+    },
+    "2be156ec1cab4fd0cd505881fb6de7e93f422a4d": {
+      "en": "Flex in more Blossom or Spellweavers as you get them. You can tank all kinds of frontline: Juggernauts, Defenders, or Vanguards.",
+      "tr": "Eline geçtikçe daha fazla Çiçek ya da Sihirkâr'ı esnek şekilde ekle. Her türlü ön hattı tank olarak oynayabilirsin: Ezergeçer, Savunucu ya da Öncü."
+    },
+    "d494e31ed4928944c54c85867439e26a7b7a9043": {
+      "en": "Level and roll for Ahri, Morgana, and the frontline. Once stable, go level 9 for Lux.",
+      "tr": "Seviye atla ve Ahri, Morgana ile ön hat için çevir. Stabil olunca Lux için 9. seviyeye çık."
+    },
+    "90d68f15bd0cb4f27a7068c3575be71c5dba3646": {
+      "en": "Morgana holds utility items. You can tank either Sentinel or Sett. Best emblem = Invoker on Ahri. Late game cap with Ashe + Alune over Karma.",
+      "tr": "Morgana destek eşyalarını taşır. Tank olarak Gözcü ya da Sett oynayabilirsin. En iyi amblem = Ahri'de Manabaz. Oyun sonunda Karma yerine Ashe + Alune ile tavana (cap) çık."
+    },
+    "04d2fd852a2b48a9a5f2e2930d41488d1dcaea9a": {
+      "en": "Coming Soon",
+      "tr": "Çok Yakında"
+    },
+    "2eb5e82fdff4e10da4d0365eb62856a5b19d476c": {
+      "en": "Slam Rageblade and bow items on Caitlyn for a winstreak. BIS Caitlyn is often hard to get so you can also slam items like Gunblade or Giant Slayer.",
+      "tr": "Kazanç serisi için Caitlyn'e Guinsoo'nun Hiddeti ve Nişancı Yayı eşyalarını bas. Caitlyn'in en iyi eşyasını (BIS) bulmak çoğu zaman zor, o yüzden Hextech Silahkılıç ya da Dev Katili gibi eşyaları da basabilirsin."
+    },
+    "54b34a2af17cf32065d37a104417a46740f451b8": {
+      "en": "Level to 6 and roll for 4 Juggernaut + 2 Hunter. Ideally upgrade Caitlyn 2 and 2 cost Juggernaut then econ up -> slow roll above 50g for 3* units.",
+      "tr": "6. seviyeye çık ve 4 Ezergeçer + 2 Avcı için çevir. İdealde Caitlyn 2 ile 2 bedelli Ezergeçer'i yükselt, sonra ekonomi yap -> 3 yıldız birimler için 50 altın üstünde yavaş çevirme (slow roll) uygula."
+    },
+    "1b9e031689263424cca95a69b6a9d79c298b55a3": {
+      "en": "Finish your 3* ideally by mid Stage 4. Level for more Hunters. Take Turtle Primal unless you are super high rolling and can take items.",
+      "tr": "3 yıldızlarını ideal olarak 4. aşamanın ortasında tamamla. Daha fazla Avcı için seviye atla. Aşırı highroll yapıp eşya alabilecek durumda değilsen Kaplumbağa İlkel lütfunu al."
+    },
+    "e7779dc70d0d6ede00975ecd405c5d60c0fb0dc3": {
+      "en": "Can also tank Sejuani 3. Tank whoever you can hit first. Can also play 4 Vanguard version with Elise. Sivir takes leftover utility / AD items (red buff highly impractical so oftentimes you play Morello). Take Turtle Primal buff. +1 or 2 tiers with radiant items (especially radiant Guinsoo).",
+      "tr": "Tank olarak Sejuani 3 de oynayabilirsin. Önce hangisini bulursan onu tank yap. Elise ile 4 Öncü versiyonunu da oynayabilirsin. Sivir artan destek / AD eşyalarını alır (Kırmızı Güçlendirme çok pratik değil, o yüzden sık sık Morellonomikon oynarsın). Kaplumbağa İlkel lütfunu al. Işıltılı eşyalarla (özellikle Işıltılı Guinsoo'nun Hiddeti) 1-2 kademe daha güçlü olur."
+    },
+    "af6174387fc109a5e4579cae6136cf1ca653859d": {
+      "en": "Slam items aggressively and play for full win streak with Draven items. Ideal opener will be some kind of resource engine like Rengar or Blossom.",
+      "tr": "Eşyaları agresifçe bas ve Draven eşyalarıyla tam kazanç serisi için oyna. İdeal açılış, Rengar ya da Çiçek gibi bir kaynak motoru olacak."
+    },
+    "e0fda6878e24163f3fae80b11104e6bc42f76e2f": {
+      "en": "You can start losing rounds while focusing on econ. Fast 9 end of Stage 4 and look for the scaling 5 costs like Draven, Maokai, and Ivern. ",
+      "tr": "Ekonomiye odaklanırken turları kaybetmeye başlayabilirsin. 4. aşamanın sonunda hızlıca 9. seviyeye çık ve Draven, Maokai, Ivern gibi büyüyen 5 bedellileri ara."
+    },
+    "de8bb157fd53f23f71d0d0a94a918a0c13cbf6d1": {
+      "en": "Only play from early win streak and lots of gold. Because you are aiming for scaling 5 costs, aim to level 9 around end of Stage 4 / beginning of Stage 5. Best Draven quests are dealing damage for gold, but avoid the 10k damage in 1 round because you can get trapped.",
+      "tr": "Sadece erken kazanç serisi ve bol altınla oyna. Büyüyen 5 bedellileri hedeflediğin için 4. aşamanın sonu / 5. aşamanın başı civarında 9. seviyeye çıkmayı hedefle. En iyi Draven görevleri altın için hasar vurmayı isteyenler, ama tek turda 10 bin hasar görevinden kaçın çünkü kapana kısılabilirsin."
+    },
+    "2bd006690309ccaa1cbea677117ddf6072e6d2f9": {
+      "en": "Only play around this opener with early upgrades so Veigar can snowball and gain stacks. Prioritize Veigar items.",
+      "tr": "Bu açılışı sadece erken yükseltmelerin varsa oyna ki Veigar çığ gibi büyüyüp birikim toplayabilsin. Veigar'ın eşyalarına öncelik ver."
+    },
+    "2c6acbcfa9d1438429bb4172cdb77e58847d7429": {
+      "en": "If you are close to Veigar and Ornn 3 (7+ copies), consider rolling until you hit 3*. If far (3-4 copies), slow roll above 50g for 3*.",
+      "tr": "Veigar ve Ornn 3'e yakınsan (7+ kopya) 3 yıldızı bulana kadar çevirmeyi düşün. Uzaksan (3-4 kopya) 3 yıldız için 50 altın üstünde yavaş çevirme (slow roll) uygula."
+    },
+    "99d6eb82e77446dfbd28de8ae4ddf6c6543df9df": {
+      "en": "Once you finish Ornn 3 and Veigar 3, you can slowroll on 6 for Leblanc + Alistar 3, if you are too far push levels.. ",
+      "tr": "Ornn 3 ve Veigar 3'ü tamamladıktan sonra LeBlanc + Alistar 3 için 6'da yavaş çevirme (slow roll) uygulayabilirsin; çok uzaksan seviye atlamaya bak."
+    },
+    "bc6bb9c9728fe40f5d146c252a548c0be305f1f3": {
+      "en": "Play with lots of copies of Ornn and Veigar, we need to hit fast to start scaling. Sacrifice Lifebloom plant to Blackthorn early. Late game you can sacrifice Leblanc 3 for big stats -> move her items to another spellweaver. After you hit rush 9 for Kobuko + Gnar. After you cash out first Ornn artifact, move items to Alistar.",
+      "tr": "Bol Ornn ve Veigar kopyasıyla oyna, büyümeye başlamak için hızlı bulmamız lazım. Erkenden Cançiçeği bitkisini Karadiken'e feda et. Oyun sonunda büyük nitelikler için LeBlanc 3'ü feda edip eşyalarını başka bir Sihirkâr'a taşıyabilirsin. Birimlerini bulduktan sonra Kobuko + Gnar için 9'a koş. İlk Ornn yadigâr eşyanı aldıktan sonra eşyaları Alistar'a taşı."
+    },
+    "0a460fe7f42efe73dc67ad301c4e084846c4ae84": {
+      "en": "Slam items for Yunara and play for win streak with Blossom in. Tank Yorick / Juggernaut until you find Sejuani 2.",
+      "tr": "Yunara için eşyaları bas ve Çiçek aktifken kazanç serisi için oyna. Sejuani 2'yi bulana kadar Yorick / Ezergeçer'i tank oyna."
+    },
+    "8b3d7fcc963caec0176325d93e565cab75e5ab55": {
+      "en": "Level at 3-2 and roll for 2* upgrades then econ up. Roll for all the 3* shown on the build + Azir. Try to avoid rolling to 0 gold because you need gold for leveling later.",
+      "tr": "3-2'de seviye atla, 2 yıldız yükseltmeler için çevir, sonra ekonomi yap. Kurguda gösterilen tüm 3 yıldızlar + Azir için çevir. 0 altına kadar çevirmemeye çalış çünkü sonrasında seviye atlamak için altına ihtiyacın var."
+    },
+    "e65b7da17b3f24dc03c612af2045ecd193f1541c": {
+      "en": "Finish your 3* then level for 3 Solar over time. Leftover AP items on LeBlanc. Karma 3 can also hold items too.",
+      "tr": "3 yıldızlarını tamamla, sonra zamanla 3 Güneş için seviye atla. Artan AP eşyaları LeBlanc'a. Karma 3 de eşya taşıyabilir."
+    },
+    "f06cdae19257fb0848ac8a365f7025eec6786f2f": {
+      "en": "Prioritize 3* Yunara & Karma + 3 Blossom + LeBlanc early for clone copies. Add 3 Solar after you finish your 3* at levels 7/8 once you get 5 three stars online. Hold only 1 copy of Kayle on the bench max when rolling.",
+      "tr": "Erkenden 3 yıldız Yunara ve Karma + 3 Çiçek + klon kopyalar için LeBlanc'a öncelik ver. 5 tane 3 yıldızın tamamlandığında 7./8. seviyede 3 Güneş'i ekle. Çevirirken yedekte en fazla 1 Kayle kopyası tut."
+    },
+    "985bd92a6630fda46edc6571aa3ccc89ff62e5fe": {
+      "en": "Try to angle this comp with early Azir ideally with blossom opener for better charms.",
+      "tr": "Bu kompa erken Azir ile yönelmeye çalış; daha iyi Ruhlar (Wisp) için ideali Çiçek açılışıyla olmasıdır."
+    },
+    "340a09cda919d805449da850ac0bf644d0e08783": {
+      "en": "Make sure you have 2* Azir, Kha and Vi on 4-1, then slowroll above 50 for 3 stars. Make sure Kha has 8 takedowns before feeding to blackthorn, 3 executioner is very important.",
+      "tr": "4-1'de 2 yıldız Azir, Kha'Zix ve Vi'ye sahip olduğundan emin ol, sonra 3 yıldızlar için 50 altın üstünde yavaş çevirme (slow roll) uygula. Kha'Zix'i Karadiken'e yedirmeden önce 8 alt etmesi olduğundan emin ol; 3 İnfazcı çok önemli."
+    },
+    "a96eb9e4fe6795b5ad741dbf1fb63339a4daf5ab": {
+      "en": "More of an Azir comp than a Khazix comp, we just want executioner buff than we feed Kha to blackthorn hex for offensive Azir Stacks. If you have lots of Kha upgrades drop Sett + Reksai for Ahri + WW/Malphite for Spellweaver+Ravager. With enough mana gen from blackthorn, Azir doesn't need attack speed, but Rageblade is okay on him.",
+      "tr": "Bu, Kha'Zix kompundan çok bir Azir kompu; sadece İnfazcı buff'ını istiyoruz, sonra saldırgan Azir birikimleri için Kha'Zix'i Karadiken hücresine yediriyoruz. Bol Kha'Zix yükseltmen varsa Sihirkâr + Tahripkâr için Sett + Rek'Sai'yi bırakıp Ahri + Warwick/Malphite oyna. Karadiken'den yeterli mana üretimi gelince Azir'in saldırı hızına ihtiyacı olmaz, ama Guinsoo'nun Hiddeti onda fena değil."
+    },
+    "d8fc125bd67dcd1b40f379f44d90035793697a7c": {
+      "en": "Open with a strong AP opener, preferably around Blossom. Slam generic AP items and Tank items for a win streak.",
+      "tr": "Güçlü bir AP açılışı yap, tercihen Çiçek etrafında. Kazanç serisi için genel AP eşyalarını ve tank eşyalarını bas."
+    },
+    "4b2d4cfb5d3f2c388ae56ce64a4cb9758de7553f": {
+      "en": "Ideally start holding more juggernauts to pair with the Yorick blossom opener, consider moving karma items to LB or Cassio 2.",
+      "tr": "İdealde Yorick Çiçek açılışıyla eşleşecek daha fazla Ezergeçer tutmaya başla; Karma'nın eşyalarını LeBlanc'a ya da Cassiopeia 2'ye taşımayı düşün."
+    },
+    "e2545f80bced32a14e6d8a8e7d4bfd7c0a23c655": {
+      "en": "Level and roll for 6 juggernauts +Zyra. If you don't have a juggernaut emblem, play Morgana and have her hold utility in the last slot on 8.",
+      "tr": "Seviye atla ve 6 Ezergeçer + Zyra için çevir. Ezergeçer amblemin yoksa 8. seviyede son slotta Morgana oyna ve destek eşyalarını ona taşıt."
+    },
+    "11fc3373c2521e8dc2f0b2be0bd6077a8e04103b": {
+      "en": "Consider this as a flex option to Malphite AP if you were playing around juggernauts in the midgame already. Forceable with Jugg +1. Very strong if you make it to juggernaut Kennen. Play morgana with utility on 8 with no juggernaut emblem and aim to drop her on 9 for lux.",
+      "tr": "Oyunun ortasında zaten Ezergeçer etrafında oynuyorsan bunu Malphite AP'ye esnek bir alternatif olarak düşün. Ezergeçer +1 ile zorlanabilir. Ezergeçer Kennen'e ulaşırsan çok güçlü. Ezergeçer amblemin yoksa 8. seviyede Morgana'yı destek eşyalarıyla oyna ve 9'da Lux için onu bırakmayı hedefle."
+    },
+    "c398767ee3217f45eb5a9afd42afffc8733eddbf": {
+      "en": "Open with upgraded Elderwood and slam items on LeBlanc or Xayah. LeBlanc can farm copies of units on your board so avoid fielding unwanted units.",
+      "tr": "Yükseltilmiş Kadim Orman ile aç ve eşyaları LeBlanc'a ya da Xayah'ya bas. LeBlanc kadrondaki birimlerin kopyalarını biriktirebilir, o yüzden istemediğin birimleri sahaya sürme."
+    },
+    "dc4fe4cbb1133547004c2f6bbce34776fa003848": {
+      "en": "Add more Elderwood as you level with Spellweavers. If you start getting AD items, play them on Xayah / Rapidfires.",
+      "tr": "Sihirkâr'larla seviye atladıkça daha fazla Kadim Orman ekle. AD eşyaları gelmeye başlarsa onları Xayah / Bombardımancılara ver."
+    },
+    "6abba64670ab52bb6a8e17d7e8e884c123a051cf": {
+      "en": "Level to 8 and roll heavily for Ezreal and the 4 costs, only go 9 once you have upgraded most things.",
+      "tr": "8. seviyeye çık ve Ezreal ile 4 bedelliler için bolca çevir; çoğu şeyi yükseltmeden 9'a çıkma."
+    },
+    "81049b94f7d74487bb94e204bef7b94c72350528": {
+      "en": "Best With executioner emblem. Focus Ezreal + Tank items first then rest on Ahri->Soraka.",
+      "tr": "En iyisi İnfazcı amblemiyle. Önce Ezreal + tank eşyalarına odaklan, kalanı Ahri -> Soraka'ya ver."
+    },
+    "9d170448a4190083124361e79979db9ca6d46b13": {
+      "en": "Open with a strong AP opener, preferably around Invokers. Teemo is an example shown but you can also play Pebbles, Spellweavers, or Coven.",
+      "tr": "Güçlü bir AP açılışı yap, tercihen Manabazlar etrafında. Örnekte Teemo gösteriliyor ama Çakıl, Sihirkâr'lar ya da Cadılar Meclisi de oynayabilirsin."
+    },
+    "a8da21f7c5213ec7a4af493a521d1c721d51cf8c": {
+      "en": "If lose streaking with Coven, try to kill some units each fight to preserve HP. If win streaking, push standard winstreak tempo (6 @ 3-2, 7 @ 3-5) and save econ.",
+      "tr": "Cadılar Meclisi ile kayıp serisi yapıyorsan canını korumak için her çatışmada birkaç birim öldürmeye çalış. Kazanç serisindeysen standart kazanç serisi temposunu uygula (3-2'de 6, 3-5'te 7) ve ekonomi biriktir."
+    },
+    "d12ef91a43a6f4d2e975262537e4b529dc2b4b11": {
+      "en": "Cash out / roll down on level 8 for Morgana 2, Sentinel, and 4 Invoker. If you don't have Bramble items, flex in another AP carry like Ahri / Nidalee.",
+      "tr": "8. seviyede Morgana 2, Gözcü ve 4 Manabaz için özünü bozdur / paranı çevir. Dikenli Yelek eşyaların yoksa Ahri / Nidalee gibi başka bir AP taşıyıcıyı esnek şekilde ekle."
+    },
+    "934e620f2135c4a0fb3c7f18da9aa21cb2271bc5": {
+      "en": "Can play from Coven Cashout. Aim for 250 + essence for chance at Morgana 2 + item cashout. Void staff still okay with Kog since he doesn't hit backline.",
+      "tr": "Cadılar Meclisi bozdurmasıyla oynanabilir. Morgana 2 + eşya şansı için 250+ öz hedefle. Kog'Maw arka hatta vurmadığı için Hiçlik Değneği yine de onda iş görür."
+    },
+    "091fcaa5dae19b1b1e75412fd73e783c8c23becd": {
+      "en": "Look to play with lots of early copies of 1 cost + good reroll augment.",
+      "tr": "Erkenden bol 1 bedelli kopyası + iyi bir yeniden çevirme (reroll) güçlendirmesiyle oynamaya bak."
+    },
+    "ccfd22057fb08dd9958e2249716e7a92bb83f12a": {
+      "en": "Roll to 30 on 3-1 level 4 for extra 1 cost copies. Then slow roll on 5 until you have 5 3 stars for solar bonus.",
+      "tr": "3-1'de 4. seviyede ekstra 1 bedelli kopyaları için 30 altına kadar çevir. Sonra Güneş bonusu için 5 tane 3 yıldızın olana kadar 5'te yavaş çevirme (slow roll) uygula."
+    },
+    "a4472b488993673d8a602c8473448454c17047fa": {
+      "en": "Make sure you keep your econ high because you need to be level 7 to fit solar on this board. Try to be Level to 7 somewhere on stage 4.",
+      "tr": "Ekonomini yüksek tut çünkü bu kadroya Güneş'i sığdırmak için 7. seviyede olman lazım. 4. aşamanın bir yerinde 7. seviyeye çıkmaya çalış."
+    },
+    "371f0b5bef9135f1cc6d8ed111739b9b9e697194": {
+      "en": "Akali can be AD or AP (Flex IE/JG) Itemize Tank + 3star melee first -> 2nd melee -> Varus items. Only go for Kayle and Sej 3 with lots of money. Can  Swap out Ornn for Yorick/Rakan.",
+      "tr": "Akali AD ya da AP olabilir (Ebedi Kılıç/Mücevherli Eldiven arasında esnek ol). Önce tank + 3 yıldız yakın dövüşçüye eşya ver -> 2. yakın dövüşçü -> Varus eşyaları. Kayle ve Sejuani 3'ü sadece bol paran varsa kovala. Ornn'u Yorick/Rakan ile değiştirebilirsin."
+    },
+    "f549bc6030950a277d615ac19da249024788c1c6": {
+      "en": "Slam items aggressively and play for full win streak with Pebbles items. Alpha Mark Pebbles.",
+      "tr": "Eşyaları agresifçe bas ve Çakıl eşyalarıyla tam kazanç serisi için oyna. Alfa İşareti'ni Çakıl'a ver."
+    },
+    "f58e27b369375d627231ddec9fd764575e64e7e0": {
+      "en": "Finish Pebbles 3 quickly. If you have many copies of Pebbles, you can level for 5 Riftbeast and use the shops to finish Pebbles 3.",
+      "tr": "Çakıl 3'ü hızlıca tamamla. Bol Çakıl kopyan varsa 5 Vadi Canavarı için seviye atlayıp o dükkânları Çakıl 3'ü tamamlamak için kullanabilirsin."
+    },
+    "61c537cb28b44d4ac0c391de21ea0578cade06ed": {
+      "en": "Level to 8 and look for your 4 cost Invokers. If you still don't have Pebbles 3 and hit Morgana 2, abort and aim for Invoker Morgana.",
+      "tr": "8. seviyeye çık ve 4 bedelli Manabazlarını ara. Hâlâ Çakıl 3'ün yoksa ve Morgana 2'yi bulduysan vazgeç ve Manabaz Morgana'yı hedefle."
+    },
+    "816836444114bd64ee7864e9f49fea9535081c31": {
+      "en": "Only play if you have lots of Pebbles copies on stage 2 (4+). Pebbles can go \"infinite\" when he has 22 mana per second regen. Use 5 riftbeast shop guarantees to finish 3*. Chasing entire 3* board is often bait so only focus on units that will hold items. Only play the 3x Archangels build with Seraphim's Staff.",
+      "tr": "Sadece 2. aşamada bol Çakıl kopyan varsa (4+) oyna. Çakıl, saniyede 22 mana yenilenmesine ulaştığında \"sonsuz\" hâle gelebilir. 3 yıldızı tamamlamak için 5 Vadi Canavarı'nın garantili dükkânlarını kullan. Tüm kadroyu 3 yıldız yapmaya çalışmak çoğu zaman tuzak, o yüzden sadece eşya taşıyacak birimlere odaklan. 3x Başmelek Asası kurgusunu sadece Melek Asası varken oyna."
+    },
+    "e7cfd5b8b82d6c40e2c598a5087c9d03e47b9fdc": {
+      "en": "Open with a strong AP opener, preferably around Invokers. Karma is an example shown but you can also play Invokers or Coven lose streak.",
+      "tr": "Güçlü bir AP açılışı yap, tercihen Manabazlar etrafında. Örnekte Karma gösteriliyor ama Manabazlar ya da Cadılar Meclisi kayıp serisi de oynayabilirsin."
+    },
+    "400ea40d3ba275919681b76c0f9e4989fa8d9269": {
+      "en": "Cash out / roll on level 7 for Cassio 2 / Fiddle 2. Then econ up and slow roll above 50g for 3* units. Then level to 8 for a duo carry.",
+      "tr": "7. seviyede Cassiopeia 2 / Fiddlesticks 2 için özünü bozdur / çevir. Sonra ekonomi yap ve 3 yıldız birimler için 50 altın üstünde yavaş çevirme (slow roll) uygula. Ardından ikili taşıyıcı için 8. seviyeye çık."
+    },
+    "eac39148eae90307077ed86748c33f206544c04b": {
+      "en": "Very BIS dependent. Can play from Coven Cashout. Can also play for Ornn 3 to potentially farm Artifacts. Always play 6 Defender. Duo carry on 8 is any 4 or 5 cost AP carry. Titans on fiddle because we have no other use for bow.",
+      "tr": "En iyi eşyaya (BIS) çok bağımlı. Cadılar Meclisi bozdurmasıyla oynanabilir. Yadigâr eşya biriktirmek için Ornn 3'e de oynayabilirsin. Her zaman 6 Savunucu oyna. 8. seviyede ikili taşıyıcı herhangi bir 4 ya da 5 bedelli AP taşıyıcı olabilir. Nişancı Yayı'nı başka türlü değerlendiremediğimiz için Titanın Azmi Fiddlesticks'e."
+    },
+    "055479e00ee09dab895929fc39c5766ae3ebd674": {
+      "en": "Ideally play around a Rengar opener that can win streak. Blossom is very powerful to get early econ or item wisps.",
+      "tr": "İdealde kazanç serisi yapabilecek bir Rengar açılışı etrafında oyna. Erken ekonomi ya da eşya Ruhları (Wisp) için Çiçek çok güçlü."
+    },
+    "adb30772b45a8c8b89718ee16987dce5950fed9a": {
+      "en": "Add more Adaptors and frontline as you go. Finish Yi/Rengar items by end of stage. You can even play 5 Blossom for maximum Wisp greed if you highroll the 4 costs.",
+      "tr": "İlerledikçe daha fazla Ahenkli ve ön hat ekle. Master Yi/Rengar eşyalarını aşama sonuna kadar tamamla. 4 bedellilerde highroll yaparsan maksimum Ruh (Wisp) açgözlülüğü için 5 Çiçek bile oynayabilirsin."
+    },
+    "015b24dcfd9f4bf797f6aed2bdbfb0fed0e6cf35": {
+      "en": "Level to 7 and roll for Master Yi 2, Rengar 2, and a Juggernaut Tank. Econ up and slow roll for 3*. Add Kog or a flex unit in at 8.",
+      "tr": "7. seviyeye çık ve Master Yi 2, Rengar 2 ile bir Ezergeçer tank için çevir. Ekonomi yap ve 3 yıldız için yavaş çevirme (slow roll) uygula. 8'de Kog'Maw ya da esnek bir birim ekle."
+    },
+    "4004dfc16e3d92c6068f96e1432a4925396c5d5a": {
+      "en": "+1 tier in strength with Artifact.  VI 3 is stronger than Krug 3. Item priority: Master Yi/Rengar > Tank > Nidalee. Only take Phoenix Primal buff if ahead. Otherwise, Execute / Healing Primal. Rengar and Yi have the exact same BIS. Yi is stronger but itemize whoever is upgraded first. ",
+      "tr": "Yadigâr eşyayla 1 kademe daha güçlü. Vi 3, Kayacıl 3'ten daha güçlü. Eşya önceliği: Master Yi/Rengar > Tank > Nidalee. Anka İlkel lütfunu sadece öndeysen al. Aksi hâlde İnfaz / İyileştirme İlkel lütfu. Rengar ve Master Yi'nin en iyi eşyaları (BIS) birebir aynı. Master Yi daha güçlü ama önce hangisi yükselirse ona eşya ver."
+    },
+    "e5e815914a26bbea44a788ac25f54f335c9ce843": {
+      "en": "Ideally open with Kayle and upgraded Ornn. After Rageblade, prioritize tank items on Ornn so he can begin reliably stacking Artifact scaling.",
+      "tr": "İdealde Kayle ve yükseltilmiş Ornn ile aç. Guinsoo'nun Hiddeti'nden sonra tank eşyalarını Ornn'a öncelikle ver ki yadigâr eşya birikimini istikrarlı şekilde toplamaya başlasın."
+    },
+    "13b5fce2ab6cfa41f31fbaa9d4bccdd0fed62933": {
+      "en": "Bench priority: Kayle 3 > Ornn 3 > Xayah / Leona > Sejuani > Rakan. Once you finish 1 costs, move up to level 6 for 2 costs.",
+      "tr": "Yedek önceliği: Kayle 3 > Ornn 3 > Xayah / Leona > Sejuani > Rakan. 1 bedellileri tamamladıktan sonra 2 bedelliler için 6. seviyeye çık."
+    },
+    "e1bc23b450a09d950eee56bbbf80f3047218df39": {
+      "en": "Finish your 3* and level for Elderwood. Cap with any 5 costs like Lux, Ivern, Taric, etc.",
+      "tr": "3 yıldızlarını tamamla ve Kadim Orman için seviye atla. Lux, Ivern, Taric gibi herhangi bir 5 bedelliyle tavana (cap) çık."
+    },
+    "0b0303f3ac8c77a2332cd6ac97b62c4f11577c6f": {
+      "en": "Roll on 3-1 to try and finish a 3* 1 cost for bench space -> Slow roll above 50g on level 5. Ornn Artifact print is very strong but only scales quickly once you get him to 3*. Kayle has built in 20% Shred at 2*. ",
+      "tr": "Yedekte yer açmak için 3-1'de çevirip bir 1 bedelliyi 3 yıldız yapmaya çalış -> Sonra 5. seviyede 50 altın üstünde yavaş çevirme (slow roll) uygula. Ornn'un yadigâr eşya basması çok güçlü ama ancak onu 3 yıldız yapınca hızlı büyür. Kayle 2 yıldızda kendinden %20 Örseleme taşıyor."
+    },
+    "243c8fe57eb839651bdd92de3c25bcddbea591d1": {
+      "en": "Play any strong Rageblade opener on an AP carry such as Kayle, Master Yi, or a Spellweaver. Opener is very flexible.",
+      "tr": "Kayle, Master Yi ya da bir Sihirkâr gibi bir AP taşıyıcıda güçlü herhangi bir Guinsoo'nun Hiddeti açılışını oyna. Açılış çok esnek."
+    },
+    "1a9dbce1ec0576b70e11b2fd709615b5af854843": {
+      "en": "Comp is very Rod hungry so keep taking them off augments / carousels when possible. If you are not playing Invokers, hold onto cheap units like Pebbles for later.",
+      "tr": "Komp çok fazla Aşırı Büyük Sopa istiyor, o yüzden fırsat buldukça güçlendirmelerden / atlıkarıncadan sopa toplamaya devam et. Manabaz oynamıyorsan Çakıl gibi ucuz birimleri sonrası için elinde tut."
+    },
+    "790bf991da73d22949a3f17cb843692474ca4052": {
+      "en": "Level to 8 and roll for 4 Invoker. Avoid tunneling only on 4 Vanguard frontline. You can also flex Brawlers or Juggernauts as needed.",
+      "tr": "8. seviyeye çık ve 4 Manabaz için çevir. Sadece 4 Öncü ön hattına kilitlenme. Gerektiğinde Dövüşçü ya da Ezergeçer'i de esnek şekilde oynayabilirsin."
+    },
+    "81c1b744f54365af386df0675a32e86a1685c414": {
+      "en": "Prioritize Nidalee > Morello on Morgana + Tank > leftover AP on Morgana. Riftbeast Alpha Mark the Scuttle Crab. Kogmaw provides free Sunder / Shred. Take tiger primal buff.",
+      "tr": "Öncelik: Nidalee > Morgana'da Morellonomikon + tank > artan AP Morgana'ya. Vadi Canavarı Alfa İşareti'ni Yampiri Yengeç'e ver. Kog'Maw bedava Aşındırma / Örseleme sağlıyor. Kaplan İlkel lütfunu al."
+    },
+    "0361db426ce6ba986334a3f8bfbc7f2a7848950b": {
+      "en": "Only play this comp with an early Rengar with items so you can snowball Rival. Play any upgraded frontline tank to stall for Kha'zix.",
+      "tr": "Bu kompu sadece erkenden eşyalı bir Rengar bulduğunda oyna ki Hasım'ı çığ gibi büyütebilesin. Kha'Zix'e zaman kazandırmak için yükseltilmiş herhangi bir ön hat tankı oyna."
+    },
+    "6efccac516ae0769839b4526824ad0846def6b3b": {
+      "en": "Slow roll on 7 for 3* upgrades on whatever 3 costs you're chasing. In this example, if you can't hit Mama Beak 3, look for Aphelios duo instead.",
+      "tr": "Peşinde olduğun 3 bedelli birimleri 3 yıldız yapmak için 7'de yavaş çevirme (slow roll) uygula. Bu örnekte Anne Gaga 3'ü bulamazsan onun yerine Aphelios ikilisini ara."
+    },
+    "441dfcb82f8ee3c8a6004ee909b41962ecaa5e8e": {
+      "en": "Strong with artifacts. Rengar prefers to be paired with other carries that can use AD scaling. But he is a flexible unit with no traits so you can play him with whatever you hit.",
+      "tr": "Yadigâr eşyalarla güçlü. Rengar, AD büyümesini kullanabilen başka taşıyıcılarla eşleşmeyi sever. Ama hiç özelliği olmayan esnek bir birim, o yüzden eline ne geçerse onunla oynayabilirsin."
+    },
+    "61831f6231520f75a0ce3d835b1943d96ae3bb2e": {
+      "en": "If you don't have Shojin, consider lose streak to guarantee it on carousel. If you have Shojin + good component, play for win streak instead.",
+      "tr": "Shojin'in Mızrağı'n yoksa atlıkarıncada garantilemek için kayıp serisi yapmayı düşün. Shojin'in Mızrağı + iyi bir parçan varsa onun yerine kazanç serisi için oyna."
+    },
+    "3d2928f134ef25658c59ce32171b95d97ea2172c": {
+      "en": "Level to 6 and roll for Warwick 2 with 4 Blackthorn + 2 Ravager. Econ up and slow roll for 3*. You can also play 4 Ravager temporarily if needed.",
+      "tr": "6. seviyeye çık ve 4 Karadiken + 2 Tahripkâr ile Warwick 2 için çevir. Ekonomi yap ve 3 yıldız için yavaş çevirme (slow roll) uygula. Gerekirse geçici olarak 4 Tahripkâr da oynayabilirsin."
+    },
+    "7a40aa8bc5daed83926ad92f347199b9cabe6c8a": {
+      "en": "Finish Warwick 3 and push levels. If you don't have Murkwolf 3, look for Brambleback as your duo carry. ",
+      "tr": "Warwick 3'ü tamamla ve seviye atlamaya bak. Alacakurt 3'ün yoksa ikili taşıyıcın olarak Korkabuk'u ara."
+    },
+    "edfdde03b1c44be5e6ddb19e94f988f5414a1bda": {
+      "en": "Aim to play a 3* unit in the Blackthorn center hex for max stats, preferably Krug 3. Leftover AD items on Murkwolf. Can also tank Rek'sai 3 if you can't find Malphite 2.",
+      "tr": "Maksimum nitelik için Karadiken merkez hücresine 3 yıldız bir birim koymayı hedefle, tercihen Kayacıl 3. Artan AD eşyaları Alacakurt'a. Malphite 2'yi bulamazsan tank olarak Rek'Sai 3 de oynayabilirsin."
+    },
+    "7a35e341737dbee4b314d2034712e732e0b1587b": {
+      "en": "Only play around this opener with early upgrades or strong scaling combat augment. Begin gathering Fae stacks.",
+      "tr": "Bu açılışı sadece erken yükseltmelerin ya da güçlü, büyüyen bir çatışma güçlendirmen varsa oyna. Fey birikimlerini toplamaya başla."
+    },
+    "9e862af252ea869e3b7cff2b4baef4888f589016": {
+      "en": "Slow roll above 50g for 3* until you hit at least Xayah 3 and Ornn 3. Take econ or item augments as necessary.",
+      "tr": "En azından Xayah 3 ve Ornn 3'ü bulana kadar 3 yıldız için 50 altın üstünde yavaş çevirme (slow roll) uygula. Gerektiği kadar ekonomi ya da eşya güçlendirmesi al."
+    },
+    "78e6b585cb83fd1d73d170f4b2dbf42c14e68373": {
+      "en": "Push levels for 4 Fae. You can also play more Defenders, Inferno, or Elderwood until you find the Faes.",
+      "tr": "4 Fey için seviye atlamaya bak. Fey birimlerini bulana kadar daha fazla Savunucu, Alev ya da Kadim Orman da oynayabilirsin."
+    },
+    "8d4fbe70c4152f6fbca473ad822295863924c8ba": {
+      "en": "3* Priority: Xayah 3 / Ornn 3 > Rakan 3. Ornn stacks Artifact Forge Power much faster at 3*. S",
+      "tr": "3 yıldız önceliği: Xayah 3 / Ornn 3 > Rakan 3. Ornn 3 yıldızken Ocak Gücü'nü çok daha hızlı biriktirir."
+    },
+    "0672c3f75cf1065f0da0694fed9c9045697d702c": {
+      "en": "Open with a win streak Teemo start and itemize him ASAP. The more Teemo casts, the more likely you can collect value off his mushrooms.",
+      "tr": "Kazanç serisi veren bir Teemo açılışıyla başla ve ona bir an önce eşya ver. Teemo ne kadar çok yetenek kullanırsa mantarlarından o kadar çok değer toplayabilirsin."
+    },
+    "8b7f7d5ddce4622c165de2bfd5b30dd88329c2b9": {
+      "en": "Level to 6 and roll for your 2* upgrades to stabilize and win streak Stage 3. Econ up and slow roll above 50g for 3*.",
+      "tr": "6. seviyeye çık ve 3. aşamada stabil olup kazanç serisi yapmak için 2 yıldız yükseltmelerini çevir. Ekonomi yap ve 3 yıldız için 50 altın üstünde yavaş çevirme (slow roll) uygula."
+    },
+    "f5510b4834d33c079086213e7d4c3bde3b3a3427": {
+      "en": "Finish Teemo 3* and your tank then push levels for more Invokers. If you get more damage items late game Morgana can hold the utility.",
+      "tr": "Teemo 3 yıldız ve tankını tamamla, sonra daha fazla Manabaz için seviye atlamaya bak. Oyun sonunda daha fazla hasar eşyası gelirse destek eşyalarını Morgana taşıyabilir."
+    },
+    "577bb3802502ce7dd9bac1e5f3a2258d57562719": {
+      "en": "Best with winstreak opener around Leblanc or Teemo with Brawler frontline.",
+      "tr": "En iyisi Dövüşçü ön hattıyla birlikte LeBlanc ya da Teemo etrafında kazanç serisi veren bir açılış."
+    },
+    "2ddc857e4f3bdd9ac8dad3bb2fecca0a8389dff1": {
+      "en": "Rift buff on Krug",
+      "tr": "Vadi güçlendirmesi Kayacıl'a."
+    },
+    "18ff4706eda3b7bd39e1e1c07160a48272f36fdc": {
+      "en": "Play aroud early Solar, Elderwood, and Inferno. Prioritize Kayle and Ornn items. Cursed Crown is very expensive so every gold interest counts.",
+      "tr": "Erken Güneş, Kadim Orman ve Alev etrafında oyna. Kayle ve Ornn eşyalarına öncelik ver. Lanetli Taç çok pahalı, o yüzden her altın faizi önemli."
+    },
+    "240bfe44659c61633d1064a39489ae030d036e71": {
+      "en": "You will likely be poor so consider an econ augment. Slow roll above 50g for 3* units. Prioritize Solars > 1 costs > 2 costs.",
+      "tr": "Muhtemelen fakir olacaksın, o yüzden ekonomi güçlendirmesi düşün. 3 yıldız birimler için 50 altın üstünde yavaş çevirme (slow roll) uygula. Öncelik: Güneş birimleri > 1 bedelliler > 2 bedelliler."
+    },
+    "dbd802bb8eafc153ef550b8dd9c20ab65896f3d2": {
+      "en": "You can stay on 6 to finish all your 3* because of Cursed Crown. If you natural level to 7, add in any Spellweaver or 5 cost.",
+      "tr": "Lanetli Taç sayesinde tüm 3 yıldızlarını tamamlamak için 6'da kalabilirsin. Doğal olarak 7. seviyeye çıkarsan herhangi bir Sihirkâr ya da 5 bedelli ekle."
+    },
+    "06d8702ebcddf80763578d76281eb1cd5b877bf6": {
+      "en": "With Cursed Crown, we can go for the big 8 unit 3-star Solar bonus. Roll on 5 for 1 costs and 6 for the 2 costs. Sell LB and Elise if you need bench space.",
+      "tr": "Lanetli Taç ile 8 birimlik büyük 3 yıldız Güneş bonusunu hedefleyebiliriz. 1 bedelliler için 5'te, 2 bedelliler için 6'da çevir. Yedekte yer lazımsa LeBlanc ve Elise'i sat."
+    },
+    "e7e96f01923fb51b73850aadfd0416ebb0b38bb0": {
+      "en": "Open with a strong AD opener, preferably around Yunara. Slam generic AD items and Tank items for a win streak. You can also play around Varus/Akali 2 with AD items.",
+      "tr": "Güçlü bir AD açılışı yap, tercihen Yunara etrafında. Kazanç serisi için genel AD eşyalarını ve tank eşyalarını bas. AD eşyalarıyla Varus/Akali 2 etrafında da oynayabilirsin."
+    },
+    "61a3c40539fe8984fb407e1dfdc7b88af52b70fb": {
+      "en": "Level and add more Juggernauts and Executioners. Make sure to hold Inferno units along the way. Can also play 3 Inferno for shop high rolls.",
+      "tr": "Seviye atla ve daha fazla Ezergeçer ile İnfazcı ekle. Bu arada Alev birimlerini elinde tutmayı unutma. Dükkân şansını artırmak için 3 Alev de oynayabilirsin."
+    },
+    "6286549fd9531344048cb020632ca2a40b6ffd6e": {
+      "en": "Roll on 8 for 5 inferno Sivir + Vi + Lillia + Hunter (can play Tristana before Ashe). When you find Ashe make sure to give her inferno emblem + shojin.",
+      "tr": "8'de 5 Alev Sivir + Vi + Lillia + Avcı için çevir (Ashe'ten önce Tristana oynayabilirsin). Ashe'i bulduğunda ona Alev amblemi + Shojin'in Mızrağı verdiğinden emin ol."
+    },
+    "5f8d66bf2d9a7f2d0b6fc0fb5da549baf5283838": {
+      "en": "Only play with Inferno emblem. Ideally needs Inferno Lux to be super strong but can top 4 without Lux / only Inferno Emblem Ashe. Can also play more frontline instead of 7 inferno or Hunter (Taric/4 Juggernaut).",
+      "tr": "Sadece Alev amblemi varken oyna. Süper güçlü olması için ideali Alev Lux ama Lux olmadan / sadece Alev amblemli Ashe ile de ilk 4'e girebilirsin. 7 Alev ya da Avcı yerine daha fazla ön hat da oynayabilirsin (Taric/4 Ezergeçer)."
+    },
+    "00c7911a5d9d8d6c3924292fad62188d96d8ba45": {
+      "en": "Ideally start with Khazix to get 10 takedowns ASAP. Add in the cheap 1-2 cost units to activate traits. Otherwise, flex around your best upgraded unit.",
+      "tr": "İdealde bir an önce 10 alt etme toplamak için Kha'Zix ile başla. Özellikleri aktif etmek için ucuz 1-2 bedelli birimleri ekle. Aksi hâlde en iyi yükseltilmiş birimin etrafında esnek oyna."
+    },
+    "a03518f2696b3e4aede7de7eb4be97fa83f6b1d3": {
+      "en": "Continue adding and flexing in more traits. +1 team size augments like Coronation or Cursed Crown are very OP here.",
+      "tr": "Daha fazla özellik eklemeye ve esnek oynamaya devam et. Taç Giyme Töreni ya da Lanetli Taç gibi +1 takım boyutu veren güçlendirmeler burada çok güçlü."
+    },
+    "596d3d56fda4e889e08f53de1ae717cf35b62b10": {
+      "en": "After you hit 10 traits, add Amumu with the Tactician's Crown you get and then level for Kennen. Then pivot to 5 costs at level 9.",
+      "tr": "10 özelliğe ulaştıktan sonra kazandığın Strateji Ustası Tacı ile Amumu'yu ekle, sonra Kennen için seviye atla. Ardından 9. seviyede 5 bedellilere pivot yap (kompu değiştir)."
+    },
+    "a7c8ed12ee0a7488a99cf946a92781e8c7c45a2d": {
+      "en": "Hard flex composition, but very strong when played well. Any emblem start is fine. Get Khazix 10 takedowns for ravager evolution while gathering the early 2-8 trait cashouts in the midgame. The key interval to plan for is 10 traits for the Tactician Crown -> pivot to legendaries or go for even more cashouts if healthy.",
+      "tr": "Tamamen esnek bir kompozisyon ama iyi oynanınca çok güçlü. Herhangi bir amblemle başlamak sorun değil. Oyunun ortasında erken 2-8 özellik ödüllerini toplarken Kha'Zix'e Tahripkâr evrimi için 10 alt etme kazandır. Planlanması gereken kritik eşik, Strateji Ustası Tacı için 10 özellik -> sonra efsanevilere pivot yap (kompu değiştir) ya da canın iyiyse daha fazla ödül topla."
+    },
+    "9a54bf2816de60bc917c5ad11fbb9750e77ddacb": {
+      "en": "Ideally open with Coven and start gathering Essence. It is actually better to win early than lose for stacks so don't overly force lose streak.",
+      "tr": "İdealde Cadılar Meclisi ile aç ve öz toplamaya başla. Aslında birikim için kaybetmektense erken kazanmak daha iyi, o yüzden kayıp serisini aşırı zorlama."
+    },
+    "10ffb24d63accd78e1093a7a16f9f5b8188ffcea": {
+      "en": "Level to 6 and roll for a Elise 2, Covens, and Vanguards. Give Cassio or Diana leftover AP. Cash out Coven and convert to AP with at least 2-3 lives (25-30 hp). ",
+      "tr": "6. seviyeye çık ve Elise 2, Cadılar Meclisi birimleri ve Öncüler için çevir. Artan AP eşyalarını Cassiopeia'ya ya da Diana'ya ver. En az 2-3 can kalmışken (25-30 can) Cadılar Meclisi özünü bozdur ve AP'ye çevir."
+    },
+    "d265b47ccb01259f86807e7295c9fe81140b6e7b": {
+      "en": "Finish Elise 3 / Cassio 3 then level for more Vanguards or Lunar. Play 2 Morganas with items if you have extra.",
+      "tr": "Elise 3 / Cassiopeia 3'ü tamamla, sonra daha fazla Öncü ya da Ay için seviye atla. Fazla eşyan varsa ikisi de eşyalı 2 Morgana oyna."
+    },
+    "55f94f4f63490a4ef33343c26a00629bb8bd24e7": {
+      "en": "Play with Dark Ritual augment to convert cash out -> AP. Ideally ply for a 135+ cashout for AP first, then take 40s as you need for more stacking. 2x Morgana 2* with items on both is the best way to cap your board.",
+      "tr": "Bozdurmayı AP'ye çevirmek için Karanlık Ritüel güçlendirmesiyle oyna. İdealde önce AP için 135+ bozdurma hedefle, sonra daha fazla birikim için ihtiyacın kadar 40'lık ödülleri al. Kadronu tavana (cap) çıkarmanın en iyi yolu, ikisi de eşyalı 2 tane 2 yıldız Morgana."
+    },
+    "bd487e302372d762e4b6382ad71cf9fe5f9e9979": {
+      "en": "If you are close to Veigar 3 (7+ copies), consider rolling until you hit 3*. If far (3-4 copies), slow roll above 50g for 3*.",
+      "tr": "Veigar 3'e yakınsan (7+ kopya) 3 yıldızı bulana kadar çevirmeyi düşün. Uzaksan (3-4 kopya) 3 yıldız için 50 altın üstünde yavaş çevirme (slow roll) uygula."
+    },
+    "de409bb982c3b988a43185ddd8a50b0d3e5b5793": {
+      "en": "Once you finish your 3*, push levels for more Spyrkin, Blackthorn, or Brawlers. ",
+      "tr": "3 yıldızlarını tamamladıktan sonra daha fazla Zıpırgil, Karadiken ya da Dövüşçü için seviye atlamaya bak."
+    },
+    "2c1a53bad03748c444e9bb102e3b3329eaf1fe72": {
+      "en": "Very strong with Dawncore and Ludens as well. Sacrifice a 3* unit for maximum Blackthorn stats.",
+      "tr": "Şafağın Özü ve Luden'in Çığlığı ile de çok güçlü. Maksimum Karadiken niteliği için 3 yıldız bir birimi feda et."
+    },
+    "29dad352007899bb7526b406d69690f170bc8672": {
+      "en": "Play for win streak with Rengar and the emblem. Position him same side as enemy carries to get backline snipes.",
+      "tr": "Rengar ve amblemle kazanç serisi için oyna. Arka hattı avlayabilmesi için onu rakip taşıyıcılarla aynı tarafa yerleştir."
+    },
+    "3d70daa257ee14f73170f8228e5811ca96e8f06d": {
+      "en": "Keep snowballing with Rengar. Take an item augment if you aren't on track to get 3 items by end of Stage. Rengar only performs as well as your best tank so prioritize frontline too.",
+      "tr": "Rengar ile çığ gibi büyümeye devam et. Aşama sonuna kadar 3 eşyaya ulaşacak gibi görünmüyorsan eşya güçlendirmesi al. Rengar ancak en iyi tankın kadar iyi iş çıkarır, o yüzden ön hatta da öncelik ver."
+    },
+    "4d28231f5f6f32421e4148429c54c8e8d8e0a9ac": {
+      "en": "Level to 7 and roll above 50g for 3* Rengar and 3* Rammus. Use your 4 Fae cash outs to push levels. Tristana takes leftover items.",
+      "tr": "7. seviyeye çık ve 3 yıldız Rengar ile 3 yıldız Rammus için 50 altın üstünde çevir. Seviye atlamak için 4 Fey ödüllerini kullan. Artan eşyaları Tristana alır."
+    },
+    "af6dcffffdf1f48ae4571c7da1d365bda17f260d": {
+      "en": "Only play when you have emblem for Rengar. Stacking 4 Fae ASAP is important so you can get a gold engine. Can also tank Lillia primary if you can't find Rammus. Can flex in Primal as well if you have emblem.",
+      "tr": "Sadece Rengar için amblemin varsa oyna. Altın motorunu kurabilmek için 4 Fey'i bir an önce biriktirmek önemli. Rammus'u bulamazsan ana tank olarak Lillia'yı da oynayabilirsin. Amblemin varsa İlkel'i de esnek şekilde ekleyebilirsin."
+    },
+    "6770b69903235358a4a27228c39e6c6572507edd": {
+      "en": "Level to 6 and roll for a Elise 2, Covens, and another Ravager. If AD items, look for Murkwolf. If AP items, look for Dianas.",
+      "tr": "6. seviyeye çık ve Elise 2, Cadılar Meclisi birimleri ve bir Tahripkâr daha için çevir. AD eşyan varsa Alacakurt'u, AP eşyan varsa Diana'yı ara."
+    },
+    "5c3eadfeffcf3ca641d79cea71d1213198bec3e6": {
+      "en": "Cash out Coven with at least 2-3 lives (25-30 hp). Finish Elise 3 then level for more Vanguards, Coven, or Lunar / 5 costs.",
+      "tr": "En az 2-3 can kalmışken (25-30 can) Cadılar Meclisi özünü bozdur. Elise 3'ü tamamla, sonra daha fazla Öncü, Cadılar Meclisi ya da Ay / 5 bedelliler için seviye atla."
+    },
+    "1c6a2148cfe4ae334d772c3bb22ee754fc720bfd": {
+      "en": "Very strong with Ravager emblem. If no emblem, can play standard 4 Vanguard Coven and flex the last spots. Elise can also play Stoneplate Gargoyle instead of Archangels for a more defensive-heavy build.",
+      "tr": "Tahripkâr amblemiyle çok güçlü. Amblem yoksa standart 4 Öncü Cadılar Meclisi oynayıp son slotları esnek bırakabilirsin. Daha savunma ağırlıklı bir kurgu için Elise, Başmelek Asası yerine Gargoyl Taşzırhı da oynayabilir."
+    },
+    "c59022c8afc8974819d0e6b3f69f0e4949cd074c": {
+      "en": "Play for win streak with upgraded Rageblade holder. Start stacking Fae since getting to 7 ASAP is crucial for success.",
+      "tr": "Guinsoo'nun Hiddeti'ni taşıyan yükseltilmiş birimle kazanç serisi için oyna. Bir an önce 7'ye ulaşmak başarı için kritik olduğundan Fey biriktirmeye başla."
+    },
+    "fda72e550a93287565b89b0df86ad8019c28685b": {
+      "en": "Itemize and play Tristana as soon as you find her. Sprykin is more important than Hunter. If you spike very early Primal from ahead, you can consider items.",
+      "tr": "Tristana'yı bulur bulmaz eşya verip oyna. Zıpırgil, Avcı'dan daha önemli. Öndeyken çok erken bir İlkel sıçraması yakalarsan eşya almayı düşünebilirsin."
+    },
+    "5fd8d047157ce7bf778ad98e0e5cfcb01197ad7c": {
+      "en": "Level to 7 and roll above 50g for 3* Tristana and Rammus. Use your 4 Fae cash outs to push levels. Give Sivir leftover AD items.",
+      "tr": "7. seviyeye çık ve 3 yıldız Tristana ile Rammus için 50 altın üstünde çevir. Seviye atlamak için 4 Fey ödüllerini kullan. Artan AD eşyalarını Sivir'e ver."
+    },
+    "3561ea101527a55ee07581bc69aa4e819a46f277": {
+      "en": "Only play when you have Fae emblem. Stacking 4 Fae ASAP is important so you can get a gold engine. Can also tank Vi primary if you can't find Rammus. Execute Primal > Item Primal unless very far ahead / win streaking.",
+      "tr": "Sadece Fey amblemin varsa oyna. Altın motorunu kurabilmek için 4 Fey'i bir an önce biriktirmek önemli. Rammus'u bulamazsan ana tank olarak Vi'yi de oynayabilirsin. Çok önde değilsen / kazanç serisinde değilsen İnfaz İlkel lütfu > Eşya İlkel lütfu."
+    },
+    "e916099fc613ee7eb5ea35ba77752119db937f86": {
+      "en": "Can play Coven early for cash out",
+      "tr": "Bozdurma için erkenden Cadılar Meclisi oynanabilir."
+    },
+    "0f1b097f16fe5fe1b1442d43c83d4272e553d388": {
+      "en": "Items are crucial for this composition so focus on Edge of Night first. Play any upgraded frontline tank to stall for Khazix + Rengar.",
+      "tr": "Bu kompozisyon için eşyalar kritik, o yüzden önce Gecenin Kıyısı'na odaklan. Kha'Zix + Rengar'a zaman kazandırmak için yükseltilmiş herhangi bir ön hat tankı oyna."
+    },
+    "007ce10fc33403e55c570678538b3003b4f36ea4": {
+      "en": "Keep adding more frontline. Rengar and Khazix will only be effective as your best tank. Item augments are huge to keep your momentum.",
+      "tr": "Ön hatta eklemeye devam et. Rengar ve Kha'Zix ancak en iyi tankın kadar etkili olur. Momentumunu korumak için eşya güçlendirmeleri çok değerli."
+    },
+    "cf913a20529cfab6956eaf0e8f4e5c0ab06918ea": {
+      "en": "Level to 7 and roll for the 2* upgrades. Then econ up and slow roll above 50g for 3* units. Once you finish 3* tank + Khazix 3 / Rengar 3, add 5 costs.",
+      "tr": "7. seviyeye çık ve 2 yıldız yükseltmeler için çevir. Sonra ekonomi yap ve 3 yıldız birimler için 50 altın üstünde yavaş çevirme (slow roll) uygula. 3 yıldız tank + Kha'Zix 3 / Rengar 3'ü tamamlayınca 5 bedellileri ekle."
+    },
+    "e5166a4f3ef2f9e95dc6b9448ea14b1de7a17ad4": {
+      "en": "Ideally, Khazix gains Ravager > Executioner > Rapidfire > Spellweaver with takedowns. ",
+      "tr": "İdealde Kha'Zix alt etmelerle sırasıyla Tahripkâr > İnfazcı > Bombardımancı > Sihirkâr kazanır."
+    },
+    "d36e3ed44840250039b8d1edc65d7e23925474f6": {
+      "en": "Khazix gains Executioner, Ravager, Spellweaver, and Rapidfire traits with takedowns, get those traits in that order.",
+      "tr": "Kha'Zix alt etmelerle İnfazcı, Tahripkâr, Sihirkâr ve Bombardımancı özelliklerini kazanır; bu özellikleri bu sırayla al."
+    },
+    "5d8b444339fcb04fa241152a1d912bc099347237": {
+      "en": "Level to 8 and look for Ezreal and Soraka with 7 Elderwood. Try not to roll to 0g because we need gold to get to level 9.",
+      "tr": "8. seviyeye çık ve 7 Kadim Orman ile birlikte Ezreal ile Soraka'yı ara. 0 altına kadar çevirmemeye çalış çünkü 9. seviyeye çıkmak için altına ihtiyacımız var."
+    },
+    "d05248c6cca5c05b819a90a88d8234056bd201f7": {
+      "en": "Look for Elderwood Lux. 3 Executioner is a big spike so always look to play around it if possible. Can also chase 9 Elderwood if you have Elderwood Lux.",
+      "tr": "Kadim Orman Lux'ü ara. 3 İnfazcı büyük bir güç sıçraması, o yüzden mümkünse hep onun etrafında oynamaya bak. Kadim Orman Lux'ün varsa 9 Kadim Orman'ı da kovalayabilirsin."
+    },
+    "750709d321592342f82a64b2451a3128ef7f8422": {
+      "en": "Add 5 Blossom when you can. Flex in Blackthorn (Veigar / Azir), Fiddlesticks + Defender, or other frontline while stacking econ. Always play Ahri 1 and itemize her.",
+      "tr": "Fırsat buldukça 5 Çiçek'i ekle. Ekonomi biriktirirken Karadiken (Veigar / Azir), Fiddlesticks + Savunucu ya da başka ön hat birimlerini esnek şekilde ekle. Her zaman Ahri 1 oyna ve ona eşya ver."
+    },
+    "228628d64a0e7cf9742534cdbee8be8243b416e6": {
+      "en": "Level and roll for Ahri, Sett, and at least 5 Blossom. You can also temporarily play 7 Blossom for econ while going to 9. End game cap = replace Yorick / Karma.",
+      "tr": "Seviye atla ve Ahri, Sett ile en az 5 Çiçek için çevir. 9'a çıkarken ekonomi için geçici olarak 7 Çiçek de oynayabilirsin. Oyun sonu tavanı (cap) = Yorick / Karma'yı değiştir."
+    },
+    "6034d735f2ae8088b2b50d2c13b0ffb1e37480c4": {
+      "en": "Core of the comp is Ahri + Sett + Ashe. The rest of the units are flexible. If itemizing Sivir, go for Execute Primal. If far ahead and win streaking, you can play for Phoenix Primal.",
+      "tr": "Kompun çekirdeği Ahri + Sett + Ashe. Diğer birimler esnek. Sivir'e eşya veriyorsan İnfaz İlkel lütfunu seç. Çok öndeysen ve kazanç serisindeysen Anka İlkel lütfuna oynayabilirsin."
+    },
+    "72ae51dc9957a0c43235cf7d3860fe617e06c07f": {
+      "en": "Slam items aggressively and play for full win streak with Pebbles items. Alpha Mark Crab or Gromp.",
+      "tr": "Eşyaları agresifçe bas ve Çakıl eşyalarıyla tam kazanç serisi için oyna. Alfa İşareti'ni Yampiri Yengeç'e ya da Gromp'a ver."
+    },
+    "d3142a25bae79ce1ca1524cbea732d443616366a": {
+      "en": "Save up econ and try to go level 7  for 7 riftbeast on 3-5, if you're poor wait until 4-1.",
+      "tr": "Ekonomi biriktir ve 3-5'te 7 Vadi Canavarı için 7. seviyeye çıkmaya çalış; fakirsen 4-1'e kadar bekle."
+    },
+    "08452af9f2855a366cac923e6d9d8c38582b7eea": {
+      "en": "Once you have your 3*, level to 8 and field 7 Riftbeast. If you can get to 9, you can ditch 1* Ravagers for Elder Dragon.",
+      "tr": "3 yıldızlarını aldıktan sonra 8. seviyeye çık ve 7 Vadi Canavarı sahaya sür. 9'a çıkabilirsen 1 yıldız Tahripkârları bırakıp Kadim Ejderha'yı oynayabilirsin."
+    },
+    "f75317acfbb898ffca87749a1223684617ff6eae": {
+      "en": "Use 5 Riftbeast shops to finish your 3* because you want to rush 7 Riftbeast on Level 7 ASAP. You can carry ALL of the riftbeast carries besides Mama Beak if you have items. Krug 3 is the best tank but you can also tank Sentinel 2 > Scuttle Crab 3. Alpha Mark Cinderling early > Crab late.",
+      "tr": "3 yıldızlarını tamamlamak için 5 Vadi Canavarı dükkânlarını kullan, çünkü bir an önce 7. seviyede 7 Vadi Canavarı'na koşmak istiyorsun. Eşyan varsa Anne Gaga dışındaki TÜM Vadi Canavarı taşıyıcılarını taşıyıcı olarak oynayabilirsin. En iyi tank Kayacıl 3 ama tank olarak Gözcü 2 > Yampiri Yengeç 3 de oynayabilirsin. Alfa İşareti'ni erken oyunda Közcük'e, geç oyunda Yampiri Yengeç'e ver."
+    },
+    "a17da629b65b6e31f77a9617b59879e192d7b057": {
+      "en": "Slow roll above 50g for 3* until you hit at least Xayah 3 and Ornn 3. Varus 3 is nice but not mandatory. ",
+      "tr": "En azından Xayah 3 ve Ornn 3'ü bulana kadar 3 yıldız için 50 altın üstünde yavaş çevirme (slow roll) uygula. Varus 3 güzel ama şart değil."
+    },
+    "08295b97648b8f6080aadefb61fd39b0adb59a6b": {
+      "en": "Push levels for more Fae. You can also play more Defenders, Inferno, or Elderwood until you find the Faes.",
+      "tr": "Daha fazla Fey için seviye atlamaya bak. Fey birimlerini bulana kadar daha fazla Savunucu, Alev ya da Kadim Orman da oynayabilirsin."
+    },
+    "92e5328a6e97ebbaaa340d417cc1dcd665ea4bed": {
+      "en": "3* Priority: Xayah 3 / Ornn 3 > Varus 3 > Rakan 3. Ornn stacks Artifact Forge Power much faster at 3*. ",
+      "tr": "3 yıldız önceliği: Xayah 3 / Ornn 3 > Varus 3 > Rakan 3. Ornn 3 yıldızken Ocak Gücü'nü çok daha hızlı biriktirir."
+    },
+    "53035662b4dbd74292bd078c7d620d30dfdfbee0": {
+      "en": "Slam items aggressively and play around 3 Blossom for a win streak. This is a comp you can only play from far ahead with lots of HP and resources.",
+      "tr": "Eşyaları agresifçe bas ve kazanç serisi için 3 Çiçek etrafında oyna. Bu, ancak bol canın ve kaynağın varken çok öndeyken oynayabileceğin bir komp."
+    },
+    "d2148894ca6beeafc431730fa9371559207a7538": {
+      "en": "Continue your win streak. Pick an econ augment if you have not already. Otherwise, take item augments and push levels.",
+      "tr": "Kazanç serine devam et. Henüz almadıysan bir ekonomi güçlendirmesi seç. Aksi hâlde eşya güçlendirmeleri al ve seviye atlamaya bak."
+    },
+    "eb24eeb42af7cc5698d7835b83416854fe632d61": {
+      "en": "If you have 80+ HP, you can consider losing Stage 4 and focus purely on economy. Aim to Fast 9 by end of Stage 4 / 5-1 and transition your board.",
+      "tr": "80+ canın varsa 4. aşamayı kaybetmeyi düşünüp tamamen ekonomiye odaklanabilirsin. 4. aşamanın sonu / 5-1'e kadar hızlıca 9. seviyeye çıkmayı hedefle ve kadronu dönüştür."
+    },
+    "d0442fc3d1fdf1879440cdbd35428883f10ec114": {
+      "en": "Prioritize Ashe items > Tank items > leftover duo carry items (ideally Elder Dragon). Comp is very expensive so make sure you take good econ augments. ",
+      "tr": "Öncelik: Ashe eşyaları > tank eşyaları > artan ikili taşıyıcı eşyaları (ideali Kadim Ejderha). Komp çok pahalı, o yüzden iyi ekonomi güçlendirmeleri aldığından emin ol."
+    },
+    "8aff6957e68731b44dcd3afcba2a99ad9de557e0": {
+      "en": "Ideally play around a Master Yi opener that can win streak. Blossom is very powerful to get early econ or item wisps.",
+      "tr": "İdealde kazanç serisi yapabilecek bir Master Yi açılışı etrafında oyna. Erken ekonomi ya da eşya Ruhları (Wisp) için Çiçek çok güçlü."
+    },
+    "9c9679b323ea029c659c9ab6202619fdb5ac1082": {
+      "en": "Add more Adaptors and frontline as you go. Finish Yi items by end of stage. You can even play 5 Blossom for maximum Wisp greed if you highroll the 4 costs.",
+      "tr": "İlerledikçe daha fazla Ahenkli ve ön hat ekle. Master Yi eşyalarını aşama sonuna kadar tamamla. 4 bedellilerde highroll yaparsan maksimum Ruh (Wisp) açgözlülüğü için 5 Çiçek bile oynayabilirsin."
+    },
+    "a3da1b40b074c223b026e707fc3eda5a06dc4dc6": {
+      "en": "Level to 7 and roll for Master Yi 2, Kogmaw 2, and a Juggernaut Tank. Econ up and slow roll for 3*. Add Gromp or a flex unit in at 8.",
+      "tr": "7. seviyeye çık ve Master Yi 2, Kog'Maw 2 ile bir Ezergeçer tank için çevir. Ekonomi yap ve 3 yıldız için yavaş çevirme (slow roll) uygula. 8'de Gromp ya da esnek bir birim ekle."
+    },
+    "e14500ca7f90bb8e1cfbd5727fbac1786c753066": {
+      "en": "+1 tier in strength with Artifact or Brawler emblem. Level 7 board is no Gromp. VI 3 is stronger than Krug 3, but harder to hit because of Vi's popularity. Item priority: Master Yi > Tank > Kogmaw > Nidalee. Only take Phoenix Primal buff if ahead. Otherwise, Execute / Healing Primal.",
+      "tr": "Yadigâr eşya ya da Dövüşçü amblemiyle 1 kademe daha güçlü. 7. seviye kadrosunda Gromp yok. Vi 3, Kayacıl 3'ten daha güçlü ama Vi popüler olduğu için bulması daha zor. Eşya önceliği: Master Yi > Tank > Kog'Maw > Nidalee. Anka İlkel lütfunu sadece öndeysen al. Aksi hâlde İnfaz / İyileştirme İlkel lütfu."
+    },
+    "693849d7bc102669f1169ba13b56a9e11eadfa2e": {
+      "en": "Finish Teemo 3* and your tank then push levels for more Sprykins. Cap the board with Gnar or another 5 cost.",
+      "tr": "Teemo 3 yıldız ve tankını tamamla, sonra daha fazla Zıpırgil için seviye atlamaya bak. Kadroyu Gnar ya da başka bir 5 bedelliyle tavana (cap) çıkar."
+    },
+    "9c37620298b050edb4433f4f95d0a7512568bd73": {
+      "en": "Best with Sprykin emblem and lots of copies of Teemo early. Sacrifice a 3* unit (ideally Kobuko) to give Rek'Sai big stats. Can also tank Rammus 3 if very rich / high rolling. Kog'maw provides free Shred / Sunder.",
+      "tr": "En iyisi Zıpırgil amblemi ve erkenden bol Teemo kopyasıyla. Rek'Sai'ye büyük nitelikler kazandırmak için 3 yıldız bir birimi (ideali Kobuko) feda et. Çok zenginsen / highroll yapıyorsan tank olarak Rammus 3 de oynayabilirsin. Kog'Maw bedava Örseleme / Aşındırma sağlıyor."
+    },
+    "ae824f64afa6192b8061c58c4f517a2f31357aa0": {
+      "en": "Slam items for Yunara and play for win streak with Blossom in. Tank Yorick / Juggernaut until you find Alistar.",
+      "tr": "Yunara için eşyaları bas ve Çiçek aktifken kazanç serisi için oyna. Alistar'ı bulana kadar Yorick / Ezergeçer'i tank oyna."
+    },
+    "ee9b6a24ef62697e34de84efdede8c88809c7221": {
+      "en": "Level at 3-2 and roll for 2* upgrades then econ up. The level 6 board plays Azir + Rek'Sai until you find Sett / Ezreal. Skip Azir 2, too expensive.",
+      "tr": "3-2'de seviye atla, 2 yıldız yükseltmeler için çevir, sonra ekonomi yap. 6. seviye kadrosu, Sett / Ezreal'i bulana kadar Azir + Rek'Sai oynar. Azir 2'yi atla, çok pahalı."
+    },
+    "b310b7a4cb65110334a19071684136ed4c952aca": {
+      "en": "Finish your 3* then level for Executioners. Your biggest spike is 3 Executioner, but Kennen caps your board. Gnar is nice but not important.",
+      "tr": "3 yıldızlarını tamamla, sonra İnfazcılar için seviye atla. En büyük güç sıçraman 3 İnfazcı ama kadronu tavana (cap) çıkaran Kennen. Gnar güzel ama önemli değil."
+    },
+    "ad768b94102b29830d997747043be688d0eff699": {
+      "en": "Play when you have lots of copies of Yunara with sword items. Leftover AD on Ezreal. Can also play 3* Leblanc / Ahri 2* as an AP duo carry if you have the items for it. Play Azir + Reksai on 6 before you find Ezreal + Sett. Level for more executioners.",
+      "tr": "TEK Kılıcı eşyalarıyla birlikte bol Yunara kopyan varsa oyna. Artan AD eşyaları Ezreal'e. Eşyan varsa AP ikili taşıyıcı olarak 3 yıldız LeBlanc / 2 yıldız Ahri de oynayabilirsin. Ezreal + Sett'i bulana kadar 6'da Azir + Rek'Sai oyna. Daha fazla İnfazcı için seviye atla."
+    },
+    "9ea47b068b1a58ffe6ae62df7678c597e7451862": {
+      "en": "Alpha Mark the Elder Dragon. Strong with any augment that gives you +1 team size so you can fit in another carry.",
+      "tr": "Alfa İşareti'ni Kadim Ejderha'ya ver. +1 takım boyutu veren herhangi bir güçlendirmeyle güçlü, böylece bir taşıyıcı daha sığdırabilirsin."
+    },
+    "08298503fcff0ade5e147d3bd91a9bf80f325c69": {
+      "en": "Open with a strong win streak AD tempo around Rapidfires. All ad items are good slams besides rageblade.",
+      "tr": "Bombardımancılar etrafında güçlü, kazanç serisi veren bir AD tempo açılışı yap. Guinsoo'nun Hiddeti dışında tüm AD eşyalarını rahatça basabilirsin."
+    },
+    "d5fa8a13e73ce95b0dc60790c1d925145e9051e3": {
+      "en": "Only strong with +1 Rapidfire, play another version if you have it. Don't need much attack speed with 5 rapidfire.",
+      "tr": "Sadece +1 Bombardımancı ile güçlü; elinde varsa başka bir versiyonu oyna. 5 Bombardımancı ile fazla saldırı hızına ihtiyacın olmaz."
+    },
+    "aaa0a672348594bf1399c69e3b0c1a4727dc5d86": {
+      "en": "Level to 8 and roll for Nidalee, Sivir, and Amumu/Sentinel. Buy Hecarim on Rolldown as well if you miss taric and itemize him over 1 star 4 costs.",
+      "tr": "8. seviyeye çık ve Nidalee, Sivir ile Amumu/Gözcü için çevir. Taric'i bulamazsan paranı çevirirken Hecarim'i de al ve 1 yıldız 4 bedelliler yerine ona eşya ver."
+    },
+    "1ae920e9fd3b6a006a4caa75a027d96c4168f4c7": {
+      "en": "Just a small variation on the malphite board, play Amumu + Vanguard over Blackthorn/Brawler. Prioritize Nidalee > Sivir items. Kogmaw provides free Shred and Sunder. Max cap is drop riftbeasts for Maokai + Ashe + Kennen. Hunter emblem is incredible on Nidalee. Take tiger primal buff.",
+      "tr": "Malphite kadrosunun küçük bir varyasyonu; Karadiken/Dövüşçü yerine Amumu + Öncü oyna. Eşyalarda öncelik Nidalee > Sivir. Kog'Maw bedava Örseleme ve Aşındırma sağlıyor. Maksimum tavan (cap) için Vadi Canavarlarını bırakıp Maokai + Ashe + Kennen oyna. Nidalee'de Avcı amblemi inanılmaz. Kaplan İlkel lütfunu al."
+    },
+    "882cef225b51f19b752de1b18997922bcec091e5": {
+      "en": "Level up for More juggernauts and executioners to pair with our blossom opener.",
+      "tr": "Çiçek açılışımızla eşleşecek daha fazla Ezergeçer ve İnfazcı için seviye atla."
+    },
+    "70cd62b911e990f29d90974cb99f82b5a7c918a1": {
+      "en": "Level and roll for 6 juggernauts +Sivir. If you don't have a juggernaut emblem delay playing  Kennen until level 9 and drop the Yunara.",
+      "tr": "Seviye atla ve 6 Ezergeçer + Sivir için çevir. Ezergeçer amblemin yoksa Kennen'i 9. seviyeye kadar oynamayı ertele ve Yunara'yı bırak."
+    },
+    "aae45e23e011a5bc657658066d8fbb96f8330320": {
+      "en": "Consider this as a flex option for a Sivir board if you were playing around juggernauts in the midgame already. Forceable with Jugg +1. Very strong if you make it to juggernaut Kennen. Can Drop the hunter package entirely for Draven + Elder Dragon backline.",
+      "tr": "Oyunun ortasında zaten Ezergeçer etrafında oynuyorsan bunu Sivir kadrosu için esnek bir seçenek olarak düşün. Ezergeçer +1 ile zorlanabilir. Ezergeçer Kennen'e ulaşırsan çok güçlü. Arka hatta Draven + Kadim Ejderha için Avcı paketini tamamen bırakabilirsin."
+    },
+    "491039111da17e1b75b1a80eb0f3b4a8a67efa57": {
+      "en": "Slow roll on 7 for 3* upgrades on whatever 3 costs you're chasing. In this example, give leftover AP items to Cassio.",
+      "tr": "Peşinde olduğun 3 bedelli birimleri 3 yıldız yapmak için 7'de yavaş çevirme (slow roll) uygula. Bu örnekte artan AP eşyalarını Cassiopeia'ya ver."
+    },
+    "959b7e5a1130d96ae1ab9bf490f4c09abc8e0fdd": {
+      "en": "Ideally, Khazix gains Spellweaver > Executioner > Ravager > Rapidfire with takedowns. Can play 3rd Executioner/Lux/Ivern or another executioner before Alune. Double Hoj is bis after the buff but can play jg/deathcap instead of one of them too.",
+      "tr": "İdealde Kha'Zix alt etmelerle sırasıyla Sihirkâr > İnfazcı > Tahripkâr > Bombardımancı kazanır. Alune'dan önce 3. İnfazcı olarak Lux/Ivern ya da başka bir İnfazcı oynayabilirsin. Buff'tan sonra çift Adaletin Eli en iyi eşya (BIS) ama birinin yerine Mücevherli Eldiven/Rabadon'un Şapkası da oynayabilirsin."
+    },
+    "1cf155c3c9d492f6e93c88799532a29e8ae9e808": {
+      "en": "Core units are Aphelios + Diana + Sentinel + Mama Beak. Red Buff is BIS Aphelios but you can also play Rageblade build. Play Scuttlecrab + Rakan over Brambleback if no melee items. Can duo carry Zyra or Morgana if extra AP items. ",
+      "tr": "Çekirdek birimler: Aphelios + Diana + Gözcü + Anne Gaga. Aphelios için en iyi eşya (BIS) Kırmızı Güçlendirme ama Guinsoo'nun Hiddeti kurgusunu da oynayabilirsin. Yakın dövüş eşyan yoksa Korkabuk yerine Yampiri Yengeç + Rakan oyna. Fazladan AP eşyan varsa Zyra ya da Morgana'yı ikili taşıyıcı yapabilirsin."
+    },
+    "d16f877a4ec3c32ac189cecbc60ba91c7c0a267a": {
+      "en": "Play from a strong AD opener, preferably around Cinderling and Riftbeasts. Alpha Mark the Cinderling 2 and win streak.",
+      "tr": "Güçlü bir AD açılışından oyna, tercihen Közcük ve Vadi Canavarları etrafında. Alfa İşareti'ni Közcük 2'ye ver ve kazanç serisi yap."
+    },
+    "0249c4197e51c563f056d9ba96b40365945c9a8b": {
+      "en": "Add in more Hunters and frontline as necessary. If you high roll a very early Sivir and Vi, you can start farming items.",
+      "tr": "Gerektikçe daha fazla Avcı ve ön hat ekle. Çok erken bir Sivir ve Vi highroll'ü yakalarsan eşya biriktirmeye başlayabilirsin."
+    },
+    "f349188c44dc3c4c2a81f0ab7153e5ab337fef0e": {
+      "en": "Level to 8 and roll down for Sivir and upgraded frontline. Always play Ashe if you hit. Can also flex in 3 Blossom if you hit Sett. Go 9 once stable.",
+      "tr": "8. seviyeye çık ve Sivir ile yükseltilmiş ön hat için paranı çevir. Ashe'i bulursan her zaman oyna. Sett'i bulursan 3 Çiçek'i de esnek şekilde ekleyebilirsin. Stabil olunca 9'a çık."
+    },
+    "86ea6141dee70199b7db763fa9d659b8d05781a0": {
+      "en": "Must find a way to get to Ashe to cap the board, otherwise you fall off hard. Choose Execute Primal > Item Primal if very far ahead. Ashe is great with utility items because she has big AOE spell.",
+      "tr": "Kadroyu tavana (cap) çıkarmak için mutlaka Ashe'e ulaşmanın bir yolunu bulmalısın, yoksa sert şekilde geriye düşersin. Çok öndeysen İnfaz İlkel lütfunu Eşya İlkel lütfuna tercih et. Ashe'in geniş alan hasarlı bir yeteneği olduğu için destek eşyalarıyla harika."
+    },
+    "4053f3218fc7847038d2f297aef3c9b1da359922": {
+      "en": "Khazix gains Ravager, Spellweaver, Rapidfire, and Executioner traits with takedowns, get those traits in that order.",
+      "tr": "Kha'Zix alt etmelerle Tahripkâr, Sihirkâr, Bombardımancı ve İnfazcı özelliklerini kazanır; bu özellikleri bu sırayla al."
+    },
+    "27d0ee1bc6f0416afe2432c676c0a1d7acfba196": {
+      "en": "Play Coven throughout the game but still using strongest board, try to greed for a 250 cash-out. Spellweaver emblem on Morgana->Drop Fiddle is really strong, so is Invoker emblem on Ahri.",
+      "tr": "Oyun boyunca Cadılar Meclisi oyna ama yine de en güçlü kadronu kullan; 250'lik bir bozdurma için açgözlü oynamaya çalış. Morgana'da Sihirkâr amblemi -> Fiddlesticks'i bırakmak gerçekten güçlü, Ahri'de Manabaz amblemi de öyle."
+    },
+    "a553d691e500fcd6f370c0a8d9f6859076a9698a": {
+      "en": "Flex in more Spellweavers + frontline as you get them. You can tank all kinds of frontline: Juggernauts, Defenders, or Vanguards.",
+      "tr": "Eline geçtikçe daha fazla Sihirkâr + ön hattı esnek şekilde ekle. Her türlü ön hattı tank olarak oynayabilirsin: Ezergeçer, Savunucu ya da Öncü."
+    },
+    "ea69eb404693ec1dd126dd1d2c266ab4091f8592": {
+      "en": "Level and roll for Ahri, Zyra, and the 4 Spellweavers. Play Cassio or LeBlanc until you find Alune.",
+      "tr": "Seviye atla ve Ahri, Zyra ile 4 Sihirkâr için çevir. Alune'u bulana kadar Cassiopeia ya da LeBlanc oyna."
+    },
+    "5ae71d79cff88594e7791b8b8dfc1def68115f13": {
+      "en": "Play when you hit Zyra 2 on your Ahri rolldown instead of Morgana. Play 5 blossom on level 8 with Karma+1 then try to go 9 for the 5 costs, itemize alune 2 lategame.",
+      "tr": "Ahri için paranı çevirirken Morgana yerine Zyra 2'yi bulursan bunu oyna. 8. seviyede Karma+1 ile 5 Çiçek oyna, sonra 5 bedelliler için 9'a çıkmaya çalış; oyun sonunda Alune 2'ye eşya ver."
+    },
+    "b1ebe9d7f9057817e74a268ab266a8023daa6686": {
+      "en": "Core units are Aphelios + Diana + Sentinel + Mama Beak. This is a variation of Aphelios to play with AP items instead of melee items. Red Buff is BIS Aphelios but you can also play Rageblade build. Frontline is either Amumu+Scuttlecrab or Sett + Krug.",
+      "tr": "Çekirdek birimler: Aphelios + Diana + Gözcü + Anne Gaga. Bu, Aphelios'u yakın dövüş eşyaları yerine AP eşyalarıyla oynamak için bir varyasyon. Aphelios için en iyi eşya (BIS) Kırmızı Güçlendirme ama Guinsoo'nun Hiddeti kurgusunu da oynayabilirsin. Ön hat ya Amumu + Yampiri Yengeç ya da Sett + Kayacıl olur."
+    },
+    "2c95a6fa65faeb2f8aa2a7a5a3e7dc9645d0a9aa": {
+      "en": "Only position Ahri in Blackthorn hex when you hit 6 Blackthorn",
+      "tr": "Ahri'yi Karadiken hücresine sadece 6 Karadiken'e ulaştığında yerleştir."
+    },
+    "89c18a9a9e7be886f05dd2bd5987b0e2dabe7c2f": {
+      "en": "Level to 8 and roll for Aphelios and Ezreal, you should be stable with 7 elderwood and one of these 2 starred. Go 9 when stable for Gnar+Lux.",
+      "tr": "8. seviyeye çık ve Aphelios ile Ezreal için çevir; 7 Kadim Orman ve bunlardan biri 2 yıldızken stabil olman gerekir. Stabil olunca Gnar + Lux için 9'a çık."
+    },
+    "75245de4fee29fcf43d3f96befebdff73cc5ed7b": {
+      "en": "Comp to play with AD items and an elderwood emblem. If you hit elderwood lux with emblem you can drop Lillia for 9 Elderwood.",
+      "tr": "AD eşyaları ve bir Kadim Orman amblemiyle oynanacak bir komp. Amblemle birlikte Kadim Orman Lux'ü bulursan 9 Kadim Orman için Lillia'yı bırakabilirsin."
+    }
+  }
+}
