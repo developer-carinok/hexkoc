@@ -1,6 +1,6 @@
 {
  "schemaVersion": 1,
- "generatedAt": "2026-09-22T16:58:58Z",
+ "generatedAt": "2026-09-22T17:01:33Z",
  "source": "MetaTFT",
  "set": "TFTSet18",
  "patch": "18.2b",
@@ -273,16 +273,10 @@
     }
    ],
    "starPriority": [
-    "DA_18_Azir",
-    "DA_18_Cassiopeia",
-    "DA_18_Diana",
-    "DA_Fiddlesticks18",
-    "DA_18_Hecarim",
     "DA_18_KhaZix",
-    "DA_18_Kobuko",
-    "DA_18_Leona",
-    "DA_18_Rammus",
-    "DA_18_Rengar"
+    "DA_18_Hecarim",
+    "DA_18_Diana",
+    "DA_Fiddlesticks18"
    ],
    "coreUnits": [
     "DA_18_Hecarim",
@@ -293,7 +287,7 @@
    ],
    "tips": {
     "tr": [
-     "7. seviyede dur, 50 altının üstündeki parayla Azir, Cassiopeia, Diana, Fiddlesticks, Hecarim, Kha'Zix, Kobuko, Leona, Rammus, Rengar 3 yıldız olana kadar çevir.",
+     "7. seviyede dur, 50 altının üstündeki parayla Kha'Zix, Hecarim, Diana, Fiddlesticks 3 yıldız olana kadar çevir.",
      "Kha'Zix: Gecenin Kıyısı, Adaletin Eli, Rabadon'un Şapkası.",
      "Hecarim: Dikenli Yelek, Gargoyl Taşzırhı, Warmog'un Zırhı.",
      "Diana: İnfazcı Amblemi, Adaletin Eli, İyon Kıvılcımı.",
@@ -302,7 +296,7 @@
      "Dikkat: Ezergeçer Zyra Amumu bu kompu yeniyor."
     ],
     "en": [
-     "Stay at level 7 and roll above 50 gold until Azir, Cassiopeia, Diana, Fiddlesticks, Hecarim, Kha'Zix, Kobuko, Leona, Rammus, Rengar are 3-star.",
+     "Stay at level 7 and roll above 50 gold until Kha'Zix, Hecarim, Diana, Fiddlesticks are 3-star.",
      "Kha'Zix: Edge of Night, Hand Of Justice, Rabadon's Deathcap.",
      "Hecarim: Bramble Vest, Gargoyle Stoneplate, Warmogs Armor.",
      "Diana: Executioner Emblem, Hand Of Justice, Ionic Spark.",
@@ -669,13 +663,7 @@
      "placeChange": -0.166
     }
    ],
-   "starPriority": [
-    "DA_Karma18",
-    "DA_18_Kobuko",
-    "DA_18_Leona",
-    "DA_18_Rengar",
-    "DA_18_Veigar"
-   ],
+   "starPriority": [],
    "coreUnits": [
     "DA_Nidalee18_AP",
     "DA_18_Aphelios",
@@ -975,18 +963,11 @@
     }
    ],
    "starPriority": [
-    "DA_18_Akali_AD",
-    "DA_18_Alistar",
-    "DA_18_Camille",
-    "DA_18_Kobuko",
-    "DA_18_LeBlanc",
-    "DA_18_Leona",
     "DA_18_Ornn",
-    "DA_18_Rakan",
-    "DA_18_RekSai",
-    "DA_18_Varus",
+    "DA_18_Alistar",
+    "DA_18_LeBlanc",
     "DA_18_Veigar",
-    "DA_18_Yorick"
+    "DA_18_RekSai"
    ],
    "coreUnits": [
     "DA_18_Veigar",
@@ -997,7 +978,7 @@
    ],
    "tips": {
     "tr": [
-     "5. seviyede dur, 50 altının üstündeki parayla Akali, Alistar, Camille, Kobuko, LeBlanc, Leona, Ornn, Rakan, Rek'Sai, Varus, Veigar, Yorick 3 yıldız olana kadar çevir.",
+     "5. seviyede dur, 50 altının üstündeki parayla Ornn, Alistar, LeBlanc, Veigar … 3 yıldız olana kadar çevir.",
      "Ornn: Kraliyet Başlığı, Gargoyl Taşzırhı, Warmog'un Zırhı.",
      "Alistar: Kraliyet Başlığı, Gargoyl Taşzırhı, Warmog'un Zırhı.",
      "LeBlanc: Mavi Güçlendirme, Morellonomikon, Hiçlik Değneği.",
@@ -1006,7 +987,7 @@
      "Dikkat: Karadiken Veigar bu kompu yeniyor."
     ],
     "en": [
-     "Stay at level 5 and roll above 50 gold until Akali, Alistar, Camille, Kobuko, LeBlanc, Leona, Ornn, Rakan, Rek'Sai, Varus, Veigar, Yorick are 3-star.",
+     "Stay at level 5 and roll above 50 gold until Ornn, Alistar, LeBlanc, Veigar … are 3-star.",
      "Ornn: Crownguard, Gargoyle Stoneplate, Warmogs Armor.",
      "Alistar: Crownguard, Gargoyle Stoneplate, Warmogs Armor.",
      "LeBlanc: Blue Buff, Morellonomicon, Void Staff.",
@@ -1364,13 +1345,7 @@
      "placeChange": -0.161
     }
    ],
-   "starPriority": [
-    "DA_18_Akali_AD",
-    "DA_18_Leona",
-    "DA_18_Ornn",
-    "DA_18_Varus",
-    "DA_18_Xayah"
-   ],
+   "starPriority": [],
    "coreUnits": [
     "DA_18_Ahri",
     "DA_18_Morgana",
@@ -1760,10 +1735,7 @@
      "placeChange": -0.313
     }
    ],
-   "starPriority": [
-    "DA_18_Caitlyn",
-    "DA_18_Rengar"
-   ],
+   "starPriority": [],
    "coreUnits": [
     "DA_Vi18",
     "DA_Amumu18",
@@ -2091,13 +2063,9 @@
     }
    ],
    "starPriority": [
-    "DA_18_KhaZix",
-    "DA_18_Kobuko",
-    "DA_18_LeBlanc",
-    "DA_18_Ornn",
+    "DA_18_Veigar",
     "DA_18_RekSai",
-    "DA_18_Teemo",
-    "DA_18_Veigar"
+    "DA_18_Kobuko"
    ],
    "coreUnits": [
     "DA_18_Veigar",
@@ -2108,7 +2076,7 @@
    ],
    "tips": {
     "tr": [
-     "5. seviyede dur, 50 altının üstündeki parayla Kha'Zix, Kobuko, LeBlanc, Ornn, Rek'Sai, Teemo, Veigar 3 yıldız olana kadar çevir.",
+     "5. seviyede dur, 50 altının üstündeki parayla Veigar, Rek'Sai, Kobuko 3 yıldız olana kadar çevir.",
      "Veigar: Başmelek Asası, Mavi Güçlendirme, Hextech Silahkılıç.",
      "Malphite: Dikenli Yelek, Gargoyl Taşzırhı, Warmog'un Zırhı.",
      "Rek'Sai: İyon Kıvılcımı, Ruh Gömleği, Günateşi Pelerini.",
@@ -2117,7 +2085,7 @@
      "Dikkat: Sihirkâr Veigar bu kompu yeniyor."
     ],
     "en": [
-     "Stay at level 5 and roll above 50 gold until Kha'Zix, Kobuko, LeBlanc, Ornn, Rek'Sai, Teemo, Veigar are 3-star.",
+     "Stay at level 5 and roll above 50 gold until Veigar, Rek'Sai, Kobuko are 3-star.",
      "Veigar: Archangel's Staff, Blue Buff, Hextech Gunblade.",
      "Malphite: Bramble Vest, Gargoyle Stoneplate, Warmogs Armor.",
      "Rek'Sai: Ionic Spark, Spirit Visage, Sunfire Cape.",
@@ -2864,10 +2832,7 @@
      "placeChange": -0.134
     }
    ],
-   "starPriority": [
-    "DA_18_Rengar",
-    "DA_18_Veigar"
-   ],
+   "starPriority": [],
    "coreUnits": [
     "DA_18_Sivir",
     "DA_Vi18",
@@ -3243,10 +3208,7 @@
      "placeChange": -0.193
     }
    ],
-   "starPriority": [
-    "DA_18_Leona",
-    "DA_18_Rengar"
-   ],
+   "starPriority": [],
    "coreUnits": [
     "DA_18_Sivir",
     "DA_Amumu18",
@@ -3633,12 +3595,7 @@
      "placeChange": -0.183
     }
    ],
-   "starPriority": [
-    "DA_18_Camille",
-    "DA_Karma18",
-    "DA_18_Ornn",
-    "DA_18_Xayah"
-   ],
+   "starPriority": [],
    "coreUnits": [
     "DA_18_Sivir",
     "DA_18_Malphite",
@@ -4013,15 +3970,10 @@
     }
    ],
    "starPriority": [
-    "DA_18_Hecarim",
-    "DA_18_KhaZix",
-    "DA_KogMaw18_AD",
-    "DA_Krug18",
-    "DA_18_MasterYi_AD",
-    "DA_18_Rammus",
     "DA_18_Rengar",
-    "DA_18_Tristana",
-    "DA_Vi18"
+    "DA_18_MasterYi_AD",
+    "DA_Vi18",
+    "DA_Krug18"
    ],
    "coreUnits": [
     "DA_18_MasterYi_AD",
@@ -4032,7 +3984,7 @@
    ],
    "tips": {
     "tr": [
-     "7. seviyede dur, 50 altının üstündeki parayla Hecarim, Kha'Zix, Kog'Maw, Kayacıl, Master Yi, Rammus, Rengar, Tristana, Vi 3 yıldız olana kadar çevir.",
+     "7. seviyede dur, 50 altının üstündeki parayla Rengar, Master Yi, Vi, Kayacıl 3 yıldız olana kadar çevir.",
      "Rengar: Gecenin Kıyısı, Guinsoo'nun Hiddeti, Titanın Azmi.",
      "Master Yi: Kanasusamış, Guinsoo'nun Hiddeti, Titanın Azmi.",
      "Vi: Muhafızın Adağı, Ruh Gömleği, Warmog'un Zırhı.",
@@ -4041,7 +3993,7 @@
      "Dikkat: Çiçek Sett bu kompu yeniyor."
     ],
     "en": [
-     "Stay at level 7 and roll above 50 gold until Hecarim, Kha'Zix, Kog'Maw, Krug, Master Yi, Rammus, Rengar, Tristana, Vi are 3-star.",
+     "Stay at level 7 and roll above 50 gold until Rengar, Master Yi, Vi, Krug are 3-star.",
      "Rengar: Edge of Night, Guinsoo's Rageblade, Titan's Resolve.",
      "Master Yi: Bloodthirster, Guinsoo's Rageblade, Titan's Resolve.",
      "Vi: Protector's Vow, Spirit Visage, Warmogs Armor.",
@@ -4425,9 +4377,7 @@
      "placeChange": -0.171
     }
    ],
-   "starPriority": [
-    "DA_18_Veigar"
-   ],
+   "starPriority": [],
    "coreUnits": [
     "DA_18_Ezreal",
     "DA_18_Kennen",
@@ -4787,13 +4737,10 @@
     }
    ],
    "starPriority": [
-    "DA_18_Hecarim",
-    "DA_18_KhaZix",
-    "DA_KogMaw18_AD",
-    "DA_Krug18",
     "DA_18_MasterYi_AD",
-    "DA_18_Rammus",
-    "DA_Vi18"
+    "DA_KogMaw18_AD",
+    "DA_Vi18",
+    "DA_Krug18"
    ],
    "coreUnits": [
     "DA_KogMaw18_AD",
@@ -4804,7 +4751,7 @@
    ],
    "tips": {
     "tr": [
-     "7. seviyede dur, 50 altının üstündeki parayla Hecarim, Kha'Zix, Kog'Maw, Kayacıl, Master Yi, Rammus, Vi 3 yıldız olana kadar çevir.",
+     "7. seviyede dur, 50 altının üstündeki parayla Master Yi, Kog'Maw, Vi, Kayacıl 3 yıldız olana kadar çevir.",
      "Master Yi: Dövüşçü Amblemi, Gecenin Kıyısı, Guinsoo'nun Hiddeti.",
      "Nidalee: Gecenin Kıyısı, Adaletin Eli, Ebedi Kılıç.",
      "Kog'Maw: Rabadon'un Şapkası, Kırmızı Güçlendirme, Shojin'in Mızrağı.",
@@ -4813,7 +4760,7 @@
      "Dikkat: Ahenkli Master Yi Rengar bu kompu yeniyor."
     ],
     "en": [
-     "Stay at level 7 and roll above 50 gold until Hecarim, Kha'Zix, Kog'Maw, Krug, Master Yi, Rammus, Vi are 3-star.",
+     "Stay at level 7 and roll above 50 gold until Master Yi, Kog'Maw, Vi, Krug are 3-star.",
      "Master Yi: Brawler Emblem, Edge of Night, Guinsoo's Rageblade.",
      "Nidalee: Edge of Night, Hand Of Justice, Infinity Edge.",
      "Kog'Maw: Rabadon's Deathcap, Red Buff, Spear of Shojin.",
@@ -5171,9 +5118,7 @@
      "placeChange": -0.194
     }
    ],
-   "starPriority": [
-    "DA_18_Rengar"
-   ],
+   "starPriority": [],
    "coreUnits": [
     "DA_18_Ezreal",
     "DA_18_Sett",
@@ -5557,9 +5502,7 @@
      "placeChange": -0.214
     }
    ],
-   "starPriority": [
-    "DA_18_Rengar"
-   ],
+   "starPriority": [],
    "coreUnits": [
     "DA_Sentinel18",
     "DA_18_Sivir",
@@ -5941,13 +5884,7 @@
      "placeChange": -0.126
     }
    ],
-   "starPriority": [
-    "DA_18_Camille",
-    "DA_18_KhaZix",
-    "DA_18_Kobuko",
-    "DA_18_Leona",
-    "DA_18_Xayah"
-   ],
+   "starPriority": [],
    "coreUnits": [
     "DA_18_Malphite",
     "DA_18_Soraka",
@@ -6320,9 +6257,7 @@
      "placeChange": -0.21
     }
    ],
-   "starPriority": [
-    "DA_18_Rengar"
-   ],
+   "starPriority": [],
    "coreUnits": [
     "DA_18_Aphelios",
     "DA_Brambleback18",
@@ -6703,10 +6638,7 @@
      "placeChange": -0.201
     }
    ],
-   "starPriority": [
-    "DA_18_Leona",
-    "DA_18_Rengar"
-   ],
+   "starPriority": [],
    "coreUnits": [
     "DA_18_Aphelios",
     "DA_18_Xayah",
@@ -7468,10 +7400,7 @@
      "placeChange": -0.134
     }
    ],
-   "starPriority": [
-    "DA_18_Cassiopeia",
-    "DA_18_Veigar"
-   ],
+   "starPriority": [],
    "coreUnits": [
     "DA_18_Zyra",
     "DA_18_Yorick",
@@ -7787,11 +7716,7 @@
      "placeChange": -0.189
     }
    ],
-   "starPriority": [
-    "DA_Gromp18_AP",
-    "DA_18_KhaZix",
-    "DA_18_Veigar"
-   ],
+   "starPriority": [],
    "coreUnits": [
     "DA_18_Morgana",
     "DA_Sentinel18",
@@ -8104,12 +8029,8 @@
     }
    ],
    "starPriority": [
-    "DA_Cinderling18",
-    "DA_Gromp18_AP",
-    "DA_Krug18",
-    "DA_18_Leona",
     "DA_18_Sentry",
-    "DA_Scuttlecrab18"
+    "DA_Krug18"
    ],
    "coreUnits": [
     "DA_Krug18",
@@ -8120,7 +8041,7 @@
    ],
    "tips": {
     "tr": [
-     "5. seviyede dur, 50 altının üstündeki parayla Közcük, Gromp, Kayacıl, Leona, Çakıl, Yampiri Yengeç 3 yıldız olana kadar çevir.",
+     "5. seviyede dur, 50 altının üstündeki parayla Çakıl, Kayacıl 3 yıldız olana kadar çevir.",
      "Çakıl: Mavi Güçlendirme, Mücevherli Eldiven, Rabadon'un Şapkası.",
      "Kadim Ejderha: Ebedi Kılıç, Son Fısıltı, Hücum Gürzü.",
      "Kayacıl: Gargoyl Taşzırhı, Ruh Gömleği, Warmog'un Zırhı.",
@@ -8129,7 +8050,7 @@
      "Dikkat: Avcı Nidalee bu kompu yeniyor."
     ],
     "en": [
-     "Stay at level 5 and roll above 50 gold until Cinderling, Gromp, Krug, Leona, Pebbles, Scuttlecrab are 3-star.",
+     "Stay at level 5 and roll above 50 gold until Pebbles, Krug are 3-star.",
      "Pebbles: Blue Buff, Jeweled Gauntlet, Rabadon's Deathcap.",
      "Elder Dragon: Infinity Edge, Last Whisper, Striker's Flail.",
      "Krug: Gargoyle Stoneplate, Spirit Visage, Warmogs Armor.",
@@ -8495,10 +8416,7 @@
      "placeChange": -0.161
     }
    ],
-   "starPriority": [
-    "DA_18_Rengar",
-    "DA_18_Veigar"
-   ],
+   "starPriority": [],
    "coreUnits": [
     "DA_18_Hecarim",
     "DA_18_Alistar",
@@ -8891,9 +8809,7 @@
      "placeChange": -0.218
     }
    ],
-   "starPriority": [
-    "DA_18_Rengar"
-   ],
+   "starPriority": [],
    "coreUnits": [
     "DA_Nidalee18_AP",
     "DA_18_Sivir",
@@ -9198,17 +9114,11 @@
     }
    ],
    "starPriority": [
-    "DA_18_Akali_AD",
     "DA_18_Camille",
-    "DA_18_Elise",
-    "DA_18_Kobuko",
-    "DA_18_Leona",
     "DA_18_Ornn",
-    "DA_18_Rakan",
-    "DA_18_Shen",
+    "DA_18_Akali_AD",
     "DA_18_Varus",
-    "DA_18_Xayah",
-    "DA_18_Yorick"
+    "DA_18_Leona"
    ],
    "coreUnits": [
     "DA_18_Akali_AD",
@@ -9219,7 +9129,7 @@
    ],
    "tips": {
     "tr": [
-     "5. seviyede dur, 50 altının üstündeki parayla Akali, Camille, Elise, Kobuko, Leona, Ornn, Rakan, Shen, Varus, Xayah, Yorick 3 yıldız olana kadar çevir.",
+     "5. seviyede dur, 50 altının üstündeki parayla Camille, Ornn, Akali, Varus … 3 yıldız olana kadar çevir.",
      "Camille: Gecenin Kıyısı, Adaletin Eli, Ebedi Kılıç.",
      "Ornn: Kraliyet Başlığı, Gargoyl Taşzırhı, Warmog'un Zırhı.",
      "Akali: Gecenin Kıyısı, Adaletin Eli, Ebedi Kılıç.",
@@ -9228,7 +9138,7 @@
      "Dikkat: Bombardımancı Kayle bu kompu yeniyor."
     ],
     "en": [
-     "Stay at level 5 and roll above 50 gold until Akali, Camille, Elise, Kobuko, Leona, Ornn, Rakan, Shen, Varus, Xayah, Yorick are 3-star.",
+     "Stay at level 5 and roll above 50 gold until Camille, Ornn, Akali, Varus … are 3-star.",
      "Camille: Edge of Night, Hand Of Justice, Infinity Edge.",
      "Ornn: Crownguard, Gargoyle Stoneplate, Warmogs Armor.",
      "Akali: Edge of Night, Hand Of Justice, Infinity Edge.",
@@ -10005,9 +9915,7 @@
      "placeChange": -0.234
     }
    ],
-   "starPriority": [
-    "DA_18_KhaZix"
-   ],
+   "starPriority": [],
    "coreUnits": [
     "DA_Amumu18",
     "DA_18_Sett",
@@ -10313,8 +10221,6 @@
    ],
    "starPriority": [
     "DA_18_Caitlyn",
-    "DA_18_Elise",
-    "DA_18_Rengar",
     "DA_Scuttlecrab18",
     "DA_18_Sejuani"
    ],
@@ -10327,7 +10233,7 @@
    ],
    "tips": {
     "tr": [
-     "6. seviyede dur, 50 altının üstündeki parayla Caitlyn, Elise, Rengar, Yampiri Yengeç, Sejuani 3 yıldız olana kadar çevir.",
+     "6. seviyede dur, 50 altının üstündeki parayla Caitlyn, Yampiri Yengeç, Sejuani 3 yıldız olana kadar çevir.",
      "Caitlyn: Guinsoo'nun Hiddeti, Hextech Silahkılıç, Kraken'in Öfkesi.",
      "Sivir: Ebedi Kılıç, Son Fısıltı, Kırmızı Güçlendirme.",
      "Yampiri Yengeç: Gargoyl Taşzırhı, Ruh Gömleği, Warmog'un Zırhı.",
@@ -10336,7 +10242,7 @@
      "Dikkat: Manabaz Morgana bu kompu yeniyor."
     ],
     "en": [
-     "Stay at level 6 and roll above 50 gold until Caitlyn, Elise, Rengar, Scuttlecrab, Sejuani are 3-star.",
+     "Stay at level 6 and roll above 50 gold until Caitlyn, Scuttlecrab, Sejuani are 3-star.",
      "Caitlyn: Guinsoo's Rageblade, Hextech Gunblade, Kraken's Fury.",
      "Sivir: Infinity Edge, Last Whisper, Red Buff.",
      "Scuttlecrab: Gargoyle Stoneplate, Spirit Visage, Warmogs Armor.",
@@ -10682,9 +10588,7 @@
      "placeChange": -0.102
     }
    ],
-   "starPriority": [
-    "DA_18_Rengar"
-   ],
+   "starPriority": [],
    "coreUnits": [
     "DA_18_Sett",
     "DA_18_Ashe",
@@ -11009,15 +10913,8 @@
     }
    ],
    "starPriority": [
-    "DA_18_Alistar",
-    "DA_18_Camille",
-    "DA_18_Elise",
-    "DA_18_KhaZix",
-    "DA_18_Kobuko",
-    "DA_Murkwolf18",
-    "DA_18_Rengar",
-    "DA_Scuttlecrab18",
-    "DA_18_Warwick"
+    "DA_18_Warwick",
+    "DA_Murkwolf18"
    ],
    "coreUnits": [
     "DA_18_Warwick",
@@ -11028,7 +10925,7 @@
    ],
    "tips": {
     "tr": [
-     "6. seviyede dur, 50 altının üstündeki parayla Alistar, Camille, Elise, Kha'Zix, Kobuko, Alacakurt, Rengar, Yampiri Yengeç, Warwick 3 yıldız olana kadar çevir.",
+     "6. seviyede dur, 50 altının üstündeki parayla Warwick, Alacakurt 3 yıldız olana kadar çevir.",
      "Warwick: Shojin'in Mızrağı, Sterak'ın Güvencesi, Titanın Azmi.",
      "Malphite: Kraliyet Başlığı, Gargoyl Taşzırhı, Gargoyl Taşzırhı.",
      "Alacakurt: Karadiken Amblemi, Gecenin Kıyısı, Adaletin Eli.",
@@ -11037,7 +10934,7 @@
      "Dikkat: Ahenkli Master Yi Rengar bu kompu yeniyor."
     ],
     "en": [
-     "Stay at level 6 and roll above 50 gold until Alistar, Camille, Elise, Kha'Zix, Kobuko, Murkwolf, Rengar, Scuttlecrab, Warwick are 3-star.",
+     "Stay at level 6 and roll above 50 gold until Warwick, Murkwolf are 3-star.",
      "Warwick: Spear of Shojin, Sterak's Gage, Titan's Resolve.",
      "Malphite: Crownguard, Gargoyle Stoneplate, Gargoyle Stoneplate.",
      "Murkwolf: Blackthorn Emblem, Edge of Night, Hand Of Justice.",
@@ -11346,15 +11243,7 @@
      "placeChange": -0.181
     }
    ],
-   "starPriority": [
-    "DA_18_Camille",
-    "DA_18_Elise",
-    "DA_18_Hecarim",
-    "DA_18_KhaZix",
-    "DA_Krug18",
-    "DA_18_MasterYi_AD",
-    "DA_18_Rengar"
-   ],
+   "starPriority": [],
    "coreUnits": [
     "DA_Brambleback18",
     "DA_18_Diana",
@@ -11699,11 +11588,8 @@
    ],
    "starPriority": [
     "DA_18_Cassiopeia",
-    "DA_Fiddlesticks18",
-    "DA_18_KhaZix",
-    "DA_18_MasterYi_AD",
     "DA_18_Rammus",
-    "DA_18_Rengar"
+    "DA_Fiddlesticks18"
    ],
    "coreUnits": [
     "DA_Fiddlesticks18",
@@ -11714,7 +11600,7 @@
    ],
    "tips": {
     "tr": [
-     "7. seviyede dur, 50 altının üstündeki parayla Cassiopeia, Fiddlesticks, Kha'Zix, Master Yi, Rammus, Rengar 3 yıldız olana kadar çevir.",
+     "7. seviyede dur, 50 altının üstündeki parayla Cassiopeia, Rammus, Fiddlesticks 3 yıldız olana kadar çevir.",
      "Cassiopeia: Başmelek Asası, Hextech Silahkılıç, Shojin'in Mızrağı.",
      "Rammus: Ejder Pençesi, Ruh Gömleği, Warmog'un Zırhı.",
      "Fiddlesticks: İyon Kıvılcımı, Ruh Gömleği, Günateşi Pelerini.",
@@ -11723,7 +11609,7 @@
      "Dikkat: Manabaz Teemo bu kompu yeniyor."
     ],
     "en": [
-     "Stay at level 7 and roll above 50 gold until Cassiopeia, Fiddlesticks, Kha'Zix, Master Yi, Rammus, Rengar are 3-star.",
+     "Stay at level 7 and roll above 50 gold until Cassiopeia, Rammus, Fiddlesticks are 3-star.",
      "Cassiopeia: Archangel's Staff, Hextech Gunblade, Spear of Shojin.",
      "Rammus: Dragon's Claw, Spirit Visage, Warmogs Armor.",
      "Fiddlesticks: Ionic Spark, Spirit Visage, Sunfire Cape.",
@@ -12078,11 +11964,8 @@
    "starPriority": [
     "DA_18_Kayle",
     "DA_18_Leona",
-    "DA_18_Ornn",
-    "DA_18_Rakan",
     "DA_18_Sejuani",
-    "DA_18_Shen",
-    "DA_18_Xayah"
+    "DA_18_Shen"
    ],
    "coreUnits": [
     "DA_18_Leona",
@@ -12475,9 +12358,7 @@
      "placeChange": -0.238
     }
    ],
-   "starPriority": [
-    "DA_18_Rengar"
-   ],
+   "starPriority": [],
    "coreUnits": [
     "DA_18_Aphelios",
     "DA_18_Diana",
@@ -12754,13 +12635,10 @@
     }
    ],
    "starPriority": [
-    "DA_18_Diana",
-    "DA_18_Hecarim",
-    "DA_18_KhaZix",
-    "DA_CrimsonRaptor18",
-    "DA_18_Rammus",
     "DA_18_Rengar",
-    "DA_18_Tristana"
+    "DA_18_KhaZix",
+    "DA_18_Hecarim",
+    "DA_18_Diana"
    ],
    "coreUnits": [
     "DA_18_Diana",
@@ -12771,7 +12649,7 @@
    ],
    "tips": {
     "tr": [
-     "7. seviyede dur, 50 altının üstündeki parayla Diana, Hecarim, Kha'Zix, Anne Gaga, Rammus, Rengar, Tristana 3 yıldız olana kadar çevir.",
+     "7. seviyede dur, 50 altının üstündeki parayla Rengar, Kha'Zix, Hecarim, Diana 3 yıldız olana kadar çevir.",
      "Rengar: Gecenin Kıyısı, Guinsoo'nun Hiddeti, Titanın Azmi.",
      "Kha'Zix: Gecenin Kıyısı, Adaletin Eli, Rabadon'un Şapkası.",
      "Hecarim: Denge Örtüsü, Gargoyl Taşzırhı, Kararlı Yürek.",
@@ -12780,7 +12658,7 @@
      "Dikkat: Manabaz Teemo bu kompu yeniyor."
     ],
     "en": [
-     "Stay at level 7 and roll above 50 gold until Diana, Hecarim, Kha'Zix, Mama Beak, Rammus, Rengar, Tristana are 3-star.",
+     "Stay at level 7 and roll above 50 gold until Rengar, Kha'Zix, Hecarim, Diana are 3-star.",
      "Rengar: Edge of Night, Guinsoo's Rageblade, Titan's Resolve.",
      "Kha'Zix: Edge of Night, Hand Of Justice, Rabadon's Deathcap.",
      "Hecarim: Evenshroud, Gargoyle Stoneplate, Steadfast Heart.",
@@ -13067,14 +12945,8 @@
     }
    ],
    "starPriority": [
-    "DA_18_Elise",
-    "DA_18_Hecarim",
-    "DA_18_KhaZix",
-    "DA_CrimsonRaptor18",
-    "DA_18_MasterYi_AD",
-    "DA_18_Rammus",
-    "DA_18_Rengar",
     "DA_18_Tristana",
+    "DA_18_Rammus",
     "DA_Vi18"
    ],
    "coreUnits": [
@@ -13086,7 +12958,7 @@
    ],
    "tips": {
     "tr": [
-     "7. seviyede dur, 50 altının üstündeki parayla Elise, Hecarim, Kha'Zix, Anne Gaga, Master Yi, Rammus, Rengar, Tristana, Vi 3 yıldız olana kadar çevir.",
+     "7. seviyede dur, 50 altının üstündeki parayla Tristana, Rammus, Vi 3 yıldız olana kadar çevir.",
      "Tristana: Guinsoo'nun Hiddeti, Adaletin Eli, Ebedi Kılıç.",
      "Rammus: Dövüşçü Amblemi, Gargoyl Taşzırhı, Ruh Gömleği.",
      "Sivir: Fey Amblemi, Son Fısıltı, Kırmızı Güçlendirme.",
@@ -13095,7 +12967,7 @@
      "Dikkat: Fey Tristana Lillia bu kompu yeniyor."
     ],
     "en": [
-     "Stay at level 7 and roll above 50 gold until Elise, Hecarim, Kha'Zix, Mama Beak, Master Yi, Rammus, Rengar, Tristana, Vi are 3-star.",
+     "Stay at level 7 and roll above 50 gold until Tristana, Rammus, Vi are 3-star.",
      "Tristana: Guinsoo's Rageblade, Hand Of Justice, Infinity Edge.",
      "Rammus: Brawler Emblem, Gargoyle Stoneplate, Spirit Visage.",
      "Sivir: Fae Emblem, Last Whisper, Red Buff.",
@@ -13370,14 +13242,8 @@
    ],
    "starPriority": [
     "DA_18_Azir",
-    "DA_18_Cassiopeia",
-    "DA_18_Hecarim",
-    "DA_18_KhaZix",
-    "DA_Krug18",
-    "DA_CrimsonRaptor18",
-    "DA_18_MasterYi_AD",
-    "DA_18_Rengar",
-    "DA_Vi18"
+    "DA_Vi18",
+    "DA_18_KhaZix"
    ],
    "coreUnits": [
     "DA_18_Azir",
@@ -13388,7 +13254,7 @@
    ],
    "tips": {
     "tr": [
-     "7. seviyede dur, 50 altının üstündeki parayla Azir, Cassiopeia, Hecarim, Kha'Zix, Kayacıl, Anne Gaga, Master Yi, Rengar, Vi 3 yıldız olana kadar çevir.",
+     "7. seviyede dur, 50 altının üstündeki parayla Azir, Vi, Kha'Zix 3 yıldız olana kadar çevir.",
      "Azir: Hextech Silahkılıç, Rabadon'un Şapkası, Rabadon'un Şapkası.",
      "Vi: Gargoyl Taşzırhı, Gargoyl Taşzırhı, Warmog'un Zırhı.",
      "Sett: Kraliyet Başlığı, Gargoyl Taşzırhı, Warmog'un Zırhı.",
@@ -13397,7 +13263,7 @@
      "Dikkat: İnfazcı Malphite bu kompu yeniyor."
     ],
     "en": [
-     "Stay at level 7 and roll above 50 gold until Azir, Cassiopeia, Hecarim, Kha'Zix, Krug, Mama Beak, Master Yi, Rengar, Vi are 3-star.",
+     "Stay at level 7 and roll above 50 gold until Azir, Vi, Kha'Zix are 3-star.",
      "Azir: Hextech Gunblade, Rabadon's Deathcap, Rabadon's Deathcap.",
      "Vi: Gargoyle Stoneplate, Gargoyle Stoneplate, Warmogs Armor.",
      "Sett: Crownguard, Gargoyle Stoneplate, Warmogs Armor.",
@@ -13775,11 +13641,8 @@
    ],
    "starPriority": [
     "DA_18_Alistar",
-    "DA_Karma18",
-    "DA_18_KhaZix",
-    "DA_18_LeBlanc",
-    "DA_18_Ornn",
-    "DA_18_Yunara"
+    "DA_18_Yunara",
+    "DA_18_LeBlanc"
    ],
    "coreUnits": [
     "DA_18_Yunara",
@@ -13790,7 +13653,7 @@
    ],
    "tips": {
     "tr": [
-     "6. seviyede dur, 50 altının üstündeki parayla Alistar, Karma, Kha'Zix, LeBlanc, Ornn, Yunara 3 yıldız olana kadar çevir.",
+     "6. seviyede dur, 50 altının üstündeki parayla Alistar, Yunara, LeBlanc 3 yıldız olana kadar çevir.",
      "Alistar: Gargoyl Taşzırhı, Gargoyl Taşzırhı, Muhafızın Adağı.",
      "Yunara: Mavi Güçlendirme, Ölüm Kılıcı, Son Fısıltı.",
      "Ezreal: Ölüm Kılıcı, Son Fısıltı, Shojin'in Mızrağı.",
@@ -13799,7 +13662,7 @@
      "Dikkat: Ahenkli Master Yi Rengar bu kompu yeniyor."
     ],
     "en": [
-     "Stay at level 6 and roll above 50 gold until Alistar, Karma, Kha'Zix, LeBlanc, Ornn, Yunara are 3-star.",
+     "Stay at level 6 and roll above 50 gold until Alistar, Yunara, LeBlanc are 3-star.",
      "Alistar: Gargoyle Stoneplate, Gargoyle Stoneplate, Protector's Vow.",
      "Yunara: Blue Buff, Deathblade, Last Whisper.",
      "Ezreal: Deathblade, Last Whisper, Spear of Shojin.",
@@ -14166,9 +14029,7 @@
      "placeChange": -0.122
     }
    ],
-   "starPriority": [
-    "DA_18_KhaZix"
-   ],
+   "starPriority": [],
    "coreUnits": [
     "DA_18_Shen",
     "DA_Amumu18",
@@ -14963,9 +14824,7 @@
      "placeChange": -0.136
     }
    ],
-   "starPriority": [
-    "DA_18_KhaZix"
-   ],
+   "starPriority": [],
    "coreUnits": [
     "DA_18_Yorick",
     "DA_18_Ahri",
@@ -15283,14 +15142,10 @@
     }
    ],
    "starPriority": [
-    "DA_Karma18",
-    "DA_18_Kobuko",
-    "DA_18_LeBlanc",
-    "DA_18_Leona",
-    "DA_18_Ornn",
+    "DA_18_Veigar",
     "DA_18_RekSai",
     "DA_18_Teemo",
-    "DA_18_Veigar"
+    "DA_18_Kobuko"
    ],
    "coreUnits": [
     "DA_18_Veigar",
@@ -15301,7 +15156,7 @@
    ],
    "tips": {
     "tr": [
-     "5. seviyede dur, 50 altının üstündeki parayla Karma, Kobuko, LeBlanc, Leona, Ornn, Rek'Sai, Teemo, Veigar 3 yıldız olana kadar çevir.",
+     "5. seviyede dur, 50 altının üstündeki parayla Veigar, Rek'Sai, Teemo, Kobuko 3 yıldız olana kadar çevir.",
      "Veigar: Flora Fatalis Amblemi, Mavi Güçlendirme, Hextech Silahkılıç.",
      "Rek'Sai: Gargoyl Taşzırhı, Ruh Gömleği, Warmog'un Zırhı.",
      "Teemo: Morellonomikon, Shojin'in Mızrağı, Hiçlik Değneği.",
@@ -15310,7 +15165,7 @@
      "Dikkat: Karadiken Veigar bu kompu yeniyor."
     ],
     "en": [
-     "Stay at level 5 and roll above 50 gold until Karma, Kobuko, LeBlanc, Leona, Ornn, Rek'Sai, Teemo, Veigar are 3-star.",
+     "Stay at level 5 and roll above 50 gold until Veigar, Rek'Sai, Teemo, Kobuko are 3-star.",
      "Veigar: Flora Fatalis Emblem, Blue Buff, Hextech Gunblade.",
      "Rek'Sai: Gargoyle Stoneplate, Spirit Visage, Warmogs Armor.",
      "Teemo: Morellonomicon, Spear of Shojin, Void Staff.",
@@ -15581,17 +15436,12 @@
     }
    ],
    "starPriority": [
-    "DA_18_Alistar",
-    "DA_Karma18",
-    "DA_18_KhaZix",
-    "DA_18_LeBlanc",
-    "DA_18_Leona",
-    "DA_18_Ornn",
-    "DA_18_Rakan",
-    "DA_Scuttlecrab18",
     "DA_18_Sejuani",
+    "DA_18_Yunara",
+    "DA_18_LeBlanc",
     "DA_18_Yorick",
-    "DA_18_Yunara"
+    "DA_Karma18",
+    "DA_18_Leona"
    ],
    "coreUnits": [
     "DA_18_Yorick",
@@ -15602,7 +15452,7 @@
    ],
    "tips": {
     "tr": [
-     "6. seviyede dur, 50 altının üstündeki parayla Alistar, Karma, Kha'Zix, LeBlanc, Leona, Ornn, Rakan, Yampiri Yengeç, Sejuani, Yorick, Yunara 3 yıldız olana kadar çevir.",
+     "6. seviyede dur, 50 altının üstündeki parayla Sejuani, Yunara, LeBlanc, Yorick … 3 yıldız olana kadar çevir.",
      "Sejuani: Dikenli Yelek, Gargoyl Taşzırhı, Warmog'un Zırhı.",
      "Yunara: Ölüm Kılıcı, Son Fısıltı, Shojin'in Mızrağı.",
      "LeBlanc: Mücevherli Eldiven, Shojin'in Mızrağı, Hücum Gürzü.",
@@ -15611,7 +15461,7 @@
      "Dikkat: İnfazcı Yunara bu kompu yeniyor."
     ],
     "en": [
-     "Stay at level 6 and roll above 50 gold until Alistar, Karma, Kha'Zix, LeBlanc, Leona, Ornn, Rakan, Scuttlecrab, Sejuani, Yorick, Yunara are 3-star.",
+     "Stay at level 6 and roll above 50 gold until Sejuani, Yunara, LeBlanc, Yorick … are 3-star.",
      "Sejuani: Bramble Vest, Gargoyle Stoneplate, Warmogs Armor.",
      "Yunara: Deathblade, Last Whisper, Spear of Shojin.",
      "LeBlanc: Jeweled Gauntlet, Spear of Shojin, Striker's Flail.",
@@ -15923,12 +15773,10 @@
     }
    ],
    "starPriority": [
+    "DA_18_Teemo",
+    "DA_18_LeBlanc",
     "DA_18_Alistar",
     "DA_18_Kobuko",
-    "DA_18_LeBlanc",
-    "DA_18_Ornn",
-    "DA_18_RekSai",
-    "DA_18_Teemo",
     "DA_18_Veigar"
    ],
    "coreUnits": [
@@ -15940,7 +15788,7 @@
    ],
    "tips": {
     "tr": [
-     "6. seviyede dur, 50 altının üstündeki parayla Alistar, Kobuko, LeBlanc, Ornn, Rek'Sai, Teemo, Veigar 3 yıldız olana kadar çevir.",
+     "6. seviyede dur, 50 altının üstündeki parayla Teemo, LeBlanc, Alistar, Kobuko … 3 yıldız olana kadar çevir.",
      "Teemo: Rabadon'un Şapkası, Rabadon'un Şapkası, Shojin'in Mızrağı.",
      "LeBlanc: Manabaz Amblemi, Mücevherli Eldiven, Shojin'in Mızrağı.",
      "Alistar: Kraliyet Başlığı, Gargoyl Taşzırhı, Gargoyl Taşzırhı.",
@@ -15949,7 +15797,7 @@
      "Dikkat: Avcı Nidalee Sivir bu kompu yeniyor."
     ],
     "en": [
-     "Stay at level 6 and roll above 50 gold until Alistar, Kobuko, LeBlanc, Ornn, Rek'Sai, Teemo, Veigar are 3-star.",
+     "Stay at level 6 and roll above 50 gold until Teemo, LeBlanc, Alistar, Kobuko … are 3-star.",
      "Teemo: Rabadon's Deathcap, Rabadon's Deathcap, Spear of Shojin.",
      "LeBlanc: Invoker Emblem, Jeweled Gauntlet, Spear of Shojin.",
      "Alistar: Crownguard, Gargoyle Stoneplate, Gargoyle Stoneplate.",
@@ -16223,10 +16071,9 @@
     }
    ],
    "starPriority": [
-    "DA_18_Azir",
     "DA_18_KhaZix",
-    "DA_Krug18",
-    "DA_18_Rengar"
+    "DA_18_Azir",
+    "DA_Krug18"
    ],
    "coreUnits": [
     "DA_18_Azir",
@@ -16237,7 +16084,7 @@
    ],
    "tips": {
     "tr": [
-     "7. seviyede dur, 50 altının üstündeki parayla Azir, Kha'Zix, Kayacıl, Rengar 3 yıldız olana kadar çevir.",
+     "7. seviyede dur, 50 altının üstündeki parayla Kha'Zix, Azir, Kayacıl 3 yıldız olana kadar çevir.",
      "Malphite: Kraliyet Başlığı, Gargoyl Taşzırhı, Warmog'un Zırhı.",
      "Kha'Zix: Karadiken Amblemi, Kanasusamış, Adaletin Eli.",
      "Azir: Guinsoo'nun Hiddeti, Hextech Silahkılıç, Rabadon'un Şapkası.",
@@ -16246,7 +16093,7 @@
      "Dikkat: Karadiken Veigar bu kompu yeniyor."
     ],
     "en": [
-     "Stay at level 7 and roll above 50 gold until Azir, Kha'Zix, Krug, Rengar are 3-star.",
+     "Stay at level 7 and roll above 50 gold until Kha'Zix, Azir, Krug are 3-star.",
      "Malphite: Crownguard, Gargoyle Stoneplate, Warmogs Armor.",
      "Kha'Zix: Blackthorn Emblem, Bloodthirster, Hand Of Justice.",
      "Azir: Guinsoo's Rageblade, Hextech Gunblade, Rabadon's Deathcap.",
@@ -16576,13 +16423,8 @@
     }
    ],
    "starPriority": [
-    "DA_18_Caitlyn",
-    "DA_18_Cassiopeia",
     "DA_18_Elise",
-    "DA_18_KhaZix",
-    "DA_Murkwolf18",
-    "DA_18_Rengar",
-    "DA_18_Warwick"
+    "DA_Murkwolf18"
    ],
    "coreUnits": [
     "DA_18_Elise",
@@ -16593,7 +16435,7 @@
    ],
    "tips": {
     "tr": [
-     "6. seviyede dur, 50 altının üstündeki parayla Caitlyn, Cassiopeia, Elise, Kha'Zix, Alacakurt, Rengar, Warwick 3 yıldız olana kadar çevir.",
+     "6. seviyede dur, 50 altının üstündeki parayla Elise, Alacakurt 3 yıldız olana kadar çevir.",
      "Elise: Tahripkâr Amblemi, Guinsoo'nun Hiddeti, Titanın Azmi.",
      "Diana: Adaletin Eli, İyon Kıvılcımı, Mücevherli Eldiven.",
      "Alacakurt: Gecenin Kıyısı, Adaletin Eli, Ebedi Kılıç.",
@@ -16602,7 +16444,7 @@
      "Dikkat: Manabaz Teemo bu kompu yeniyor."
     ],
     "en": [
-     "Stay at level 6 and roll above 50 gold until Caitlyn, Cassiopeia, Elise, Kha'Zix, Murkwolf, Rengar, Warwick are 3-star.",
+     "Stay at level 6 and roll above 50 gold until Elise, Murkwolf are 3-star.",
      "Elise: Ravager Emblem, Guinsoo's Rageblade, Titan's Resolve.",
      "Diana: Hand Of Justice, Ionic Spark, Jeweled Gauntlet.",
      "Murkwolf: Edge of Night, Hand Of Justice, Infinity Edge.",
@@ -16909,9 +16751,9 @@
     }
    ],
    "starPriority": [
-    "DA_18_Hecarim",
     "DA_KogMaw18_AD",
     "DA_Krug18",
+    "DA_18_Hecarim",
     "DA_18_Teemo"
    ],
    "coreUnits": [
@@ -16923,7 +16765,7 @@
    ],
    "tips": {
     "tr": [
-     "7. seviyede dur, 50 altının üstündeki parayla Hecarim, Kog'Maw, Kayacıl, Teemo 3 yıldız olana kadar çevir.",
+     "7. seviyede dur, 50 altının üstündeki parayla Kog'Maw, Kayacıl, Hecarim, Teemo 3 yıldız olana kadar çevir.",
      "Morgana: Hextech Silahkılıç, Morellonomikon, Hiçlik Değneği.",
      "Kog'Maw: Dev Katili, Ebedi Kılıç, Shojin'in Mızrağı.",
      "Gözcü: Gargoyl Taşzırhı, Muhafızın Adağı, Muhafızın Adağı.",
@@ -16932,7 +16774,7 @@
      "Dikkat: Avcı Nidalee Sivir bu kompu yeniyor."
     ],
     "en": [
-     "Stay at level 7 and roll above 50 gold until Hecarim, Kog'Maw, Krug, Teemo are 3-star.",
+     "Stay at level 7 and roll above 50 gold until Kog'Maw, Krug, Hecarim, Teemo are 3-star.",
      "Morgana: Hextech Gunblade, Morellonomicon, Void Staff.",
      "Kog'Maw: Giant Slayer, Infinity Edge, Spear of Shojin.",
      "Sentinel: Gargoyle Stoneplate, Protector's Vow, Protector's Vow.",
@@ -17245,9 +17087,7 @@
     }
    ],
    "starPriority": [
-    "DA_Gromp18_AP",
-    "DA_18_KhaZix",
-    "DA_18_Rengar"
+    "DA_Gromp18_AP"
    ],
    "coreUnits": [
     "DA_Nidalee18_AP",
@@ -17600,23 +17440,12 @@
     }
    ],
    "starPriority": [
-    "DA_18_Akali_AD",
-    "DA_18_Alistar",
-    "DA_18_Elise",
-    "DA_Karma18",
-    "DA_18_Kayle",
-    "DA_18_Kobuko",
-    "DA_18_LeBlanc",
-    "DA_18_Leona",
-    "DA_18_Ornn",
-    "DA_18_Rakan",
-    "DA_18_RekSai",
-    "DA_18_Sejuani",
-    "DA_18_Shen",
-    "DA_18_Varus",
-    "DA_18_Veigar",
     "DA_18_Xayah",
-    "DA_18_Yorick"
+    "DA_18_Kayle",
+    "DA_18_Ornn",
+    "DA_18_Sejuani",
+    "DA_18_Leona",
+    "DA_18_Rakan"
    ],
    "coreUnits": [
     "DA_18_Xayah",
@@ -17627,7 +17456,7 @@
    ],
    "tips": {
     "tr": [
-     "6. seviyede dur, 50 altının üstündeki parayla Akali, Alistar, Elise, Karma, Kayle, Kobuko, LeBlanc, Leona, Ornn, Rakan, Rek'Sai, Sejuani, Shen, Varus, Veigar, Xayah, Yorick 3 yıldız olana kadar çevir.",
+     "6. seviyede dur, 50 altının üstündeki parayla Xayah, Kayle, Ornn, Sejuani … 3 yıldız olana kadar çevir.",
      "Xayah: Dev Katili, Ebedi Kılıç, Kraken'in Öfkesi.",
      "Kayle: Guinsoo'nun Hiddeti, Mücevherli Eldiven, Rabadon'un Şapkası.",
      "Ornn: Dikenli Yelek, Gargoyl Taşzırhı, Ruh Gömleği.",
@@ -17636,7 +17465,7 @@
      "Dikkat: Ay Aphelios Kayle bu kompu yeniyor."
     ],
     "en": [
-     "Stay at level 6 and roll above 50 gold until Akali, Alistar, Elise, Karma, Kayle, Kobuko, LeBlanc, Leona, Ornn, Rakan, Rek'Sai, Sejuani, Shen, Varus, Veigar, Xayah, Yorick are 3-star.",
+     "Stay at level 6 and roll above 50 gold until Xayah, Kayle, Ornn, Sejuani … are 3-star.",
      "Xayah: Giant Slayer, Infinity Edge, Kraken's Fury.",
      "Kayle: Guinsoo's Rageblade, Jeweled Gauntlet, Rabadon's Deathcap.",
      "Ornn: Bramble Vest, Gargoyle Stoneplate, Spirit Visage.",
@@ -18012,9 +17841,7 @@
      "placeChange": -0.186
     }
    ],
-   "starPriority": [
-    "DA_18_Rengar"
-   ],
+   "starPriority": [],
    "coreUnits": [
     "DA_18_Aphelios",
     "DA_18_Diana",
@@ -18437,10 +18264,7 @@
      "placeChange": -0.242
     }
    ],
-   "starPriority": [
-    "DA_18_KhaZix",
-    "DA_18_Rengar"
-   ],
+   "starPriority": [],
    "coreUnits": [
     "DA_18_Soraka",
     "DA_Fiddlesticks18",
@@ -18748,9 +18572,8 @@
     }
    ],
    "starPriority": [
-    "DA_18_Cassiopeia",
     "DA_18_Elise",
-    "DA_18_KhaZix"
+    "DA_18_Cassiopeia"
    ],
    "coreUnits": [
     "DA_18_Elise",
@@ -18761,7 +18584,7 @@
    ],
    "tips": {
     "tr": [
-     "6. seviyede dur, 50 altının üstündeki parayla Cassiopeia, Elise, Kha'Zix 3 yıldız olana kadar çevir.",
+     "6. seviyede dur, 50 altının üstündeki parayla Elise, Cassiopeia 3 yıldız olana kadar çevir.",
      "Elise: Gargoyl Taşzırhı, Guinsoo'nun Hiddeti, Titanın Azmi.",
      "Cassiopeia: Başmelek Asası, Hextech Silahkılıç, Shojin'in Mızrağı.",
      "Morgana: Değişken Miğfer, Morellonomikon, Hiçlik Değneği.",
@@ -18770,7 +18593,7 @@
      "Dikkat: Manabaz Morgana bu kompu yeniyor."
     ],
     "en": [
-     "Stay at level 6 and roll above 50 gold until Cassiopeia, Elise, Kha'Zix are 3-star.",
+     "Stay at level 6 and roll above 50 gold until Elise, Cassiopeia are 3-star.",
      "Elise: Gargoyle Stoneplate, Guinsoo's Rageblade, Titan's Resolve.",
      "Cassiopeia: Archangel's Staff, Hextech Gunblade, Spear of Shojin.",
      "Morgana: Adaptive Helm, Morellonomicon, Void Staff.",
@@ -19057,9 +18880,8 @@
     }
    ],
    "starPriority": [
-    "DA_18_Rammus",
-    "DA_18_Rengar",
     "DA_18_Teemo",
+    "DA_18_Rammus",
     "DA_18_Tristana"
    ],
    "coreUnits": [
@@ -19071,7 +18893,7 @@
    ],
    "tips": {
     "tr": [
-     "6. seviyede dur, 50 altının üstündeki parayla Rammus, Rengar, Teemo, Tristana 3 yıldız olana kadar çevir.",
+     "6. seviyede dur, 50 altının üstündeki parayla Teemo, Rammus, Tristana 3 yıldız olana kadar çevir.",
      "Teemo: Mavi Güçlendirme, Mücevherli Eldiven, Rabadon'un Şapkası.",
      "Rammus: Kraliyet Başlığı, Gargoyl Taşzırhı, Warmog'un Zırhı.",
      "Tristana: Ölüm Kılıcı, Guinsoo'nun Hiddeti, Kraken'in Öfkesi.",
@@ -19080,7 +18902,7 @@
      "Dikkat: Manabaz Kog'Maw bu kompu yeniyor."
     ],
     "en": [
-     "Stay at level 6 and roll above 50 gold until Rammus, Rengar, Teemo, Tristana are 3-star.",
+     "Stay at level 6 and roll above 50 gold until Teemo, Rammus, Tristana are 3-star.",
      "Teemo: Blue Buff, Jeweled Gauntlet, Rabadon's Deathcap.",
      "Rammus: Crownguard, Gargoyle Stoneplate, Warmogs Armor.",
      "Tristana: Deathblade, Guinsoo's Rageblade, Kraken's Fury.",
@@ -19411,18 +19233,13 @@
     }
    ],
    "starPriority": [
-    "DA_18_Akali_AD",
-    "DA_18_Camille",
     "DA_18_Kayle",
-    "DA_18_Leona",
-    "DA_18_Ornn",
-    "DA_18_Rakan",
-    "DA_Scuttlecrab18",
     "DA_18_Sejuani",
-    "DA_18_Shen",
     "DA_18_Varus",
-    "DA_18_Xayah",
-    "DA_18_Yorick"
+    "DA_18_Leona",
+    "DA_18_Shen",
+    "DA_18_Akali_AD",
+    "DA_18_Camille"
    ],
    "coreUnits": [
     "DA_18_Leona",
@@ -19433,7 +19250,7 @@
    ],
    "tips": {
     "tr": [
-     "6. seviyede dur, 50 altının üstündeki parayla Akali, Camille, Kayle, Leona, Ornn, Rakan, Yampiri Yengeç, Sejuani, Shen, Varus, Xayah, Yorick 3 yıldız olana kadar çevir.",
+     "6. seviyede dur, 50 altının üstündeki parayla Kayle, Sejuani, Varus, Leona … 3 yıldız olana kadar çevir.",
      "Kayle: Dev Katili, Guinsoo'nun Hiddeti, Rabadon'un Şapkası.",
      "Sejuani: Gargoyl Taşzırhı, Muhafızın Adağı, Warmog'un Zırhı.",
      "Varus: Ölüm Kılıcı, Ebedi Kılıç, Shojin'in Mızrağı.",
@@ -19442,7 +19259,7 @@
      "Dikkat: Ay Aphelios Kayle bu kompu yeniyor."
     ],
     "en": [
-     "Stay at level 6 and roll above 50 gold until Akali, Camille, Kayle, Leona, Ornn, Rakan, Scuttlecrab, Sejuani, Shen, Varus, Xayah, Yorick are 3-star.",
+     "Stay at level 6 and roll above 50 gold until Kayle, Sejuani, Varus, Leona … are 3-star.",
      "Kayle: Giant Slayer, Guinsoo's Rageblade, Rabadon's Deathcap.",
      "Sejuani: Gargoyle Stoneplate, Protector's Vow, Warmogs Armor.",
      "Varus: Deathblade, Infinity Edge, Spear of Shojin.",
@@ -19730,10 +19547,8 @@
     }
    ],
    "starPriority": [
-    "DA_18_Cassiopeia",
     "DA_18_KhaZix",
-    "DA_18_Rammus",
-    "DA_18_Rengar"
+    "DA_18_Rammus"
    ],
    "coreUnits": [
     "DA_18_KhaZix",
@@ -19744,7 +19559,7 @@
    ],
    "tips": {
     "tr": [
-     "7. seviyede dur, 50 altının üstündeki parayla Cassiopeia, Kha'Zix, Rammus, Rengar 3 yıldız olana kadar çevir.",
+     "7. seviyede dur, 50 altının üstündeki parayla Kha'Zix, Rammus 3 yıldız olana kadar çevir.",
      "Kha'Zix: Kanasusamış, Gecenin Kıyısı, Rabadon'un Şapkası.",
      "Fiddlesticks: Gargoyl Taşzırhı, Ruh Gömleği, Günateşi Pelerini.",
      "Oyuncular genelde 5-5'te 9. seviyeye çıkıyor.",
@@ -19752,7 +19567,7 @@
      "Dikkat: Karadiken Veigar bu kompu yeniyor."
     ],
     "en": [
-     "Stay at level 7 and roll above 50 gold until Cassiopeia, Kha'Zix, Rammus, Rengar are 3-star.",
+     "Stay at level 7 and roll above 50 gold until Kha'Zix, Rammus are 3-star.",
      "Kha'Zix: Bloodthirster, Edge of Night, Rabadon's Deathcap.",
      "Fiddlesticks: Gargoyle Stoneplate, Spirit Visage, Sunfire Cape.",
      "Players usually reach level 9 on 5-5.",
@@ -20403,12 +20218,9 @@
     }
    ],
    "starPriority": [
-    "DA_18_Caitlyn",
-    "DA_18_Elise",
-    "DA_18_Ornn",
+    "DA_18_Xayah",
     "DA_18_Rakan",
-    "DA_18_Rengar",
-    "DA_18_Xayah"
+    "DA_18_Ornn"
    ],
    "coreUnits": [
     "DA_18_Rakan",

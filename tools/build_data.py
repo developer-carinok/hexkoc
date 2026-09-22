@@ -1207,6 +1207,22 @@ def best_option(entries, key):
     return best
 
 
+def star_priority(units, raw_stars):
+    """Only units that are actually in the comp and worth 3-starring, in board order."""
+    priority = [unit["id"] for unit in units if unit["stars"] == 3]
+    if not priority:
+        priority = [unit["id"] for unit in units if unit["id"] in raw_stars]
+    return priority
+
+
+def name_list(names, limit):
+    """Join at most `limit` names; append an ellipsis when some were left out."""
+    if not names:
+        return ""
+    shown = ", ".join(names[:limit])
+    return shown + " …" if len(names) > limit else shown
+
+
 def build_comp_name(cluster, champions_by_id, traits_by_id, alias_to_id):
     parts_en, parts_tr = [], []
     entries = cluster.get("name") or []
@@ -1231,6 +1247,19 @@ def build_comp_name(cluster, champions_by_id, traits_by_id, alias_to_id):
     return localized(" ".join(parts_en), " ".join(parts_tr))
 
 
+TIP_MAX_CHARS = 140
+
+
+def trim_tip(tip):
+    """Last-resort guard so a generated sentence always fits a phone-sized row."""
+    if len(tip) <= TIP_MAX_CHARS:
+        return tip
+    cut = tip[:TIP_MAX_CHARS - 2]
+    if " " in cut:
+        cut = cut[:cut.rindex(" ")]
+    return cut.rstrip(" ,.;:") + " …"
+
+
 def build_tips(comp, champions_by_id, traits_by_id, items_by_id, comp_names):
     def champion_name(unit_id, lang):
         champion = champions_by_id.get(unit_id)
@@ -1241,10 +1270,12 @@ def build_tips(comp, champions_by_id, traits_by_id, items_by_id, comp_names):
         return item["name"][lang] if item else item_id
 
     carries = [unit for unit in comp["units"] if unit["isCarry"]]
-    carry_names_tr = ", ".join(champion_name(unit["id"], "tr") for unit in carries) or \
-        ", ".join(champion_name(unit["id"], "tr") for unit in comp["units"][:1])
-    carry_names_en = ", ".join(champion_name(unit["id"], "en") for unit in carries) or \
-        ", ".join(champion_name(unit["id"], "en") for unit in comp["units"][:1])
+    if not carries:
+        carries_for_name = comp["units"][:1]
+    else:
+        carries_for_name = carries
+    carry_names_tr = name_list([champion_name(unit["id"], "tr") for unit in carries_for_name], 3)
+    carry_names_en = name_list([champion_name(unit["id"], "en") for unit in carries_for_name], 3)
 
     tips_tr, tips_en = [], []
     playstyle = comp["playstyle"]
@@ -1256,12 +1287,18 @@ def build_tips(comp, champions_by_id, traits_by_id, items_by_id, comp_names):
         tips_en.append("Play for economy, push to level 9 and roll for %s." % carry_names_en)
     elif playstyle.startswith("reroll"):
         level = playstyle[len("reroll"):]
-        targets = comp["starPriority"] or [unit["id"] for unit in comp["units"][:2]]
-        targets_tr = ", ".join(champion_name(unit_id, "tr") for unit_id in targets)
-        targets_en = ", ".join(champion_name(unit_id, "en") for unit_id in targets)
-        tips_tr.append("%s. seviyede dur, 50 altının üstündeki parayla %s 3 yıldız olana kadar çevir."
-                       % (level, targets_tr))
-        tips_en.append("Stay at level %s and roll above 50 gold until %s are 3-star." % (level, targets_en))
+        targets = comp["starPriority"]
+        targets_tr = name_list([champion_name(unit_id, "tr") for unit_id in targets], 4)
+        targets_en = name_list([champion_name(unit_id, "en") for unit_id in targets], 4)
+        if targets_tr:
+            tips_tr.append("%s. seviyede dur, 50 altının üstündeki parayla %s 3 yıldız olana kadar çevir."
+                           % (level, targets_tr))
+            tips_en.append("Stay at level %s and roll above 50 gold until %s are 3-star."
+                           % (level, targets_en))
+        else:
+            tips_tr.append("%s. seviyede dur, 50 altının üstündeki parayla taşıyıcıları 3 yıldız olana "
+                           "kadar çevir." % level)
+            tips_en.append("Stay at level %s and roll above 50 gold until your carries are 3-star." % level)
     else:
         tips_tr.append("Standart tempo: her aşamada seviye atla, güçlü tahta koru.")
         tips_en.append("Standard tempo: level on curve every stage and keep a strong board.")
@@ -1286,9 +1323,9 @@ def build_tips(comp, champions_by_id, traits_by_id, items_by_id, comp_names):
     if comp["traits"]:
         top = comp["traits"][:3]
         tips_tr.append("Aktif özellikler: %s."
-                       % ", ".join("%s (%d)" % (traits_by_id[t["id"]]["name"]["tr"], t["count"]) for t in top))
+                       % name_list(["%s (%d)" % (traits_by_id[t["id"]]["name"]["tr"], t["count"]) for t in top], 3))
         tips_en.append("Active traits: %s."
-                       % ", ".join("%s (%d)" % (traits_by_id[t["id"]]["name"]["en"], t["count"]) for t in top))
+                       % name_list(["%s (%d)" % (traits_by_id[t["id"]]["name"]["en"], t["count"]) for t in top], 3))
 
     if comp["counters"]:
         counter_id = comp["counters"][0]["compId"]
@@ -1314,7 +1351,8 @@ def build_tips(comp, champions_by_id, traits_by_id, items_by_id, comp_names):
         tips_tr.append(filler_tr)
         tips_en.append(filler_en)
 
-    return OrderedDict([("tr", tips_tr[:7]), ("en", tips_en[:7])])
+    return OrderedDict([("tr", [trim_tip(tip) for tip in tips_tr[:7]]),
+                        ("en", [trim_tip(tip) for tip in tips_en[:7]])])
 
 
 def build_comps(fetcher, sources, gamedata, max_comps=None):
@@ -1534,7 +1572,7 @@ def build_single_comp(fetcher, cluster, key, cluster_id, champions_by_id, traits
         ("augments", augments),
         ("counters", counters),
         ("goodAgainst", good_against),
-        ("starPriority", sorted(stars, key=lambda unit_id: champions_by_id[unit_id]["name"]["en"])),
+        ("starPriority", star_priority(units, stars)),
         ("coreUnits", core_units),
         ("tips", OrderedDict([("tr", []), ("en", [])])),
     ])
