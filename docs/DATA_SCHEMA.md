@@ -87,14 +87,15 @@ Icon paths are relative to the app bundle's `Resources/Images/` folder; `iconURL
 ### Rules
 ```jsonc
 {
-  "shopOdds": { "1": [100,0,0,0,0], "2": [100,0,0,0,0], …, "10": [5,10,20,40,25] },  // % for 1..5-cost at player level 1..10 (rows sum to 100)
-  "xpToLevel": { "2": 2, "3": 6, "4": 10, "5": 20, "6": 36, "7": 48, "8": 80, "9": 84, "10": 100 },  // XP required to reach that level from the previous one
-  "poolSizes": { "1": 30, "2": 25, "3": 18, "4": 10, "5": 9 },   // copies per champion per cost tier (from data)
-  "economy": {
-    "interestPer10Gold": 1, "maxInterest": 5, "baseIncome": 5,
-    "streakGold": { "2": 1, "3": 1, "4": 2, "5": 3 },            // win/loss streak bonus by streak length (5 = 5+)
-    "xpPerRound": 2, "xpPurchaseCost": 4, "xpPurchaseAmount": 4, "rerollCost": 2
-  },
+  "shopOdds": { "1": [100,0,0,0,0], "2": [100,0,0,0,0], "3": [75,25,0,0,0], "4": [55,30,15,0,0], "5": [45,33,20,2,0],
+                "6": [30,40,25,5,0], "7": [16,30,43,10,1], "8": [15,20,32,30,3], "9": [10,17,25,33,15], "10": [5,10,20,40,25] },
+  "xpToLevel": { "2": 2, "3": 2, "4": 6, "5": 10, "6": 20, "7": 36, "8": 56, "9": 68, "10": 68 },   // XP to go from level N-1 to N
+  "poolSizes": { "1": 30, "2": 25, "3": 18, "4": 10, "5": 9 },
+  "economy": { "interestPer10Gold": 1, "maxInterest": 5, "baseIncome": 5, "pvpWinGold": 1,
+               "streakGold": { "2": 1, "3": 1, "4": 1, "5": 2, "6": 3 },      // by streak length; 6 = 6+
+               "xpPerRound": 2, "xpPurchaseCost": 4, "xpPurchaseAmount": 4, "rerollCost": 2, "stage1Income": [2,2,3,4] },
+  "rounds": { "stage1Rounds": 4, "stageRounds": 7, "augmentRounds": ["2-1","3-2","4-2"], "carouselRound": 4, "pveRound": 7 },
+  "patch": "18.2b",
   "sources": ["MetaTFT", "CommunityDragon"]
 }
 ```
