@@ -35,4 +35,4 @@ ASC_KEY_ID=K5565AAZPA ./scripts/release.sh      # arşivler ve TestFlight'a yük
 ../LockDeck/.venv/bin/python scripts/tf_status.py --watch
 ```
 
-Veriler MetaTFT ve CommunityDragon'dan alınır. HexKoç, Riot Games ile bağlantılı değildir.
+Oyun verisi CommunityDragon'dan; komp ve kademeler MetaTFT, TFT Academy, Blitz, tactics.tools, tftactics.gg ve TFTFlow'un ortak görüşünden (bkz. `docs/MULTISOURCE_SPEC.md`) alınır. OP.GG ve BunnyMuffins kullanım şartları gereği çekilmez. HexKoç, Riot Games ile bağlantılı değildir.
