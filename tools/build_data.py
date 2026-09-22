@@ -25,6 +25,8 @@ from datetime import datetime
 import requests
 from PIL import Image
 
+import sources as comp_sources
+
 # --------------------------------------------------------------------------------------
 # Constants
 # --------------------------------------------------------------------------------------
@@ -43,6 +45,7 @@ TOOLS_DIR = os.path.join(REPO_ROOT, "tools")
 CACHE_DIR = os.path.join(TOOLS_DIR, "cache")
 RULES_PATH = os.path.join(TOOLS_DIR, "rules.json")
 GUIDES_SRC = os.path.join(TOOLS_DIR, "guides.json")
+TRANSLATIONS_PATH = os.path.join(TOOLS_DIR, "translations.json")
 
 CDRAGON_GAME = "https://raw.communitydragon.org/latest/game/"
 URL_CD_EN = "https://raw.communitydragon.org/latest/cdragon/tft/en_us.json"
@@ -115,11 +118,11 @@ class Fetcher(object):
     def _cache_path(self, url, ext):
         return os.path.join(self.cache_dir, hashlib.sha1(url.encode("utf-8")).hexdigest() + ext)
 
-    def _request(self, url):
+    def _request(self, url, headers=None):
         last_error = None
         for attempt in range(HTTP_RETRIES):
             try:
-                response = self.session.get(url, timeout=HTTP_TIMEOUT)
+                response = self.session.get(url, timeout=HTTP_TIMEOUT, headers=headers)
                 if response.status_code == 200:
                     self.downloads += 1
                     if "metatft.com" in url:
@@ -133,15 +136,27 @@ class Fetcher(object):
             time.sleep(1.5 * (attempt + 1))
         raise IOError("GET failed (%s): %s" % (last_error, url))
 
-    def get_json(self, url):
+    def get_json(self, url, headers=None):
         path = self._cache_path(url, ".json")
         if self.use_cache and os.path.exists(path):
             with open(path, "r", encoding="utf-8") as handle:
                 return json.load(handle)
-        data = self._request(url).json()
+        data = self._request(url, headers).json()
         with open(path, "w", encoding="utf-8") as handle:
             json.dump(data, handle, ensure_ascii=False)
         return data
+
+    def get_text(self, url, headers=None):
+        path = self._cache_path(url, ".txt")
+        if self.use_cache and os.path.exists(path):
+            with open(path, "r", encoding="utf-8") as handle:
+                return handle.read()
+        response = self._request(url, headers)
+        response.encoding = response.encoding or "utf-8"
+        text = response.text
+        with open(path, "w", encoding="utf-8") as handle:
+            handle.write(text)
+        return text
 
     def get_binary(self, url, ext=".png"):
         path = self._cache_path(url, ext)
@@ -1604,6 +1619,483 @@ def finalize_comps(comps, champions_by_id, traits_by_id, items_by_id):
 
 
 # --------------------------------------------------------------------------------------
+# Multi-source consensus (docs/MULTISOURCE_SPEC.md)
+# --------------------------------------------------------------------------------------
+
+# Order source comps are seeded into clusters in: curated and heavy sources first.
+SEED_ORDER = ("tftacademy", "blitz", "tacticstools", "metatft", "tftactics", "tftflow")
+# Order in which a source's board/items/stages win when several describe one comp.
+# tactics.tools comes last: it ships no positions, so MetaTFT's board beats it.
+CURATED_ORDER = ("tftacademy", "blitz", "tftflow", "tftactics", "metatft", "tacticstools")
+CONSENSUS_TIERS = (("S", 85), ("A", 72), ("B", 58))
+# A comp only one or two sites list cannot outrank the ones everybody agrees on.
+AGREEMENT_CAPS = {1: "B", 2: "A"}
+MATCH_JACCARD = 0.5
+MATCH_SHARED_UNITS = 5
+UNMEASURED_IMPORTANCE = 0.5
+MIN_COMP_UNITS = 7
+MAX_COMP_UNITS = 10
+STAGE_EARLY_LABEL = "Erken (2-1 → 3-2)"
+STAGE_MID_LABEL = "Orta (%s. seviye)"
+STAGE_LATE_LABEL = "Tavan (9-10)"
+
+
+def load_translations():
+    """sha1(en) -> Turkish source-tip text; an absent file simply means `tr` stays null."""
+    if not os.path.exists(TRANSLATIONS_PATH):
+        warn("tools/translations.json not found; source tips stay English only")
+        return {}
+    with open(TRANSLATIONS_PATH, "r", encoding="utf-8") as handle:
+        payload = json.load(handle)
+    table = {}
+    for digest, entry in (payload.get("entries") or {}).items():
+        turkish = (entry or {}).get("tr")
+        if not turkish:
+            continue
+        table[digest] = turkish
+        english = (entry or {}).get("en")
+        if english:
+            table.setdefault(sha1_text(comp_sources.clean_source_text(english)), turkish)
+    return table
+
+
+def sha1_text(text):
+    return hashlib.sha1((text or "").encode("utf-8")).hexdigest()
+
+
+def collect_sources(fetcher, gamedata, metatft_comps, generated_at):
+    """Fetch every extra source; a failure is a warning, never a build failure."""
+    catalog = comp_sources.Catalog(gamedata, warn=warn)
+    code_to_id = {}
+    for champion in gamedata["champions"]:
+        code_to_id.setdefault(champion["teamCode"], champion["id"])
+
+    def decode(code):
+        return decode_team_code(code, code_to_id)
+
+    records = OrderedDict()
+    status = []
+
+    def record_status(key, ok, count):
+        label, _, url = comp_sources.SOURCE_META[key]
+        status.append(OrderedDict([("key", key), ("label", label), ("url", url),
+                                   ("fetchedAt", generated_at), ("ok", ok), ("count", count)]))
+
+    records["metatft"] = comp_sources.normalise_metatft(metatft_comps, catalog)
+    record_status("metatft", True, len(records["metatft"]))
+    for key, fetch in comp_sources.FETCHERS.items():
+        started = time.time()
+        try:
+            comps = fetch(fetcher, catalog, decode) if key == "tacticstools" \
+                else fetch(fetcher, catalog)
+        except Exception as exc:  # any source may break; MetaTFT alone is mandatory
+            warn("source %s unavailable (%s: %s); skipped" % (key, type(exc).__name__, exc))
+            record_status(key, False, 0)
+            continue
+        records[key] = comps
+        record_status(key, True, len(comps))
+        log("  %-13s %3d comps (%.1f s)" % (key, len(comps), time.time() - started))
+    return records, status
+
+
+def record_units(record):
+    return set(unit["id"] for unit in record["units"])
+
+
+def match_score(units, carry, cluster):
+    """Best Jaccard against a cluster member, 0 when the comp does not belong there."""
+    best = 0.0
+    for member in cluster.values():
+        other = record_units(member)
+        shared = len(units & other)
+        union = len(units | other)
+        if not union:
+            continue
+        jaccard = shared / float(union)
+        matches = jaccard >= MATCH_JACCARD or (
+            shared >= MATCH_SHARED_UNITS and carry and carry == member["mainChampion"])
+        if matches and jaccard > best:
+            best = jaccard
+    return best
+
+
+def cluster_records(records_by_source):
+    """Group source comps that describe the same comp; one comp per source per cluster."""
+    clusters = []
+    for key in SEED_ORDER:
+        for record in records_by_source.get(key) or []:
+            units = record_units(record)
+            if not units:
+                continue
+            best_cluster, best_score = None, 0.0
+            for cluster in clusters:
+                if key in cluster:
+                    continue
+                score = match_score(units, record["mainChampion"], cluster)
+                if score > best_score:
+                    best_cluster, best_score = cluster, score
+            if best_cluster is None:
+                clusters.append(OrderedDict([(key, record)]))
+            else:
+                best_cluster[key] = record
+    return clusters
+
+
+def consensus_tier(cluster):
+    """Weighted mean of the available tier scores -> (letter, score, situational)."""
+    total, weight_sum = 0.0, 0.0
+    for key, record in cluster.items():
+        if record["tierScore"] is None:
+            continue
+        weight = comp_sources.SOURCE_META[key][1]
+        total += weight * record["tierScore"]
+        weight_sum += weight
+    if not weight_sum:
+        return "C", 0.0, True
+    score = total / weight_sum
+    tier = "C"
+    for letter, minimum in CONSENSUS_TIERS:
+        if score >= minimum:
+            tier = letter
+            break
+    cap = AGREEMENT_CAPS.get(len(cluster))
+    if cap and "SABC".index(tier) < "SABC".index(cap):
+        tier = cap
+    return tier, round(score, 2), False
+
+
+def curated_members(cluster):
+    """Cluster members in the order their curated data wins."""
+    return [(key, cluster[key]) for key in CURATED_ORDER if key in cluster]
+
+
+def first_value(cluster, field):
+    for _, record in curated_members(cluster):
+        if record.get(field):
+            return record[field]
+    return None
+
+
+def merge_units(cluster, metatft_comp, champions_by_id):
+    """Units from the highest-weight curated source; MetaTFT fills the gaps it leaves."""
+    members = curated_members(cluster)
+    primary = None
+    for _, record in members:
+        if len(record["units"]) >= MIN_COMP_UNITS:
+            primary = record
+            break
+    if primary is None:
+        # Every board is short (a source listed a partial comp): take the fullest one.
+        primary = max([record for _, record in members] or [None],
+                      key=lambda record: len(record["units"]) if record else 0)
+    if primary is None or not primary["units"]:
+        return []
+    # Items and cells the curated board leaves empty come from MetaTFT; without a MetaTFT
+    # member the remaining sources fill in, in weight order.
+    fillers = [record for _, record in members if record is not primary]
+    if cluster.get("metatft") is not None and cluster["metatft"] is not primary:
+        fillers = [cluster["metatft"]]
+
+    metatft_units = {}
+    if metatft_comp:
+        metatft_units = dict((unit["id"], unit) for unit in metatft_comp["units"])
+    main_champions = set(record["mainChampion"] for record in cluster.values()
+                         if record["mainChampion"])
+
+    units = []
+    taken_cells = set()
+    for source_unit in primary["units"]:
+        unit_id = source_unit["id"]
+        if unit_id not in champions_by_id or any(unit["id"] == unit_id for unit in units):
+            continue
+        items, cell = list(source_unit["items"]), source_unit["cell"]
+        stars = 3 if any(unit["id"] == unit_id and unit["stars"] == 3
+                         for record in cluster.values() for unit in record["units"]) else 2
+        for record in fillers:
+            other = next((unit for unit in record["units"] if unit["id"] == unit_id), None)
+            if other is None:
+                continue
+            if not items and other["items"]:
+                items = list(other["items"])
+            if cell is None and other["cell"] is not None:
+                cell = other["cell"]
+        if cell in taken_cells:
+            cell = None
+        if cell is not None:
+            taken_cells.add(cell)
+        reference = metatft_units.get(unit_id)
+        if reference is not None:
+            importance = reference["importance"]
+        else:
+            # Curated-only units: MetaTFT never saw them on this board, so they rank
+            # behind the measured ones (1.0 when the comp has no MetaTFT data at all).
+            importance = UNMEASURED_IMPORTANCE if metatft_units else 1.0
+        units.append(OrderedDict([
+            ("id", unit_id),
+            ("items", items[:3]),
+            ("stars", stars),
+            ("isCarry", False),
+            ("cell", cell),
+            ("importance", importance),
+        ]))
+
+    def carry_rank(unit):
+        champion = champions_by_id[unit["id"]]
+        return (unit["id"] not in main_champions, -len(unit["items"]), -unit["importance"],
+                -champion["cost"], champion["name"]["en"])
+
+    ordered = sorted(units, key=carry_rank)
+    for unit in [unit for unit in ordered if len(unit["items"]) >= 2][:3]:
+        unit["isCarry"] = True
+    units.sort(key=lambda unit: (not unit["isCarry"],) + carry_rank(unit))
+    return units[:MAX_COMP_UNITS]
+
+
+def stage_units(entries, champions_by_id, limit=10):
+    board = []
+    for entry in entries or []:
+        if entry["id"] not in champions_by_id or any(unit["id"] == entry["id"] for unit in board):
+            continue
+        board.append(OrderedDict([("id", entry["id"]), ("stars", entry["stars"]),
+                                  ("items", list(entry["items"])[:3])]))
+        if len(board) >= limit:
+            break
+    return board
+
+
+def build_stages(cluster, units, champions_by_id):
+    """`stages.early|mid|late` merged from the curated sources, MetaTFT as the fallback."""
+    stages = OrderedDict()
+    early = stage_units(first_value(cluster, "early"), champions_by_id)
+    if early:
+        stages["early"] = OrderedDict([("label", STAGE_EARLY_LABEL), ("units", early)])
+
+    mid_level = "7"
+    mid = []
+    for _, record in curated_members(cluster):
+        if record["mid"]:
+            mid = stage_units(record["mid"], champions_by_id)
+            mid_level = record["midLevel"] or mid_level
+            break
+    if mid:
+        stages["mid"] = OrderedDict([("label", STAGE_MID_LABEL % mid_level), ("units", mid)])
+
+    # Late = the final board plus the curated "max cap" additions, capped at ten units.
+    late_source = first_value(cluster, "late") or []
+    late = [OrderedDict([("id", unit["id"]), ("stars", unit["stars"]), ("items", unit["items"])])
+            for unit in units]
+    known = set(unit["id"] for unit in late)
+    for entry in late_source:
+        if entry["id"] in known or entry["id"] not in champions_by_id:
+            continue
+        known.add(entry["id"])
+        late.append(OrderedDict([("id", entry["id"]), ("stars", entry["stars"]),
+                                 ("items", list(entry["items"])[:3])]))
+    if len(late) > len(units):
+        stages["late"] = OrderedDict([("label", STAGE_LATE_LABEL), ("units", late[:10])])
+    return stages
+
+
+def build_source_list(cluster):
+    entries = []
+    for key in sorted(cluster.keys(), key=lambda key: (-comp_sources.SOURCE_META[key][1], key)):
+        record = cluster[key]
+        entry = OrderedDict([
+            ("key", key),
+            ("label", comp_sources.SOURCE_META[key][0]),
+            ("tier", record["tierLabel"] or "C"),
+            ("name", record["name_en"]),
+            ("url", record["url"]),
+        ])
+        # Statistical sources can show their own average placement next to the tier.
+        if key in comp_sources.STATS_ONLY_SOURCES and record["stats"]:
+            entry["score"] = record["stats"]["avgPlacement"]
+        entries.append(entry)
+    return entries
+
+
+def build_source_tips(cluster, translations):
+    tips = []
+    for key, record in curated_members(cluster):
+        for tip in record["tips"]:
+            english = tip["en"]
+            turkish = translations.get(sha1_text(tip.get("raw") or english)) \
+                or translations.get(sha1_text(english))
+            tips.append(OrderedDict([("source", key), ("stage", tip["stage"]),
+                                     ("en", english), ("tr", turkish)]))
+    return tips
+
+
+def consensus_name(cluster, metatft_comp, units, traits, champions_by_id, traits_by_id):
+    """EN from the best curated source, TR generated from trait + carry."""
+    english = ""
+    for key in ("tftacademy", "blitz", "tacticstools", "tftactics", "tftflow", "metatft"):
+        if key in cluster and cluster[key]["name_en"]:
+            english = cluster[key]["name_en"]
+            break
+    generated_en = generated_name(units, traits, champions_by_id, traits_by_id, "en")
+    generated_tr = generated_name(units, traits, champions_by_id, traits_by_id, "tr")
+    if metatft_comp:
+        generated_en = metatft_comp["name"]["en"] or generated_en
+        generated_tr = metatft_comp["name"]["tr"] or generated_tr
+    name = localized(english or generated_en, generated_tr or english)
+    subtitle = None
+    if generated_en and generated_en != name["en"]:
+        subtitle = localized(generated_en, generated_tr or generated_en)
+    return name, subtitle
+
+
+def generated_name(units, traits, champions_by_id, traits_by_id, lang):
+    """"<strongest trait> <main carry>" — the fallback when no source named the comp."""
+    parts = []
+    named = [entry for entry in traits
+             if traits_by_id.get(entry["id"]) and traits_by_id[entry["id"]]["type"] != "unique"]
+    if named:
+        best = max(named, key=lambda entry: (entry["count"], -len(entry["id"])))
+        parts.append(traits_by_id[best["id"]]["name"][lang])
+    carries = [unit for unit in units if unit["isCarry"]] or units[:1]
+    if carries:
+        parts.append(champions_by_id[carries[0]["id"]]["name"][lang])
+    return " ".join(parts)
+
+
+def slugify(text):
+    return re.sub(r"-+", "-", re.sub(r"[^a-z0-9]+", "-", (text or "").lower())).strip("-")
+
+
+def build_consensus_comps(clusters, metatft_by_id, gamedata, translations):
+    champions_by_id = dict((champion["id"], champion) for champion in gamedata["champions"])
+    traits_by_id = dict((trait["id"], trait) for trait in gamedata["traits"])
+    items_by_id = dict((item["id"], item) for item in gamedata["items"])
+    augment_ids = set(augment["id"] for augment in gamedata["augments"])
+
+    scored = []
+    used_ids = set()
+    for cluster in clusters:
+        metatft_comp = metatft_by_id.get(cluster["metatft"]["sourceId"]) if "metatft" in cluster \
+            else None
+        units = merge_units(cluster, metatft_comp, champions_by_id)
+        if len(units) < MIN_COMP_UNITS:
+            warn("cluster %s has only %d units; skipped"
+                 % (list(cluster.values())[0]["name_en"], len(units)))
+            continue
+        unit_ids = [unit["id"] for unit in units]
+        traits = comp_traits(unit_ids, champions_by_id, traits_by_id)
+        tier, score, situational = consensus_tier(cluster)
+        name, subtitle = consensus_name(cluster, metatft_comp, units, traits,
+                                        champions_by_id, traits_by_id)
+
+        if metatft_comp:
+            comp_id = metatft_comp["id"]
+        else:
+            primary_key, primary = curated_members(cluster)[0]
+            comp_id = "%s-%s" % (primary_key, slugify(primary["name_en"]) or primary["sourceId"])
+            suffix = 2
+            while comp_id in used_ids:
+                comp_id = "%s-%d" % (comp_id, suffix)
+                suffix += 1
+        used_ids.add(comp_id)
+
+        code_units = sorted(unit_ids, key=lambda unit_id: (-champions_by_id[unit_id]["cost"],
+                                                           champions_by_id[unit_id]["name"]["en"]))[:10]
+        stats = consensus_stats(cluster, metatft_comp)
+        augments = consensus_augments(cluster, metatft_comp, augment_ids)
+        alt_builds = [entry for entry in (first_value(cluster, "altBuilds") or [])
+                      if entry["unit"] in champions_by_id
+                      and all(item in items_by_id for item in entry["items"])]
+        carousel = [item_id for item_id in (first_value(cluster, "carousel") or [])
+                    if item_id in items_by_id]
+        playstyle = first_value(cluster, "style") or (metatft_comp["playstyle"]
+                                                      if metatft_comp else "standard")
+        difficulty = first_value(cluster, "difficulty") or (metatft_comp["difficulty"]
+                                                            if metatft_comp else "medium")
+
+        comp = OrderedDict([
+            ("id", comp_id),
+            ("name", name),
+            ("subtitle", subtitle),
+            ("tier", tier),
+            ("playstyle", playstyle),
+            ("difficulty", difficulty),
+            ("stats", stats),
+            ("trend", metatft_comp["trend"] if metatft_comp else "stable"),
+            ("units", units),
+            ("traits", traits),
+            ("teamCode", encode_team_code([champions_by_id[unit_id]["teamCode"]
+                                           for unit_id in code_units])),
+            ("levelBoards", metatft_comp["levelBoards"] if metatft_comp else OrderedDict()),
+            ("earlyBoards", metatft_comp["earlyBoards"] if metatft_comp else OrderedDict()),
+            ("levelTiming", metatft_comp["levelTiming"] if metatft_comp else []),
+            ("stages", build_stages(cluster, units, champions_by_id)),
+            ("augments", augments),
+            ("counters", metatft_comp["counters"] if metatft_comp else []),
+            ("goodAgainst", metatft_comp["goodAgainst"] if metatft_comp else []),
+            ("starPriority", [unit["id"] for unit in units if unit["stars"] == 3]),
+            ("coreUnits", [unit["id"] for unit
+                           in sorted(units, key=lambda unit: -unit["importance"])[:5]]),
+            ("altBuilds", alt_builds),
+            ("carousel", carousel),
+            ("sources", build_source_list(cluster)),
+            ("sourceCount", len(cluster)),
+            ("situational", situational),
+            ("sourceTips", build_source_tips(cluster, translations)),
+            ("tips", OrderedDict([("tr", []), ("en", [])])),
+        ])
+        scored.append((comp, score))
+
+    scored.sort(key=lambda entry: ("SABC".index(entry[0]["tier"]), entry[0]["situational"],
+                                   -entry[0]["sourceCount"], -entry[1], entry[0]["id"]))
+    return [comp for comp, _ in scored]
+
+
+def consensus_stats(cluster, metatft_comp):
+    """MetaTFT numbers, with win/top4 rates from the statistical sources when matched."""
+    if metatft_comp:
+        stats = OrderedDict([("avgPlacement", metatft_comp["stats"]["avgPlacement"]),
+                             ("playRate", metatft_comp["stats"]["playRate"]),
+                             ("games", metatft_comp["stats"]["games"])])
+    else:
+        stats = OrderedDict([("avgPlacement", 0.0), ("playRate", 0.0), ("games", 0)])
+    top4, win = None, None
+    for key in ("blitz", "tacticstools"):
+        record = cluster.get(key)
+        numbers = record["stats"] if record else None
+        if not numbers:
+            continue
+        top4 = top4 if top4 is not None else numbers.get("top4Rate")
+        win = win if win is not None else numbers.get("winRate")
+        if not metatft_comp and not stats["avgPlacement"]:
+            stats["avgPlacement"] = numbers.get("avgPlacement") or 0.0
+            stats["playRate"] = numbers.get("pickRate") or 0.0
+            stats["games"] = numbers.get("games") or 0
+    stats["top4Rate"] = top4
+    stats["winRate"] = win
+    return stats
+
+
+def consensus_augments(cluster, metatft_comp, augment_ids):
+    """S = curated picks + MetaTFT S, A = MetaTFT A minus S."""
+    top = []
+    for key in ("tftacademy", "blitz", "tacticstools"):
+        record = cluster.get(key)
+        for augment_id in (record["augments"] if record else []):
+            if augment_id in augment_ids and augment_id not in top:
+                top.append(augment_id)
+    for augment_id in (metatft_comp["augments"].get("S") if metatft_comp else []) or []:
+        if augment_id not in top:
+            top.append(augment_id)
+    second = [augment_id for augment_id
+              in (metatft_comp["augments"].get("A") if metatft_comp else []) or []
+              if augment_id not in top]
+    augments = OrderedDict()
+    if top:
+        augments["S"] = top[:30]
+    if second:
+        augments["A"] = second[:30]
+    return augments
+
+
+# --------------------------------------------------------------------------------------
 # Verification
 # --------------------------------------------------------------------------------------
 
@@ -1673,6 +2165,22 @@ def verify_references(gamedata, comps):
             for unit_id in board:
                 if unit_id not in champion_ids:
                     problems.append("comp %s board -> unit %s" % (comp["id"], unit_id))
+        for stage in comp["stages"].values():
+            for unit in stage["units"]:
+                if unit["id"] not in champion_ids:
+                    problems.append("comp %s stage -> unit %s" % (comp["id"], unit["id"]))
+                for item_id in unit["items"]:
+                    if item_id not in item_ids:
+                        problems.append("comp %s stage -> item %s" % (comp["id"], item_id))
+        for entry in comp["altBuilds"]:
+            if entry["unit"] not in champion_ids:
+                problems.append("comp %s altBuild -> unit %s" % (comp["id"], entry["unit"]))
+            for item_id in entry["items"]:
+                if item_id not in item_ids:
+                    problems.append("comp %s altBuild -> item %s" % (comp["id"], item_id))
+        for item_id in comp["carousel"]:
+            if item_id not in item_ids:
+                problems.append("comp %s carousel -> item %s" % (comp["id"], item_id))
     return problems
 
 
@@ -1700,6 +2208,16 @@ def verify_text(gamedata, comps):
         check("augment %s" % augment["id"], augment["desc"])
     for comp in comps:
         check("comp %s name" % comp["id"], comp["name"])
+        if comp["subtitle"]:
+            check("comp %s subtitle" % comp["id"], comp["subtitle"])
+        for index, tip in enumerate(comp["sourceTips"]):
+            # Curated prose legitimately uses ">" ("Ravager > Executioner"), so only real
+            # markup and entities are offences here.
+            for lang in ("en", "tr"):
+                text = tip[lang] or ""
+                if RE_ANY_TAG.search(text) or re.search(r"&[a-zA-Z#0-9]+;", text):
+                    offenders.append("comp %s sourceTip %d[%s] contains markup"
+                                     % (comp["id"], index, lang))
     return offenders
 
 
@@ -1895,7 +2413,19 @@ def main(argv=None):
 
     assert_metatft_units_resolve(sources, champions)
 
-    comps, comps_cluster_id = build_comps(fetcher, sources, gamedata, args.max_comps)
+    metatft_comps, comps_cluster_id = build_comps(fetcher, sources, gamedata, args.max_comps)
+
+    log("Fetching comp sources …")
+    source_records, source_status = collect_sources(fetcher, gamedata, metatft_comps,
+                                                    generated_at)
+    clusters = cluster_records(source_records)
+    log("Consensus: %d source comps -> %d clusters"
+        % (sum(len(records) for records in source_records.values()), len(clusters)))
+    comps = build_consensus_comps(clusters, dict((comp["id"], comp) for comp in metatft_comps),
+                                  gamedata, load_translations())
+    finalize_comps(comps, dict((champion["id"], champion) for champion in champions),
+                   dict((trait["id"], trait) for trait in traits),
+                   dict((item["id"], item) for item in items))
     if not args.max_comps and len(comps) < MIN_COMPS:
         raise SystemExit("FATAL: only %d comps built (expected >= %d)" % (len(comps), MIN_COMPS))
 
@@ -1915,6 +2445,7 @@ def main(argv=None):
         ("set", SET_KEY),
         ("patch", patch),
         ("clusterId", comps_cluster_id),
+        ("sources", source_status),
         ("comps", comps),
     ])
 
@@ -1938,7 +2469,8 @@ def main(argv=None):
     ])
     write_outputs(documents, args.out, resources_dir)
 
-    print_summary(gamedata, comps, image_counts, args, started)
+    print_summary(gamedata, comps, image_counts, args, started, source_status, source_records,
+                  len(clusters))
     return 0
 
 
@@ -1962,7 +2494,8 @@ def assert_metatft_units_resolve(sources, champions):
     log("All MetaTFT unit ids resolve to canonical champions.")
 
 
-def print_summary(gamedata, comps, image_counts, args, started):
+def print_summary(gamedata, comps, image_counts, args, started, source_status=None,
+                  source_records=None, cluster_count=0):
     tier_counts = OrderedDict()
     for comp in comps:
         tier_counts[comp["tier"]] = tier_counts.get(comp["tier"], 0) + 1
@@ -1978,6 +2511,31 @@ def print_summary(gamedata, comps, image_counts, args, started):
         % (len(gamedata["augments"]), sum(1 for a in gamedata["augments"] if not a["icon"])))
     log("  comps          : %d (%s)"
         % (len(comps), ", ".join("%s:%d" % (tier, count) for tier, count in sorted(tier_counts.items()))))
+    if source_status:
+        log("  sources        : %s"
+            % ", ".join("%s %s" % (entry["key"], entry["count"] if entry["ok"] else "FAILED")
+                        for entry in source_status))
+        multi = sum(1 for comp in comps if comp["sourceCount"] >= 2)
+        situational = sum(1 for comp in comps if comp["situational"])
+        translated = sum(1 for comp in comps for tip in comp["sourceTips"] if tip["tr"])
+        tips_total = sum(len(comp["sourceTips"]) for comp in comps)
+        log("  clusters       : %d (%d comps with >= 2 sources, %d situational)"
+            % (cluster_count, multi, situational))
+        log("  source tips    : %d (%d translated)" % (tips_total, translated))
+        unmatched = OrderedDict()
+        for comp in comps:
+            if comp["sourceCount"] != 1:
+                continue
+            key = comp["sources"][0]["key"]
+            if key in comp_sources.STATS_ONLY_SOURCES:
+                continue
+            unmatched.setdefault(key, []).append(comp["name"]["en"])
+        if unmatched:
+            for key, names in unmatched.items():
+                log("  unmatched %-6s: %d (%s)"
+                    % (key, len(names), name_list(sorted(names), 4)))
+        else:
+            log("  unmatched      : 0 curated comps stand alone")
     log("  images         : %d new, %d failed%s"
         % (image_counts["downloaded"], image_counts["failed"], " (skipped)" if args.skip_images else ""))
     log("  unresolved tok : %d (%d distinct)"
