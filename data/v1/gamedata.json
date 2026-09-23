@@ -1,6 +1,6 @@
 {
  "schemaVersion": 1,
- "generatedAt": "2026-09-22T20:42:46Z",
+ "generatedAt": "2026-09-23T10:45:16Z",
  "set": {
   "key": "TFTSet18",
   "number": 18,
@@ -52,14 +52,14 @@
    "poolCount": 30,
    "recommendedItems": [
     "DA_HandOfJustice",
-    "DA_ThiefsGloves",
     "DA_Artifact_SeekersArmguard",
     "DA_BlueBuff",
     "DA_Component_RecurveBow",
-    "DA_EdgeOfNight"
+    "DA_EdgeOfNight",
+    "DA_JeweledGauntlet"
    ],
-   "avgPlacement": 4.918,
-   "popularity": 0.128
+   "avgPlacement": 4.997,
+   "popularity": 0.1183
   },
   {
    "id": "DA_18_Camille",
@@ -109,8 +109,8 @@
     "DA_TitansResolve",
     "DA_Quicksilver"
    ],
-   "avgPlacement": 5.428,
-   "popularity": 0.1027
+   "avgPlacement": 5.417,
+   "popularity": 0.0994
   },
   {
    "id": "DA_Cinderling18",
@@ -160,8 +160,8 @@
     "DA_Deathblade",
     "DA_GiantSlayer"
    ],
-   "avgPlacement": 4.533,
-   "popularity": 0.1665
+   "avgPlacement": 4.653,
+   "popularity": 0.1461
   },
   {
    "id": "DA_Karma18",
@@ -204,15 +204,15 @@
    "teamCode": "407",
    "poolCount": 30,
    "recommendedItems": [
-    "DA_JeweledGauntlet",
     "DA_SpearOfShojin",
+    "DA_JeweledGauntlet",
     "DA_VoidStaff",
     "DA_GiantSlayer",
-    "DA_Morellonomicon",
-    "DA_RabadonsDeathcap"
+    "DA_RabadonsDeathcap",
+    "DA_Morellonomicon"
    ],
-   "avgPlacement": 4.613,
-   "popularity": 0.2323
+   "avgPlacement": 4.691,
+   "popularity": 0.224
   },
   {
    "id": "DA_18_Kobuko",
@@ -262,8 +262,8 @@
     "DA_SunfireCape",
     "DA_SteadfastHeart"
    ],
-   "avgPlacement": 4.733,
-   "popularity": 0.1221
+   "avgPlacement": 4.7,
+   "popularity": 0.0985
   },
   {
    "id": "DA_18_Leona",
@@ -313,8 +313,8 @@
     "DA_Evenshroud",
     "DA_SunfireCape"
    ],
-   "avgPlacement": 4.784,
-   "popularity": 0.1783
+   "avgPlacement": 4.766,
+   "popularity": 0.1636
   },
   {
    "id": "DA_18_Ornn",
@@ -347,7 +347,7 @@
      "tr": "Harlı Ateş"
     },
     "desc": {
-     "en": "Active: Gain 400 / 460 / 550 (AP) Shield for 4 seconds and deal 200 / 300 / 450 (AP) magic damage to enemies in a cone.\n\nQuest: Each player combat, Ornn stores damage blocked as Forge Power, doubled at 3-star. Gain an Artifact Anvil each time he gains enough Forge Power. (Forge Power: / )",
+     "en": "Active: Gain 400 / 460 / 550 (AP) Shield for 4 seconds and deal 200 / 300 / 450 (AP) magic damage to enemies in a cone.\n\nQuest: Each player combat, Ornn stores damage blocked as Forge Power, increased by at 3-star. Gain an Artifact Anvil each time he gains enough Forge Power. (Forge Power: / )",
      "tr": "Aktif: 4 saniyeliğine 400 / 460 / 550 (YG) Kalkan kazanır ve koni şeklindeki bir alandaki rakiplere 200 / 300 / 450 (YG) Büyü Hasarı verir.\n\nGörev: Ornn oyunculara karşı çatışmalarda engellediği hasarı Ocak Gücü olarak biriktirir. 3 yıldızlıyken bu miktar iki katına çıkar. Yeteri kadar Ocak Gücü biriktirdiğinde bir yadigâr eşya örsü kazanırsın. (Ocak Gücü: /)"
     }
    },
@@ -364,8 +364,8 @@
     "DA_SteadfastHeart",
     "DA_DragonsClaw"
    ],
-   "avgPlacement": 4.622,
-   "popularity": 0.4616
+   "avgPlacement": 4.557,
+   "popularity": 0.4623
   },
   {
    "id": "DA_18_Sentry",
@@ -415,8 +415,8 @@
     "DA_VoidStaff",
     "DA_GiantSlayer"
    ],
-   "avgPlacement": 4.415,
-   "popularity": 0.2456
+   "avgPlacement": 4.505,
+   "popularity": 0.2389
   },
   {
    "id": "DA_18_Rakan",
@@ -467,8 +467,8 @@
     "DA_SpiritVisage",
     "DA_SunfireCape"
    ],
-   "avgPlacement": 4.791,
-   "popularity": 0.3147
+   "avgPlacement": 4.793,
+   "popularity": 0.3196
   },
   {
    "id": "DA_18_RekSai",
@@ -514,12 +514,12 @@
     "DA_GargoyleStoneplate",
     "DA_WarmogsArmor",
     "DA_ThiefsGloves",
-    "DA_SpiritVisage",
     "DA_SunfireCape",
+    "DA_SpiritVisage",
     "DA_IonicSpark"
    ],
-   "avgPlacement": 4.517,
-   "popularity": 0.2977
+   "avgPlacement": 4.46,
+   "popularity": 0.3216
   },
   {
    "id": "DA_18_Varus",
@@ -569,8 +569,8 @@
     "DA_GiantSlayer",
     "DA_Deathblade"
    ],
-   "avgPlacement": 4.489,
-   "popularity": 0.3096
+   "avgPlacement": 4.553,
+   "popularity": 0.2914
   },
   {
    "id": "DA_18_Veigar",
@@ -621,8 +621,8 @@
     "DA_Artifact_LudensTempest",
     "DA_18_EmblemFloraFatalisAugment"
    ],
-   "avgPlacement": 4.572,
-   "popularity": 0.218
+   "avgPlacement": 4.454,
+   "popularity": 0.2042
   },
   {
    "id": "DA_18_Xayah",
@@ -673,8 +673,8 @@
     "DA_LastWhisper",
     "DA_GiantSlayer"
    ],
-   "avgPlacement": 4.911,
-   "popularity": 0.198
+   "avgPlacement": 4.932,
+   "popularity": 0.1696
   },
   {
    "id": "DA_18_Yorick",
@@ -725,8 +725,8 @@
     "DA_SpiritVisage",
     "DA_Component_GiantsBelt"
    ],
-   "avgPlacement": 4.594,
-   "popularity": 0.4402
+   "avgPlacement": 4.58,
+   "popularity": 0.4858
   },
   {
    "id": "DA_18_Alistar",
@@ -773,11 +773,11 @@
     "DA_WarmogsArmor",
     "DA_SpiritVisage",
     "DA_ThiefsGloves",
-    "DA_Crownguard",
-    "DA_SteadfastHeart"
+    "DA_SteadfastHeart",
+    "DA_Crownguard"
    ],
-   "avgPlacement": 4.548,
-   "popularity": 0.3895
+   "avgPlacement": 4.48,
+   "popularity": 0.3678
   },
   {
    "id": "DA_18_Caitlyn",
@@ -827,8 +827,8 @@
     "DA_InfinityEdge",
     "DA_GuinsoosRagebladeRadiant"
    ],
-   "avgPlacement": 5.336,
-   "popularity": 0.0952
+   "avgPlacement": 5.373,
+   "popularity": 0.0916
   },
   {
    "id": "DA_18_Elise",
@@ -878,8 +878,8 @@
     "DA_WarmogsArmor",
     "DA_SpiritVisage"
    ],
-   "avgPlacement": 5.341,
-   "popularity": 0.1305
+   "avgPlacement": 5.125,
+   "popularity": 0.1528
   },
   {
    "id": "DA_Gromp18_AP",
@@ -923,11 +923,12 @@
    "teamCode": "402",
    "poolCount": 25,
    "recommendedItems": [
-    "DA_ArchangelsStaff",
-    "DA_GuinsoosRageblade"
+    "DA_JeweledGauntlet",
+    "DA_NashorsTooth",
+    "DA_SpearOfShojin"
    ],
-   "avgPlacement": 4.674,
-   "popularity": 0.0551
+   "avgPlacement": 4.798,
+   "popularity": 0.0556
   },
   {
    "id": "DA_18_Kayle",
@@ -977,8 +978,8 @@
     "DA_RabadonsDeathcap",
     "DA_RedBuff"
    ],
-   "avgPlacement": 4.671,
-   "popularity": 0.1408
+   "avgPlacement": 4.717,
+   "popularity": 0.1204
   },
   {
    "id": "DA_18_LeBlanc",
@@ -1028,8 +1029,8 @@
     "DA_RedBuff",
     "DA_GiantSlayer"
    ],
-   "avgPlacement": 4.578,
-   "popularity": 0.2991
+   "avgPlacement": 4.537,
+   "popularity": 0.288
   },
   {
    "id": "DA_Murkwolf18",
@@ -1072,15 +1073,15 @@
    "teamCode": "419",
    "poolCount": 25,
    "recommendedItems": [
-    "DA_EdgeOfNight",
     "DA_HandOfJustice",
-    "DA_SteraksGage",
+    "DA_EdgeOfNight",
     "DA_InfinityEdge",
+    "DA_SteraksGage",
     "DA_ThiefsGloves",
     "DA_Quicksilver"
    ],
-   "avgPlacement": 4.627,
-   "popularity": 0.1097
+   "avgPlacement": 4.697,
+   "popularity": 0.1205
   },
   {
    "id": "DA_Scuttlecrab18",
@@ -1130,8 +1131,8 @@
     "DA_SunfireCape",
     "DA_Crownguard"
    ],
-   "avgPlacement": 4.666,
-   "popularity": 0.2739
+   "avgPlacement": 4.694,
+   "popularity": 0.2786
   },
   {
    "id": "DA_18_Sejuani",
@@ -1181,8 +1182,8 @@
     "DA_ProtectorsVow",
     "DA_ThiefsGloves"
    ],
-   "avgPlacement": 4.672,
-   "popularity": 0.2627
+   "avgPlacement": 4.702,
+   "popularity": 0.2495
   },
   {
    "id": "DA_18_Shen",
@@ -1232,8 +1233,8 @@
     "DA_Component_GiantsBelt",
     "DA_Evenshroud"
    ],
-   "avgPlacement": 4.817,
-   "popularity": 0.2176
+   "avgPlacement": 4.854,
+   "popularity": 0.2026
   },
   {
    "id": "DA_18_Teemo",
@@ -1283,8 +1284,8 @@
     "DA_RedBuff",
     "DA_RabadonsDeathcap"
    ],
-   "avgPlacement": 4.659,
-   "popularity": 0.0822
+   "avgPlacement": 4.653,
+   "popularity": 0.0667
   },
   {
    "id": "DA_18_Warwick",
@@ -1330,12 +1331,12 @@
     "DA_TitansResolve",
     "DA_SpearOfShojin",
     "DA_SteraksGage",
-    "DA_ThiefsGloves",
     "DA_EdgeOfNight",
-    "DA_GuinsoosRageblade"
+    "DA_GuinsoosRageblade",
+    "DA_ThiefsGloves"
    ],
-   "avgPlacement": 4.988,
-   "popularity": 0.0421
+   "avgPlacement": 4.87,
+   "popularity": 0.0571
   },
   {
    "id": "DA_18_Yunara",
@@ -1382,11 +1383,11 @@
     "DA_LastWhisper",
     "DA_Deathblade",
     "DA_InfinityEdge",
-    "DA_StrikersFlail",
-    "DA_RedBuff"
+    "DA_RedBuff",
+    "DA_VoidStaff"
    ],
-   "avgPlacement": 4.751,
-   "popularity": 0.1452
+   "avgPlacement": 4.692,
+   "popularity": 0.1756
   },
   {
    "id": "DA_18_Azir",
@@ -1430,15 +1431,15 @@
    "teamCode": "3f1",
    "poolCount": 18,
    "recommendedItems": [
-    "DA_GuinsoosRageblade",
     "DA_HextechGunblade",
+    "DA_GuinsoosRageblade",
     "DA_ArchangelsStaff",
     "DA_VoidStaff",
     "DA_JeweledGauntlet",
     "DA_RabadonsDeathcap"
    ],
-   "avgPlacement": 4.526,
-   "popularity": 0.2977
+   "avgPlacement": 4.499,
+   "popularity": 0.3435
   },
   {
    "id": "DA_18_Cassiopeia",
@@ -1483,13 +1484,13 @@
    "recommendedItems": [
     "DA_HextechGunblade",
     "DA_ArchangelsStaff",
-    "DA_VoidStaff",
     "DA_SpearOfShojin",
+    "DA_VoidStaff",
     "DA_Morellonomicon",
     "DA_JeweledGauntlet"
    ],
-   "avgPlacement": 4.753,
-   "popularity": 0.1938
+   "avgPlacement": 4.564,
+   "popularity": 0.2332
   },
   {
    "id": "DA_18_Diana",
@@ -1538,10 +1539,10 @@
     "DA_HandOfJustice",
     "DA_JeweledGauntlet",
     "DA_Bloodthirster",
-    "DA_18_EmblemExecutioner"
+    "DA_EdgeOfNight"
    ],
-   "avgPlacement": 4.44,
-   "popularity": 0.5815
+   "avgPlacement": 4.47,
+   "popularity": 0.6181
   },
   {
    "id": "DA_Fiddlesticks18",
@@ -1590,10 +1591,10 @@
     "DA_IonicSpark",
     "DA_WarmogsArmor",
     "DA_SunfireCape",
-    "DA_Crownguard"
+    "DA_SpiritVisage"
    ],
-   "avgPlacement": 4.499,
-   "popularity": 0.5441
+   "avgPlacement": 4.461,
+   "popularity": 0.5554
   },
   {
    "id": "DA_18_Hecarim",
@@ -1643,8 +1644,8 @@
     "DA_SunfireCape",
     "DA_DragonsClaw"
    ],
-   "avgPlacement": 4.659,
-   "popularity": 0.3974
+   "avgPlacement": 4.649,
+   "popularity": 0.4085
   },
   {
    "id": "DA_18_KhaZix",
@@ -1693,8 +1694,8 @@
     "DA_NashorsTooth",
     "DA_StrikersFlail"
    ],
-   "avgPlacement": 4.442,
-   "popularity": 0.1993
+   "avgPlacement": 4.44,
+   "popularity": 0.2547
   },
   {
    "id": "DA_KogMaw18_AD",
@@ -1742,12 +1743,12 @@
     "DA_RedBuff",
     "DA_SpearOfShojin",
     "DA_GuinsoosRageblade",
+    "DA_InfinityEdge",
     "DA_Component_RecurveBow",
-    "DA_Morellonomicon",
-    "DA_InfinityEdge"
+    "DA_Morellonomicon"
    ],
-   "avgPlacement": 4.237,
-   "popularity": 0.3804
+   "avgPlacement": 4.332,
+   "popularity": 0.3664
   },
   {
    "id": "DA_Krug18",
@@ -1794,11 +1795,11 @@
     "DA_WarmogsArmor",
     "DA_ThiefsGloves",
     "DA_SpiritVisage",
-    "DA_Crownguard",
-    "DA_SunfireCape"
+    "DA_SunfireCape",
+    "DA_Crownguard"
    ],
-   "avgPlacement": 4.477,
-   "popularity": 0.3873
+   "avgPlacement": 4.547,
+   "popularity": 0.3806
   },
   {
    "id": "DA_CrimsonRaptor18",
@@ -1849,8 +1850,8 @@
     "DA_RedBuff",
     "DA_Deathblade"
    ],
-   "avgPlacement": 4.69,
-   "popularity": 0.1121
+   "avgPlacement": 4.726,
+   "popularity": 0.1071
   },
   {
    "id": "DA_18_MasterYi_AD",
@@ -1872,7 +1873,7 @@
     "hp": 850,
     "armor": 55,
     "mr": 55,
-    "ad": 65,
+    "ad": 62,
     "attackSpeed": 0.8,
     "range": 1,
     "startMana": 0,
@@ -1901,8 +1902,8 @@
     "DA_Quicksilver",
     "DA_Artifact_RapidFireCannon"
    ],
-   "avgPlacement": 4.731,
-   "popularity": 0.098
+   "avgPlacement": 4.769,
+   "popularity": 0.0903
   },
   {
    "id": "DA_18_Rammus",
@@ -1952,8 +1953,8 @@
     "DA_SteadfastHeart",
     "DA_DragonsClaw"
    ],
-   "avgPlacement": 4.658,
-   "popularity": 0.1819
+   "avgPlacement": 4.603,
+   "popularity": 0.1634
   },
   {
    "id": "DA_18_Rengar",
@@ -1974,7 +1975,7 @@
     "armor": 55,
     "mr": 55,
     "ad": 60,
-    "attackSpeed": 0.8,
+    "attackSpeed": 0.75,
     "range": 1,
     "startMana": 10,
     "maxMana": 50
@@ -2002,8 +2003,8 @@
     "DA_18_EmblemFae",
     "DA_Quicksilver"
    ],
-   "avgPlacement": 4.517,
-   "popularity": 0.0861
+   "avgPlacement": 4.562,
+   "popularity": 0.0899
   },
   {
    "id": "DA_18_Tristana",
@@ -2054,8 +2055,8 @@
     "DA_LastWhisper",
     "DA_GiantSlayer"
    ],
-   "avgPlacement": 4.751,
-   "popularity": 0.1611
+   "avgPlacement": 4.785,
+   "popularity": 0.1365
   },
   {
    "id": "DA_Vi18",
@@ -2103,10 +2104,10 @@
     "DA_SpiritVisage",
     "DA_ThiefsGloves",
     "DA_SunfireCape",
-    "DA_Crownguard"
+    "DA_SteadfastHeart"
    ],
-   "avgPlacement": 4.464,
-   "popularity": 0.6834
+   "avgPlacement": 4.484,
+   "popularity": 0.7275
   },
   {
    "id": "DA_18_Ahri",
@@ -2156,8 +2157,8 @@
     "DA_RabadonsDeathcap",
     "DA_NashorsTooth"
    ],
-   "avgPlacement": 4.367,
-   "popularity": 0.3342
+   "avgPlacement": 4.371,
+   "popularity": 0.3217
   },
   {
    "id": "DA_Amumu18",
@@ -2207,7 +2208,7 @@
     "DA_ProtectorsVow",
     "DA_SteadfastHeart"
    ],
-   "avgPlacement": 4.248,
+   "avgPlacement": 4.26,
    "popularity": 1.0
   },
   {
@@ -2255,11 +2256,11 @@
     "DA_KrakensFury",
     "DA_InfinityEdge",
     "DA_Deathblade",
-    "DA_GiantSlayer",
-    "DA_RedBuff"
+    "DA_RedBuff",
+    "DA_GiantSlayer"
    ],
-   "avgPlacement": 4.228,
-   "popularity": 0.4102
+   "avgPlacement": 4.275,
+   "popularity": 0.3973
   },
   {
    "id": "DA_Brambleback18",
@@ -2280,7 +2281,7 @@
     "hp": 1100,
     "armor": 65,
     "mr": 65,
-    "ad": 115,
+    "ad": 120,
     "attackSpeed": 0.55,
     "range": 1,
     "startMana": 0,
@@ -2309,8 +2310,8 @@
     "DA_InfinityEdge",
     "DA_HandOfJustice"
    ],
-   "avgPlacement": 4.454,
-   "popularity": 0.176
+   "avgPlacement": 4.474,
+   "popularity": 0.1787
   },
   {
    "id": "DA_18_Ezreal",
@@ -2360,8 +2361,8 @@
     "DA_RedBuff",
     "DA_StrikersFlail"
    ],
-   "avgPlacement": 4.347,
-   "popularity": 0.4327
+   "avgPlacement": 4.345,
+   "popularity": 0.4208
   },
   {
    "id": "DA_18_Lillia",
@@ -2411,8 +2412,8 @@
     "DA_Crownguard",
     "DA_AdaptiveHelm"
    ],
-   "avgPlacement": 4.585,
-   "popularity": 0.2249
+   "avgPlacement": 4.564,
+   "popularity": 0.2141
   },
   {
    "id": "DA_18_Malphite",
@@ -2462,8 +2463,8 @@
     "DA_SteadfastHeart",
     "DA_DragonsClaw"
    ],
-   "avgPlacement": 4.513,
-   "popularity": 0.3038
+   "avgPlacement": 4.521,
+   "popularity": 0.2948
   },
   {
    "id": "DA_18_Morgana",
@@ -2513,8 +2514,8 @@
     "DA_HextechGunblade",
     "DA_JeweledGauntlet"
    ],
-   "avgPlacement": 4.553,
-   "popularity": 0.313
+   "avgPlacement": 4.512,
+   "popularity": 0.3348
   },
   {
    "id": "DA_Nidalee18_AP",
@@ -2565,8 +2566,8 @@
     "DA_HandOfJustice",
     "DA_18_EmblemHunter"
    ],
-   "avgPlacement": 4.249,
-   "popularity": 0.371
+   "avgPlacement": 4.325,
+   "popularity": 0.3532
   },
   {
    "id": "DA_Sentinel18",
@@ -2617,8 +2618,8 @@
     "DA_SpiritVisage",
     "DA_Crownguard"
    ],
-   "avgPlacement": 4.309,
-   "popularity": 0.9266
+   "avgPlacement": 4.333,
+   "popularity": 0.9335
   },
   {
    "id": "DA_18_Sett",
@@ -2668,8 +2669,8 @@
     "DA_DragonsClaw",
     "DA_BrambleVest"
    ],
-   "avgPlacement": 4.422,
-   "popularity": 0.4253
+   "avgPlacement": 4.42,
+   "popularity": 0.4411
   },
   {
    "id": "DA_18_Sivir",
@@ -2719,8 +2720,8 @@
     "DA_GuinsoosRageblade",
     "DA_Deathblade"
    ],
-   "avgPlacement": 4.385,
-   "popularity": 0.4356
+   "avgPlacement": 4.403,
+   "popularity": 0.4319
   },
   {
    "id": "DA_18_Soraka",
@@ -2770,8 +2771,8 @@
     "DA_NashorsTooth",
     "DA_StrikersFlail"
    ],
-   "avgPlacement": 4.237,
-   "popularity": 0.3512
+   "avgPlacement": 4.229,
+   "popularity": 0.3722
   },
   {
    "id": "DA_18_Zyra",
@@ -2821,8 +2822,8 @@
     "DA_JeweledGauntlet",
     "DA_18_EmblemExecutioner"
    ],
-   "avgPlacement": 4.38,
-   "popularity": 0.2783
+   "avgPlacement": 4.326,
+   "popularity": 0.311
   },
   {
    "id": "DA_18_Alune",
@@ -2873,8 +2874,8 @@
     "DA_ArchangelsStaff",
     "DA_AdaptiveHelm"
    ],
-   "avgPlacement": 3.701,
-   "popularity": 0.3068
+   "avgPlacement": 3.687,
+   "popularity": 0.3165
   },
   {
    "id": "DA_18_Ashe",
@@ -2924,8 +2925,8 @@
     "DA_18_EmblemInferno",
     "DA_GuinsoosRageblade"
    ],
-   "avgPlacement": 3.94,
-   "popularity": 0.4225
+   "avgPlacement": 3.937,
+   "popularity": 0.4122
   },
   {
    "id": "DA_Draven18",
@@ -2974,8 +2975,8 @@
     "DA_LastWhisper",
     "DA_GiantSlayer"
    ],
-   "avgPlacement": 4.19,
-   "popularity": 0.3369
+   "avgPlacement": 4.157,
+   "popularity": 0.3187
   },
   {
    "id": "DA_18_ElderDragon",
@@ -3025,8 +3026,8 @@
     "DA_StrikersFlail",
     "DA_HandOfJustice"
    ],
-   "avgPlacement": 4.026,
-   "popularity": 0.3137
+   "avgPlacement": 4.015,
+   "popularity": 0.3239
   },
   {
    "id": "DA_18_GnarSmall",
@@ -3077,8 +3078,8 @@
     "DA_TitansResolve",
     "DA_HandOfJustice"
    ],
-   "avgPlacement": 3.897,
-   "popularity": 0.4558
+   "avgPlacement": 3.896,
+   "popularity": 0.4228
   },
   {
    "id": "DA_18_Ivern",
@@ -3127,8 +3128,8 @@
     "DA_ArchangelsStaff",
     "DA_VoidStaff"
    ],
-   "avgPlacement": 3.86,
-   "popularity": 0.5126
+   "avgPlacement": 3.837,
+   "popularity": 0.5176
   },
   {
    "id": "DA_18_Kennen",
@@ -3178,8 +3179,8 @@
     "DA_JeweledGauntlet",
     "DA_Bloodthirster"
    ],
-   "avgPlacement": 3.91,
-   "popularity": 0.6586
+   "avgPlacement": 3.899,
+   "popularity": 0.655
   },
   {
    "id": "DA_Lux18_Base",
@@ -3237,8 +3238,8 @@
     "DA_BlueBuff",
     "DA_AdaptiveHelm"
    ],
-   "avgPlacement": 3.509,
-   "popularity": 0.2786
+   "avgPlacement": 3.537,
+   "popularity": 0.2836
   },
   {
    "id": "DA_18_Maokai",
@@ -3288,8 +3289,8 @@
     "DA_ProtectorsVow",
     "DA_DragonsClaw"
    ],
-   "avgPlacement": 4.068,
-   "popularity": 0.6481
+   "avgPlacement": 4.049,
+   "popularity": 0.6441
   },
   {
    "id": "DA_Taric18",
@@ -3339,8 +3340,8 @@
     "DA_ProtectorsVow",
     "DA_Crownguard"
    ],
-   "avgPlacement": 3.91,
-   "popularity": 0.672
+   "avgPlacement": 3.903,
+   "popularity": 0.6725
   }
  ],
  "traits": [
@@ -6868,6 +6869,27 @@
    "traitId": null
   },
   {
+   "id": "DA_Artifact_Hullcrusher",
+   "name": {
+    "en": "Hullcrusher",
+    "tr": "Omurgaparçalayan"
+   },
+   "desc": {
+    "en": "Combat Start: If there are no adjacent allies, gain 400 Health, 10% Attack Damage, and 10% Ability Power.",
+    "tr": "Çatışma Başlangıcında: Kullanıcı bitişiğinde bir takım arkadaşı yoksa 400 Can, %10 Saldırı Gücü ve %10 Yetenek Gücü kazanır."
+   },
+   "kind": "artifact",
+   "recipe": null,
+   "icon": "items/DA_Artifact_Hullcrusher.png",
+   "iconURL": "https://raw.communitydragon.org/latest/game/assets/maps/particles/tft/item_icons/ornn_items/tft9_ornnitem_hullbreaker.png",
+   "unique": false,
+   "stats": {
+    "Armor": 60,
+    "MR": 60
+   },
+   "traitId": null
+  },
+  {
    "id": "DA_Artifact_InfinityForce",
    "name": {
     "en": "Infinity Force",
@@ -8499,7 +8521,7 @@
    },
    "desc": {
     "en": "Your 1 and 2-cost Inferno champions gain 0.2 Attack Damage and Ability Power. The one who did the most damage last combat gains double. Gain a Varus and an Akali.",
-    "tr": "Bir önceki çatışmada en fazla hasarı veren Alev şampiyonu alev alır ve % Saldırı Hızı kazanır. Bir Varus ve Akali kazanırsın."
+    "tr": "1 ve 2 Altın değerindeki Alev şampiyonların 0.2 Saldırı Gücü ve Yetenek Gücü kazanır. Son çatışmada en çok hasar veren iki katını kazanır. Bir Varus ve Akali kazanırsın."
    },
    "rarity": "silver",
    "category": "trait",
@@ -9463,8 +9485,8 @@
   {
    "id": "DA_BonusGift",
    "name": {
-    "en": "Bonus Gift",
-    "tr": "İlave Hediye"
+    "en": "Bonus Gifts",
+    "tr": "İlave Hediyeler"
    },
    "desc": {
     "en": "Whenever you open a loot orb, you have a 25% chance to gain a gray loot orb. Gain 1 gray loot orbs.",
@@ -9474,14 +9496,14 @@
    "category": "economy",
    "icon": "augments/DA_BonusGift.png",
    "iconURL": "https://cdn.metatft.com/file/metatft/augments/t_augmenticon_bonusgift.png",
-   "metaTier": "B",
+   "metaTier": "A",
    "traitId": null
   },
   {
    "id": "DA_BonusGiftPlus",
    "name": {
-    "en": "Bonus Gift+",
-    "tr": "İlave Hediye+"
+    "en": "Bonus Gifts+",
+    "tr": "İlave Hediyeler+"
    },
    "desc": {
     "en": "Whenever you open a loot orb, you have a 25% chance to gain a gray loot orb. Gain 2 gray loot orbs.",
@@ -9723,7 +9745,7 @@
    },
    "desc": {
     "en": "Gain a Flora Fatalis emblem. The champion holding the emblem gains 50% increased benefits from Flora Fatalis. Gain 3 gold.",
-    "tr": "Bir Flora Fatalis Amblemi kazanırsın. Ambleme sahip şampiyon Flora Fatalis özelliğinden iki kat faydalanır. 3 Altın kazanırsın."
+    "tr": "Bir Flora Fatalis Amblemi kazanırsın. Ambleme sahip şampiyon Flora Fatalis özelliğinden %50 daha fazla faydalanır. 3 Altın kazanırsın."
    },
    "rarity": "gold",
    "category": "trait",
@@ -10290,7 +10312,7 @@
    "category": "combat",
    "icon": "augments/DA_InvestmentStrategyI.png",
    "iconURL": "https://raw.communitydragon.org/latest/game/assets/maps/tft/icons/augments/hexcore/investmentstrategy_ii.png",
-   "metaTier": "B",
+   "metaTier": "C",
    "traitId": null
   },
   {
@@ -10300,8 +10322,8 @@
     "tr": "Tüm Gözler Üstümde"
    },
    "desc": {
-    "en": "Gain a spotlight in the bottom right corner. The champion in it gains 15% Damage Amp and 15% Attack Speed, and drops 1 gold every 5 takedowns.\n\nLore & Legends Tactician's Crown, 2026",
-    "tr": "Sağ alt köşede bir spot ışığı kazanırsın. İçindeki şampiyon %15 Hasar Artışı ve %15 Saldırı Hızı kazanır. Ayrıca her 5 alt etmede 1 Altın kazandırır.\n\n2026 Öykü ve Efsaneler Tactician's Crown"
+    "en": "Gain a championship hex in the bottom right corner. The champion in it gains 15% Damage Amp and 15% Attack Speed, and drops 1 gold every 5 takedowns.\n\nLore & Legends Tactician's Crown, 2026",
+    "tr": "Sağ alt köşede bir şampiyonluk hücresi kazanırsın. İçindeki şampiyon %15 Hasar Artışı ve %15 Saldırı Hızı kazanır. Ayrıca her 5 alt etmede 1 Altın kazandırır.\n\n2026 Öykü ve Efsaneler Tactician's Crown"
    },
    "rarity": "gold",
    "category": "combat",
@@ -10317,8 +10339,8 @@
     "tr": "Eşya Çıkarma"
    },
    "desc": {
-    "en": "The first 4 times you sacrifice a champion in the Blackthorn hex, gain a copy of a random component they're holding. Gain a Veigar and a Rek'Sai.",
-    "tr": "Karadiken hücresinde bir şampiyon feda ettiğin ilk 4 seferde şampiyonun sahip olduğu rasgele bir bileşen eşyanın kopyasını kazanırsın. Bir Veigar ve Rek'Sai kazanırsın."
+    "en": "The first 3 times you sacrifice a champion in the Blackthorn hex, gain a copy of a random component they're holding. Gain an Azir, Veigar, and a Rek'Sai.",
+    "tr": "Karadiken hücresinde bir şampiyon feda ettiğin ilk 3 seferde şampiyonun sahip olduğu rasgele bir bileşen eşyanın kopyasını kazanırsın. Bir Azir, Veigar ve Rek'Sai kazanırsın."
    },
    "rarity": "gold",
    "category": "trait",
@@ -10426,7 +10448,7 @@
    "category": "combat",
    "icon": "augments/DA_MakeshiftArmorII.png",
    "iconURL": "https://raw.communitydragon.org/latest/game/assets/maps/tft/icons/augments/hexcore/makeshift2.png",
-   "metaTier": "B",
+   "metaTier": "C",
    "traitId": null
   },
   {
@@ -10511,7 +10533,7 @@
    "category": "combat",
    "icon": "augments/DA_NoScoutNoPivot.png",
    "iconURL": "https://raw.communitydragon.org/latest/game/assets/maps/tft/icons/augments/hexcore/noscoutnopivot_ii.png",
-   "metaTier": "A",
+   "metaTier": "B",
    "traitId": null
   },
   {
@@ -10545,7 +10567,7 @@
    "category": "trait",
    "icon": "augments/DA_18_RiftbeastTraitAugment.png",
    "iconURL": "https://cdn.metatft.com/file/metatft/augments/t_augmenticon_riftbeastaugment.png",
-   "metaTier": "A",
+   "metaTier": "B",
    "traitId": "DA_Riftbeast18"
   },
   {
@@ -10766,7 +10788,7 @@
    "category": "trait",
    "icon": "augments/DA_18_SprykinAugment.png",
    "iconURL": "https://cdn.metatft.com/file/metatft/augments/t_augmenticon_sprykinaugment.png",
-   "metaTier": "B",
+   "metaTier": "C",
    "traitId": "DA_18_Sprykin"
   },
   {
@@ -10845,7 +10867,7 @@
    },
    "desc": {
     "en": "Gain a random Emblems. After 3 combats, gain another.",
-    "tr": "Rasgele 1 amblem ve 0 Altın kazanırsın."
+    "tr": "Rasgele bir amblem kazanırsın. 3 çatışma sonra bir tane daha kazanırsın."
    },
    "rarity": "gold",
    "category": "economy",
@@ -10862,7 +10884,7 @@
    },
    "desc": {
     "en": "Gain random Emblems and gold.",
-    "tr": "Rasgele amblem, bir Yeniden İşleyici ve Altın kazanırsın."
+    "tr": "Rasgele amblem ve Altın kazanırsın."
    },
    "rarity": "gold",
    "category": "economy",
@@ -10997,8 +11019,8 @@
     "tr": "Ticaret Bölgesi"
    },
    "desc": {
-    "en": "Gain a free Shop reroll every round. Gain 2 gold.",
-    "tr": "Her tur dükkânını bir kez bedelsiz yenileyebilirsin. 2 Altın kazanırsın."
+    "en": "Gain a Shop reroll every round. Gain 2 gold.",
+    "tr": "Her tur dükkânını bir kez yenileyebilirsin. 2 Altın kazanırsın."
    },
    "rarity": "gold",
    "category": "economy",
@@ -11014,8 +11036,8 @@
     "tr": "Ticaret Bölgesi+"
    },
    "desc": {
-    "en": "Gain a free Shop reroll every round. Gain 8 gold.",
-    "tr": "Her tur dükkânını bir kez bedelsiz yenileyebilirsin. 8 Altın kazanırsın."
+    "en": "Gain a Shop reroll every round. Gain 8 gold.",
+    "tr": "Her tur dükkânını bir kez yenileyebilirsin. 8 Altın kazanırsın."
    },
    "rarity": "gold",
    "category": "economy",
@@ -11099,8 +11121,8 @@
     "tr": "Emeğin Karşılığı"
    },
    "desc": {
-    "en": "The first time you 3-star a champion, gain a copy of them each round for the rest of the game. 3-starring the same champion again grants additional copies. Gain a Lesser Champion Duplicator and a Tiny Champion Duplicator.",
-    "tr": "Şampiyonları ilk kez 3 yıldıza yükselttiğinde karşılaşmanın geri kalanı boyunca her tur onların bir kopyasını kazanırsın. Aynı şampiyonu tekrar 3 yıldıza yükseltmek ilave kopyalar kazandırır. Bir Küçük Şampiyon Çoğaltıcı ve Minik Şampiyon Çoğaltıcı kazanırsın."
+    "en": "The first time you 3-star a champion, gain a copy of them each round for the rest of the game. 3-starring the same champion again grants additional copies. Gain a Lesser Champion Duplicator.",
+    "tr": "Bir şampiyonu ilk kez 3 yıldıza yükselttiğinde karşılaşmanın geri kalanı boyunca her tur onun bir kopyasını kazanırsın. Aynı şampiyonu tekrar 3 yıldıza yükseltmek ilave kopyalar kazandırır. Bir Küçük Şampiyon Çoğaltıcı kazanırsın."
    },
    "rarity": "gold",
    "category": "economy",
@@ -11399,23 +11421,6 @@
    "traitId": null
   },
   {
-   "id": "DA_CursedCrown",
-   "name": {
-    "en": "Cursed Crown",
-    "tr": "Lanetli Taç"
-   },
-   "desc": {
-    "en": "Gain +2 max team size, but you take double player damage when you lose a player combat.",
-    "tr": "2 Azami Takım Boyutu kazanırsın ve takımın %96 Dayanıklılık kazanır ama oyunculara karşı bir çatışma kaybettiğinde strateji ustan iki kat hasar alır."
-   },
-   "rarity": "prismatic",
-   "category": "combat",
-   "icon": "augments/DA_CursedCrown.png",
-   "iconURL": "https://raw.communitydragon.org/latest/game/assets/maps/tft/icons/augments/hexcore/cursedcrown-iii.png",
-   "metaTier": "B",
-   "traitId": null
-  },
-  {
    "id": "DA_DeadlierBlades",
    "name": {
     "en": "Deadlier Blades",
@@ -11447,6 +11452,23 @@
    "icon": "augments/DA_DeadlierCaps.png",
    "iconURL": "https://raw.communitydragon.org/latest/game/assets/maps/tft/icons/augments/hexcore/deadliercaps_ii.png",
    "metaTier": "B",
+   "traitId": null
+  },
+  {
+   "id": "DA_ExpectedUnexpectedness",
+   "name": {
+    "en": "Expected Unexpectedness",
+    "tr": "Beklenen Beklenmezlik"
+   },
+   "desc": {
+    "en": "Now and at the start of the next 2 stages, roll 3 dice. Gain various rewards based on their total.",
+    "tr": "Şimdi ve sonraki 2 aşamanın başlangıcında 3 zar atarsın. Attığın zarların toplamına göre çeşitli ödüller kazanırsın."
+   },
+   "rarity": "prismatic",
+   "category": "utility",
+   "icon": "augments/DA_ExpectedUnexpectedness.png",
+   "iconURL": "https://raw.communitydragon.org/latest/game/assets/maps/tft/icons/augments/hexcore/addicted-to-rolling-iii.png",
+   "metaTier": null,
    "traitId": null
   },
   {
@@ -11508,7 +11530,7 @@
    },
    "desc": {
     "en": "You no longer gain interest. Gain 10 gold now. Gain 4 XP after every player combat.\n\nInterest is extra gold you gain per 10g saved.",
-    "tr": "Birikim altını kazanmazsın. Anında 10 Altın kazanırsın. Tur Başlangıcında: 4 XP kazanırsın.\n\nBirikim altını, biriktirdiğin her 10 Altın için kazandığın ilave altınlardır."
+    "tr": "Birikim altını kazanmazsın. Anında 10 Altın kazanırsın. Oyunculara karşı her çatışmadan sonra 4 XP kazanırsın.\n\nBirikim altını, biriktirdiğin her 10 Altın için kazandığın ilave altınlardır."
    },
    "rarity": "prismatic",
    "category": "economy",
@@ -11616,7 +11638,7 @@
    "category": "combat",
    "icon": "augments/DA_HoldTheLine.png",
    "iconURL": "https://raw.communitydragon.org/latest/game/assets/maps/tft/icons/augments/hexcore/holdtheline_iii.png",
-   "metaTier": "A",
+   "metaTier": "B",
    "traitId": null
   },
   {
@@ -12034,14 +12056,14 @@
     "tr": "Parlakpul Özü"
    },
    "desc": {
-    "en": "Gain a Mogul's Mail. After 6 player combats, gain a Gamblers Blade.",
-    "tr": "Bir Mogul'un Zırhı kazanırsın. Oyunculara karşı 6 çatışmanın ardından bir Rizikocunun Bıçağı kazanırsın."
+    "en": "Gain a Gambler's Blade. After 6 player combats, gain a Mogul's Mail.",
+    "tr": "Bir Rizikocunun Bıçağı kazanırsın. Oyunculara karşı 6 çatışmanın ardından bir Mogul'un Zırhı kazanırsın."
    },
    "rarity": "prismatic",
    "category": "economy",
    "icon": "augments/DA_ShimmerscaleEssence.png",
    "iconURL": "https://raw.communitydragon.org/latest/game/assets/maps/tft/icons/augments/hexcore/shimmerscaleessence_iii.png",
-   "metaTier": "B",
+   "metaTier": "C",
    "traitId": null
   },
   {
@@ -12051,8 +12073,8 @@
     "tr": "Alışveriş Çılgınlığı"
    },
    "desc": {
-    "en": "When you level up, gain a number of free shop refreshes equal to your level +1. Gain 6 gold.",
-    "tr": "Seviye atladığında seviyene eşdeğer miktarda 1 bedelsiz dükkân yenileme hakkı kazanırsın. 6 Altın kazanırsın."
+    "en": "When you level up, gain a number of Shop refreshes equal to your level +1. Gain 6 gold.",
+    "tr": "Seviye atladığında seviyene eşdeğer miktarda +1 dükkân yenileme hakkı kazanırsın. 6 Altın kazanırsın."
    },
    "rarity": "prismatic",
    "category": "economy",
@@ -12221,8 +12243,8 @@
     "tr": "Daimi Yükseliş"
    },
    "desc": {
-    "en": "Buying XP costs 1 less. Gain 2 Health and 2 free reroll whenever you level up.",
-    "tr": "XP almanın bedeli 1 azalır. Seviye atladığında 2 Strateji Ustası Canı ve 2 bedelsiz yenileme hakkı kazanırsın."
+    "en": "Buying XP costs 1 less. Gain 2 Health and 2 Shop rerolls whenever you level up.",
+    "tr": "XP almanın bedeli 1 azalır. Seviye atladığında 2 Strateji Ustası Canı ve 2 dükkân yenileme hakkı kazanırsın."
    },
    "rarity": "prismatic",
    "category": "economy",
