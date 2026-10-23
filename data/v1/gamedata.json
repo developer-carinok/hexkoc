@@ -1,6 +1,6 @@
 {
  "schemaVersion": 1,
- "generatedAt": "2026-10-22T11:08:06Z",
+ "generatedAt": "2026-10-23T10:59:06Z",
  "set": {
   "key": "TFTSet18",
   "number": 18,
@@ -58,8 +58,8 @@
     "DA_RabadonsDeathcap",
     "DA_Artifact_RapidFireCannon"
    ],
-   "avgPlacement": 4.899,
-   "popularity": 0.092
+   "avgPlacement": 4.871,
+   "popularity": 0.0853
   },
   {
    "id": "DA_18_Camille",
@@ -109,8 +109,8 @@
     "DA_Bloodthirster",
     "DA_TitansResolve"
    ],
-   "avgPlacement": 5.589,
-   "popularity": 0.1259
+   "avgPlacement": 5.571,
+   "popularity": 0.1145
   },
   {
    "id": "DA_Cinderling18",
@@ -160,8 +160,8 @@
     "DA_Deathblade",
     "DA_GiantSlayer"
    ],
-   "avgPlacement": 4.574,
-   "popularity": 0.16
+   "avgPlacement": 4.663,
+   "popularity": 0.1593
   },
   {
    "id": "DA_Karma18",
@@ -211,8 +211,8 @@
     "DA_18_EmblemExecutioner",
     "DA_ArchangelsStaff"
    ],
-   "avgPlacement": 4.636,
-   "popularity": 0.2703
+   "avgPlacement": 4.619,
+   "popularity": 0.2623
   },
   {
    "id": "DA_18_Kobuko",
@@ -262,8 +262,8 @@
     "DA_SunfireCape",
     "DA_DragonsClaw"
    ],
-   "avgPlacement": 4.703,
-   "popularity": 0.1158
+   "avgPlacement": 4.657,
+   "popularity": 0.1218
   },
   {
    "id": "DA_18_Leona",
@@ -313,8 +313,8 @@
     "DA_SunfireCape",
     "DA_Evenshroud"
    ],
-   "avgPlacement": 4.5,
-   "popularity": 0.3003
+   "avgPlacement": 4.473,
+   "popularity": 0.2823
   },
   {
    "id": "DA_18_Ornn",
@@ -364,8 +364,8 @@
     "DA_DragonsClaw",
     "DA_SteadfastHeart"
    ],
-   "avgPlacement": 4.547,
-   "popularity": 0.4307
+   "avgPlacement": 4.567,
+   "popularity": 0.4046
   },
   {
    "id": "DA_18_Sentry",
@@ -415,8 +415,8 @@
     "DA_VoidStaff",
     "DA_HextechGunblade"
    ],
-   "avgPlacement": 4.33,
-   "popularity": 0.366
+   "avgPlacement": 4.309,
+   "popularity": 0.4181
   },
   {
    "id": "DA_18_Rakan",
@@ -467,8 +467,8 @@
     "DA_WarmogsArmor",
     "DA_SunfireCape"
    ],
-   "avgPlacement": 4.847,
-   "popularity": 0.2894
+   "avgPlacement": 4.806,
+   "popularity": 0.2803
   },
   {
    "id": "DA_18_RekSai",
@@ -518,8 +518,8 @@
     "DA_SpiritVisage",
     "DA_IonicSpark"
    ],
-   "avgPlacement": 4.651,
-   "popularity": 0.1771
+   "avgPlacement": 4.656,
+   "popularity": 0.1668
   },
   {
    "id": "DA_18_Varus",
@@ -569,8 +569,8 @@
     "DA_GuinsoosRageblade",
     "DA_GiantSlayer"
    ],
-   "avgPlacement": 4.551,
-   "popularity": 0.2394
+   "avgPlacement": 4.58,
+   "popularity": 0.2116
   },
   {
    "id": "DA_18_Veigar",
@@ -621,8 +621,8 @@
     "DA_Artifact_LudensTempest",
     "DA_RabadonsDeathcap"
    ],
-   "avgPlacement": 4.479,
-   "popularity": 0.2926
+   "avgPlacement": 4.494,
+   "popularity": 0.2576
   },
   {
    "id": "DA_18_Xayah",
@@ -673,8 +673,8 @@
     "DA_LastWhisper",
     "DA_GiantSlayer"
    ],
-   "avgPlacement": 4.69,
-   "popularity": 0.2252
+   "avgPlacement": 4.698,
+   "popularity": 0.2126
   },
   {
    "id": "DA_18_Yorick",
@@ -725,8 +725,8 @@
     "DA_SpiritVisage",
     "DA_IonicSpark"
    ],
-   "avgPlacement": 4.651,
-   "popularity": 0.3957
+   "avgPlacement": 4.605,
+   "popularity": 0.3788
   },
   {
    "id": "DA_18_Alistar",
@@ -776,8 +776,8 @@
     "DA_DragonsClaw",
     "DA_SunfireCape"
    ],
-   "avgPlacement": 4.454,
-   "popularity": 0.3914
+   "avgPlacement": 4.481,
+   "popularity": 0.396
   },
   {
    "id": "DA_18_Caitlyn",
@@ -827,8 +827,8 @@
     "DA_Deathblade",
     "DA_GuinsoosRagebladeRadiant"
    ],
-   "avgPlacement": 5.692,
-   "popularity": 0.1078
+   "avgPlacement": 5.648,
+   "popularity": 0.0967
   },
   {
    "id": "DA_18_Elise",
@@ -875,11 +875,11 @@
     "DA_GuinsoosRageblade",
     "DA_TitansResolve",
     "DA_WarmogsArmor",
-    "DA_18_EmblemSlayer",
-    "DA_SpiritVisage"
+    "DA_SpiritVisage",
+    "DA_18_EmblemSlayer"
    ],
-   "avgPlacement": 5.128,
-   "popularity": 0.2337
+   "avgPlacement": 5.167,
+   "popularity": 0.2112
   },
   {
    "id": "DA_Gromp18_AP",
@@ -924,14 +924,14 @@
    "poolCount": 25,
    "recommendedItems": [
     "DA_InfinityEdge",
-    "DA_Artifact_NavoriFlickerblade",
-    "DA_Component_BFSword",
-    "DA_EdgeOfNight",
-    "DA_GuinsoosRageblade",
-    "DA_LastWhisper"
+    "DA_RedBuff",
+    "DA_SpearOfShojin",
+    "DA_TacticiansCrown",
+    "DA_Artifact_SilvermereDawn",
+    "DA_BlueBuff"
    ],
-   "avgPlacement": 4.468,
-   "popularity": 0.1032
+   "avgPlacement": 4.537,
+   "popularity": 0.1048
   },
   {
    "id": "DA_18_Kayle",
@@ -981,8 +981,8 @@
     "DA_RedBuff",
     "DA_GiantSlayer"
    ],
-   "avgPlacement": 4.363,
-   "popularity": 0.2547
+   "avgPlacement": 4.323,
+   "popularity": 0.2388
   },
   {
    "id": "DA_18_LeBlanc",
@@ -1032,8 +1032,8 @@
     "DA_RedBuff",
     "DA_RabadonsDeathcap"
    ],
-   "avgPlacement": 4.51,
-   "popularity": 0.3773
+   "avgPlacement": 4.509,
+   "popularity": 0.3661
   },
   {
    "id": "DA_Murkwolf18",
@@ -1076,15 +1076,15 @@
    "teamCode": "419",
    "poolCount": 25,
    "recommendedItems": [
-    "DA_EdgeOfNight",
     "DA_HandOfJustice",
+    "DA_EdgeOfNight",
     "DA_InfinityEdge",
     "DA_ThiefsGloves",
-    "DA_SteraksGage",
-    "DA_Quicksilver"
+    "DA_LastWhisper",
+    "DA_SteraksGage"
    ],
-   "avgPlacement": 4.29,
-   "popularity": 0.2646
+   "avgPlacement": 4.249,
+   "popularity": 0.3322
   },
   {
    "id": "DA_Scuttlecrab18",
@@ -1131,11 +1131,11 @@
     "DA_WarmogsArmor",
     "DA_SpiritVisage",
     "DA_SunfireCape",
-    "DA_DragonsClaw",
-    "DA_ThiefsGloves"
+    "DA_ThiefsGloves",
+    "DA_Crownguard"
    ],
-   "avgPlacement": 4.643,
-   "popularity": 0.2955
+   "avgPlacement": 4.691,
+   "popularity": 0.3061
   },
   {
    "id": "DA_18_Sejuani",
@@ -1185,8 +1185,8 @@
     "DA_DragonsClaw",
     "DA_SunfireCape"
    ],
-   "avgPlacement": 4.55,
-   "popularity": 0.3344
+   "avgPlacement": 4.523,
+   "popularity": 0.3144
   },
   {
    "id": "DA_18_Shen",
@@ -1236,8 +1236,8 @@
     "DA_ProtectorsVow",
     "DA_SunfireCape"
    ],
-   "avgPlacement": 4.68,
-   "popularity": 0.1882
+   "avgPlacement": 4.683,
+   "popularity": 0.1724
   },
   {
    "id": "DA_18_Teemo",
@@ -1282,13 +1282,13 @@
    "recommendedItems": [
     "DA_JeweledGauntlet",
     "DA_SpearOfShojin",
-    "DA_VoidStaff",
-    "DA_RabadonsDeathcap",
     "DA_StrikersFlail",
+    "DA_RabadonsDeathcap",
+    "DA_VoidStaff",
     "DA_BlueBuff"
    ],
-   "avgPlacement": 4.402,
-   "popularity": 0.1895
+   "avgPlacement": 4.421,
+   "popularity": 0.1638
   },
   {
    "id": "DA_18_Warwick",
@@ -1338,8 +1338,8 @@
     "DA_InfinityEdge",
     "DA_HandOfJustice"
    ],
-   "avgPlacement": 4.824,
-   "popularity": 0.0584
+   "avgPlacement": 4.871,
+   "popularity": 0.0546
   },
   {
    "id": "DA_18_Yunara",
@@ -1389,8 +1389,8 @@
     "DA_RedBuff",
     "DA_GiantSlayer"
    ],
-   "avgPlacement": 4.655,
-   "popularity": 0.2003
+   "avgPlacement": 4.648,
+   "popularity": 0.187
   },
   {
    "id": "DA_18_Azir",
@@ -1441,8 +1441,8 @@
     "DA_JeweledGauntlet",
     "DA_VoidStaff"
    ],
-   "avgPlacement": 4.42,
-   "popularity": 0.2991
+   "avgPlacement": 4.425,
+   "popularity": 0.2572
   },
   {
    "id": "DA_18_Cassiopeia",
@@ -1492,8 +1492,8 @@
     "DA_Morellonomicon",
     "DA_JeweledGauntlet"
    ],
-   "avgPlacement": 4.8,
-   "popularity": 0.29
+   "avgPlacement": 4.821,
+   "popularity": 0.2695
   },
   {
    "id": "DA_18_Diana",
@@ -1544,8 +1544,8 @@
     "DA_Bloodthirster",
     "DA_GargoyleStoneplate"
    ],
-   "avgPlacement": 4.511,
-   "popularity": 0.6257
+   "avgPlacement": 4.566,
+   "popularity": 0.5699
   },
   {
    "id": "DA_Fiddlesticks18",
@@ -1596,8 +1596,8 @@
     "DA_SunfireCape",
     "DA_SpiritVisage"
    ],
-   "avgPlacement": 4.507,
-   "popularity": 0.5716
+   "avgPlacement": 4.535,
+   "popularity": 0.5175
   },
   {
    "id": "DA_18_Hecarim",
@@ -1647,8 +1647,8 @@
     "DA_SunfireCape",
     "DA_DragonsClaw"
    ],
-   "avgPlacement": 4.62,
-   "popularity": 0.4551
+   "avgPlacement": 4.664,
+   "popularity": 0.4323
   },
   {
    "id": "DA_18_KhaZix",
@@ -1697,8 +1697,8 @@
     "DA_JeweledGauntlet",
     "DA_StrikersFlail"
    ],
-   "avgPlacement": 4.596,
-   "popularity": 0.137
+   "avgPlacement": 4.647,
+   "popularity": 0.1229
   },
   {
    "id": "DA_KogMaw18_AD",
@@ -1748,10 +1748,10 @@
     "DA_GuinsoosRageblade",
     "DA_InfinityEdge",
     "DA_Morellonomicon",
-    "DA_Component_RecurveBow"
+    "DA_GiantSlayer"
    ],
-   "avgPlacement": 4.335,
-   "popularity": 0.2507
+   "avgPlacement": 4.362,
+   "popularity": 0.2368
   },
   {
    "id": "DA_Krug18",
@@ -1797,12 +1797,12 @@
     "DA_GargoyleStoneplate",
     "DA_WarmogsArmor",
     "DA_SpiritVisage",
-    "DA_SunfireCape",
     "DA_DragonsClaw",
+    "DA_SunfireCape",
     "DA_Crownguard"
    ],
-   "avgPlacement": 4.377,
-   "popularity": 0.4824
+   "avgPlacement": 4.352,
+   "popularity": 0.5555
   },
   {
    "id": "DA_CrimsonRaptor18",
@@ -1853,8 +1853,8 @@
     "DA_Deathblade",
     "DA_RedBuff"
    ],
-   "avgPlacement": 4.584,
-   "popularity": 0.1255
+   "avgPlacement": 4.664,
+   "popularity": 0.1365
   },
   {
    "id": "DA_18_MasterYi_AD",
@@ -1901,12 +1901,12 @@
     "DA_GuinsoosRageblade",
     "DA_EdgeOfNight",
     "DA_18_EmblemBrawler",
-    "DA_Quicksilver",
     "DA_TitansResolve",
+    "DA_Quicksilver",
     "DA_Artifact_RapidFireCannon"
    ],
-   "avgPlacement": 4.608,
-   "popularity": 0.1235
+   "avgPlacement": 4.542,
+   "popularity": 0.1244
   },
   {
    "id": "DA_18_Rammus",
@@ -1954,10 +1954,10 @@
     "DA_SpiritVisage",
     "DA_Crownguard",
     "DA_SteadfastHeart",
-    "DA_DragonsClaw"
+    "DA_SunfireCape"
    ],
-   "avgPlacement": 4.5,
-   "popularity": 0.2789
+   "avgPlacement": 4.526,
+   "popularity": 0.2514
   },
   {
    "id": "DA_18_Rengar",
@@ -2004,10 +2004,10 @@
     "DA_TitansResolve",
     "DA_SteraksGage",
     "DA_18_EmblemDefender",
-    "DA_Quicksilver"
+    "DA_18_EmblemFae"
    ],
-   "avgPlacement": 4.558,
-   "popularity": 0.1154
+   "avgPlacement": 4.547,
+   "popularity": 0.1139
   },
   {
    "id": "DA_18_Tristana",
@@ -2055,11 +2055,11 @@
     "DA_HextechGunblade",
     "DA_InfinityEdge",
     "DA_KrakensFury",
-    "DA_Deathblade",
-    "DA_GiantSlayer"
+    "DA_GiantSlayer",
+    "DA_Deathblade"
    ],
-   "avgPlacement": 4.742,
-   "popularity": 0.1278
+   "avgPlacement": 4.677,
+   "popularity": 0.1273
   },
   {
    "id": "DA_Vi18",
@@ -2105,12 +2105,12 @@
     "DA_GargoyleStoneplate",
     "DA_WarmogsArmor",
     "DA_SpiritVisage",
-    "DA_ThiefsGloves",
     "DA_Evenshroud",
+    "DA_ThiefsGloves",
     "DA_SunfireCape"
    ],
-   "avgPlacement": 4.6,
-   "popularity": 0.4481
+   "avgPlacement": 4.588,
+   "popularity": 0.4244
   },
   {
    "id": "DA_18_Ahri",
@@ -2160,8 +2160,8 @@
     "DA_18_EmblemInvoker",
     "DA_BlueBuff"
    ],
-   "avgPlacement": 4.466,
-   "popularity": 0.2841
+   "avgPlacement": 4.475,
+   "popularity": 0.2687
   },
   {
    "id": "DA_Amumu18",
@@ -2211,8 +2211,8 @@
     "DA_ProtectorsVow",
     "DA_DragonsClaw"
    ],
-   "avgPlacement": 4.33,
-   "popularity": 0.705
+   "avgPlacement": 4.354,
+   "popularity": 0.644
   },
   {
    "id": "DA_18_Aphelios",
@@ -2260,10 +2260,10 @@
     "DA_InfinityEdge",
     "DA_Deathblade",
     "DA_GiantSlayer",
-    "DA_RedBuff"
+    "DA_LastWhisper"
    ],
-   "avgPlacement": 4.257,
-   "popularity": 0.366
+   "avgPlacement": 4.311,
+   "popularity": 0.3239
   },
   {
    "id": "DA_Brambleback18",
@@ -2309,12 +2309,12 @@
     "DA_EdgeOfNight",
     "DA_GuinsoosRageblade",
     "DA_HandOfJustice",
-    "DA_SteraksGage",
     "DA_Quicksilver",
+    "DA_SteraksGage",
     "DA_Bloodthirster"
    ],
-   "avgPlacement": 4.156,
-   "popularity": 0.3043
+   "avgPlacement": 4.158,
+   "popularity": 0.3715
   },
   {
    "id": "DA_18_Ezreal",
@@ -2364,8 +2364,8 @@
     "DA_RedBuff",
     "DA_StrikersFlail"
    ],
-   "avgPlacement": 4.285,
-   "popularity": 0.3866
+   "avgPlacement": 4.343,
+   "popularity": 0.3704
   },
   {
    "id": "DA_18_Lillia",
@@ -2415,8 +2415,8 @@
     "DA_AdaptiveHelm",
     "DA_ThiefsGloves"
    ],
-   "avgPlacement": 4.447,
-   "popularity": 0.2477
+   "avgPlacement": 4.439,
+   "popularity": 0.2444
   },
   {
    "id": "DA_18_Malphite",
@@ -2466,8 +2466,8 @@
     "DA_DragonsClaw",
     "DA_SteadfastHeart"
    ],
-   "avgPlacement": 4.684,
-   "popularity": 0.1547
+   "avgPlacement": 4.686,
+   "popularity": 0.1364
   },
   {
    "id": "DA_18_Morgana",
@@ -2513,12 +2513,12 @@
     "DA_VoidStaff",
     "DA_Morellonomicon",
     "DA_RedBuff",
-    "DA_HextechGunblade",
     "DA_RabadonsDeathcap",
+    "DA_HextechGunblade",
     "DA_JeweledGauntlet"
    ],
-   "avgPlacement": 4.532,
-   "popularity": 0.4155
+   "avgPlacement": 4.549,
+   "popularity": 0.3973
   },
   {
    "id": "DA_Nidalee18_AP",
@@ -2565,12 +2565,12 @@
     "DA_InfinityEdge",
     "DA_SteraksGage",
     "DA_SpearOfShojin",
+    "DA_GuinsoosRageblade",
     "DA_HandOfJustice",
-    "DA_EdgeOfNight",
-    "DA_GuinsoosRageblade"
+    "DA_EdgeOfNight"
    ],
    "avgPlacement": 4.367,
-   "popularity": 0.2429
+   "popularity": 0.2246
   },
   {
    "id": "DA_Sentinel18",
@@ -2621,7 +2621,7 @@
     "DA_AdaptiveHelm",
     "DA_Crownguard"
    ],
-   "avgPlacement": 4.28,
+   "avgPlacement": 4.287,
    "popularity": 1.0
   },
   {
@@ -2672,8 +2672,8 @@
     "DA_SteadfastHeart",
     "DA_SteraksGage"
    ],
-   "avgPlacement": 4.451,
-   "popularity": 0.3569
+   "avgPlacement": 4.446,
+   "popularity": 0.3586
   },
   {
    "id": "DA_18_Sivir",
@@ -2723,8 +2723,8 @@
     "DA_GuinsoosRageblade",
     "DA_Deathblade"
    ],
-   "avgPlacement": 4.518,
-   "popularity": 0.2183
+   "avgPlacement": 4.464,
+   "popularity": 0.2111
   },
   {
    "id": "DA_18_Soraka",
@@ -2770,12 +2770,12 @@
     "DA_SpearOfShojin",
     "DA_RabadonsDeathcap",
     "DA_JeweledGauntlet",
-    "DA_VoidStaff",
     "DA_ArchangelsStaff",
+    "DA_VoidStaff",
     "DA_NashorsTooth"
    ],
-   "avgPlacement": 4.223,
-   "popularity": 0.3527
+   "avgPlacement": 4.246,
+   "popularity": 0.3054
   },
   {
    "id": "DA_18_Zyra",
@@ -2825,8 +2825,8 @@
     "DA_Morellonomicon",
     "DA_18_EmblemExecutioner"
    ],
-   "avgPlacement": 4.363,
-   "popularity": 0.2551
+   "avgPlacement": 4.371,
+   "popularity": 0.2178
   },
   {
    "id": "DA_18_Alune",
@@ -2877,8 +2877,8 @@
     "DA_VoidStaff",
     "DA_RabadonsDeathcap"
    ],
-   "avgPlacement": 3.787,
-   "popularity": 0.3451
+   "avgPlacement": 3.837,
+   "popularity": 0.3196
   },
   {
    "id": "DA_18_Ashe",
@@ -2928,8 +2928,8 @@
     "DA_GuinsoosRageblade",
     "DA_18_EmblemInferno"
    ],
-   "avgPlacement": 4.064,
-   "popularity": 0.2211
+   "avgPlacement": 4.052,
+   "popularity": 0.1985
   },
   {
    "id": "DA_Draven18",
@@ -2978,8 +2978,8 @@
     "DA_LastWhisper",
     "DA_GiantSlayer"
    ],
-   "avgPlacement": 4.106,
-   "popularity": 0.3135
+   "avgPlacement": 4.166,
+   "popularity": 0.2942
   },
   {
    "id": "DA_18_ElderDragon",
@@ -3029,8 +3029,8 @@
     "DA_StrikersFlail",
     "DA_HandOfJustice"
    ],
-   "avgPlacement": 3.829,
-   "popularity": 0.4038
+   "avgPlacement": 3.783,
+   "popularity": 0.422
   },
   {
    "id": "DA_18_GnarSmall",
@@ -3078,11 +3078,11 @@
     "DA_SteraksGage",
     "DA_Bloodthirster",
     "DA_EdgeOfNight",
-    "DA_TitansResolve",
-    "DA_HandOfJustice"
+    "DA_HandOfJustice",
+    "DA_TitansResolve"
    ],
-   "avgPlacement": 3.695,
-   "popularity": 0.458
+   "avgPlacement": 3.677,
+   "popularity": 0.4855
   },
   {
    "id": "DA_18_Ivern",
@@ -3131,8 +3131,8 @@
     "DA_ArchangelsStaff",
     "DA_VoidStaff"
    ],
-   "avgPlacement": 3.891,
-   "popularity": 0.4402
+   "avgPlacement": 3.925,
+   "popularity": 0.4181
   },
   {
    "id": "DA_18_Kennen",
@@ -3182,8 +3182,8 @@
     "DA_JeweledGauntlet",
     "DA_Morellonomicon"
    ],
-   "avgPlacement": 3.944,
-   "popularity": 0.4838
+   "avgPlacement": 3.973,
+   "popularity": 0.4408
   },
   {
    "id": "DA_Lux18_Base",
@@ -3236,13 +3236,13 @@
    "recommendedItems": [
     "DA_SpearOfShojin",
     "DA_JeweledGauntlet",
-    "DA_VoidStaff",
     "DA_RabadonsDeathcap",
+    "DA_VoidStaff",
     "DA_BlueBuff",
     "DA_ArchangelsStaff"
    ],
-   "avgPlacement": 3.584,
-   "popularity": 0.2654
+   "avgPlacement": 3.605,
+   "popularity": 0.2435
   },
   {
    "id": "DA_18_Maokai",
@@ -3292,8 +3292,8 @@
     "DA_Crownguard",
     "DA_DragonsClaw"
    ],
-   "avgPlacement": 4.102,
-   "popularity": 0.4856
+   "avgPlacement": 4.132,
+   "popularity": 0.4518
   },
   {
    "id": "DA_Taric18",
@@ -3343,8 +3343,8 @@
     "DA_ProtectorsVow",
     "DA_Crownguard"
    ],
-   "avgPlacement": 3.828,
-   "popularity": 0.6809
+   "avgPlacement": 3.816,
+   "popularity": 0.685
   }
  ],
  "traits": [
@@ -11386,7 +11386,7 @@
    "category": "combat",
    "icon": "augments/DA_CelestialBlessingIII.png",
    "iconURL": "https://raw.communitydragon.org/latest/game/assets/maps/tft/icons/augments/hexcore/celestialblessing3.png",
-   "metaTier": "C",
+   "metaTier": "B",
    "traitId": null
   },
   {
