@@ -1,6 +1,6 @@
 {
  "schemaVersion": 1,
- "generatedAt": "2026-11-04T13:45:22Z",
+ "generatedAt": "2026-11-05T13:57:42Z",
  "set": {
   "key": "TFTSet18",
   "number": 18,
@@ -58,8 +58,8 @@
     "DA_RabadonsDeathcap",
     "DA_Artifact_RapidFireCannon"
    ],
-   "avgPlacement": 4.891,
-   "popularity": 0.0989
+   "avgPlacement": 4.945,
+   "popularity": 0.0883
   },
   {
    "id": "DA_18_Camille",
@@ -92,8 +92,8 @@
      "tr": "Savunma Çelmesi"
     },
     "desc": {
-     "en": "Slice the target for 160 / 240 / 400 (AD)(AP) physical damage and gain 60 / 90 / 200 Shield for 2 seconds.",
-     "tr": "Hedefi biçerek 160 / 240 / 400 (SG) (YG) Fiziksel Hasar verir ve 2 saniyeliğine 60 / 90 / 200 Kalkan kazanır."
+     "en": "Slice the target for 160 / 240 / 425 (AD)(AP) physical damage and gain 60 / 90 / 200 Shield for 2 seconds.",
+     "tr": "Hedefi biçerek 160 / 240 / 425 (SG) (YG) Fiziksel Hasar verir ve 2 saniyeliğine 60 / 90 / 200 Kalkan kazanır."
     }
    },
    "icon": "champions/DA_18_Camille.png",
@@ -109,8 +109,8 @@
     "DA_Bloodthirster",
     "DA_TitansResolve"
    ],
-   "avgPlacement": 5.574,
-   "popularity": 0.1317
+   "avgPlacement": 5.624,
+   "popularity": 0.1181
   },
   {
    "id": "DA_Cinderling18",
@@ -160,8 +160,8 @@
     "DA_GiantSlayer",
     "DA_GuinsoosRageblade"
    ],
-   "avgPlacement": 4.708,
-   "popularity": 0.1223
+   "avgPlacement": 4.659,
+   "popularity": 0.1179
   },
   {
    "id": "DA_Karma18",
@@ -211,8 +211,8 @@
     "DA_SpearOfShojin",
     "DA_ArchangelsStaff"
    ],
-   "avgPlacement": 4.599,
-   "popularity": 0.2437
+   "avgPlacement": 4.589,
+   "popularity": 0.2399
   },
   {
    "id": "DA_18_Kobuko",
@@ -245,8 +245,8 @@
      "tr": "Hayat Dansı"
     },
     "desc": {
-     "en": "Restore 334 / 384 / 529 (HP)(AP) Health over 2 seconds. The next attack is replaced with a bash that deals 140 / 175 / 220 (HP)(AP) magic damage.",
-     "tr": "2 saniye içinde 334 / 384 / 529 (Can) (YG) Can yeniler. Sonraki saldırısını 140 / 175 / 220 (Can) (YG) Büyü Hasarı veren bir darbeyle değiştirir."
+     "en": "Restore 349 / 399 / 599 (HP)(AP) Health over 2 seconds. The next attack is replaced with a bash that deals 140 / 175 / 220 (HP)(AP) magic damage.",
+     "tr": "2 saniye içinde 349 / 399 / 599 (Can) (YG) Can yeniler. Sonraki saldırısını 140 / 175 / 220 (Can) (YG) Büyü Hasarı veren bir darbeyle değiştirir."
     }
    },
    "icon": "champions/DA_18_Kobuko.png",
@@ -260,10 +260,10 @@
     "DA_ThiefsGloves",
     "DA_SpiritVisage",
     "DA_SunfireCape",
-    "DA_DragonsClaw"
+    "DA_SteadfastHeart"
    ],
-   "avgPlacement": 4.577,
-   "popularity": 0.1481
+   "avgPlacement": 4.597,
+   "popularity": 0.1393
   },
   {
    "id": "DA_18_Leona",
@@ -313,8 +313,8 @@
     "DA_SunfireCape",
     "DA_Evenshroud"
    ],
-   "avgPlacement": 4.502,
-   "popularity": 0.3056
+   "avgPlacement": 4.51,
+   "popularity": 0.2763
   },
   {
    "id": "DA_18_Ornn",
@@ -364,8 +364,8 @@
     "DA_DragonsClaw",
     "DA_SteadfastHeart"
    ],
-   "avgPlacement": 4.604,
-   "popularity": 0.4456
+   "avgPlacement": 4.619,
+   "popularity": 0.4029
   },
   {
    "id": "DA_18_Sentry",
@@ -415,8 +415,8 @@
     "DA_VoidStaff",
     "DA_HextechGunblade"
    ],
-   "avgPlacement": 4.343,
-   "popularity": 0.3006
+   "avgPlacement": 4.346,
+   "popularity": 0.2753
   },
   {
    "id": "DA_18_Rakan",
@@ -467,8 +467,8 @@
     "DA_AdaptiveHelm",
     "DA_ThiefsGloves"
    ],
-   "avgPlacement": 4.725,
-   "popularity": 0.4039
+   "avgPlacement": 4.759,
+   "popularity": 0.395
   },
   {
    "id": "DA_18_RekSai",
@@ -501,8 +501,8 @@
      "tr": "Köklerini Kazı"
     },
     "desc": {
-     "en": "Passive: Restore 17 / 21 / 27 (HP) Health each second, tripled for 3 seconds after casting.\n\nActive: Lunge out of the ground, Stunning adjacent enemies for 1 second and dealing 70 / 105 / 160 (AP) magic damage to them.",
-     "tr": "Pasif: Her saniye 17 / 21 / 27 (Can) Can yeniler. Yetenek kullandıktan sonraki 3 saniye boyunca bu miktar üçe katlanır.\n\nAktif: Yerden dışarı fırlayarak bitişiğindeki rakipleri 1 saniyeliğine sersemletir ve onlara 70 / 105 / 160 (YG) Büyü Hasarı verir."
+     "en": "Passive: Restore 17 / 23 / 31 (HP) Health each second, tripled for 3 seconds after casting.\n\nActive: Lunge out of the ground, Stunning adjacent enemies for 1 second and dealing 70 / 105 / 160 (AP) magic damage to them.",
+     "tr": "Pasif: Her saniye 17 / 23 / 31 (Can) Can yeniler. Yetenek kullandıktan sonraki 3 saniye boyunca bu miktar üçe katlanır.\n\nAktif: Yerden dışarı fırlayarak bitişiğindeki rakipleri 1 saniyeliğine sersemletir ve onlara 70 / 105 / 160 (YG) Büyü Hasarı verir."
     }
    },
    "icon": "champions/DA_18_RekSai.png",
@@ -514,12 +514,12 @@
     "DA_GargoyleStoneplate",
     "DA_ThiefsGloves",
     "DA_WarmogsArmor",
-    "DA_SunfireCape",
     "DA_SpiritVisage",
+    "DA_SunfireCape",
     "DA_IonicSpark"
    ],
-   "avgPlacement": 4.678,
-   "popularity": 0.1609
+   "avgPlacement": 4.63,
+   "popularity": 0.1708
   },
   {
    "id": "DA_18_Varus",
@@ -569,8 +569,8 @@
     "DA_Deathblade",
     "DA_GiantSlayer"
    ],
-   "avgPlacement": 4.675,
-   "popularity": 0.1888
+   "avgPlacement": 4.72,
+   "popularity": 0.1781
   },
   {
    "id": "DA_18_Veigar",
@@ -621,8 +621,8 @@
     "DA_Artifact_LudensTempest",
     "DA_RabadonsDeathcap"
    ],
-   "avgPlacement": 4.46,
-   "popularity": 0.2751
+   "avgPlacement": 4.474,
+   "popularity": 0.2568
   },
   {
    "id": "DA_18_Xayah",
@@ -673,8 +673,8 @@
     "DA_LastWhisper",
     "DA_GiantSlayer"
    ],
-   "avgPlacement": 4.654,
-   "popularity": 0.3028
+   "avgPlacement": 4.659,
+   "popularity": 0.2677
   },
   {
    "id": "DA_18_Yorick",
@@ -725,8 +725,8 @@
     "DA_SpiritVisage",
     "DA_IonicSpark"
    ],
-   "avgPlacement": 4.569,
-   "popularity": 0.4302
+   "avgPlacement": 4.545,
+   "popularity": 0.4279
   },
   {
    "id": "DA_18_Alistar",
@@ -759,8 +759,8 @@
      "tr": "Zafer Narası"
     },
     "desc": {
-     "en": "Roar, restoring 276 / 336 / 396 (HP)(AP) Health, cleansing disables, and healing the two lowest percent Health allies for 80 / 105 / 130 (AP). Then slam the current target, dealing 100 / 150 / 225 (AP) magic damage and Stunning them for 1.5 seconds.",
-     "tr": "Nara atarak 276 / 336 / 396 (Can) (YG) Can yeniler, hareketsiz bırakma etkilerinden arınır ve yüzdelik canı en düşük iki takım arkadaşını 80 / 105 / 130 (YG) iyileştirir. Ardından mevcut hedefine sertçe vurarak ona 100 / 150 / 225 (YG) Büyü Hasarı verir ve onu 1.5 saniyeliğine sersemletir."
+     "en": "Roar, restoring 306 / 376 / 476 (HP)(AP) Health, cleansing disables, and healing the two lowest percent Health allies for 80 / 105 / 130 (AP). Then slam the current target, dealing 180 / 270 / 420 (AP) magic damage and Stunning them for 1.5 seconds.",
+     "tr": "Nara atarak 306 / 376 / 476 (Can) (YG) Can yeniler, hareketsiz bırakma etkilerinden arınır ve yüzdelik canı en düşük iki takım arkadaşını 80 / 105 / 130 (YG) iyileştirir. Ardından mevcut hedefine sertçe vurarak ona 180 / 270 / 420 (YG) Büyü Hasarı verir ve onu 1.5 saniyeliğine sersemletir."
     }
    },
    "icon": "champions/DA_18_Alistar.png",
@@ -776,8 +776,8 @@
     "DA_Crownguard",
     "DA_DragonsClaw"
    ],
-   "avgPlacement": 4.448,
-   "popularity": 0.519
+   "avgPlacement": 4.441,
+   "popularity": 0.483
   },
   {
    "id": "DA_18_Caitlyn",
@@ -810,8 +810,8 @@
      "tr": "Tam Kafadan"
     },
     "desc": {
-     "en": "Passive: Every third attack is replaced with a Headshot that deals 210 / 315 / 515 (AD)(AP) physical damage.",
-     "tr": "Pasif: Her üçüncü saldırısını 210 / 315 / 515 (SG) (YG) Fiziksel Hasar veren bir Tam Kafadan ile değiştirir."
+     "en": "Passive: Every third attack is replaced with a Headshot that deals 220 / 330 / 535 (AD)(AP) physical damage.",
+     "tr": "Pasif: Her üçüncü saldırısını 220 / 330 / 535 (SG) (YG) Fiziksel Hasar veren bir Tam Kafadan ile değiştirir."
     }
    },
    "icon": "champions/DA_18_Caitlyn.png",
@@ -827,8 +827,8 @@
     "DA_Deathblade",
     "DA_GuinsoosRagebladeRadiant"
    ],
-   "avgPlacement": 5.711,
-   "popularity": 0.1047
+   "avgPlacement": 5.747,
+   "popularity": 0.0928
   },
   {
    "id": "DA_18_Elise",
@@ -878,8 +878,8 @@
     "DA_SpiritVisage",
     "DA_ProtectorsVow"
    ],
-   "avgPlacement": 5.15,
-   "popularity": 0.2279
+   "avgPlacement": 5.216,
+   "popularity": 0.2103
   },
   {
    "id": "DA_Gromp18_AP",
@@ -913,8 +913,8 @@
      "tr": "Boğucu Baloncuk"
     },
     "desc": {
-     "en": "Adaptor (AP): Belch a noxious bubble at the current target that explodes on the first enemy hit, dealing 225 / 340 / 535 (AP) magic damage. Enemies within a 1 hex radius of the explosion take 160 / 240 / 375 (AP) magic damage over 3 seconds.\n\nAdaptor (AD): Heavily slows the target.\n\nPurple Buff: Every 5 seconds, Gromp gains 30% Ability Power.",
-     "tr": "Ahenkli (YG): Geğirerek mevcut hedefe doğru zehirli bir baloncuk gönderir. Baloncuk bir rakibe isabet ettiğinde patlar ve 225 / 340 / 535 Büyü Hasarı (YG) verir. Patlamanın 1 hücre yakınındaki rakipler 3 saniye içinde 160 / 240 / 375 Büyü Hasarı (YG) alır.\n\nAhenkli (SG): Hedefi büyük ölçüde yavaşlatır.\n\nMor Güçlendirme: Her 5 saniyede bir %30 Yetenek Gücü kazanır."
+     "en": "Adaptor (AP): Belch a noxious bubble at the current target that explodes on the first enemy hit, dealing 225 / 340 / 535 (AP) magic damage. Enemies within a 1 hex radius of the explosion take 180 / 270 / 435 (AP) magic damage over 3 seconds.\n\nAdaptor (AD): Heavily slows the target.\n\nPurple Buff: Every 5 seconds, Gromp gains 30% Ability Power.",
+     "tr": "Ahenkli (YG): Geğirerek mevcut hedefe doğru zehirli bir baloncuk gönderir. Baloncuk bir rakibe isabet ettiğinde patlar ve 225 / 340 / 535 Büyü Hasarı (YG) verir. Patlamanın 1 hücre yakınındaki rakipler 3 saniye içinde 180 / 270 / 435 Büyü Hasarı (YG) alır.\n\nAhenkli (SG): Hedefi büyük ölçüde yavaşlatır.\n\nMor Güçlendirme: Her 5 saniyede bir %30 Yetenek Gücü kazanır."
     }
    },
    "icon": "champions/DA_Gromp18_AP.png",
@@ -923,15 +923,15 @@
    "teamCode": "402",
    "poolCount": 25,
    "recommendedItems": [
-    "DA_GuinsoosRageblade",
-    "DA_InfinityEdge",
     "DA_Morellonomicon",
-    "DA_BlueBuff",
     "DA_Component_BFSword",
-    "DA_Component_NeedlesslyLargeRod"
+    "DA_Component_TearOfTheGoddess",
+    "DA_GuinsoosRageblade",
+    "DA_HandOfJustice",
+    "DA_HextechGunblade"
    ],
-   "avgPlacement": 4.545,
-   "popularity": 0.0864
+   "avgPlacement": 4.564,
+   "popularity": 0.0733
   },
   {
    "id": "DA_18_Kayle",
@@ -981,8 +981,8 @@
     "DA_RabadonsDeathcap",
     "DA_GiantSlayer"
    ],
-   "avgPlacement": 4.351,
-   "popularity": 0.2599
+   "avgPlacement": 4.353,
+   "popularity": 0.236
   },
   {
    "id": "DA_18_LeBlanc",
@@ -1032,8 +1032,8 @@
     "DA_RedBuff",
     "DA_RabadonsDeathcap"
    ],
-   "avgPlacement": 4.498,
-   "popularity": 0.4382
+   "avgPlacement": 4.511,
+   "popularity": 0.4078
   },
   {
    "id": "DA_Murkwolf18",
@@ -1066,8 +1066,8 @@
      "tr": "Parçalayan Pençeler"
     },
     "desc": {
-     "en": "Leap to the lowest Health enemy within 3 Hexes and deal 500 / 1050 / 2250 (AD)(AP) physical damage. The next 2 attacks gain 175% Attack Speed and deal 60 / 90 / 135 (AD) bonus physical damage.\n\nGrey Buff: Gain Precision and 25% Critical Strike Chance, increased up to 75% based on missing Health.",
-     "tr": "3 hücrelik bir alan içindeki en düşük cana sahip rakibin üstüne atlayıp 500 / 1050 / 2250 Fiziksel Hasar (SG) (YG) verir. Sonraki 2 saldırısında %175 Saldırı Hızı kazanır ve bu saldırılarla 60 / 90 / 135 İlave Fiziksel Hasar (SG) verir.\n\nGri Güçlendirme: İsabetlilik ve %25 Kritik Vuruş İhtimali kazanır. Bu ilave, eksik cana bağlı olarak en fazla %75 olacak şekilde artar."
+     "en": "Leap to the lowest Health enemy within 3 Hexes and deal 500 / 1050 / 2250 (AD)(AP) physical damage. The next 2 attacks gain 175% Attack Speed and deal 65 / 100 / 180 (AD) bonus physical damage.\n\nGrey Buff: Gain Precision and 25% Critical Strike Chance, increased up to 75% based on missing Health.",
+     "tr": "3 hücrelik bir alan içindeki en düşük cana sahip rakibin üstüne atlayıp 500 / 1050 / 2250 Fiziksel Hasar (SG) (YG) verir. Sonraki 2 saldırısında %175 Saldırı Hızı kazanır ve bu saldırılarla 65 / 100 / 180 İlave Fiziksel Hasar (SG) verir.\n\nGri Güçlendirme: İsabetlilik ve %25 Kritik Vuruş İhtimali kazanır. Bu ilave, eksik cana bağlı olarak en fazla %75 olacak şekilde artar."
     }
    },
    "icon": "champions/DA_Murkwolf18.png",
@@ -1083,8 +1083,8 @@
     "DA_ThiefsGloves",
     "DA_SteraksGage"
    ],
-   "avgPlacement": 4.348,
-   "popularity": 0.2562
+   "avgPlacement": 4.322,
+   "popularity": 0.2256
   },
   {
    "id": "DA_Scuttlecrab18",
@@ -1134,8 +1134,8 @@
     "DA_ThiefsGloves",
     "DA_Evenshroud"
    ],
-   "avgPlacement": 4.754,
-   "popularity": 0.2457
+   "avgPlacement": 4.769,
+   "popularity": 0.2195
   },
   {
    "id": "DA_18_Sejuani",
@@ -1185,8 +1185,8 @@
     "DA_SunfireCape",
     "DA_DragonsClaw"
    ],
-   "avgPlacement": 4.526,
-   "popularity": 0.3299
+   "avgPlacement": 4.539,
+   "popularity": 0.3035
   },
   {
    "id": "DA_18_Shen",
@@ -1236,8 +1236,8 @@
     "DA_ProtectorsVow",
     "DA_SunfireCape"
    ],
-   "avgPlacement": 4.628,
-   "popularity": 0.2095
+   "avgPlacement": 4.648,
+   "popularity": 0.1983
   },
   {
    "id": "DA_18_Teemo",
@@ -1287,8 +1287,8 @@
     "DA_BlueBuff",
     "DA_VoidStaff"
    ],
-   "avgPlacement": 4.353,
-   "popularity": 0.1838
+   "avgPlacement": 4.377,
+   "popularity": 0.1679
   },
   {
    "id": "DA_18_Warwick",
@@ -1321,8 +1321,8 @@
      "tr": "Cani Diş"
     },
     "desc": {
-     "en": "Bite the current target, dealing 215 / 325 / 500 (AD) physical damage and healing for 0.2 (AP) of the damage dealt. Gain 20% Attack Speed for the rest of combat.",
-     "tr": "Mevcut hedefi ısırarak 215 / 325 / 500 (SG) Fiziksel Hasar verir ve verdiği hasarın 0.2 (YG) kadarına eşdeğer miktarda can yeniler. Çatışmanın geri kalanı boyunca %20 Saldırı Hızı kazanır."
+     "en": "Bite the current target, dealing 230 / 345 / 535 (AD) physical damage and healing for 0.25 (AP) of the damage dealt. Gain 20% Attack Speed for the rest of combat.",
+     "tr": "Mevcut hedefi ısırarak 230 / 345 / 535 (SG) Fiziksel Hasar verir ve verdiği hasarın 0.25 (YG) kadarına eşdeğer miktarda can yeniler. Çatışmanın geri kalanı boyunca %20 Saldırı Hızı kazanır."
     }
    },
    "icon": "champions/DA_18_Warwick.png",
@@ -1338,8 +1338,8 @@
     "DA_EdgeOfNight",
     "DA_HandOfJustice"
    ],
-   "avgPlacement": 4.952,
-   "popularity": 0.0506
+   "avgPlacement": 4.885,
+   "popularity": 0.0462
   },
   {
    "id": "DA_18_Yunara",
@@ -1389,8 +1389,8 @@
     "DA_RedBuff",
     "DA_GiantSlayer"
    ],
-   "avgPlacement": 4.611,
-   "popularity": 0.2017
+   "avgPlacement": 4.598,
+   "popularity": 0.1919
   },
   {
    "id": "DA_18_Azir",
@@ -1424,8 +1424,8 @@
      "tr": "İleri!"
     },
     "desc": {
-     "en": "Gain 150% Attack Speed and summon 2 soldiers for the next 6 attacks. These attacks are replaced by commands which direct each soldier to deal 46 / 69 / 110 (AP) magic damage per attack.",
-     "tr": "%150 Saldırı Hızı kazanır ve sonraki 6 saldırı için 2 asker çağırır. Bu saldırılarını her askere saldırı başına 46 / 69 / 110 (YG) Büyü Hasarı vermesini emreden komutlarla değiştirir."
+     "en": "Gain 150% Attack Speed and summon 2 soldiers for the next 6 attacks. These attacks are replaced by commands which direct each soldier to deal 43 / 65 / 105 (AP) magic damage per attack.",
+     "tr": "%150 Saldırı Hızı kazanır ve sonraki 6 saldırı için 2 asker çağırır. Bu saldırılarını her askere saldırı başına 43 / 65 / 105 (YG) Büyü Hasarı vermesini emreden komutlarla değiştirir."
     }
    },
    "icon": "champions/DA_18_Azir.png",
@@ -1441,8 +1441,8 @@
     "DA_JeweledGauntlet",
     "DA_VoidStaff"
    ],
-   "avgPlacement": 4.35,
-   "popularity": 0.2356
+   "avgPlacement": 4.334,
+   "popularity": 0.222
   },
   {
    "id": "DA_18_Cassiopeia",
@@ -1490,10 +1490,10 @@
     "DA_SpearOfShojin",
     "DA_VoidStaff",
     "DA_JeweledGauntlet",
-    "DA_Morellonomicon"
+    "DA_BlueBuff"
    ],
-   "avgPlacement": 4.83,
-   "popularity": 0.2775
+   "avgPlacement": 4.874,
+   "popularity": 0.2546
   },
   {
    "id": "DA_18_Diana",
@@ -1542,10 +1542,10 @@
     "DA_GargoyleStoneplate",
     "DA_HandOfJustice",
     "DA_WarmogsArmor",
-    "DA_18_EmblemElderwood"
+    "DA_Bloodthirster"
    ],
-   "avgPlacement": 4.576,
-   "popularity": 0.5547
+   "avgPlacement": 4.61,
+   "popularity": 0.5332
   },
   {
    "id": "DA_Fiddlesticks18",
@@ -1596,8 +1596,8 @@
     "DA_SunfireCape",
     "DA_SpiritVisage"
    ],
-   "avgPlacement": 4.546,
-   "popularity": 0.5593
+   "avgPlacement": 4.568,
+   "popularity": 0.5278
   },
   {
    "id": "DA_18_Hecarim",
@@ -1647,8 +1647,8 @@
     "DA_SunfireCape",
     "DA_Evenshroud"
    ],
-   "avgPlacement": 4.642,
-   "popularity": 0.497
+   "avgPlacement": 4.649,
+   "popularity": 0.4623
   },
   {
    "id": "DA_18_KhaZix",
@@ -1680,8 +1680,8 @@
      "tr": "Korkularından Beslen"
     },
     "desc": {
-     "en": "Leap to the farthest enemy within 3 Hexes, dealing 265 / 370 / 535 (AP) magic damage. If they have no adjacent allies, deal 285 / 410 / 605 (AP) magic damage instead and gain 10 mana.{Augment.Variant.RivalsAugment.AbilityTooltip}",
-     "tr": "3 hücrelik bir alan içindeki en uzak rakibin üstüne atlayıp 265 / 370 / 535 Büyü Hasarı (YG) verir. Rakibin bitişiğinde bir dost birim yoksa 285 / 410 / 605 Büyü Hasarı (YG) verir ve 10 Mana kazanır.{Augment.Variant.RivalsAugment.AbilityTooltip}"
+     "en": "Leap to the farthest enemy within 3 Hexes, dealing 230 / 310 / 450 (AP) magic damage. If they have no adjacent allies, deal 250 / 350 / 530 (AP) magic damage instead and gain 10 mana.{Augment.Variant.RivalsAugment.AbilityTooltip}",
+     "tr": "3 hücrelik bir alan içindeki en uzak rakibin üstüne atlayıp 230 / 310 / 450 Büyü Hasarı (YG) verir. Rakibin bitişiğinde bir dost birim yoksa 250 / 350 / 530 Büyü Hasarı (YG) verir ve 10 Mana kazanır.{Augment.Variant.RivalsAugment.AbilityTooltip}"
     }
    },
    "icon": "champions/DA_18_KhaZix.png",
@@ -1697,8 +1697,8 @@
     "DA_JeweledGauntlet",
     "DA_StrikersFlail"
    ],
-   "avgPlacement": 5.046,
-   "popularity": 0.0765
+   "avgPlacement": 5.021,
+   "popularity": 0.0655
   },
   {
    "id": "DA_KogMaw18_AD",
@@ -1743,15 +1743,15 @@
    "teamCode": "40e",
    "poolCount": 18,
    "recommendedItems": [
-    "DA_SpearOfShojin",
     "DA_RedBuff",
+    "DA_SpearOfShojin",
     "DA_GuinsoosRageblade",
     "DA_GiantSlayer",
     "DA_Morellonomicon",
     "DA_InfinityEdge"
    ],
-   "avgPlacement": 4.306,
-   "popularity": 0.241
+   "avgPlacement": 4.339,
+   "popularity": 0.2642
   },
   {
    "id": "DA_Krug18",
@@ -1801,8 +1801,8 @@
     "DA_SunfireCape",
     "DA_Crownguard"
    ],
-   "avgPlacement": 4.392,
-   "popularity": 0.4675
+   "avgPlacement": 4.364,
+   "popularity": 0.4528
   },
   {
    "id": "DA_CrimsonRaptor18",
@@ -1836,8 +1836,8 @@
      "tr": "Kalabalık Aile"
     },
     "desc": {
-     "en": "Summon 4 untargetable Tiny Beaks nearby for 5 (AP) seconds. Whenever Mama Beak attacks, Tiny Beaks attack the same enemy, dealing 22 / 33 / 52 (AD) physical damage.\n\nOrange Buff: Dealing physical damage reduces enemy Armor by 2.",
-     "tr": "Yakınına 5 (YG) saniyeliğine hedef alınamayan 4 Minik Gaga çağırır. Anne Gaga her saldırdığında Minik Gagalar da aynı rakibe saldırarak 22 / 33 / 52 Fiziksel Hasar (SG) verir.\n\nTuruncu Güçlendirme: Fiziksel hasar vermek rakibin zırhını 2 azaltır."
+     "en": "Summon 4 untargetable Tiny Beaks nearby for 5 (AP) seconds. Whenever Mama Beak attacks, Tiny Beaks attack the same enemy, dealing 20 / 30 / 50 (AD) physical damage.\n\nOrange Buff: Dealing physical damage reduces enemy Armor by 2.",
+     "tr": "Yakınına 5 (YG) saniyeliğine hedef alınamayan 4 Minik Gaga çağırır. Anne Gaga her saldırdığında Minik Gagalar da aynı rakibe saldırarak 20 / 30 / 50 Fiziksel Hasar (SG) verir.\n\nTuruncu Güçlendirme: Fiziksel hasar vermek rakibin zırhını 2 azaltır."
     }
    },
    "icon": "champions/DA_CrimsonRaptor18.png",
@@ -1850,11 +1850,11 @@
     "DA_HextechGunblade",
     "DA_TitansResolve",
     "DA_KrakensFury",
-    "DA_InfinityEdge",
-    "DA_LastWhisper"
+    "DA_LastWhisper",
+    "DA_InfinityEdge"
    ],
-   "avgPlacement": 4.64,
-   "popularity": 0.145
+   "avgPlacement": 4.655,
+   "popularity": 0.1274
   },
   {
    "id": "DA_18_MasterYi_AD",
@@ -1905,8 +1905,8 @@
     "DA_TitansResolve",
     "DA_HandOfJustice"
    ],
-   "avgPlacement": 4.503,
-   "popularity": 0.151
+   "avgPlacement": 4.425,
+   "popularity": 0.1502
   },
   {
    "id": "DA_18_Rammus",
@@ -1956,8 +1956,8 @@
     "DA_SteadfastHeart",
     "DA_SunfireCape"
    ],
-   "avgPlacement": 4.498,
-   "popularity": 0.2521
+   "avgPlacement": 4.547,
+   "popularity": 0.219
   },
   {
    "id": "DA_18_Rengar",
@@ -2006,8 +2006,8 @@
     "DA_SteraksGage",
     "DA_HandOfJustice"
    ],
-   "avgPlacement": 4.575,
-   "popularity": 0.122
+   "avgPlacement": 4.514,
+   "popularity": 0.1217
   },
   {
    "id": "DA_18_Tristana",
@@ -2041,8 +2041,8 @@
      "tr": "Patlayıcı Yük"
     },
     "desc": {
-     "en": "Attach an explosive charge to the target that lasts 4 seconds. While active, gain infinite range and 0.6 (AP) Attack Speed. After the duration, the charge explodes and splits damage between all enemies within 2 hexes, dealing 175 / 265 / 420 (AD) physical damage + 10 / 15 / 25 (AD) for each attack while casting.\n\nIf an enemy with an explosive charge on them dies, it attaches to Tristana's new target.",
-     "tr": "Hedefe 4 saniye boyunca varlığını koruyan bir patlayıcı yük yapıştırır. Etkinken sınırsız menzil ve 0.6 (YG) Saldırı Hızı kazanır. Süre sona erince yük patlar ve 2 hücrelik bir alan içindeki tüm rakiplerin arasında bölüştürülecek şekilde 175 / 265 / 420 (SG) Fiziksel Hasar + kullanım sırasındaki her saldırı için 10 / 15 / 25 (SG) Hasar verir.\n\nÜstünde patlayıcı yük bulunan bir rakip katledilirse yük yeni hedefe yapışır."
+     "en": "Attach an explosive charge to the target that lasts 4 seconds. While active, gain infinite range and 0.6 (AP) Attack Speed. After the duration, the charge explodes and splits damage between all enemies within 2 hexes, dealing 175 / 265 / 420 (AD) physical damage + 12 / 18 / 28 (AD) for each attack while casting.\n\nIf an enemy with an explosive charge on them dies, it attaches to Tristana's new target.",
+     "tr": "Hedefe 4 saniye boyunca varlığını koruyan bir patlayıcı yük yapıştırır. Etkinken sınırsız menzil ve 0.6 (YG) Saldırı Hızı kazanır. Süre sona erince yük patlar ve 2 hücrelik bir alan içindeki tüm rakiplerin arasında bölüştürülecek şekilde 175 / 265 / 420 (SG) Fiziksel Hasar + kullanım sırasındaki her saldırı için 12 / 18 / 28 (SG) Hasar verir.\n\nÜstünde patlayıcı yük bulunan bir rakip katledilirse yük yeni hedefe yapışır."
     }
    },
    "icon": "champions/DA_18_Tristana.png",
@@ -2058,8 +2058,8 @@
     "DA_GiantSlayer",
     "DA_LastWhisper"
    ],
-   "avgPlacement": 4.63,
-   "popularity": 0.1539
+   "avgPlacement": 4.698,
+   "popularity": 0.1359
   },
   {
    "id": "DA_Vi18",
@@ -2109,8 +2109,8 @@
     "DA_SunfireCape",
     "DA_ThiefsGloves"
    ],
-   "avgPlacement": 4.58,
-   "popularity": 0.4244
+   "avgPlacement": 4.592,
+   "popularity": 0.4173
   },
   {
    "id": "DA_18_Ahri",
@@ -2160,8 +2160,8 @@
     "DA_18_EmblemInvoker",
     "DA_BlueBuff"
    ],
-   "avgPlacement": 4.451,
-   "popularity": 0.2752
+   "avgPlacement": 4.477,
+   "popularity": 0.2718
   },
   {
    "id": "DA_Amumu18",
@@ -2211,8 +2211,8 @@
     "DA_ProtectorsVow",
     "DA_DragonsClaw"
    ],
-   "avgPlacement": 4.333,
-   "popularity": 0.6869
+   "avgPlacement": 4.334,
+   "popularity": 0.6932
   },
   {
    "id": "DA_18_Aphelios",
@@ -2262,8 +2262,8 @@
     "DA_18_EmblemElderwood",
     "DA_GiantSlayer"
    ],
-   "avgPlacement": 4.356,
-   "popularity": 0.3119
+   "avgPlacement": 4.399,
+   "popularity": 0.2942
   },
   {
    "id": "DA_Brambleback18",
@@ -2296,8 +2296,8 @@
      "tr": "Kızıl Hiddet"
     },
     "desc": {
-     "en": "Passive: When the target dies, leap at the next target, dealing 135 / 205 / 1000 (AD) physical damage.\n\nActive: Gain 100% / 200% / 300% Attack Damage for 8 seconds. During this time ignore 0.45 / 0.45 / 0.9 (AP) Armor.\n\nRed Buff: Attacks 1% Burn enemies and heal Brambleback for 4% max Health.",
-     "tr": "Pasif: Hedef katledildiğinde sıradaki hedefin üstüne atlar ve 135 / 205 / 1000 Fiziksel Hasar (SG) verir.\n\nAktif: 8 saniyeliğine %100 / %200 / %300 Saldırı Gücü kazanır. Bu süre boyunca 0.45 / 0.45 / 0.9 Zırh (YG) yok sayar.\n\nKırmızı Güçlendirme: Saldırılarıyla rakipleri %1 yakar ve azami canının %4 kadarını yeniler."
+     "en": "Passive: When the target dies, leap at the next target, dealing 135 / 205 / 1000 (AD) physical damage.\n\nActive: Gain 100% / 200% / 300% Attack Damage for 8 seconds. During this time ignore 0.4 / 0.4 / 1 (AP) Armor.\n\nRed Buff: Attacks 1% Burn enemies and heal Brambleback for 4% max Health.",
+     "tr": "Pasif: Hedef katledildiğinde sıradaki hedefin üstüne atlar ve 135 / 205 / 1000 Fiziksel Hasar (SG) verir.\n\nAktif: 8 saniyeliğine %100 / %200 / %300 Saldırı Gücü kazanır. Bu süre boyunca 0.4 / 0.4 / 1 Zırh (YG) yok sayar.\n\nKırmızı Güçlendirme: Saldırılarıyla rakipleri %1 yakar ve azami canının %4 kadarını yeniler."
     }
    },
    "icon": "champions/DA_Brambleback18.png",
@@ -2313,8 +2313,8 @@
     "DA_SteraksGage",
     "DA_18_EmblemRapidfire"
    ],
-   "avgPlacement": 4.277,
-   "popularity": 0.2886
+   "avgPlacement": 4.254,
+   "popularity": 0.2565
   },
   {
    "id": "DA_18_Ezreal",
@@ -2364,8 +2364,8 @@
     "DA_RedBuff",
     "DA_StrikersFlail"
    ],
-   "avgPlacement": 4.373,
-   "popularity": 0.4183
+   "avgPlacement": 4.381,
+   "popularity": 0.3854
   },
   {
    "id": "DA_18_Lillia",
@@ -2415,8 +2415,8 @@
     "DA_AdaptiveHelm",
     "DA_Crownguard"
    ],
-   "avgPlacement": 4.397,
-   "popularity": 0.4098
+   "avgPlacement": 4.448,
+   "popularity": 0.3991
   },
   {
    "id": "DA_18_Malphite",
@@ -2449,8 +2449,8 @@
      "tr": "Taşlaşmış Kabuk"
     },
     "desc": {
-     "en": "Gain 700 / 850 / 2000 (AP) Shield for 4 seconds and become petrified. When the shield breaks, unleash a wave of dark energy, dealing 82 / 123 / 3398.6 (AP)(Armor)(MR) magic damage to enemies within 2 / 2 / 3 hexes.",
-     "tr": "4 saniyeliğine 700 / 850 / 2000 (YG) Kalkan kazanır ve taşlaşır. Kalkan kırıldığında karanlık bir enerji dalgası yayarak 2 / 2 / 3 hücrelik bir alan içindeki rakiplere 82 / 123 / 3398.6 (YG) (Zırh) (BD) Büyü Hasarı verir."
+     "en": "Gain 750 / 925 / 2000 (AP) Shield for 4 seconds and become petrified. When the shield breaks, unleash a wave of dark energy, dealing 142 / 213 / 3398.6 (AP)(Armor)(MR) magic damage to enemies within 2 / 2 / 3 hexes.",
+     "tr": "4 saniyeliğine 750 / 925 / 2000 (YG) Kalkan kazanır ve taşlaşır. Kalkan kırıldığında karanlık bir enerji dalgası yayarak 2 / 2 / 3 hücrelik bir alan içindeki rakiplere 142 / 213 / 3398.6 (YG) (Zırh) (BD) Büyü Hasarı verir."
     }
    },
    "icon": "champions/DA_18_Malphite.png",
@@ -2466,8 +2466,8 @@
     "DA_SteadfastHeart",
     "DA_DragonsClaw"
    ],
-   "avgPlacement": 4.703,
-   "popularity": 0.1224
+   "avgPlacement": 4.614,
+   "popularity": 0.1426
   },
   {
    "id": "DA_18_Morgana",
@@ -2500,8 +2500,8 @@
      "tr": "Solduran Lanet"
     },
     "desc": {
-     "en": "Passive: Gain 25% Omnivamp.\n\nActive: Fire a dark blast at 3 nearby enemies, dealing 60 / 90 / 500 (AP) magic damage to them and cursing them for 4 seconds. Then, spawn a Hex withering zone for the same duration that deals 33 / 50 / 500 (AP) magic damage per second. Cursed enemies take 22 / 33 / 240 (AP) more damage per curse.",
-     "tr": "Pasif: %25 Mutlak Sömürü kazanır.\n\nAktif: Yakındaki 3 rakibe karanlık bir atış yaparak onlara 60 / 90 / 500 (YG) Büyü Hasarı verir ve onları 4 saniyeliğine lanetler. Ardından aynı süre boyunca her saniye 33 / 50 / 500 (YG) Büyü Hasarı veren hücrelik solduran bir alan oluşturur. Lanetlenen rakipler lanet başına 22 / 33 / 240 (YG) daha fazla hasar alır."
+     "en": "Passive: Gain 25% Omnivamp.\n\nActive: Fire a dark blast at 3 nearby enemies, dealing 70 / 105 / 500 (AP) magic damage to them and cursing them for 4 seconds. Then, spawn a Hex withering zone for the same duration that deals 33 / 50 / 500 (AP) magic damage per second. Cursed enemies take 25 / 38 / 240 (AP) more damage per curse.",
+     "tr": "Pasif: %25 Mutlak Sömürü kazanır.\n\nAktif: Yakındaki 3 rakibe karanlık bir atış yaparak onlara 70 / 105 / 500 (YG) Büyü Hasarı verir ve onları 4 saniyeliğine lanetler. Ardından aynı süre boyunca her saniye 33 / 50 / 500 (YG) Büyü Hasarı veren hücrelik solduran bir alan oluşturur. Lanetlenen rakipler lanet başına 25 / 38 / 240 (YG) daha fazla hasar alır."
     }
    },
    "icon": "champions/DA_18_Morgana.png",
@@ -2517,8 +2517,8 @@
     "DA_RabadonsDeathcap",
     "DA_JeweledGauntlet"
    ],
-   "avgPlacement": 4.46,
-   "popularity": 0.4335
+   "avgPlacement": 4.497,
+   "popularity": 0.4265
   },
   {
    "id": "DA_Nidalee18_AP",
@@ -2552,8 +2552,8 @@
      "tr": "Mızrak Atışı"
     },
     "desc": {
-     "en": "Adaptor (AP): Gain 150% Attack Speed for the next 3 / 35 / 67 attacks. These attacks are replaced with javelins that deal 185 / 275 / 2000 (AP) magic damage. The 3rd attack instead targets the furthest enemy with the least items and deals 330 / 500 / 3000 (AP) magic damage.\n\nAdaptor (AD): Transform into a Melee cougar Assassin that swipes enemies.",
-     "tr": "Ahenkli (YG): Sonraki 3 / 35 / 67 saldırı boyunca %150 Saldırı Hızı kazanır. Bu saldırıları 185 / 275 / 2000 (YG) Büyü Hasarı veren mızraklara dönüştürür. 3. saldırıda en az eşyaya sahip en uzaktaki rakibi hedef alır ve 330 / 500 / 3000 Büyü Hasarı (YG) verir.\n\nAhenkli (SG): Rakipleri pençeleyen yakın dövüşçü bir puma suikastçıya dönüşür."
+     "en": "Adaptor (AP): Gain 150% Attack Speed for the next 27 / 51 / 75 attacks. These attacks are replaced with javelins that deal 195 / 295 / 2000 (AP) magic damage. The 3rd attack instead targets the furthest enemy with the least items and deals 350 / 525 / 3000 (AP) magic damage.\n\nAdaptor (AD): Transform into a Melee cougar Assassin that swipes enemies.",
+     "tr": "Ahenkli (YG): Sonraki 27 / 51 / 75 saldırı boyunca %150 Saldırı Hızı kazanır. Bu saldırıları 195 / 295 / 2000 (YG) Büyü Hasarı veren mızraklara dönüştürür. 3. saldırıda en az eşyaya sahip en uzaktaki rakibi hedef alır ve 350 / 525 / 3000 Büyü Hasarı (YG) verir.\n\nAhenkli (SG): Rakipleri pençeleyen yakın dövüşçü bir puma suikastçıya dönüşür."
     }
    },
    "icon": "champions/DA_Nidalee18_AP.png",
@@ -2569,8 +2569,8 @@
     "DA_GuinsoosRageblade",
     "DA_HandOfJustice"
    ],
-   "avgPlacement": 4.319,
-   "popularity": 0.2403
+   "avgPlacement": 4.331,
+   "popularity": 0.2744
   },
   {
    "id": "DA_Sentinel18",
@@ -2604,8 +2604,8 @@
      "tr": "Mavi Şok Dalgası"
     },
     "desc": {
-     "en": "Gain 480 / 580 / 2130 (AP)(HP) Shield for 4 seconds. Slam the ground, sending a fissure in the direction of the most enemies. Enemies hit are briefly knocked up, take 100 / 150 / 3500 (AP) magic damage, and are Mana Reaved for 10.\n\nBlue Buff: Each time Sentinel casts, allies gain 2 Mana Regen.\n\nMana Reave: Increase the Mana cost of the next Ability cast.",
-     "tr": "4 saniyeliğine 480 / 580 / 2130 Kalkan (YG) (Can) kazanır. Yere vurarak en çok rakibin bulunduğu yöne doğru bir çatlak gönderir. Çatlak isabet ettiği rakipleri kısa süreliğine havaya savurur, onlara 100 / 150 / 3500 Büyü Hasarı (YG) verir ve manalarını 10 yağmalar.\n\nMavi Güçlendirme: Yeteneğini her kullandığında takım arkadaşları 2 Mana Yenilenmesi kazanır.\n\nMana Yağmalama: Manası yağmalanan birimlerin bir sonraki yetenek kullanımlarının mana bedeli artar."
+     "en": "Gain 531 / 631 / 2156 (AP)(HP) Shield for 4 seconds. Slam the ground, sending a fissure in the direction of the most enemies. Enemies hit are briefly knocked up, take 100 / 150 / 3500 (AP) magic damage, and are Mana Reaved for 10.\n\nBlue Buff: Each time Sentinel casts, allies gain 2 Mana Regen.\n\nMana Reave: Increase the Mana cost of the next Ability cast.",
+     "tr": "4 saniyeliğine 531 / 631 / 2156 Kalkan (YG) (Can) kazanır. Yere vurarak en çok rakibin bulunduğu yöne doğru bir çatlak gönderir. Çatlak isabet ettiği rakipleri kısa süreliğine havaya savurur, onlara 100 / 150 / 3500 Büyü Hasarı (YG) verir ve manalarını 10 yağmalar.\n\nMavi Güçlendirme: Yeteneğini her kullandığında takım arkadaşları 2 Mana Yenilenmesi kazanır.\n\nMana Yağmalama: Manası yağmalanan birimlerin bir sonraki yetenek kullanımlarının mana bedeli artar."
     }
    },
    "icon": "champions/DA_Sentinel18.png",
@@ -2621,7 +2621,7 @@
     "DA_AdaptiveHelm",
     "DA_Crownguard"
    ],
-   "avgPlacement": 4.281,
+   "avgPlacement": 4.291,
    "popularity": 1.0
   },
   {
@@ -2655,8 +2655,8 @@
      "tr": "Balyoz Gibi"
     },
     "desc": {
-     "en": "Passive: Upon falling below 40% max Health the first time each combat, gain 100 mana.\n\nActive: Wind up a big punch, rapidly healing for 369 / 419 / 2144 (HP)(AP) before dealing 222 / 297 / 5072 (HP)(AD) physical damage in a large cone.",
-     "tr": "Pasif: Çatışmalarda azami canı ilk kez %40 değerinin altına düştüğünde 100 Mana kazanır.\n\nAktif: Güçlü bir yumruk hazırlar. Bu sırada hızla 369 / 419 / 2144 (Can) (YG) Can yeniler ve ardından koni şeklindeki geniş bir alana 222 / 297 / 5072 (Can) (SG) Fiziksel Hasar verir."
+     "en": "Passive: Upon falling below 40% max Health the first time each combat, gain 100 mana.\n\nActive: Wind up a big punch, rapidly healing for 394 / 444 / 2144 (HP)(AP) before dealing 222 / 297 / 5072 (HP)(AD) physical damage in a large cone.",
+     "tr": "Pasif: Çatışmalarda azami canı ilk kez %40 değerinin altına düştüğünde 100 Mana kazanır.\n\nAktif: Güçlü bir yumruk hazırlar. Bu sırada hızla 394 / 444 / 2144 (Can) (YG) Can yeniler ve ardından koni şeklindeki geniş bir alana 222 / 297 / 5072 (Can) (SG) Fiziksel Hasar verir."
     }
    },
    "icon": "champions/DA_18_Sett.png",
@@ -2672,8 +2672,8 @@
     "DA_SteadfastHeart",
     "DA_BrambleVest"
    ],
-   "avgPlacement": 4.417,
-   "popularity": 0.3769
+   "avgPlacement": 4.414,
+   "popularity": 0.3745
   },
   {
    "id": "DA_18_Sivir",
@@ -2706,8 +2706,8 @@
      "tr": "Bıçaklı Bumerang"
     },
     "desc": {
-     "en": "Throw a large crossblade that deals 215 / 320 / 1150 (AD)(AP) physical damage to the current target and bounces 8 times between nearby enemies, dealing 43 / 64 / 460 (AD)(AP) physical damage each bounce. When this kills an enemy, bounce 3 / 4.5 / 6 additional times.",
-     "tr": "Mevcut hedefe 215 / 320 / 1150 (SG) (YG) Fiziksel Hasar veren ve yakındaki rakipler arasında 8 kez sekerek her sekmede 43 / 64 / 460 (SG) (YG) Fiziksel Hasar veren büyük bir bıçak fırlatır. Bu saldırı bir rakibi katlettiğinde bıçak 3 / 4.5 / 6 kez daha seker."
+     "en": "Throw a large crossblade that deals 235 / 350 / 1150 (AD)(AP) physical damage to the current target and bounces 8 times between nearby enemies, dealing 42.3 / 63 / 460 (AD)(AP) physical damage each bounce. When this kills an enemy, bounce 3 / 4.5 / 6 additional times.",
+     "tr": "Mevcut hedefe 235 / 350 / 1150 (SG) (YG) Fiziksel Hasar veren ve yakındaki rakipler arasında 8 kez sekerek her sekmede 42.3 / 63 / 460 (SG) (YG) Fiziksel Hasar veren büyük bir bıçak fırlatır. Bu saldırı bir rakibi katlettiğinde bıçak 3 / 4.5 / 6 kez daha seker."
     }
    },
    "icon": "champions/DA_18_Sivir.png",
@@ -2717,14 +2717,14 @@
    "poolCount": 10,
    "recommendedItems": [
     "DA_InfinityEdge",
-    "DA_LastWhisper",
     "DA_SpearOfShojin",
+    "DA_LastWhisper",
     "DA_Deathblade",
     "DA_RedBuff",
     "DA_GuinsoosRageblade"
    ],
-   "avgPlacement": 4.426,
-   "popularity": 0.2543
+   "avgPlacement": 4.464,
+   "popularity": 0.2627
   },
   {
    "id": "DA_18_Soraka",
@@ -2757,8 +2757,8 @@
      "tr": "Yıldız Yağmuru"
     },
     "desc": {
-     "en": "Call down a star on the current target, dealing 225 / 335 / 1000 (AP) magic damage. If a star has previously fallen on them, call down 3 additional stars that each deal 100 / 150 / 1000 (AP) magic damage.",
-     "tr": "Mevcut hedefin üstüne gökten bir yıldız indirir. Yıldız hedefe 225 / 335 / 1000 (YG) Büyü Hasarı verir. Hedefin üstüne daha önce bir yıldız düştüyse her biri 100 / 150 / 1000 (YG) Büyü Hasarı veren 3 ilave yıldız çağırır."
+     "en": "Call down a star on the current target, dealing 235 / 355 / 1000 (AP) magic damage. If a star has previously fallen on them, call down 3 additional stars that each deal 110 / 165 / 1000 (AP) magic damage.",
+     "tr": "Mevcut hedefin üstüne gökten bir yıldız indirir. Yıldız hedefe 235 / 355 / 1000 (YG) Büyü Hasarı verir. Hedefin üstüne daha önce bir yıldız düştüyse her biri 110 / 165 / 1000 (YG) Büyü Hasarı veren 3 ilave yıldız çağırır."
     }
    },
    "icon": "champions/DA_18_Soraka.png",
@@ -2774,8 +2774,8 @@
     "DA_VoidStaff",
     "DA_NashorsTooth"
    ],
-   "avgPlacement": 4.278,
-   "popularity": 0.2798
+   "avgPlacement": 4.301,
+   "popularity": 0.2615
   },
   {
    "id": "DA_18_Zyra",
@@ -2825,8 +2825,8 @@
     "DA_HextechGunblade",
     "DA_RedBuff"
    ],
-   "avgPlacement": 4.353,
-   "popularity": 0.2421
+   "avgPlacement": 4.362,
+   "popularity": 0.2393
   },
   {
    "id": "DA_18_Alune",
@@ -2860,8 +2860,8 @@
      "tr": "Ay Düşüşü"
     },
     "desc": {
-     "en": "Rain 9 moonshards split among the 3 nearest enemies, dealing 55 / 83 / 500 (AP) magic damage each.\n\nIf the moon is full, instead crash it onto the board, dealing 2350 / 3600 / 7500 (AP) magic damage split among all enemies.",
-     "tr": "En yakındaki 3 rakip arasında bölüştürülecek şekilde her biri 55 / 83 / 500 (YG) Büyü Hasarı veren 9 ay parçası yağdırır.\n\nAy göstergesi doluysa parça yağdırmak yerine ayı tahtaya indirerek tüm rakipler arasında bölüştürülecek şekilde 2350 / 3600 / 7500 (YG) Büyü Hasarı verir."
+     "en": "Rain 9 moonshards split among the 3 nearest enemies, dealing 58 / 88 / 500 (AP) magic damage each.\n\nIf the moon is full, instead crash it onto the board, dealing 2350 / 3600 / 7500 (AP) magic damage split among all enemies.",
+     "tr": "En yakındaki 3 rakip arasında bölüştürülecek şekilde her biri 58 / 88 / 500 (YG) Büyü Hasarı veren 9 ay parçası yağdırır.\n\nAy göstergesi doluysa parça yağdırmak yerine ayı tahtaya indirerek tüm rakipler arasında bölüştürülecek şekilde 2350 / 3600 / 7500 (YG) Büyü Hasarı verir."
     }
    },
    "icon": "champions/DA_18_Alune.png",
@@ -2877,8 +2877,8 @@
     "DA_RabadonsDeathcap",
     "DA_NashorsTooth"
    ],
-   "avgPlacement": 3.849,
-   "popularity": 0.357
+   "avgPlacement": 3.904,
+   "popularity": 0.3464
   },
   {
    "id": "DA_18_Ashe",
@@ -2911,8 +2911,8 @@
      "tr": "Ruh Yarığı"
     },
     "desc": {
-     "en": "Fire an arrow through the most enemies in a line that deals 465 / 700 / 1000 (AD) physical damage, reduced by 80% / 60% / 40% per enemy hit (minimum 20%). If no enemies are hit refund 70% of mana spent.\n\nThe arrow leaves a trail for 3 / 11.5 / 20 seconds that deals 11 / 17 / 220 (AD)(AP) + 2% / 6% / 10% max Health physical damage per second to enemies within and 20% Slows them.\n\nSlow: Reduce Attack Speed",
-     "tr": "En çok rakibin bulunduğu hatta bir ok fırlatarak 465 / 700 / 1000 Fiziksel Hasar (SG) verir. Bu hasar, isabet alan rakip başına %80 / %60 / %40 azalır (en az %20). Hiçbir rakibe isabet etmezse harcanan mananın %70 kadarını iade eder.\n\nOk 3 / 11.5 / 20 saniyeliğine arkasında bir iz bırakır. İz içindeki rakiplere her saniye 11 / 17 / 220 (SG) (YG) + azami canın %2 / %6 / %10 kadarına eşdeğer miktarda fiziksel hasar verir ve onları %20 yavaşlatır.\n\nYavaşlama: Yavaşlayan birimlerin saldırı hızı azalır."
+     "en": "Fire an arrow through the most enemies in a line that deals 465 / 700 / 1000 (AD) physical damage, reduced by 80% / 60% / 40% per enemy hit (minimum 20%). If no enemies are hit refund 70% of mana spent.\n\nThe arrow leaves a trail for 3 / 11.5 / 20 seconds that deals 13 / 19 / 220 (AD)(AP) + 2% / 6% / 10% max Health physical damage per second to enemies within and 20% Slows them.\n\nSlow: Reduce Attack Speed",
+     "tr": "En çok rakibin bulunduğu hatta bir ok fırlatarak 465 / 700 / 1000 Fiziksel Hasar (SG) verir. Bu hasar, isabet alan rakip başına %80 / %60 / %40 azalır (en az %20). Hiçbir rakibe isabet etmezse harcanan mananın %70 kadarını iade eder.\n\nOk 3 / 11.5 / 20 saniyeliğine arkasında bir iz bırakır. İz içindeki rakiplere her saniye 13 / 19 / 220 (SG) (YG) + azami canın %2 / %6 / %10 kadarına eşdeğer miktarda fiziksel hasar verir ve onları %20 yavaşlatır.\n\nYavaşlama: Yavaşlayan birimlerin saldırı hızı azalır."
     }
    },
    "icon": "champions/DA_18_Ashe.png",
@@ -2928,8 +2928,8 @@
     "DA_GuinsoosRageblade",
     "DA_Deathblade"
    ],
-   "avgPlacement": 3.992,
-   "popularity": 0.2136
+   "avgPlacement": 4.006,
+   "popularity": 0.2108
   },
   {
    "id": "DA_Draven18",
@@ -2978,8 +2978,8 @@
     "DA_LastWhisper",
     "DA_GiantSlayer"
    ],
-   "avgPlacement": 4.134,
-   "popularity": 0.3472
+   "avgPlacement": 4.109,
+   "popularity": 0.3477
   },
   {
    "id": "DA_18_ElderDragon",
@@ -3029,8 +3029,8 @@
     "DA_StrikersFlail",
     "DA_HandOfJustice"
    ],
-   "avgPlacement": 3.859,
-   "popularity": 0.4043
+   "avgPlacement": 3.86,
+   "popularity": 0.3966
   },
   {
    "id": "DA_18_GnarSmall",
@@ -3081,8 +3081,8 @@
     "DA_HandOfJustice",
     "DA_TitansResolve"
    ],
-   "avgPlacement": 3.729,
-   "popularity": 0.5489
+   "avgPlacement": 3.654,
+   "popularity": 0.1049
   },
   {
    "id": "DA_18_Ivern",
@@ -3131,8 +3131,8 @@
     "DA_ArchangelsStaff",
     "DA_ThiefsGloves"
    ],
-   "avgPlacement": 3.915,
-   "popularity": 0.4805
+   "avgPlacement": 3.908,
+   "popularity": 0.4816
   },
   {
    "id": "DA_18_Kennen",
@@ -3178,12 +3178,12 @@
     "DA_ThiefsGloves",
     "DA_EdgeOfNight",
     "DA_HandOfJustice",
-    "DA_JeweledGauntlet",
     "DA_RabadonsDeathcap",
+    "DA_JeweledGauntlet",
     "DA_Morellonomicon"
    ],
-   "avgPlacement": 3.975,
-   "popularity": 0.4853
+   "avgPlacement": 3.97,
+   "popularity": 0.4788
   },
   {
    "id": "DA_Lux18_Base",
@@ -3241,8 +3241,8 @@
     "DA_BlueBuff",
     "DA_Morellonomicon"
    ],
-   "avgPlacement": 3.56,
-   "popularity": 0.2822
+   "avgPlacement": 3.58,
+   "popularity": 0.2785
   },
   {
    "id": "DA_18_Maokai",
@@ -3292,8 +3292,8 @@
     "DA_Crownguard",
     "DA_DragonsClaw"
    ],
-   "avgPlacement": 4.11,
-   "popularity": 0.4997
+   "avgPlacement": 4.108,
+   "popularity": 0.4935
   },
   {
    "id": "DA_Taric18",
@@ -3326,8 +3326,8 @@
      "tr": "Zümrüt Işıltı"
     },
     "desc": {
-     "en": "Passive: The first time Taric or his paired ally drops below 50% Health, unleash emerald energy from both of them, granting 270 / 345 / 11300 (HP) Shield to allies within 3 Hexes for 3 / 51 / 99 seconds.\n\nActive: Restore 275 / 450 / 3000 (AP) Health. Taric and his paired ally deal 100 / 150 / 1000 (AP) bonus magic damage on their next 2 attacks.",
-     "tr": "Pasif: Kendisinin veya eşleştiği takım arkadaşının canı ilk kez %50 değerinin altına düştüğünde hem kendisinden hem de takım arkadaşından etrafa zümrüt bir enerji yayılır. Bu enerji 3 hücrelik bir alandaki dost birimlere 3 / 51 / 99 saniyeliğine 270 / 345 / 11300 (Can) Kalkan kazandırır.\n\nAktif: 275 / 450 / 3000 (YG) Can yeniler. Hem kendisi hem de eşleştiği takım arkadaşı sonraki 2 saldırıda 100 / 150 / 1000 (YG) İlave Büyü Hasarı verir."
+     "en": "Passive: The first time Taric or his paired ally drops below 50% Health, unleash emerald energy from both of them, granting 270 / 345 / 11300 (HP) Shield to allies within 3 Hexes for 3 / 51 / 99 seconds.\n\nActive: Restore 275 / 450 / 3000 (AP) Health. Taric and his paired ally deal 130 / 200 / 1000 (AP) bonus magic damage on their next 2 attacks.",
+     "tr": "Pasif: Kendisinin veya eşleştiği takım arkadaşının canı ilk kez %50 değerinin altına düştüğünde hem kendisinden hem de takım arkadaşından etrafa zümrüt bir enerji yayılır. Bu enerji 3 hücrelik bir alandaki dost birimlere 3 / 51 / 99 saniyeliğine 270 / 345 / 11300 (Can) Kalkan kazandırır.\n\nAktif: 275 / 450 / 3000 (YG) Can yeniler. Hem kendisi hem de eşleştiği takım arkadaşı sonraki 2 saldırıda 130 / 200 / 1000 (YG) İlave Büyü Hasarı verir."
     }
    },
    "icon": "champions/DA_Taric18.png",
@@ -3343,8 +3343,8 @@
     "DA_ThiefsGloves",
     "DA_Crownguard"
    ],
-   "avgPlacement": 3.838,
-   "popularity": 0.7448
+   "avgPlacement": 3.849,
+   "popularity": 0.7335
   }
  ],
  "traits": [
@@ -3865,8 +3865,8 @@
      "max": 9,
      "style": "gold",
      "desc": {
-      "en": "(7) On combat start and every 5 seconds Riftbeasts grow gaining\n6% (AD) 6% (AP) % (AS)\n+5 (Armor) +5 (MR) +50 (HP) +1",
-      "tr": "(7) Çatışma başlangıcında ve her 5 saniyede bir Vadi Canavarları büyüyerek %6 (SG) %6 (YG) % (SH) +5 (Zırh) +5 (BD) +50 (Can) +1 kazanır."
+      "en": "(7) On combat start and every 5 seconds Riftbeasts grow gaining\n5% (AD) 5% (AP) % (AS)\n+5 (Armor) +5 (MR) +50 (HP) +1",
+      "tr": "(7) Çatışma başlangıcında ve her 5 saniyede bir Vadi Canavarları büyüyerek %5 (SG) %5 (YG) % (SH) +5 (Zırh) +5 (BD) +50 (Can) +1 kazanır."
      }
     },
     {
@@ -4429,8 +4429,8 @@
      "max": 4,
      "style": "silver",
      "desc": {
-      "en": "(4) +8% (AS) per Attack",
-      "tr": "(4) Saldırı başına +%8 (SH)"
+      "en": "(4) +7% (AS) per Attack",
+      "tr": "(4) Saldırı başına +%7 (SH)"
      }
     },
     {
@@ -4438,8 +4438,8 @@
      "max": 25000,
      "style": "gold",
      "desc": {
-      "en": "(5) +12% (AS) per Attack",
-      "tr": "(5) Saldırı başına +%12 (SH)"
+      "en": "(5) +10% (AS) per Attack",
+      "tr": "(5) Saldırı başına +%10 (SH)"
      }
     }
    ],
@@ -4962,17 +4962,15 @@
     "tr": "TEK Kılıcı"
    },
    "desc": {
-    "en": "+10% Attack Damage",
-    "tr": "+%10 Saldırı Gücü"
+    "en": "",
+    "tr": ""
    },
    "kind": "component",
    "recipe": null,
    "icon": "items/DA_Component_BFSword.png",
    "iconURL": "https://raw.communitydragon.org/latest/game/assets/maps/tft/icons/items/hexcore/tft_item_bfsword.png",
    "unique": false,
-   "stats": {
-    "AD%": 10
-   },
+   "stats": {},
    "traitId": null
   },
   {
@@ -4982,17 +4980,15 @@
     "tr": "Zincir Yelek"
    },
    "desc": {
-    "en": "+20 Armor",
-    "tr": "+20 Zırh"
+    "en": "",
+    "tr": ""
    },
    "kind": "component",
    "recipe": null,
    "icon": "items/DA_Component_ChainVest.png",
    "iconURL": "https://raw.communitydragon.org/latest/game/assets/maps/tft/icons/items/hexcore/tft_item_chainvest.png",
    "unique": false,
-   "stats": {
-    "Armor": 20
-   },
+   "stats": {},
    "traitId": null
   },
   {
@@ -5002,8 +4998,8 @@
     "tr": "Kızartma Tavası"
    },
    "desc": {
-    "en": "...why else would it be here?",
-    "tr": "Burada olmasının başka ne sebebi olabilir ki?"
+    "en": "",
+    "tr": ""
    },
    "kind": "component",
    "recipe": null,
@@ -5020,17 +5016,15 @@
     "tr": "Dev Kemeri"
    },
    "desc": {
-    "en": "+150 Health",
-    "tr": "+150 Can"
+    "en": "",
+    "tr": ""
    },
    "kind": "component",
    "recipe": null,
    "icon": "items/DA_Component_GiantsBelt.png",
    "iconURL": "https://raw.communitydragon.org/latest/game/assets/maps/tft/icons/items/hexcore/tft_item_giantsbelt.png",
    "unique": false,
-   "stats": {
-    "Health": 150
-   },
+   "stats": {},
    "traitId": null
   },
   {
@@ -5040,17 +5034,15 @@
     "tr": "Aşırı Büyük Sopa"
    },
    "desc": {
-    "en": "+10% Ability Power",
-    "tr": "+%10 Yetenek Gücü"
+    "en": "",
+    "tr": ""
    },
    "kind": "component",
    "recipe": null,
    "icon": "items/DA_Component_NeedlesslyLargeRod.png",
    "iconURL": "https://raw.communitydragon.org/latest/game/assets/maps/tft/icons/items/hexcore/tft_item_needlesslylargerod.png",
    "unique": false,
-   "stats": {
-    "AP": 10
-   },
+   "stats": {},
    "traitId": null
   },
   {
@@ -5060,17 +5052,15 @@
     "tr": "Negatron Pelerini"
    },
    "desc": {
-    "en": "+20 Magic Resist",
-    "tr": "+20 Büyü Direnci"
+    "en": "",
+    "tr": ""
    },
    "kind": "component",
    "recipe": null,
    "icon": "items/DA_Component_NegatronCloak.png",
    "iconURL": "https://raw.communitydragon.org/latest/game/assets/maps/tft/icons/items/hexcore/tft_item_negatroncloak.png",
    "unique": false,
-   "stats": {
-    "MR": 20
-   },
+   "stats": {},
    "traitId": null
   },
   {
@@ -5080,17 +5070,15 @@
     "tr": "Nişancı Yayı"
    },
    "desc": {
-    "en": "+10% Attack Speed",
-    "tr": "+%10 Saldırı Hızı"
+    "en": "",
+    "tr": ""
    },
    "kind": "component",
    "recipe": null,
    "icon": "items/DA_Component_RecurveBow.png",
    "iconURL": "https://raw.communitydragon.org/latest/game/assets/maps/tft/icons/items/hexcore/tft_item_recurvebow.png",
    "unique": false,
-   "stats": {
-    "AS": 10
-   },
+   "stats": {},
    "traitId": null
   },
   {
@@ -5100,17 +5088,15 @@
     "tr": "İdman Eldiveni"
    },
    "desc": {
-    "en": "+20% Critical Strike Chance",
-    "tr": "+%20 Kritik Vuruş İhtimali"
+    "en": "",
+    "tr": ""
    },
    "kind": "component",
    "recipe": null,
    "icon": "items/DA_Component_SparringGloves.png",
    "iconURL": "https://raw.communitydragon.org/latest/game/assets/maps/tft/icons/items/hexcore/tft_item_sparringgloves.png",
    "unique": false,
-   "stats": {
-    "CritChance": 20
-   },
+   "stats": {},
    "traitId": null
   },
   {
@@ -5120,8 +5106,8 @@
     "tr": "Spatula"
    },
    "desc": {
-    "en": "It must do something...",
-    "tr": "En azından bir işe yarıyordur..."
+    "en": "",
+    "tr": ""
    },
    "kind": "component",
    "recipe": null,
@@ -5138,17 +5124,15 @@
     "tr": "Tanrıça'nın Gözyaşı"
    },
    "desc": {
-    "en": "+1 Mana Regeneration",
-    "tr": "+1 Mana Yenilenmesi"
+    "en": "",
+    "tr": ""
    },
    "kind": "component",
    "recipe": null,
    "icon": "items/DA_Component_TearOfTheGoddess.png",
    "iconURL": "https://raw.communitydragon.org/latest/game/assets/maps/tft/icons/items/hexcore/tft_item_tearofthegoddess.png",
    "unique": false,
-   "stats": {
-    "ManaRegen": 1
-   },
+   "stats": {},
    "traitId": null
   },
   {
@@ -5158,8 +5142,8 @@
     "tr": "Değişken Miğfer"
    },
    "desc": {
-    "en": "Gain an additional 15% Mana from all sources. The wearer gains an additional bonus based on their Role:\n\nTanks and Fighters: Gain Armor and Magic Resistance.\n\nOther Roles: Gain 10% Attack Damage and Ability Power.",
-    "tr": "Kullanıcı tüm kaynaklardan fazladan %15 Mana kazanır. Ayrıca kullanıcı rolüne bağlı olarak fazladan bir ilave kazanır:\n\nTank ve Dövüşçü: Kullanıcı Zırh ve Büyü Direnci kazanır.\n\nDiğer Roller: Kullanıcı %10 Saldırı Gücü ve Yetenek Gücü kazanır."
+    "en": "",
+    "tr": ""
    },
    "kind": "craftable",
    "recipe": [
@@ -5169,10 +5153,7 @@
    "icon": "items/DA_AdaptiveHelm.png",
    "iconURL": "https://raw.communitydragon.org/latest/game/assets/maps/tft/icons/items/hexcore/tft_item_adaptivehelm.png",
    "unique": false,
-   "stats": {
-    "MagicResist": 20,
-    "ManaRegen": 3
-   },
+   "stats": {},
    "traitId": null
   },
   {
@@ -5182,8 +5163,8 @@
     "tr": "Başmelek Asası"
    },
    "desc": {
-    "en": "Combat start: Gain 20% Ability Power every 5 seconds in combat.",
-    "tr": "Çatışma Başlangıcında: Kullanıcı çatışmadayken 5 saniyede bir %20 Yetenek Gücü kazanır."
+    "en": "",
+    "tr": ""
    },
    "kind": "craftable",
    "recipe": [
@@ -5193,10 +5174,7 @@
    "icon": "items/DA_ArchangelsStaff.png",
    "iconURL": "https://raw.communitydragon.org/latest/game/assets/maps/tft/icons/items/hexcore/tft_item_archangelsstaff.png",
    "unique": false,
-   "stats": {
-    "AP": 30,
-    "ManaPerSecond": 1
-   },
+   "stats": {},
    "traitId": null
   },
   {
@@ -5206,8 +5184,8 @@
     "tr": "Kanasusamış"
    },
    "desc": {
-    "en": "Once per combat at 50% Health, gain a 30% max Health Shield that lasts up to 5 seconds.",
-    "tr": "Kullanıcı çatışmada bir kez olmak üzere canı %50 değerine düştüğünde en fazla 5 saniyeliğine azami canının %30 kadarına eşdeğer miktarda kalkan kazanır."
+    "en": "",
+    "tr": ""
    },
    "kind": "craftable",
    "recipe": [
@@ -5217,12 +5195,7 @@
    "icon": "items/DA_Bloodthirster.png",
    "iconURL": "https://raw.communitydragon.org/latest/game/assets/maps/tft/icons/items/hexcore/tft_item_bloodthirster.png",
    "unique": false,
-   "stats": {
-    "AD": 18,
-    "AP": 18,
-    "MagicResist": 20,
-    "Omnivamp": 20
-   },
+   "stats": {},
    "traitId": null
   },
   {
@@ -5232,8 +5205,8 @@
     "tr": "Mavi Güçlendirme"
    },
    "desc": {
-    "en": "Gain 10% additional Attack Damage and Ability Power from all sources.",
-    "tr": "Kullanıcı tüm kaynaklardan fazladan %10 Saldırı Gücü ve Yetenek Gücü kazanır."
+    "en": "",
+    "tr": ""
    },
    "kind": "craftable",
    "recipe": [
@@ -5243,11 +5216,7 @@
    "icon": "items/DA_BlueBuff.png",
    "iconURL": "https://raw.communitydragon.org/latest/game/assets/maps/tft/icons/items/hexcore/tft_item_bluebuff.png",
    "unique": false,
-   "stats": {
-    "AD": 15,
-    "AP": 15,
-    "ManaRegen": 5
-   },
+   "stats": {},
    "traitId": null
   },
   {
@@ -5257,8 +5226,8 @@
     "tr": "Dikenli Yelek"
    },
    "desc": {
-    "en": "Gain 6% max Health.\n\nTake 5% reduced damage from attacks. When struck by any attack, deal 100 magic damage to all adjacent enemies.\n\nCooldown: 2 seconds",
-    "tr": "Kullanıcı %6 Azami Can kazanır.\n\nKullanıcı saldırılardan %5 daha az hasar alır. Bir saldırıdan isabet aldığında bitişiğindeki tüm rakiplere 100 Büyü Hasarı verir.\n\nBu etkinin 2 saniyelik bir bekleme süresi vardır."
+    "en": "",
+    "tr": ""
    },
    "kind": "craftable",
    "recipe": [
@@ -5268,9 +5237,7 @@
    "icon": "items/DA_BrambleVest.png",
    "iconURL": "https://raw.communitydragon.org/latest/game/assets/maps/tft/icons/items/hexcore/tft_item_bramblevest.png",
    "unique": false,
-   "stats": {
-    "Armor": 50
-   },
+   "stats": {},
    "traitId": null
   },
   {
@@ -5280,8 +5247,8 @@
     "tr": "Kraliyet Başlığı"
    },
    "desc": {
-    "en": "Combat start: Gain a 25% max Health Shield for 8 seconds.\nWhen the shield expires, gain 20% Ability Power.",
-    "tr": "Çatışma Başlangıcında: Kullanıcı 8 saniyeliğine azami canının %25 kadarına eşdeğer miktarda kalkan kazanır.\nKullanıcı kalkanın süresi dolduğunda %20 Yetenek Gücü kazanır."
+    "en": "",
+    "tr": ""
    },
    "kind": "craftable",
    "recipe": [
@@ -5291,11 +5258,7 @@
    "icon": "items/DA_Crownguard.png",
    "iconURL": "https://raw.communitydragon.org/latest/game/assets/maps/tft/icons/items/hexcore/tft_item_crownguard.png",
    "unique": false,
-   "stats": {
-    "Health": 100,
-    "AbilityPower": 20,
-    "Armor": 20
-   },
+   "stats": {},
    "traitId": null
   },
   {
@@ -5305,8 +5268,8 @@
     "tr": "Ölüm Kılıcı"
    },
    "desc": {
-    "en": "Perfect peace and calm for the holder - and all who face it.{ItemTags.Deathblade.DeadlierBladeStacks}",
-    "tr": "Kullanıcı huzurla dolar, karşısına çıkanlarsa huzura erer.{ItemTags.Deathblade.DeadlierBladeStacks}"
+    "en": "",
+    "tr": ""
    },
    "kind": "craftable",
    "recipe": [
@@ -5316,10 +5279,7 @@
    "icon": "items/DA_Deathblade.png",
    "iconURL": "https://raw.communitydragon.org/latest/game/assets/maps/tft/icons/items/hexcore/tft_item_deathblade.png",
    "unique": false,
-   "stats": {
-    "AttackDamage": 55,
-    "DamageAmp": 10
-   },
+   "stats": {},
    "traitId": null
   },
   {
@@ -5329,8 +5289,8 @@
     "tr": "Ejder Pençesi"
    },
    "desc": {
-    "en": "Gain 6% max Health. Every 2 seconds, heal 2% max Health.",
-    "tr": "Kullanıcı %6 Azami Can kazanır. Kullanıcı her 2 saniyede bir azami canının %2 kadarını yeniler."
+    "en": "",
+    "tr": ""
    },
    "kind": "craftable",
    "recipe": [
@@ -5340,9 +5300,7 @@
    "icon": "items/DA_DragonsClaw.png",
    "iconURL": "https://raw.communitydragon.org/latest/game/assets/maps/tft/icons/items/hexcore/tft_item_dragonsclaw.png",
    "unique": false,
-   "stats": {
-    "MagicResist": 60
-   },
+   "stats": {},
    "traitId": null
   },
   {
@@ -5352,8 +5310,8 @@
     "tr": "Gecenin Kıyısı"
    },
    "desc": {
-    "en": "At 40% Health, briefly become untargetable, shed negative effects, and heal 15% missing health.",
-    "tr": "Kullanıcı canı %40 değerine düştüğünde kısa süreliğine hedef alınamaz hale gelir, tüm olumsuz etkilerden arınır ve eksik canının %15 kadarını yeniler."
+    "en": "",
+    "tr": ""
    },
    "kind": "craftable",
    "recipe": [
@@ -5363,12 +5321,7 @@
    "icon": "items/DA_EdgeOfNight.png",
    "iconURL": "https://raw.communitydragon.org/latest/game/assets/maps/tft/icons/items/hexcore/tft_item_guardianangel.png",
    "unique": false,
-   "stats": {
-    "AttackDamage": 10,
-    "AbilityPower": 10,
-    "Armor": 20,
-    "AttackSpeed": 15
-   },
+   "stats": {},
    "traitId": null
   },
   {
@@ -5378,8 +5331,8 @@
     "tr": "Denge Örtüsü"
    },
    "desc": {
-    "en": "30% Sunder enemies within 2 hexes. Gain 15 Armor and Magic Resist for the first 15 seconds of combat.\n\nSunder: Reduce Armor",
-    "tr": "Kullanıcı 2 hücrelik bir alan içindeki rakipleri %30 aşındırır ve çatışmanın ilk 15 saniyesi boyunca 15 Zırh ve Büyü Direnci kazanır.\n\nAşındırma: Aşındırılan birimlerin zırhı azalır."
+    "en": "",
+    "tr": ""
    },
    "kind": "craftable",
    "recipe": [
@@ -5389,10 +5342,7 @@
    "icon": "items/DA_Evenshroud.png",
    "iconURL": "https://raw.communitydragon.org/latest/game/assets/maps/tft/icons/items/hexcore/tft_item_spectralgauntlet.png",
    "unique": false,
-   "stats": {
-    "MagicResist": 20,
-    "HealthMax": 250
-   },
+   "stats": {},
    "traitId": null
   },
   {
@@ -5402,8 +5352,8 @@
     "tr": "Gargoyl Taşzırhı"
    },
    "desc": {
-    "en": "Gain 10 Armor and 10 Magic Resist for each enemy targeting the holder.",
-    "tr": "Kullanıcı onu hedef alan her rakip başına 10 Zırh ve 10 Büyü Direnci kazanır."
+    "en": "",
+    "tr": ""
    },
    "kind": "craftable",
    "recipe": [
@@ -5413,11 +5363,7 @@
    "icon": "items/DA_GargoyleStoneplate.png",
    "iconURL": "https://raw.communitydragon.org/latest/game/assets/maps/tft/icons/items/hexcore/tft_item_gargoylestoneplate.png",
    "unique": false,
-   "stats": {
-    "HealthMax": 100,
-    "Armor": 25,
-    "MagicResist": 25
-   },
+   "stats": {},
    "traitId": null
   },
   {
@@ -5427,8 +5373,8 @@
     "tr": "Dev Katili"
    },
    "desc": {
-    "en": "Gain 15% additional Damage Amp against Tanks.",
-    "tr": "Kullanıcı tanklara karşı fazladan %15 Hasar Artışı kazanır."
+    "en": "",
+    "tr": ""
    },
    "kind": "craftable",
    "recipe": [
@@ -5438,12 +5384,7 @@
    "icon": "items/DA_GiantSlayer.png",
    "iconURL": "https://raw.communitydragon.org/latest/game/assets/maps/tft/icons/items/hexcore/tft_item_madredsbloodrazor.png",
    "unique": false,
-   "stats": {
-    "AttackDamage": 15,
-    "AbilityPower": 15,
-    "AttackSpeed": 15,
-    "OutgoingDamageMultiplier": 15
-   },
+   "stats": {},
    "traitId": null
   },
   {
@@ -5453,8 +5394,8 @@
     "tr": "Guinsoo'nun Hiddeti"
    },
    "desc": {
-    "en": "Gain 7% stacking Attack Speed every second.",
-    "tr": "Kullanıcı her saniye birikecek şekilde %7 Saldırı Hızı kazanır."
+    "en": "",
+    "tr": ""
    },
    "kind": "craftable",
    "recipe": [
@@ -5464,10 +5405,7 @@
    "icon": "items/DA_GuinsoosRageblade.png",
    "iconURL": "https://raw.communitydragon.org/latest/game/assets/maps/tft/icons/items/hexcore/tft_item_guinsoosrageblade.png",
    "unique": false,
-   "stats": {
-    "AP": 10,
-    "AS": 10
-   },
+   "stats": {},
    "traitId": null
   },
   {
@@ -5477,8 +5415,8 @@
     "tr": "Adaletin Eli"
    },
    "desc": {
-    "en": "Gain 2 effects:\n• 18% Attack Damage and 18% Ability Power.\n• 15% Omnivamp.\n\nWhile above 50% health, double the Attack Damage and Ability Power. While below 50% Health, double the Omnivamp.",
-    "tr": "Kullanıcı 2 etki kazanır:\n• %18 Saldırı Gücü ve %18 Yetenek Gücü\n• %15 Mutlak Sömürü\n\nKullanıcı canı %50 değerinin üstündeyken iki kat saldırı gücü ve yetenek gücü kazanır. Canı %50 değerinin altındaykense iki kat mutlak sömürü kazanır."
+    "en": "",
+    "tr": ""
    },
    "kind": "craftable",
    "recipe": [
@@ -5488,10 +5426,7 @@
    "icon": "items/DA_HandOfJustice.png",
    "iconURL": "https://raw.communitydragon.org/latest/game/assets/maps/tft/icons/items/hexcore/tft_item_unstableconcoction.png",
    "unique": false,
-   "stats": {
-    "CritChance": 20,
-    "ManaRegen": 1
-   },
+   "stats": {},
    "traitId": null
   },
   {
@@ -5501,8 +5436,8 @@
     "tr": "Hextech Silahkılıç"
    },
    "desc": {
-    "en": "Heal the lowest percent Health ally for 20% of damage dealt.\n\nAlly Healing:",
-    "tr": "Kullanıcı yüzdelik canı en düşük takım arkadaşını verdiği hasarın %20 kadarına eşdeğer miktarda iyileştirir.\n\nTakım Arkadaşlarına Yönelik İyileştirme:"
+    "en": "",
+    "tr": ""
    },
    "kind": "craftable",
    "recipe": [
@@ -5512,12 +5447,7 @@
    "icon": "items/DA_HextechGunblade.png",
    "iconURL": "https://raw.communitydragon.org/latest/game/assets/maps/tft/icons/items/hexcore/tft_item_hextechgunblade.png",
    "unique": false,
-   "stats": {
-    "AD": 20,
-    "AP": 20,
-    "Omnivamp": 15,
-    "ManaRegen": 1
-   },
+   "stats": {},
    "traitId": null
   },
   {
@@ -5527,8 +5457,8 @@
     "tr": "Ebedi Kılıç"
    },
    "desc": {
-    "en": "Gain Precision.\n\nPrecision: Ability damage can critically strike. Extra Precision grants 10% Critical Strike Damage.",
-    "tr": "Kullanıcı isabetlilik kazanır.\n\nİsabetlilik: Yetenek hasarı kritik vuruş yapabilir. İlave isabetlilik %10 Kritik Vuruş Hasarı kazandırır."
+    "en": "",
+    "tr": ""
    },
    "kind": "craftable",
    "recipe": [
@@ -5538,10 +5468,7 @@
    "icon": "items/DA_InfinityEdge.png",
    "iconURL": "https://raw.communitydragon.org/latest/game/assets/maps/tft/icons/items/hexcore/tft_item_infinityedge.png",
    "unique": false,
-   "stats": {
-    "AttackDamage": 35,
-    "CriticalStrikeChance": 35
-   },
+   "stats": {},
    "traitId": null
   },
   {
@@ -5551,8 +5478,8 @@
     "tr": "İyon Kıvılcımı"
    },
    "desc": {
-    "en": "30% Shred enemies within 2 hexes. When enemies cast an Ability, deal magic damage equal to 150% of the Mana spent.\n\nShred: Reduce Magic Resist",
-    "tr": "Kullanıcı 2 hücrelik bir alan içindeki rakipleri %30 örseler. Bu rakipler yetenek kullandıklarında harcadıkları mananın %150 kadarına eşdeğer miktarda büyü hasarı alır.\n\nÖrseleme: Örselenen birimlerin büyü direnci azalır."
+    "en": "",
+    "tr": ""
    },
    "kind": "craftable",
    "recipe": [
@@ -5562,11 +5489,7 @@
    "icon": "items/DA_IonicSpark.png",
    "iconURL": "https://raw.communitydragon.org/latest/game/assets/maps/tft/icons/items/hexcore/tft_item_ionicspark.png",
    "unique": false,
-   "stats": {
-    "Health": 250,
-    "AP": 15,
-    "MR": 35
-   },
+   "stats": {},
    "traitId": null
   },
   {
@@ -5576,8 +5499,8 @@
     "tr": "Mücevherli Eldiven"
    },
    "desc": {
-    "en": "Gain Precision.\n\nPrecision: Ability damage can critically strike. Extra Precision grants 10% Critical Strike Damage.",
-    "tr": "Kullanıcı isabetlilik kazanır.\n\nİsabetlilik: Yetenek hasarı kritik vuruş yapabilir. İlave isabetlilik %10 Kritik Vuruş Hasarı kazandırır."
+    "en": "",
+    "tr": ""
    },
    "kind": "craftable",
    "recipe": [
@@ -5587,10 +5510,7 @@
    "icon": "items/DA_JeweledGauntlet.png",
    "iconURL": "https://raw.communitydragon.org/latest/game/assets/maps/tft/icons/items/hexcore/tft_item_jeweledgauntlet.png",
    "unique": false,
-   "stats": {
-    "AP": 35,
-    "CritChance": 35
-   },
+   "stats": {},
    "traitId": null
   },
   {
@@ -5600,8 +5520,8 @@
     "tr": "Kraken'in Öfkesi"
    },
    "desc": {
-    "en": "Attacks grant 3.5% stacking Attack Damage, up to 15 attacks. After 15 attacks, gain 15% Attack Speed.",
-    "tr": "Kullanıcının saldırıları birikecek şekilde %3.5 Saldırı Gücü sağlar. En fazla 15 kez birikebilir. Kullanıcı 15 saldırıdan sonra %15 Saldırı Hızı kazanır."
+    "en": "",
+    "tr": ""
    },
    "kind": "craftable",
    "recipe": [
@@ -5611,11 +5531,7 @@
    "icon": "items/DA_KrakensFury.png",
    "iconURL": "https://raw.communitydragon.org/latest/game/assets/maps/tft/icons/items/hexcore/tft_item_krakenslayer.png",
    "unique": false,
-   "stats": {
-    "AD": 10,
-    "MR": 20,
-    "AS": 10
-   },
+   "stats": {},
    "traitId": null
   },
   {
@@ -5625,8 +5541,8 @@
     "tr": "Son Fısıltı"
    },
    "desc": {
-    "en": "Attacks and Ability damage 30% Sunders the target for 3 seconds. This effect does not stack.\n\nSunder: Reduce Armor",
-    "tr": "Kullanıcı saldırdığında ve yeteneğiyle hasar verdiğinde hedefi 3 saniyeliğine %30 aşındırır. Bu etki birikmez.\n\nAşındırma: Aşındırılan birimlerin zırhı azalır."
+    "en": "",
+    "tr": ""
    },
    "kind": "craftable",
    "recipe": [
@@ -5636,11 +5552,7 @@
    "icon": "items/DA_LastWhisper.png",
    "iconURL": "https://raw.communitydragon.org/latest/game/assets/maps/tft/icons/items/hexcore/tft_item_lastwhisper.png",
    "unique": false,
-   "stats": {
-    "AttackDamage": 15,
-    "AttackSpeed": 20,
-    "CritChance": 20
-   },
+   "stats": {},
    "traitId": null
   },
   {
@@ -5650,8 +5562,8 @@
     "tr": "Morellonomikon"
    },
    "desc": {
-    "en": "Attacks and Abilities deal 1% Burn and 33% Wound to enemies for 10 seconds.\n\nBurn: Deals a percent of the target’s max Health as true damage every second.\nWound: Reduces healing received.",
-    "tr": "Kullanıcının yeteneği ve saldırıları rakipleri 10 saniyeliğine %1 yakar ve %33 yaralar.\n\nYakma: Yanan birimler her saniye azami canlarının belli bir oranına eşdeğer miktarda gerçek hasar alır.\nYara: Yaralanan birimlerin aldığı iyileştirme etkileri azalır."
+    "en": "",
+    "tr": ""
    },
    "kind": "craftable",
    "recipe": [
@@ -5661,11 +5573,7 @@
    "icon": "items/DA_Morellonomicon.png",
    "iconURL": "https://raw.communitydragon.org/latest/game/assets/maps/tft/icons/items/hexcore/tft_item_morellonomicon.png",
    "unique": false,
-   "stats": {
-    "Health": 150,
-    "AP": 20,
-    "ManaRegen": 1
-   },
+   "stats": {},
    "traitId": null
   },
   {
@@ -5675,8 +5583,8 @@
     "tr": "Nashor'un Dişi"
    },
    "desc": {
-    "en": "Attacks grant 2 bonus Mana, increased to if they critically strike.",
-    "tr": "Kullanıcının saldırıları 2 İlave Mana yeniler. Kritik vuruş yaparsa bu ilave artarak olur."
+    "en": "",
+    "tr": ""
    },
    "kind": "craftable",
    "recipe": [
@@ -5686,12 +5594,7 @@
    "icon": "items/DA_NashorsTooth.png",
    "iconURL": "https://raw.communitydragon.org/latest/game/assets/maps/tft/icons/items/hexcore/tft_item_leviathan.png",
    "unique": false,
-   "stats": {
-    "Health": 150,
-    "AbilityPower": 15,
-    "AttackSpeed": 10,
-    "CritChance": 20
-   },
+   "stats": {},
    "traitId": null
   },
   {
@@ -5701,8 +5604,8 @@
     "tr": "Muhafızın Adağı"
    },
    "desc": {
-    "en": "Combat Start: Gain 20 Mana.\n\nAt 40% Health, gain 15 Mana and a Shield equal to 20% max Health.",
-    "tr": "Çatışma Başlangıcında: Kullanıcı 20 Mana kazanır.\n\nCanı %40 değerine düştüğünde 15 Mana ve azami canının %20 kadarına eşdeğer miktarda kalkan kazanır."
+    "en": "",
+    "tr": ""
    },
    "kind": "craftable",
    "recipe": [
@@ -5712,11 +5615,7 @@
    "icon": "items/DA_ProtectorsVow.png",
    "iconURL": "https://raw.communitydragon.org/latest/game/assets/maps/tft/icons/items/hexcore/tft_item_frozenheart.png",
    "unique": false,
-   "stats": {
-    "Armor": 25,
-    "MR": 25,
-    "ManaRegen": 1
-   },
+   "stats": {},
    "traitId": null
   },
   {
@@ -5726,8 +5625,8 @@
     "tr": "Cıva"
    },
    "desc": {
-    "en": "Combat Start: Unstoppable for 18 seconds.\n\nGain 3% stacking Attack Speed every second.",
-    "tr": "Çatışma Başlangıcında: Kullanıcı 18 saniyeliğine durdurulamaz olur.\n\nKullanıcı her saniye birikecek şekilde %3 Saldırı Hızı kazanır."
+    "en": "",
+    "tr": ""
    },
    "kind": "craftable",
    "recipe": [
@@ -5737,11 +5636,7 @@
    "icon": "items/DA_Quicksilver.png",
    "iconURL": "https://raw.communitydragon.org/latest/game/assets/maps/tft/icons/items/hexcore/tft_item_quicksilver.png",
    "unique": false,
-   "stats": {
-    "MagicResist": 20,
-    "AttackSpeed": 15,
-    "CritChance": 20
-   },
+   "stats": {},
    "traitId": null
   },
   {
@@ -5751,8 +5646,8 @@
     "tr": "Rabadon'un Şapkası"
    },
    "desc": {
-    "en": "This humble hat can help you make, or unmake, the world itself.{ItemTags.RabadonsDeathcap.DeadlierCapsStacks}",
-    "tr": "Bu naçiz şapka yeri gelince vezir de eder, rezil de.{ItemTags.RabadonsDeathcap.DeadlierCapsStacks}"
+    "en": "",
+    "tr": ""
    },
    "kind": "craftable",
    "recipe": [
@@ -5762,10 +5657,7 @@
    "icon": "items/DA_RabadonsDeathcap.png",
    "iconURL": "https://raw.communitydragon.org/latest/game/assets/maps/tft/icons/items/hexcore/tft_item_rabadonsdeathcap.png",
    "unique": false,
-   "stats": {
-    "AbilityPower": 55,
-    "DamageAmp": 15
-   },
+   "stats": {},
    "traitId": null
   },
   {
@@ -5775,8 +5667,8 @@
     "tr": "Kırmızı Güçlendirme"
    },
    "desc": {
-    "en": "Attacks and Abilities 1% Burn and 33% Wound enemies for 5 seconds.\n\nBurn: Deals a percent of the target’s max Health as true damage every second.\nWound: Reduces healing received.",
-    "tr": "Kullanıcının yeteneği ve saldırıları, rakipleri 5 saniyeliğine %1 yakar ve %33 yaralar.\n\nYakma: Yanan birimler her saniye azami canlarının belli bir oranına eşdeğer miktarda gerçek hasar alır.\nYara: Yaralanan birimlerin aldığı iyileştirme etkileri azalır."
+    "en": "",
+    "tr": ""
    },
    "kind": "craftable",
    "recipe": [
@@ -5786,10 +5678,7 @@
    "icon": "items/DA_RedBuff.png",
    "iconURL": "https://raw.communitydragon.org/latest/game/assets/maps/tft/icons/items/hexcore/tft_item_rapidfirecannon.png",
    "unique": false,
-   "stats": {
-    "AttackSpeed": 45,
-    "DamageAmp": 3
-   },
+   "stats": {},
    "traitId": null
   },
   {
@@ -5799,8 +5688,8 @@
     "tr": "Shojin'in Mızrağı"
    },
    "desc": {
-    "en": "Attacks grant 5 bonus Mana.",
-    "tr": "Kullanıcının saldırıları 5 İlave Mana yeniler."
+    "en": "",
+    "tr": ""
    },
    "kind": "craftable",
    "recipe": [
@@ -5810,11 +5699,7 @@
    "icon": "items/DA_SpearOfShojin.png",
    "iconURL": "https://raw.communitydragon.org/latest/game/assets/maps/tft/icons/items/hexcore/tft_item_spearofshojin.png",
    "unique": false,
-   "stats": {
-    "AttackDamage": 15,
-    "AbilityPower": 15,
-    "ManaPerSecond": 1
-   },
+   "stats": {},
    "traitId": null
   },
   {
@@ -5824,8 +5709,8 @@
     "tr": "Ruh Gömleği"
    },
    "desc": {
-    "en": "Regenerate 2% of missing Health each second.",
-    "tr": "Kullanıcı her saniye eksik canının %2 kadarını yeniler."
+    "en": "",
+    "tr": ""
    },
    "kind": "craftable",
    "recipe": [
@@ -5835,11 +5720,7 @@
    "icon": "items/DA_SpiritVisage.png",
    "iconURL": "https://raw.communitydragon.org/latest/game/assets/maps/tft/icons/items/hexcore/tft_item_spiritvisagerr.png",
    "unique": false,
-   "stats": {
-    "Health": 300,
-    "IncomingDmgMod": 10,
-    "ManaRegen": 2
-   },
+   "stats": {},
    "traitId": null
   },
   {
@@ -5849,8 +5730,8 @@
     "tr": "Kararlı Yürek"
    },
    "desc": {
-    "en": "Gain 5% Durability. While above 50% Health, instead gain 15% Durability.{Augment.Variant.HeartofSteel.Tooltip}",
-    "tr": "Kullanıcı %5 Dayanıklılık kazanır. Canı %50 değerinin üstündeyken %15 Dayanıklılık kazanır. {Augment.Variant.HeartofSteel.Tooltip}"
+    "en": "",
+    "tr": ""
    },
    "kind": "craftable",
    "recipe": [
@@ -5860,10 +5741,7 @@
    "icon": "items/DA_SteadfastHeart.png",
    "iconURL": "https://raw.communitydragon.org/latest/game/assets/maps/tft/icons/items/hexcore/tft_item_nightharvester.png",
    "unique": false,
-   "stats": {
-    "Armor": 20,
-    "CritChance": 20
-   },
+   "stats": {},
    "traitId": null
   },
   {
@@ -5873,8 +5751,8 @@
     "tr": "Sterak'ın Güvencesi"
    },
    "desc": {
-    "en": "At 60% Health, gain a Shield equal to 40% of the wearer's maximum Health that rapidly decays over 4 seconds.",
-    "tr": "Kullanıcı, canı %60 değerine düştüğünde azami canının %40 kadarına eşdeğer miktarda kalkan kazanır. Kalkan 4 saniye içinde hızla azalarak kaybolur."
+    "en": "",
+    "tr": ""
    },
    "kind": "craftable",
    "recipe": [
@@ -5884,10 +5762,7 @@
    "icon": "items/DA_SteraksGage.png",
    "iconURL": "https://raw.communitydragon.org/latest/game/assets/maps/tft/icons/items/hexcore/tft_item_steraksgage.png",
    "unique": false,
-   "stats": {
-    "Health": 300,
-    "AD": 45
-   },
+   "stats": {},
    "traitId": null
   },
   {
@@ -5897,8 +5772,8 @@
     "tr": "Hücum Gürzü"
    },
    "desc": {
-    "en": "Critical Strikes grant 5% Damage Amp for 5 seconds, stacking up to 4 times.",
-    "tr": "Kritik vuruşlar 5 saniyeliğine %5 Hasar Artışı kazandırır. Bu ilave en fazla 4 defa birikir."
+    "en": "",
+    "tr": ""
    },
    "kind": "craftable",
    "recipe": [
@@ -5908,12 +5783,7 @@
    "icon": "items/DA_StrikersFlail.png",
    "iconURL": "https://raw.communitydragon.org/latest/game/assets/maps/tft/icons/items/hexcore/tft_item_powergauntlet.png",
    "unique": false,
-   "stats": {
-    "Health": 150,
-    "AttackSpeed": 10,
-    "CritChance": 20,
-    "DamageAmp": 10
-   },
+   "stats": {},
    "traitId": null
   },
   {
@@ -5923,8 +5793,8 @@
     "tr": "Günateşi Pelerini"
    },
    "desc": {
-    "en": "Gain 8% max Health.\n\nEvery 2 seconds, deal 1% Burn and 33% Wound to an enemy within 2 hexes for 10 seconds.\n\nBurn: Deals a percent of the target’s max Health as true damage every second.\nWound: Reduces healing received.",
-    "tr": "Kullanıcı %8 Azami Can kazanır.\n\nKullanıcı 2 saniyede bir 2 hücrelik bir alan içindeki bir rakibi 10 saniye boyunca %1 yakar ve %33 yaralar.\n\nYakma: Yanan birimler her saniye azami canlarının belli bir oranına eşdeğer miktarda gerçek hasar alır.\nYara: Yaralanan birimlerin aldığı iyileştirme etkileri azalır."
+    "en": "",
+    "tr": ""
    },
    "kind": "craftable",
    "recipe": [
@@ -5934,10 +5804,7 @@
    "icon": "items/DA_SunfireCape.png",
    "iconURL": "https://raw.communitydragon.org/latest/game/assets/maps/tft/icons/items/hexcore/tft_item_redbuff.png",
    "unique": false,
-   "stats": {
-    "MaxHealth": 150,
-    "Armor": 20
-   },
+   "stats": {},
    "traitId": null
   },
   {
@@ -5947,8 +5814,8 @@
     "tr": "Strateji Ustası Pelerini"
    },
    "desc": {
-    "en": "Your team gains +1 maximum team size.\n\n10% chance to drop 1 gold after 10 seconds of combat.\n\n...and a bit of Luck.",
-    "tr": "Takımın +1 Azami Takım Boyutu kazanır.\n\nÇatışma başladıktan 10 saniye sonra %10 ihtimalle 1 Altın kazanırsın.\n\n...ve biraz da şans."
+    "en": "",
+    "tr": ""
    },
    "kind": "craftable",
    "recipe": [
@@ -5968,8 +5835,8 @@
     "tr": "Strateji Ustası Tacı"
    },
    "desc": {
-    "en": "Your team gains +1 maximum team size.\n\n10% chance to drop 1 gold when you win combat.\n\n...the Heart of a hero...",
-    "tr": "Takımın 1 Azami Takım Boyutu kazanır.\n\nÇatışmalarda galip geldiğinde %%10 ihtimalle 1 Altın kazanırsın.\n\n...bir kahramanın yüreğiyle..."
+    "en": "",
+    "tr": ""
    },
    "kind": "craftable",
    "recipe": [
@@ -5989,8 +5856,8 @@
     "tr": "Strateji Ustası Kalkanı"
    },
    "desc": {
-    "en": "Your team gains +1 maximum team size.\n\n10% chance to drop 1 gold when the holder dies.\n\nImbued with a Philosopher's wisdom...",
-    "tr": "Takımın 1 Azami Takım Boyutu kazanır.\n\nKullanıcı katledildiğinde %10 ihtimalle 1 Altın kazanırsın.\n\n\"Bir filozofun bilgeliğiyle...\""
+    "en": "",
+    "tr": ""
    },
    "kind": "craftable",
    "recipe": [
@@ -6010,8 +5877,8 @@
     "tr": "Hırsız Eldiveni"
    },
    "desc": {
-    "en": "Each round: Equip 2 random items\n\n[Consumes 3 item slots.]",
-    "tr": "Her Tur: Kullanıcı rasgele 2 eşya kazanır.\n\n[3 eşya yuvası kullanır.]"
+    "en": "",
+    "tr": ""
    },
    "kind": "craftable",
    "recipe": [
@@ -6021,10 +5888,7 @@
    "icon": "items/DA_ThiefsGloves.png",
    "iconURL": "https://raw.communitydragon.org/latest/game/assets/maps/tft/icons/items/hexcore/tft_item_thiefsgloves.png",
    "unique": false,
-   "stats": {
-    "Health": 150,
-    "CritChance": 20
-   },
+   "stats": {},
    "traitId": null
   },
   {
@@ -6034,8 +5898,8 @@
     "tr": "Titanın Azmi"
    },
    "desc": {
-    "en": "Gain 2% Attack Damage and Ability Power when attacking or taking damage, stacking up to 25 times.\n\nAt full stacks, gain 10% Damage Amp and become unstoppable.",
-    "tr": "Kullanıcı saldırırken veya hasar alırken en fazla 25 kez birikecek şekilde %2 Saldırı Gücü ve Yetenek Gücü kazanır.\n\nAzami yüke ulaştığında %10 Hasar Artışı kazanır ve durdurulamaz olur."
+    "en": "",
+    "tr": ""
    },
    "kind": "craftable",
    "recipe": [
@@ -6045,10 +5909,7 @@
    "icon": "items/DA_TitansResolve.png",
    "iconURL": "https://raw.communitydragon.org/latest/game/assets/maps/tft/icons/items/hexcore/tft_item_titansresolve.png",
    "unique": false,
-   "stats": {
-    "Armor": 20,
-    "AttackSpeed": 10
-   },
+   "stats": {},
    "traitId": null
   },
   {
@@ -6058,8 +5919,8 @@
     "tr": "Hiçlik Değneği"
    },
    "desc": {
-    "en": "Attacks and Ability damage 30% Shred the target for 5 seconds. This effect does not stack.\n\nShred: Reduce Magic Resist",
-    "tr": "Kullanıcı saldırdığında ve yeteneğiyle hasar verdiğinde hedefi 5 saniyeliğine %30 örseler. Bu etki birikmez.\n\nÖrseleme: Örselenen birimlerin büyü direnci azalır."
+    "en": "",
+    "tr": ""
    },
    "kind": "craftable",
    "recipe": [
@@ -6069,11 +5930,7 @@
    "icon": "items/DA_VoidStaff.png",
    "iconURL": "https://raw.communitydragon.org/latest/game/assets/maps/tft/icons/items/hexcore/tft_item_voidstaff.png",
    "unique": false,
-   "stats": {
-    "AP": 35,
-    "AttackSpeed": 15,
-    "ManaPerSecond": 1
-   },
+   "stats": {},
    "traitId": null
   },
   {
@@ -6083,8 +5940,8 @@
     "tr": "Warmog'un Zırhı"
    },
    "desc": {
-    "en": "Gain 18% max Health.",
-    "tr": "Kullanıcı %18 Azami Can kazanır."
+    "en": "",
+    "tr": ""
    },
    "kind": "craftable",
    "recipe": [
@@ -6094,9 +5951,7 @@
    "icon": "items/DA_WarmogsArmor.png",
    "iconURL": "https://raw.communitydragon.org/latest/game/assets/maps/tft/icons/items/hexcore/tft_item_warmogsarmor.png",
    "unique": false,
-   "stats": {
-    "Health": 500
-   },
+   "stats": {},
    "traitId": null
   },
   {
@@ -6106,8 +5961,8 @@
     "tr": "Karadiken Amblemi"
    },
    "desc": {
-    "en": "The holder gains the Blackthorn trait.",
-    "tr": "Kullanıcı Karadiken özelliği kazanır."
+    "en": "",
+    "tr": ""
    },
    "kind": "emblem",
    "recipe": [
@@ -6117,11 +5972,7 @@
    "icon": "items/DA_18_EmblemBlackthorn.png",
    "iconURL": "https://raw.communitydragon.org/latest/game/assets/maps/particles/tft/item_icons/traits/spatula/set18/tft18_emblem_blackthorn.png",
    "unique": false,
-   "stats": {
-    "Health": 250,
-    "AttackDamage": 15,
-    "AbilityPower": 15
-   },
+   "stats": {},
    "traitId": "DA_18_Blackthorn"
   },
   {
@@ -6131,8 +5982,8 @@
     "tr": "Çiçek Amblemi"
    },
    "desc": {
-    "en": "The holder gains the Blossom trait.",
-    "tr": "Kullanıcı Çiçek özelliği kazanır."
+    "en": "",
+    "tr": ""
    },
    "kind": "emblem",
    "recipe": [
@@ -6142,10 +5993,7 @@
    "icon": "items/DA_18_EmblemBlossom.png",
    "iconURL": "https://raw.communitydragon.org/latest/game/assets/maps/particles/tft/item_icons/traits/spatula/set18/tft18_emblem_blossom.png",
    "unique": false,
-   "stats": {
-    "Health": 250,
-    "ADAP": 10
-   },
+   "stats": {},
    "traitId": "DA_18_Blossom"
   },
   {
@@ -6155,8 +6003,8 @@
     "tr": "Dövüşçü Amblemi"
    },
    "desc": {
-    "en": "The holder gains the Brawler trait.\n\nAttacks deal 2% of the holder's max Health as magic damage.",
-    "tr": "Kullanıcı Dövüşçü özelliği kazanır.\n\nAyrıca saldırılarıyla azami canının %2 kadarına eşdeğer miktarda büyü hasarı verir."
+    "en": "",
+    "tr": ""
    },
    "kind": "emblem",
    "recipe": [
@@ -6166,9 +6014,7 @@
    "icon": "items/DA_18_EmblemBrawler.png",
    "iconURL": "https://raw.communitydragon.org/latest/game/assets/maps/particles/tft/item_icons/traits/spatula/set18/tft18_emblem_brawler.png",
    "unique": false,
-   "stats": {
-    "HP": 150
-   },
+   "stats": {},
    "traitId": "DA_18_Brawler"
   },
   {
@@ -6178,17 +6024,15 @@
     "tr": "Cadılar Meclisi Amblemi"
    },
    "desc": {
-    "en": "The holder gains the Coven trait.",
-    "tr": "Kullanıcı Cadılar Meclisi özelliği kazanır."
+    "en": "",
+    "tr": ""
    },
    "kind": "emblem",
    "recipe": null,
    "icon": "items/DA_18_EmblemCoven.png",
    "iconURL": "https://raw.communitydragon.org/latest/game/assets/maps/particles/tft/item_icons/traits/spatula/set18/tft18_emblem_coven.png",
    "unique": false,
-   "stats": {
-    "Health": 150
-   },
+   "stats": {},
    "traitId": "DA_18_Coven"
   },
   {
@@ -6198,17 +6042,15 @@
     "tr": "Savunucu Amblemi"
    },
    "desc": {
-    "en": "The holder gains the Defender trait.\n\nCombat Start: Gain 6% Attack Speed for every ally that starts in the front row.",
-    "tr": "Kullanıcı Savunucu özelliği kazanır.\n\nÇatışma Başlangıcında: Kullanıcı çatışmaya ön sırada başlayan her takım arkadaşı için %6 Saldırı Hızı kazanır."
+    "en": "",
+    "tr": ""
    },
    "kind": "emblem",
    "recipe": null,
    "icon": "items/DA_18_EmblemDefender.png",
    "iconURL": "https://raw.communitydragon.org/latest/game/assets/maps/particles/tft/item_icons/traits/spatula/set18/tft18_emblem_defender.png",
    "unique": false,
-   "stats": {
-    "ArmorMR": 30
-   },
+   "stats": {},
    "traitId": "DA_18_Defender"
   },
   {
@@ -6218,8 +6060,8 @@
     "tr": "Kadim Orman Amblemi"
    },
    "desc": {
-    "en": "The holder gains the Elderwood trait.",
-    "tr": "Kullanıcı Kadim Orman özelliği kazanır."
+    "en": "",
+    "tr": ""
    },
    "kind": "emblem",
    "recipe": [
@@ -6229,10 +6071,7 @@
    "icon": "items/DA_18_EmblemElderwood.png",
    "iconURL": "https://raw.communitydragon.org/latest/game/assets/maps/particles/tft/item_icons/traits/spatula/set18/tft18_emblem_elderwood.png",
    "unique": false,
-   "stats": {
-    "AttackSpeed": 25,
-    "ArmorMR": 25
-   },
+   "stats": {},
    "traitId": "DA_18_Elderwood"
   },
   {
@@ -6242,8 +6081,8 @@
     "tr": "İnfazcı Amblemi"
    },
    "desc": {
-    "en": "The holder gains the Executioner trait.\n\nDamage executes enemies below 8% of their max Health.",
-    "tr": "Kullanıcı İnfazcı özelliği kazanır.\n\nAyrıca azami canı %8 değerinin altındaki rakiplere hasar verdiğinde onları infaz eder."
+    "en": "",
+    "tr": ""
    },
    "kind": "emblem",
    "recipe": [
@@ -6253,10 +6092,7 @@
    "icon": "items/DA_18_EmblemExecutioner.png",
    "iconURL": "https://raw.communitydragon.org/latest/game/assets/maps/particles/tft/item_icons/traits/spatula/set18/tft18_emblem_executioner.png",
    "unique": false,
-   "stats": {
-    "CritChance": 20,
-    "CritDamage": 8
-   },
+   "stats": {},
    "traitId": "DA_18_Executioner"
   },
   {
@@ -6266,8 +6102,8 @@
     "tr": "Fey Amblemi"
    },
    "desc": {
-    "en": "The holder gains the Fae trait.",
-    "tr": "Kullanıcı Fey özelliği kazanır."
+    "en": "",
+    "tr": ""
    },
    "kind": "emblem",
    "recipe": [
@@ -6277,10 +6113,7 @@
    "icon": "items/DA_18_EmblemFae.png",
    "iconURL": "https://raw.communitydragon.org/latest/game/assets/maps/particles/tft/item_icons/traits/spatula/set18/tft18_emblem_fae.png",
    "unique": false,
-   "stats": {
-    "Health": 200,
-    "ADAP": 10
-   },
+   "stats": {},
    "traitId": "DA_18_Fae"
   },
   {
@@ -6290,18 +6123,15 @@
     "tr": "Flora Fatalis Amblemi"
    },
    "desc": {
-    "en": "The holder gains the Flora Fatalis trait.",
-    "tr": "Kullanıcı Flora Fatalis özelliği kazanır."
+    "en": "",
+    "tr": ""
    },
    "kind": "emblem",
    "recipe": null,
    "icon": "items/DA_18_EmblemFloraFatalis.png",
    "iconURL": "https://raw.communitydragon.org/latest/game/assets/maps/particles/tft/item_icons/traits/spatula/set18/tft18_emblem_florafatalis.png",
    "unique": false,
-   "stats": {
-    "Health": 250,
-    "ManaRegen": 2
-   },
+   "stats": {},
    "traitId": "DA_FloraFatalis18"
   },
   {
@@ -6311,18 +6141,15 @@
     "tr": "Flora Fatalis Amblemi"
    },
    "desc": {
-    "en": "The holder gains the Flora Fatalis trait.\n\nThey gain 50% increased benefits from Flora Fatalis.",
-    "tr": "Kullanıcı Flora Fatalis özelliği kazanır.\n\nAyrıca Flora Fatalis'ten %50 daha fazla faydalanır."
+    "en": "",
+    "tr": ""
    },
    "kind": "emblem",
    "recipe": null,
    "icon": "items/DA_18_EmblemFloraFatalisAugment.png",
    "iconURL": "https://raw.communitydragon.org/latest/game/assets/maps/particles/tft/item_icons/traits/spatula/set18/tft18_emblem_florafatalis.png",
    "unique": false,
-   "stats": {
-    "Health": 250,
-    "ManaRegen": 2
-   },
+   "stats": {},
    "traitId": "DA_FloraFatalis18"
   },
   {
@@ -6332,8 +6159,8 @@
     "tr": "Avcı Amblemi"
    },
    "desc": {
-    "en": "The holder gains the Hunter trait.\n\nTakedowns grant 15% Attack Damage.",
-    "tr": "Kullanıcı Avcı özelliği kazanır.\n\nAyrıca alt etmelerden %15 Saldırı Gücü kazanır."
+    "en": "",
+    "tr": ""
    },
    "kind": "emblem",
    "recipe": [
@@ -6343,9 +6170,7 @@
    "icon": "items/DA_18_EmblemHunter.png",
    "iconURL": "https://raw.communitydragon.org/latest/game/assets/maps/particles/tft/item_icons/traits/spatula/set18/tft18_emblem_hunter.png",
    "unique": false,
-   "stats": {
-    "AttackDamage": 25
-   },
+   "stats": {},
    "traitId": "DA_18_Hunter"
   },
   {
@@ -6355,8 +6180,8 @@
     "tr": "Alev Amblemi"
    },
    "desc": {
-    "en": "The holder gains the Inferno trait.",
-    "tr": "Kullanıcı Alev özelliği kazanır."
+    "en": "",
+    "tr": ""
    },
    "kind": "emblem",
    "recipe": [
@@ -6366,9 +6191,7 @@
    "icon": "items/DA_18_EmblemInferno.png",
    "iconURL": "https://raw.communitydragon.org/latest/game/assets/maps/particles/tft/item_icons/traits/spatula/set18/tft18_emblem_inferno.png",
    "unique": false,
-   "stats": {
-    "AttackSpeed": 40
-   },
+   "stats": {},
    "traitId": "DA_18_Inferno"
   },
   {
@@ -6378,8 +6201,8 @@
     "tr": "Manabaz Amblemi"
    },
    "desc": {
-    "en": "The holder gains the Invoker trait.\n\nOn cast, gain Ability Power equal to 8% of Mana spent.",
-    "tr": "Kullanıcı Manabaz özelliği kazanır.\n\nAyrıca yeteneğini kullandığında harcadığı mananın %8 kadarına eşdeğer miktarda yetenek gücü kazanır."
+    "en": "",
+    "tr": ""
    },
    "kind": "emblem",
    "recipe": [
@@ -6389,9 +6212,7 @@
    "icon": "items/DA_18_EmblemInvoker.png",
    "iconURL": "https://raw.communitydragon.org/latest/game/assets/maps/particles/tft/item_icons/traits/spatula/set18/tft18_emblem_invoker.png",
    "unique": false,
-   "stats": {
-    "ManaRegen": 2
-   },
+   "stats": {},
    "traitId": "DA_18_Invoker"
   },
   {
@@ -6401,17 +6222,15 @@
     "tr": "Ezergeçer Amblemi"
    },
    "desc": {
-    "en": "The holder gains the Juggernaut trait.\n\nGain 10 mana whenever a Juggernaut dies.",
-    "tr": "Kullanıcı Ezergeçer özelliği kazanır.\n\nAyrıca bir Ezergeçer katledildiğinde 10 Mana kazanır."
+    "en": "",
+    "tr": ""
    },
    "kind": "emblem",
    "recipe": null,
    "icon": "items/DA_18_EmblemJuggernaut.png",
    "iconURL": "https://raw.communitydragon.org/latest/game/assets/maps/particles/tft/item_icons/traits/spatula/set18/tft18_emblem_juggernaut.png",
    "unique": false,
-   "stats": {
-    "Health": 250
-   },
+   "stats": {},
    "traitId": "DA_Juggernaut18"
   },
   {
@@ -6421,8 +6240,8 @@
     "tr": "Ay Amblemi"
    },
    "desc": {
-    "en": "The holder gains the Lunar trait.",
-    "tr": "Kullanıcı Ay özelliği kazanır."
+    "en": "",
+    "tr": ""
    },
    "kind": "emblem",
    "recipe": [
@@ -6432,10 +6251,7 @@
    "icon": "items/DA_18_EmblemLunar.png",
    "iconURL": "https://raw.communitydragon.org/latest/game/assets/maps/particles/tft/item_icons/traits/spatula/set18/tft18_emblem_lunar.png",
    "unique": false,
-   "stats": {
-    "AttackSpeed": 20,
-    "ManaRegen": 3
-   },
+   "stats": {},
    "traitId": "DA_18_Lunar"
   },
   {
@@ -6481,8 +6297,8 @@
     "tr": "İlkel Amblemi"
    },
    "desc": {
-    "en": "The holder gains the Primal trait.",
-    "tr": "Kullanıcı İlkel özelliği kazanır."
+    "en": "",
+    "tr": ""
    },
    "kind": "emblem",
    "recipe": [
@@ -6492,11 +6308,7 @@
    "icon": "items/DA_18_EmblemPrimal.png",
    "iconURL": "https://raw.communitydragon.org/latest/game/assets/maps/particles/tft/item_icons/traits/spatula/set18/tft18_emblem_primal.png",
    "unique": false,
-   "stats": {
-    "AttackSpeed": 35,
-    "Health": 250,
-    "CriticalStrikeChance": 20
-   },
+   "stats": {},
    "traitId": "DA_Primal18"
   },
   {
@@ -6506,8 +6318,8 @@
     "tr": "Bombardımancı Amblemi"
    },
    "desc": {
-    "en": "The holder gains the Rapidfire trait.\n\nAttacks deal 1% of the target's max Health as true damage.",
-    "tr": "Kullanıcı Bombardımancı özelliği kazanır.\n\nAyrıca saldırılarıyla hedefin azami canının %1 kadarına eşdeğer miktarda gerçek hasar verir."
+    "en": "",
+    "tr": ""
    },
    "kind": "emblem",
    "recipe": [
@@ -6517,9 +6329,7 @@
    "icon": "items/DA_18_EmblemRapidfire.png",
    "iconURL": "https://raw.communitydragon.org/latest/game/assets/maps/particles/tft/item_icons/traits/spatula/set18/tft18_emblem_rapidfire.png",
    "unique": false,
-   "stats": {
-    "AttackSpeed": 20
-   },
+   "stats": {},
    "traitId": "DA_18_Rapidfire"
   },
   {
@@ -6529,8 +6339,8 @@
     "tr": "Tahripkâr Amblemi"
    },
    "desc": {
-    "en": "The holder gains the Ravager trait.\n\nGain 3% Damage Amp per 300 Health restored.",
-    "tr": "Kullanıcı Tahripkâr özelliği kazanır.\n\nAyrıca yenilenen her 300 Can başına %3 Hasar Artışı kazanır."
+    "en": "",
+    "tr": ""
    },
    "kind": "emblem",
    "recipe": [
@@ -6540,11 +6350,7 @@
    "icon": "items/DA_18_EmblemSlayer.png",
    "iconURL": "https://raw.communitydragon.org/latest/game/assets/maps/particles/tft/item_icons/traits/spatula/set18/tft18_emblem_ravager.png",
    "unique": false,
-   "stats": {
-    "AD": 20,
-    "AP": 20,
-    "ArmorMR": 20
-   },
+   "stats": {},
    "traitId": "DA_18_Slayer"
   },
   {
@@ -6554,8 +6360,8 @@
     "tr": "Sihirkâr Amblemi"
    },
    "desc": {
-    "en": "The holder gains the Spellweaver trait.\n\nGain 2 Mana whenever an ally casts their Ability.",
-    "tr": "Kullanıcı Sihirkâr özelliği kazanır.\n\nAyrıca takım arkadaşları yeteneklerini kullandığında 2 Mana kazanır."
+    "en": "",
+    "tr": ""
    },
    "kind": "emblem",
    "recipe": [
@@ -6565,9 +6371,7 @@
    "icon": "items/DA_18_EmblemSpellweaver.png",
    "iconURL": "https://raw.communitydragon.org/latest/game/assets/maps/particles/tft/item_icons/traits/spatula/set18/tft18_emblem_spellweaver.png",
    "unique": false,
-   "stats": {
-    "AP": 25
-   },
+   "stats": {},
    "traitId": "DA_18_Spellweaver"
   },
   {
@@ -6577,8 +6381,8 @@
     "tr": "Zıpırgil Amblemi"
    },
    "desc": {
-    "en": "The holder gains the Sprykin trait.\n\nIf the holder is riding the BFF, gain an additional\n20% 15 15",
-    "tr": "Kullanıcı Zıpırgil özelliği kazanır.\n\nKullanıcı büyük tüylü dosta biniyorsa fazladan %20 15 15 kazanır."
+    "en": "",
+    "tr": ""
    },
    "kind": "emblem",
    "recipe": [
@@ -6588,10 +6392,7 @@
    "icon": "items/DA_18_EmblemSprykin.png",
    "iconURL": "https://raw.communitydragon.org/latest/game/assets/maps/particles/tft/item_icons/traits/spatula/set18/tft18_emblem_sprykin.png",
    "unique": false,
-   "stats": {
-    "AttackSpeed": 10,
-    "ArmorMR": 15
-   },
+   "stats": {},
    "traitId": "DA_18_Sprykin"
   },
   {
@@ -6601,8 +6402,8 @@
     "tr": "Öncü Amblemi"
    },
    "desc": {
-    "en": "The holder gains the Vanguard trait.\n\nIf the holder survives 22 seconds in player combat, gain 1 player health.",
-    "tr": "Kullanıcı Öncü özelliği kazanır.\n\nKullanıcı oyunculara karşı çatışmalarda 22 saniye hayatta kaldığında strateji ustan 1 Can kazanır."
+    "en": "",
+    "tr": ""
    },
    "kind": "emblem",
    "recipe": [
@@ -6612,9 +6413,7 @@
    "icon": "items/DA_18_EmblemVanguard.png",
    "iconURL": "https://raw.communitydragon.org/latest/game/assets/maps/particles/tft/item_icons/traits/spatula/set18/tft18_emblem_vanguard.png",
    "unique": false,
-   "stats": {
-    "ArmorMR": 25
-   },
+   "stats": {},
    "traitId": "DA_18_Vanguard"
   },
   {
@@ -6624,18 +6423,15 @@
     "tr": "Şafak Kalkanı"
    },
    "desc": {
-    "en": "Every 2.5 seconds, steal 3 Armor from enemies within 1-hex and heal of the holder's Armor.\n\nIf Aegis of Dusk is also equipped, trigger this item's effect every 1.25 seconds instead.\n\nHealing increases based on Stage.",
-    "tr": "Kullanıcı her 2.5 saniyede bir 1 hücrelik bir alan içindeki rakiplerden 3 Zırh çalar ve kendi zırhının kadarına eşdeğer miktarda can yeniler.\n\nKullanıcı aynı zamanda Alacakaranlık Kalkanı'na da sahipse bu eşyanın etkisi her 1.25 saniyede bir tetiklenir.\n\nİyileştirme miktarı aşamaya bağlı olarak artar."
+    "en": "",
+    "tr": ""
    },
    "kind": "artifact",
    "recipe": null,
    "icon": "items/DA_Artifact_AegisOfDawn.png",
    "iconURL": "https://raw.communitydragon.org/latest/game/assets/maps/tft/icons/items/hexcore/tft_item_artifact_aegisofdawn.png",
    "unique": false,
-   "stats": {
-    "Health": 400,
-    "Armor": 50
-   },
+   "stats": {},
    "traitId": null
   },
   {
@@ -6645,18 +6441,15 @@
     "tr": "Alacakaranlık Kalkanı"
    },
    "desc": {
-    "en": "Every 2.5 seconds, steal 3 Magic Resist from enemies within 1-hex and deal 18% of the holder's Magic Resist as magic damage.\n\nIf Aegis of Dawn is also equipped, trigger this item's effect every 1.25 seconds instead.\n\nDamage increases based on Stage.",
-    "tr": "Kullanıcı her 2.5 saniyede bir 1 hücrelik bir alan içindeki rakiplerden 3 Büyü Direnci çalar ve kendi büyü direncinin %18 kadarına eşdeğer miktarda büyü hasarı verir.\n\nKullanıcı aynı zamanda Şafak Kalkanı'na da sahipse bu eşyanın etkisi her 1.25 saniyede bir tetiklenir.\n\nHasar aşamaya bağlı olarak artar."
+    "en": "",
+    "tr": ""
    },
    "kind": "artifact",
    "recipe": null,
    "icon": "items/DA_Artifact_AegisOfDusk.png",
    "iconURL": "https://raw.communitydragon.org/latest/game/assets/maps/tft/icons/items/hexcore/tft_item_artifact_aegisofdusk.png",
    "unique": false,
-   "stats": {
-    "Health": 400,
-    "MR": 70
-   },
+   "stats": {},
    "traitId": null
   },
   {
@@ -6666,18 +6459,15 @@
     "tr": "Felaket Mücevheri"
    },
    "desc": {
-    "en": "Dealing magic damage reduces the target’s Magic Resist by 3. If their Magic Resist is 0, grant the holder 4 Mana instead.\n\nAbility damage can only trigger on each enemy once every 0.5 seconds.",
-    "tr": "Kullanıcı büyü hasarı verdiğinde hedefinin büyü direncini 3 azaltır. Hedefinin büyü direnci 0 ise büyü hasarı verdiğinde 4 Mana kazanır.\n\nYetenek hasarı her rakibin üstünde sadece 0,5 saniyede bir tetiklenebilir."
+    "en": "",
+    "tr": ""
    },
    "kind": "artifact",
    "recipe": null,
    "icon": "items/DA_Artifact_BlightingJewel.png",
    "iconURL": "https://raw.communitydragon.org/latest/game/assets/maps/tft/icons/items/hexcore/tft_item_artifact_blightingjewel.png",
    "unique": false,
-   "stats": {
-    "AbilityPowerMultiplier": 30,
-    "ManaRegen": 2
-   },
+   "stats": {},
    "traitId": null
   },
   {
@@ -6687,19 +6477,15 @@
     "tr": "Şafağın Özü"
    },
    "desc": {
-    "en": "Reduce the holder's max Mana by 10. Subsequent spellcasts reduce max Mana by 5%, to a minimum of 15.",
-    "tr": "Kullanıcının azami manası 10 azalır. İlkinden sonraki yetenek kullanımları azami manayı %5 azaltır. Azami mana en az 15 olabilir."
+    "en": "",
+    "tr": ""
    },
    "kind": "artifact",
    "recipe": null,
    "icon": "items/DA_Artifact_Dawncore.png",
    "iconURL": "https://raw.communitydragon.org/latest/game/assets/maps/tft/icons/items/hexcore/tft_item_artifact_dawncore.png",
    "unique": false,
-   "stats": {
-    "AttackDamage": 20,
-    "AbilityPower": 20,
-    "ManaRegen": 1
-   },
+   "stats": {},
    "traitId": null
   },
   {
@@ -6709,18 +6495,15 @@
     "tr": "Ebedi Anlaşma"
    },
    "desc": {
-    "en": "Combat start: Form a pact with the highest Health allied champion, If they die, gain 10 Mana regen and 40% Ability Power.\n\nWhen the ally uses their ability, gain 10 Mana. Every 6 seconds, shield your ally for 200% of the holder's Ability Power.",
-    "tr": "Çatışma Başlangıcında: Kullanıcı en yüksek cana sahip takım arkadaşıyla bir anlaşma yapar. Takım arkadaşı katledilirse kullanıcı 10 Mana Yenilenmesi ve %40 Yetenek Gücü kazanır.\n\nTakım arkadaşı yeteneğini kullandığında kullanıcı 10 Mana kazanır. Ayrıca her 6 saniyede bir takım arkadaşına kendi yetenek gücünün %200 kadarına eşdeğer miktarda bir kalkan kazandırır."
+    "en": "",
+    "tr": ""
    },
    "kind": "artifact",
    "recipe": null,
    "icon": "items/DA_Artifact_EternalPact.png",
    "iconURL": "https://raw.communitydragon.org/latest/game/assets/maps/tft/icons/items/hexcore/tft16_artifact_eternalpact.png",
    "unique": false,
-   "stats": {
-    "AP": 35,
-    "ManaPerSecond": 1
-   },
+   "stats": {},
    "traitId": null
   },
   {
@@ -6730,18 +6513,15 @@
     "tr": "Kılçık"
    },
    "desc": {
-    "en": "The holder's attacks target random enemies. Gain +2 Attack Range.",
-    "tr": "Kullanıcının saldırıları rasgele rakipleri hedef alır. 2 Saldırı Menzili kazanır."
+    "en": "",
+    "tr": ""
    },
    "kind": "artifact",
    "recipe": null,
    "icon": "items/DA_Artifact_Fishbones.png",
    "iconURL": "https://raw.communitydragon.org/latest/game/assets/maps/tft/icons/items/hexcore/tft_item_artifact_fishbones.png",
    "unique": false,
-   "stats": {
-    "AttackDamage": 25,
-    "AttackSpeed": 25
-   },
+   "stats": {},
    "traitId": null
   },
   {
@@ -6751,18 +6531,15 @@
     "tr": "Tezbıçak"
    },
    "desc": {
-    "en": "Attacks grant 4% stacking Attack Speed. Every 3 attacks also grant 2% Attack Damage and 2% Ability Power.",
-    "tr": "Kullanıcının saldırıları birikecek şekilde %4 Saldırı Hızı kazandırır. Her 3 saldırı aynı zamanda %2 Saldırı Gücü ve %2 Yetenek Gücü kazandırır."
+    "en": "",
+    "tr": ""
    },
    "kind": "artifact",
    "recipe": null,
    "icon": "items/DA_Artifact_NavoriFlickerblade.png",
    "iconURL": "https://raw.communitydragon.org/latest/game/assets/maps/tft/icons/items/hexcore/tft_item_artifact_navoriflickerplade.png",
    "unique": false,
-   "stats": {
-    "AbilityPower": 10,
-    "AttackSpeed": 20
-   },
+   "stats": {},
    "traitId": null
   },
   {
@@ -6772,18 +6549,15 @@
     "tr": "Yasak İdol"
    },
    "desc": {
-    "en": "Shields have 40% of their value converted to max Health instead.",
-    "tr": "Kullanıcı kalkanlarının %40 kadarını azami cana dönüştürür."
+    "en": "",
+    "tr": ""
    },
    "kind": "artifact",
    "recipe": null,
    "icon": "items/DA_Artifact_ForbiddenIdol.png",
    "iconURL": "https://raw.communitydragon.org/latest/game/assets/maps/tft/icons/items/hexcore/tft_item_artifact_forbiddenidol.png",
    "unique": false,
-   "stats": {
-    "Health": 500,
-    "ManaRegen": 2
-   },
+   "stats": {},
    "traitId": null
   },
   {
@@ -6793,17 +6567,15 @@
     "tr": "Rizikocunun Bıçağı"
    },
    "desc": {
-    "en": "Grant 1% bonus Attack Speed per gold in your bank (up to 30 gold).\n\nEach attack has a 6% chance to drop 1 gold.\n\nGold generated this game:\n\nUnique - only 1 per champion",
-    "tr": "Kullanıcı sahip olduğun her altın için %1 İlave Saldırı Hızı kazanır. Bu en fazla 30 Altına kadar gerçekleşebilir.\n\nHer saldırı %6 ihtimalle 1 Altın kazandırır.\n\nEşyanın Kazandırdığı Altın:\n\nÖzel - şampiyon başına sadece bir adet"
+    "en": "",
+    "tr": ""
    },
    "kind": "artifact",
    "recipe": null,
    "icon": "items/DA_Artifact_GamblersBlade.png",
    "iconURL": "https://raw.communitydragon.org/latest/game/assets/maps/tft/icons/items/hexcore/tft7_item_shimmerscalegamblersblade.png",
    "unique": false,
-   "stats": {
-    "AttackSpeed": 55
-   },
+   "stats": {},
    "traitId": null
   },
   {
@@ -6813,18 +6585,15 @@
     "tr": "Altın Toplayıcı"
    },
    "desc": {
-    "en": "Attacks and Abilities execute enemies below 12% of their maximum Health. Executions on champions have a 33% chance to drop 1 gold.\n\nGold collected:\n\nUnique - only 1 per champion",
-    "tr": "Kullanıcının saldırıları ve yeteneği azami canı %12 değerinin altındaki rakipleri infaz eder. Şampiyon infaz etmek %33 ihtimalle 1 Altın kazandırır.\n\nToplanan Altın:\n\n[Özel - şampiyon başına sadece bir adet]"
+    "en": "",
+    "tr": ""
    },
    "kind": "artifact",
    "recipe": null,
    "icon": "items/DA_Artifact_GoldCollector.png",
    "iconURL": "https://raw.communitydragon.org/latest/game/assets/maps/tft/icons/items/hexcore/tft4_item_ornnthecollector.png",
    "unique": false,
-   "stats": {
-    "AttackDamage": 35,
-    "CriticalStrikeChance": 20
-   },
+   "stats": {},
    "traitId": null
   },
   {
@@ -6834,18 +6603,15 @@
     "tr": "Cehennem Ateşi Baltası"
    },
    "desc": {
-    "en": "Attacks deal 3% of the holder's max Health as bonus physical damage. For every 1% missing Health, gain 2% Attack Speed.",
-    "tr": "Kullanıcı saldırılarıyla azami canının %3 kadarına eşdeğer miktarda ilave fiziksel hasar verir. Her %1 Eksik Can için %2 Saldırı Hızı kazanır."
+    "en": "",
+    "tr": ""
    },
    "kind": "artifact",
    "recipe": null,
    "icon": "items/DA_Artifact_HellfireHatchet.png",
    "iconURL": "https://raw.communitydragon.org/latest/game/assets/maps/tft/icons/items/hexcore/tft_item_artifact_hellfirehatchet.png",
    "unique": false,
-   "stats": {
-    "HP": 400,
-    "Omnivamp": 20
-   },
+   "stats": {},
    "traitId": null
   },
   {
@@ -6855,20 +6621,15 @@
     "tr": "Ufukgetiren"
    },
    "desc": {
-    "en": "Stunning an enemy causes lightning to strike them, dealing 30% of their max Health as magic damage.",
-    "tr": "Kullanıcının sersemlettiği rakiplere yıldırım çarpar. Yıldırım azami canın %30 kadarına eşdeğer miktarda büyü hasarı verir."
+    "en": "",
+    "tr": ""
    },
    "kind": "artifact",
    "recipe": null,
    "icon": "items/DA_Artifact_HorizonFocus.png",
    "iconURL": "https://raw.communitydragon.org/latest/game/assets/maps/tft/icons/items/hexcore/tft_item_artifact_horizonfocus.png",
    "unique": false,
-   "stats": {
-    "Health": 250,
-    "Armor": 20,
-    "MagicResist": 20,
-    "ManaPerSecond": 2
-   },
+   "stats": {},
    "traitId": null
   },
   {
@@ -6878,18 +6639,15 @@
     "tr": "Omurgaparçalayan"
    },
    "desc": {
-    "en": "Combat Start: If there are no adjacent allies, gain 400 Health, 10% Attack Damage, and 10% Ability Power.",
-    "tr": "Çatışma Başlangıcında: Kullanıcı bitişiğinde bir takım arkadaşı yoksa 400 Can, %10 Saldırı Gücü ve %10 Yetenek Gücü kazanır."
+    "en": "",
+    "tr": ""
    },
    "kind": "artifact",
    "recipe": null,
    "icon": "items/DA_Artifact_Hullcrusher.png",
    "iconURL": "https://raw.communitydragon.org/latest/game/assets/maps/particles/tft/item_icons/ornn_items/tft9_ornnitem_hullbreaker.png",
    "unique": false,
-   "stats": {
-    "Armor": 60,
-    "MR": 60
-   },
+   "stats": {},
    "traitId": null
   },
   {
@@ -6899,22 +6657,15 @@
     "tr": "Ebedi Kuvvet"
    },
    "desc": {
-    "en": "Tons of EVERYTHING!",
-    "tr": "Her şeyden azar azar, toplayınca tonla hasar!"
+    "en": "",
+    "tr": ""
    },
    "kind": "artifact",
    "recipe": null,
    "icon": "items/DA_Artifact_InfinityForce.png",
    "iconURL": "https://raw.communitydragon.org/latest/game/assets/maps/tft/icons/items/hexcore/tft4_item_ornninfinityforce.png",
    "unique": false,
-   "stats": {
-    "Health": 300,
-    "AttackDamage": 30,
-    "AbilityPower": 30,
-    "Armor": 30,
-    "MagicResist": 30,
-    "AttackSpeed": 30
-   },
+   "stats": {},
    "traitId": null
   },
   {
@@ -6924,18 +6675,15 @@
     "tr": "Lich Boğan"
    },
    "desc": {
-    "en": "The holder’s first attack after each Ability cast deals bonus magic damage.\n\nDamage increases based on Stage.",
-    "tr": "Kullanıcının her yetenek kullanımından sonraki ilk saldırısı İlave Büyü Hasarı verir.\n\nHasar aşamaya bağlı olarak artar."
+    "en": "",
+    "tr": ""
    },
    "kind": "artifact",
    "recipe": null,
    "icon": "items/DA_Artifact_LichBane.png",
    "iconURL": "https://raw.communitydragon.org/latest/game/assets/maps/particles/tft/item_icons/ornn_items/tft_item_artifact_lichbane.png",
    "unique": false,
-   "stats": {
-    "AbilityPower": 55,
-    "AttackSpeed": 10
-   },
+   "stats": {},
    "traitId": null
   },
   {
@@ -6945,18 +6693,15 @@
     "tr": "Lightshield Arması"
    },
    "desc": {
-    "en": "Every 3 seconds, Shields the lowest percent Health ally for 70% of the holder’s combined Armor and Magic Resist for 5 seconds.\n\nOn death grants this shield to all allies.",
-    "tr": "Kullanıcı 3 saniyede bir yüzdelik canı en düşük takım arkadaşına 5 saniyeliğine kendi toplam zırh ve büyü direncinin %70 kadarına eşdeğer miktarda kalkan kazandırır.\n\nKullanıcı katledildiğinde bu kalkanı tüm takım arkadaşlarına kazandırır."
+    "en": "",
+    "tr": ""
    },
    "kind": "artifact",
    "recipe": null,
    "icon": "items/DA_Artifact_LightshieldCrest.png",
    "iconURL": "https://raw.communitydragon.org/latest/game/assets/maps/tft/icons/items/hexcore/tft_item_artifact_lightshieldcrest.png",
    "unique": false,
-   "stats": {
-    "Armor": 55,
-    "MagicResist": 55
-   },
+   "stats": {},
    "traitId": null
   },
   {
@@ -6966,18 +6711,15 @@
     "tr": "Luden'in Çığlığı"
    },
    "desc": {
-    "en": "100% of overkill damage plus 130 is dealt as magic damage to the two enemies nearest the target.",
-    "tr": "Kullanıcı bir hedefi katlettiğinde hedefin en yakınındaki iki rakibe fazlalık hasarın %100 kadarı artı 130 Büyü Hasarı verir."
+    "en": "",
+    "tr": ""
    },
    "kind": "artifact",
    "recipe": null,
    "icon": "items/DA_Artifact_LudensTempest.png",
    "iconURL": "https://raw.communitydragon.org/latest/game/assets/maps/tft/icons/items/hexcore/tft_item_artifact_ludenstempest.png",
    "unique": false,
-   "stats": {
-    "AttackDamage": 55,
-    "AbilityPower": 55
-   },
+   "stats": {},
    "traitId": null
   },
   {
@@ -6987,19 +6729,15 @@
     "tr": "Manazane"
    },
    "desc": {
-    "en": "After casting the first time in combat, gain 110 Mana over 5 seconds.",
-    "tr": "Kullanıcı yeteneğini çatışmada ilk kez kullandıktan sonra 5 saniye içinde 110 Mana yeniler."
+    "en": "",
+    "tr": ""
    },
    "kind": "artifact",
    "recipe": null,
    "icon": "items/DA_Artifact_Manazane.png",
    "iconURL": "https://raw.communitydragon.org/latest/game/assets/maps/tft/icons/items/hexcore/tft4_item_ornnmuramana.png",
    "unique": false,
-   "stats": {
-    "AttackDamage": 15,
-    "AbilityPower": 15,
-    "ManaRegen": 1
-   },
+   "stats": {},
    "traitId": null
   },
   {
@@ -7009,18 +6747,15 @@
     "tr": "Pofuduk Eldiven"
    },
    "desc": {
-    "en": "Shrinks the holder, granting them increased movement speed and immunity to Slow, Burn, and Wound.\n\nSlow: Reduces Attack Speed.\nBurn: Deals a percent of the target’s max Health as true damage every second.\nWound: Reduces healing received.",
-    "tr": "Kullanıcı küçülür ve hareket hızı artışı kazanır. Ayrıca yavaşlama, yakma ve yara etkilerine karşı bağışıklığa sahip olur.\n\nYavaşlama: Yavaşlayan birimlerin saldırı hızı azalır.\nYakma: Yanan birimler her saniye azami canlarının belli bir oranına eşdeğer miktarda gerçek hasar alır.\nYara: Yaralanan birimlerin aldığı iyileştirme etkileri azalır."
+    "en": "",
+    "tr": ""
    },
    "kind": "artifact",
    "recipe": null,
    "icon": "items/DA_Artifact_Mittens.png",
    "iconURL": "https://raw.communitydragon.org/latest/game/assets/maps/tft/icons/items/hexcore/tft_item_artifact_mittens.png",
    "unique": false,
-   "stats": {
-    "AttackSpeed": 65,
-    "DamageAmp": 15
-   },
+   "stats": {},
    "traitId": null
   },
   {
@@ -7030,17 +6765,15 @@
     "tr": "Mogul'un Zırhı"
    },
    "desc": {
-    "en": "Grants 1 Armor, 1 Magic Resist, and 5 Health when taking damage, stacking up to 35 times.\n\nAt full stacks, grant 1 gold and continue gaining 1 gold every 11 seconds.\n\nGold generated this game:\n\nUnique - only 1 per champion",
-    "tr": "Kullanıcı hasar aldığında 1 Zırh, 1 Büyü Direnci ve 5 Can kazanır. Bu etki en fazla 35 defa birikir.\n\nAzami yüke ulaştığında 1 Altın kazandırır ve her 11 saniyede bir 1 Altın kazandırmaya devam eder.\n\nEşyanın Kazandırdığı Altın:\n\nÖzel - şampiyon başına sadece bir adet"
+    "en": "",
+    "tr": ""
    },
    "kind": "artifact",
    "recipe": null,
    "icon": "items/DA_Artifact_MogulsMail.png",
    "iconURL": "https://raw.communitydragon.org/latest/game/assets/maps/tft/icons/items/hexcore/tft7_item_shimmerscalemogulsmail.png",
    "unique": false,
-   "stats": {
-    "Health": 300
-   },
+   "stats": {},
    "traitId": null
   },
   {
@@ -7050,18 +6783,15 @@
     "tr": "Bombardıman Topu"
    },
    "desc": {
-    "en": "Gain +1 Attack Range, increased by 1 whenever the holder kills an enemy.",
-    "tr": "Katletme halinde 1 artacak şekilde 1 Saldırı Menzili kazansın."
+    "en": "",
+    "tr": ""
    },
    "kind": "artifact",
    "recipe": null,
    "icon": "items/DA_Artifact_RapidFireCannon.png",
    "iconURL": "https://raw.communitydragon.org/latest/game/assets/maps/tft/icons/items/hexcore/tft_item_artifact_rapidfirecannon.png",
    "unique": false,
-   "stats": {
-    "AttackSpeed": 55,
-    "DamageAmp": 5
-   },
+   "stats": {},
    "traitId": null
   },
   {
@@ -7071,20 +6801,15 @@
     "tr": "Maceracının Pazubendi"
    },
    "desc": {
-    "en": "Takedowns increase the holder’s Armor, Magic Resist, and Ability Power by 20.",
-    "tr": "Kullanıcı alt etme halinde 20 Zırh, Büyü Direnci ve Yetenek Gücü kazanır."
+    "en": "",
+    "tr": ""
    },
    "kind": "artifact",
    "recipe": null,
    "icon": "items/DA_Artifact_SeekersArmguard.png",
    "iconURL": "https://raw.communitydragon.org/latest/game/assets/maps/tft/icons/items/hexcore/tft_item_artifact_seekersarmguard.png",
    "unique": false,
-   "stats": {
-    "AbilityPower": 25,
-    "Armor": 10,
-    "MagicResist": 10,
-    "Omnivamp": 20
-   },
+   "stats": {},
    "traitId": null
   },
   {
@@ -7094,20 +6819,15 @@
     "tr": "Gümüşgöl Şafağı"
    },
    "desc": {
-    "en": "Grants immunity to Stuns and the holder's attacks Stun the target for 0.8 seconds.\n\nThe holder’s Attack Speed is locked at 0.5.",
-    "tr": "Kullanıcı sersemletmelere karşı bağışıklık kazanır ve saldırıları hedefi 0.8 saniyeliğine sersemletir.\n\nKullanıcının saldırı hızı 0.5 değerinde sabitlenir."
+    "en": "",
+    "tr": ""
    },
    "kind": "artifact",
    "recipe": null,
    "icon": "items/DA_Artifact_SilvermereDawn.png",
    "iconURL": "https://raw.communitydragon.org/latest/game/assets/maps/tft/icons/items/hexcore/tft_item_artifact_silvermeredawn.png",
    "unique": false,
-   "stats": {
-    "AttackDamage": 150,
-    "Armor": 30,
-    "MagicResist": 30,
-    "Omnivamp": 30
-   },
+   "stats": {},
    "traitId": null
   },
   {
@@ -7117,18 +6837,15 @@
     "tr": "Statikk Hançer"
    },
    "desc": {
-    "en": "Every 3rd attack deals 15 + 35% of the holder's Ability Power as additional magic damage to 6 enemies.",
-    "tr": "Her 3. saldırı, 6 rakibe 15 + kullanıcının yetenek gücünün %35 kadarına eşdeğer miktarda fazladan büyü hasarı verir."
+    "en": "",
+    "tr": ""
    },
    "kind": "artifact",
    "recipe": null,
    "icon": "items/DA_Artifact_StatikkShiv.png",
    "iconURL": "https://raw.communitydragon.org/latest/game/assets/maps/tft/icons/items/hexcore/tft_item_artifact_stattikshiv.png",
    "unique": false,
-   "stats": {
-    "AbilityPower": 25,
-    "AttackSpeed": 40
-   },
+   "stats": {},
    "traitId": null
   },
   {
@@ -7138,18 +6855,15 @@
     "tr": "Yenilmez"
    },
    "desc": {
-    "en": "The holder's Move Speed is drastically reduced.\n\nGain 15% max Health, become unstoppable, and pull the current target into melee range.",
-    "tr": "Kullanıcının hareket hızı büyük ölçüde azalır.\n\nKullanıcı %15 Azami Can kazanır ve durdurulamaz olur. Ayrıca mevcut hedefini yakın dövüş menziline çeker."
+    "en": "",
+    "tr": ""
    },
    "kind": "artifact",
    "recipe": null,
    "icon": "items/DA_Artifact_TheIndomitable.png",
    "iconURL": "https://raw.communitydragon.org/latest/game/assets/maps/tft/icons/items/hexcore/tft_item_artifact_theindomitable.png",
    "unique": false,
-   "stats": {
-    "HealthMax": 500,
-    "MagicResist": 20
-   },
+   "stats": {},
    "traitId": null
   },
   {
@@ -7159,19 +6873,15 @@
     "tr": "Haşmetli Hydra"
    },
    "desc": {
-    "en": "Attacks deal 2% of the holder's max Health plus 4% of their Attack Damage as bonus physical damage to the target and adjacent enemies.",
-    "tr": "Kullanıcı saldırılarıyla hedefe ve bitişiğindeki rakiplere azami canının %2 kadarı artı saldırı gücünün %4 kadarına eşdeğer miktarda ilave fiziksel hasar verir."
+    "en": "",
+    "tr": ""
    },
    "kind": "artifact",
    "recipe": null,
    "icon": "items/DA_Artifact_TitanicHydra.png",
    "iconURL": "https://raw.communitydragon.org/latest/game/assets/maps/tft/icons/items/hexcore/tft_item_artifact_titanichydra.png",
    "unique": false,
-   "stats": {
-    "HealthMax": 300,
-    "AttackDamage": 20,
-    "AttackSpeed": 20
-   },
+   "stats": {},
    "traitId": null
   },
   {
@@ -7181,18 +6891,15 @@
     "tr": "Hiçlik Eldiveni"
    },
    "desc": {
-    "en": "Combat Start: Store 30% max Health and 2% more every second. On death, unleash the stored Health as magic damage split between enemies within 4 hexes.\n\nUnique - only 1 per champion",
-    "tr": "Çatışma Başlangıcında: Kullanıcı azami canının %30 kadarını depolar ve her saniye %2 daha depolar. Katledildiğinde 4 hücrelik bir alan içindeki rakipler arasında bölüştürülecek şekilde depoladığı cana bağlı olarak büyü hasarı verir.\n\nÖzel - şampiyon başına sadece bir adet"
+    "en": "",
+    "tr": ""
    },
    "kind": "artifact",
    "recipe": null,
    "icon": "items/DA_Artifact_VoidGauntlet.png",
    "iconURL": "https://raw.communitydragon.org/latest/game/assets/maps/tft/icons/items/hexcore/tft16_artifact_voidgauntlet.png",
    "unique": false,
-   "stats": {
-    "Health": 300,
-    "Durability": 10
-   },
+   "stats": {},
    "traitId": null
   },
   {
@@ -7202,20 +6909,15 @@
     "tr": "Aklın Sonu"
    },
    "desc": {
-    "en": "Attacks deal bonus magic damage.\nHeals the holder for 25% of all magic damage dealt.\n\nDamage increases based on Stage.",
-    "tr": "Kullanıcının saldırıları İlave Büyü Hasarı verir.\nKullanıcı büyü hasarı verdiğinde bu hasarın %25 kadarına eşdeğer miktarda can yeniler.\n\nHasar aşamaya bağlı olarak artar."
+    "en": "",
+    "tr": ""
    },
    "kind": "artifact",
    "recipe": null,
    "icon": "items/DA_Artifact_WitsEnd.png",
    "iconURL": "https://raw.communitydragon.org/latest/game/assets/maps/tft/icons/items/hexcore/tft_item_artifact_witsend.png",
    "unique": false,
-   "stats": {
-    "Health": 300,
-    "Armor": 20,
-    "MagicResist": 20,
-    "AttackSpeed": 25
-   },
+   "stats": {},
    "traitId": null
   },
   {
@@ -7225,19 +6927,15 @@
     "tr": "Zhonya'nın Döngüsü"
    },
    "desc": {
-    "en": "Once per combat at 40% Health, become invulnerable and untargetable for 3 seconds.\n\nUnique - only 1 per champion",
-    "tr": "Çatışmada Bir Kez: Kullanıcı, canı %40 değerine düştüğünde 3 saniyeliğine hasar görmez ve hedef alınamaz hale gelir.\n\nÖzel - şampiyon başına sadece bir adet"
+    "en": "",
+    "tr": ""
    },
    "kind": "artifact",
    "recipe": null,
    "icon": "items/DA_Artifact_ZhonyasParadox.png",
    "iconURL": "https://raw.communitydragon.org/latest/game/assets/maps/tft/icons/items/hexcore/tft4_item_ornnzhonyasparadox.png",
    "unique": false,
-   "stats": {
-    "AbilityPower": 25,
-    "Armor": 25,
-    "MagicResist": 25
-   },
+   "stats": {},
    "traitId": null
   },
   {
@@ -7247,18 +6945,15 @@
     "tr": "Işıltılı Değişken Miğfer"
    },
    "desc": {
-    "en": "Gain an additional 30% Mana from all sources. The wearer gains an additional bonus based on their Role:\n\nTanks and Fighters: Gain 80 Armor and Magic Resistance.\n\nOther Roles: Gain 40% Attack Damage and Ability Power.",
-    "tr": "Kullanıcı tüm kaynaklardan fazladan %30 Mana kazanır. Ayrıca kullanıcı rolüne bağlı olarak fazladan bir ilave kazanır:\n\nTank ve Dövüşçü: Kullanıcı 80 Zırh ve Büyü Direnci kazanır.\n\nDiğer Roller: Kullanıcı %40 Saldırı Gücü ve Yetenek Gücü kazanır."
+    "en": "",
+    "tr": ""
    },
    "kind": "radiant",
    "recipe": null,
    "icon": "items/DA_AdaptiveHelm_Radiant.png",
    "iconURL": "https://raw.communitydragon.org/latest/game/assets/maps/tft/icons/items/hexcore/tft5_item_adaptivehelmradiant.png",
    "unique": false,
-   "stats": {
-    "MagicResist": 40,
-    "ManaRegen": 7
-   },
+   "stats": {},
    "traitId": null
   },
   {
@@ -7268,18 +6963,15 @@
     "tr": "Işıltılı Başmelek Asası"
    },
    "desc": {
-    "en": "Combat start: Gain 40% Ability Power every 5 seconds in combat.",
-    "tr": "Çatışma Başlangıcında: Kullanıcı çatışmadayken 5 saniyede bir %40 Yetenek Gücü kazanır."
+    "en": "",
+    "tr": ""
    },
    "kind": "radiant",
    "recipe": null,
    "icon": "items/DA_ArchangelsStaffRadiant.png",
    "iconURL": "https://raw.communitydragon.org/latest/game/assets/maps/tft/icons/items/hexcore/tft5_item_archangelsstaffradiant.png",
    "unique": false,
-   "stats": {
-    "AP": 60,
-    "ManaPerSecond": 2
-   },
+   "stats": {},
    "traitId": null
   },
   {
@@ -7289,8 +6981,8 @@
     "tr": "Işıltılı Patlayıcı İksir"
    },
    "desc": {
-    "en": "After 8 seconds of combat, knock up enemies within 4 hexes for 2 seconds.\n\n[Single Use - This item is destroyed after activating in combat.]",
-    "tr": "Çatışmada 8 saniye geçtikten sonra 4 hücrelik bir alandaki rakipleri 2 saniyeliğine havaya savurur.\n\n[Tek Kullanımlık - Bu eşya çatışmada etkinleştikten sonra yok olur.]"
+    "en": "",
+    "tr": ""
    },
    "kind": "radiant",
    "recipe": null,
@@ -7307,20 +6999,15 @@
     "tr": "Işıltılı Kanasusamış"
    },
    "desc": {
-    "en": "Once per combat at 50% Health, gain a 60% max Health Shield that lasts up to 5 seconds.",
-    "tr": "Kullanıcı çatışmada bir kez olmak üzere canı %50 değerine düştüğünde en fazla 5 saniyeliğine azami canının %60 kadarına eşdeğer miktarda kalkan kazanır."
+    "en": "",
+    "tr": ""
    },
    "kind": "radiant",
    "recipe": null,
    "icon": "items/DA_BloodthirsterRadiant.png",
    "iconURL": "https://raw.communitydragon.org/latest/game/assets/maps/tft/icons/items/hexcore/tft5_item_bloodthirsterradiant.png",
    "unique": false,
-   "stats": {
-    "AD": 40,
-    "AP": 40,
-    "MagicResist": 40,
-    "Omnivamp": 40
-   },
+   "stats": {},
    "traitId": null
   },
   {
@@ -7330,19 +7017,15 @@
     "tr": "Işıltılı Mavi Güçlendirme"
    },
    "desc": {
-    "en": "Gain 20% additional Attack Damage and Ability Power from all sources.",
-    "tr": "Kullanıcı tüm kaynaklardan fazladan %20 Saldırı Gücü ve Yetenek Gücü kazanır."
+    "en": "",
+    "tr": ""
    },
    "kind": "radiant",
    "recipe": null,
    "icon": "items/DA_BlueBuffRadiant.png",
    "iconURL": "https://raw.communitydragon.org/latest/game/assets/maps/tft/icons/items/hexcore/tft5_item_bluebuffradiant.png",
    "unique": false,
-   "stats": {
-    "AD": 30,
-    "AP": 30,
-    "ManaRegen": 10
-   },
+   "stats": {},
    "traitId": null
   },
   {
@@ -7352,17 +7035,15 @@
     "tr": "Işıltılı Dikenli Yelek"
    },
    "desc": {
-    "en": "Gain 12% max Health.\n\nTake 10% reduced damage from attacks. When struck by any attack, deal 200 magic damage to all adjacent enemies.\n\nCooldown: 2 seconds",
-    "tr": "Kullanıcı %12 Azami Can kazanır.\n\nKullanıcı saldırılardan %10 daha az hasar alır. Bir saldırıdan isabet aldığında bitişiğindeki tüm rakiplere 200 Büyü Hasarı verir.\n\nBu etkinin 2 saniyelik bir bekleme süresi vardır."
+    "en": "",
+    "tr": ""
    },
    "kind": "radiant",
    "recipe": null,
    "icon": "items/DA_BrambleVestRadiant.png",
    "iconURL": "https://raw.communitydragon.org/latest/game/assets/maps/tft/icons/items/hexcore/tft5_item_bramblevestradiant.png",
    "unique": false,
-   "stats": {
-    "Armor": 100
-   },
+   "stats": {},
    "traitId": null
   },
   {
@@ -7372,19 +7053,15 @@
     "tr": "Işıltılı Kraliyet Başlığı"
    },
    "desc": {
-    "en": "Combat start: Gain a 50% max Health Shield for 8 seconds.\nWhen the shield expires, gain 50% Ability Power.",
-    "tr": "Çatışma Başlangıcında: Kullanıcı 8 saniyeliğine azami canının %50 kadarına eşdeğer miktarda kalkan kazanır.\nKullanıcı kalkanın süresi dolduğunda %50 Yetenek Gücü kazanır."
+    "en": "",
+    "tr": ""
    },
    "kind": "radiant",
    "recipe": null,
    "icon": "items/DA_CrownguardRadiant.png",
    "iconURL": "https://raw.communitydragon.org/latest/game/assets/maps/tft/icons/items/hexcore/tft5_item_crownguardradiant.png",
    "unique": false,
-   "stats": {
-    "Health": 200,
-    "AbilityPower": 40,
-    "Armor": 40
-   },
+   "stats": {},
    "traitId": null
   },
   {
@@ -7394,18 +7071,15 @@
     "tr": "Işıltılı Ölüm Kılıcı"
    },
    "desc": {
-    "en": "It glows in the presence of enemies. Or friends. Or anything alive, really.{ItemTags.Deathblade.DeadlierBladeStacks}",
-    "tr": "Rakip görse de parlar, dost görse de. Hatta canlı herhangi bir şey olması yeterli.{ItemTags.Deathblade.DeadlierBladeStacks}"
+    "en": "",
+    "tr": ""
    },
    "kind": "radiant",
    "recipe": null,
    "icon": "items/DA_DeathbladeRadiant.png",
    "iconURL": "https://raw.communitydragon.org/latest/game/assets/maps/tft/icons/items/hexcore/tft5_item_deathbladeradiant.png",
    "unique": false,
-   "stats": {
-    "AttackDamage": 100,
-    "DamageAmp": 20
-   },
+   "stats": {},
    "traitId": null
   },
   {
@@ -7415,17 +7089,15 @@
     "tr": "Işıltılı Ejder Pençesi"
    },
    "desc": {
-    "en": "Gain 28% max Health.\n\nEvery 2 seconds, heal 5% max Health.",
-    "tr": "Kullanıcı %28 Azami Can kazanır.\n\nHer 2 saniyede bir azami canının %5 kadarını yeniler."
+    "en": "",
+    "tr": ""
    },
    "kind": "radiant",
    "recipe": null,
    "icon": "items/DA_DragonsClawRadiant.png",
    "iconURL": "https://raw.communitydragon.org/latest/game/assets/maps/tft/icons/items/hexcore/tft5_item_dragonsclawradiant.png",
    "unique": false,
-   "stats": {
-    "MagicResist": 120
-   },
+   "stats": {},
    "traitId": null
   },
   {
@@ -7435,20 +7107,15 @@
     "tr": "Işıltılı Gecenin Kıyısı"
    },
    "desc": {
-    "en": "At 40% Health, briefly become untargetable, shed negative effects, and heal all missing health.",
-    "tr": "Kullanıcı canı %40 değerine düştüğünde kısa süreliğine hedef alınamaz hale gelir, tüm olumsuz etkilerden arınır ve eksik canının tamamını yeniler."
+    "en": "",
+    "tr": ""
    },
    "kind": "radiant",
    "recipe": null,
    "icon": "items/DA_EdgeOfNightRadiant.png",
    "iconURL": "https://raw.communitydragon.org/latest/game/assets/maps/tft/icons/items/hexcore/tft5_item_guardianangelradiant.png",
    "unique": false,
-   "stats": {
-    "AttackDamage": 30,
-    "AbilityPower": 30,
-    "Armor": 40,
-    "AttackSpeed": 30
-   },
+   "stats": {},
    "traitId": null
   },
   {
@@ -7458,18 +7125,15 @@
     "tr": "Işıltılı Denge Örtüsü"
    },
    "desc": {
-    "en": "30% Sunder enemies within 3 hexes. Gain 50 Armor and Magic Resist for the first 20 seconds of combat.\n\nSunder: Reduce Armor",
-    "tr": "Kullanıcı 3 hücrelik bir alan içindeki rakipleri %30 aşındırır ve çatışmanın ilk 20 saniyesi boyunca 50 Zırh ve Büyü Direnci kazanır.\n\nAşındırma: Aşındırılan birimlerin zırhı azalır."
+    "en": "",
+    "tr": ""
    },
    "kind": "radiant",
    "recipe": null,
    "icon": "items/DA_EvenshroudRadiant.png",
    "iconURL": "https://raw.communitydragon.org/latest/game/assets/maps/tft/icons/items/hexcore/tft5_item_spectralgauntletradiant.png",
    "unique": false,
-   "stats": {
-    "HealthMax": 500,
-    "MagicResist": 40
-   },
+   "stats": {},
    "traitId": null
   },
   {
@@ -7479,19 +7143,15 @@
     "tr": "Işıltılı Gargoyl Taşzırhı"
    },
    "desc": {
-    "en": "Gain 20 Armor and 20 Magic Resist for each enemy targeting the holder.",
-    "tr": "Kullanıcı onu hedef alan her rakip başına 20 Zırh ve 20 Büyü Direnci kazanır."
+    "en": "",
+    "tr": ""
    },
    "kind": "radiant",
    "recipe": null,
    "icon": "items/DA_GargoyleStoneplate_Radiant.png",
    "iconURL": "https://raw.communitydragon.org/latest/game/assets/maps/tft/icons/items/hexcore/tft5_item_gargoylestoneplateradiant.png",
    "unique": false,
-   "stats": {
-    "HealthMax": 400,
-    "Armor": 50,
-    "MagicResist": 50
-   },
+   "stats": {},
    "traitId": null
   },
   {
@@ -7501,20 +7161,15 @@
     "tr": "Işıltılı Dev Katili"
    },
    "desc": {
-    "en": "Gain 30% additional Damage Amp against Tanks.",
-    "tr": "Kullanıcı tanklara karşı fazladan %30 Hasar Artışı kazanır."
+    "en": "",
+    "tr": ""
    },
    "kind": "radiant",
    "recipe": null,
    "icon": "items/DA_GiantSlayer_Radiant.png",
    "iconURL": "https://raw.communitydragon.org/latest/game/assets/maps/tft/icons/items/hexcore/tft5_item_giantslayerradiant.png",
    "unique": false,
-   "stats": {
-    "AttackDamage": 30,
-    "AbilityPower": 30,
-    "AttackSpeed": 30,
-    "OutgoingDamageMultiplier": 30
-   },
+   "stats": {},
    "traitId": null
   },
   {
@@ -7524,18 +7179,15 @@
     "tr": "Işıltılı Guinsoo'nun Hiddeti"
    },
    "desc": {
-    "en": "Gain 16% stacking Attack Speed every second.",
-    "tr": "Kullanıcı her saniye birikecek şekilde %16 Saldırı Hızı kazanır."
+    "en": "",
+    "tr": ""
    },
    "kind": "radiant",
    "recipe": null,
    "icon": "items/DA_GuinsoosRagebladeRadiant.png",
    "iconURL": "https://raw.communitydragon.org/latest/game/assets/maps/tft/icons/items/hexcore/tft5_item_guinsoosragebladeradiant.png",
    "unique": false,
-   "stats": {
-    "AP": 20,
-    "AS": 25
-   },
+   "stats": {},
    "traitId": null
   },
   {
@@ -7545,18 +7197,15 @@
     "tr": "Işıltılı Adaletin Eli"
    },
    "desc": {
-    "en": "Gain 2 effects:\n• 35% Attack Damage and 35% Ability Power.\n• 30% Omnivamp.\n\nWhile above 50% health, double the Attack Damage and Ability Power. While below 50% Health, double the Omnivamp.",
-    "tr": "Kullanıcı 2 etki kazanır:\n• %35 Saldırı Gücü ve %35 Yetenek Gücü\n• %30 Mutlak Sömürü\n\nKullanıcı canı %50 değerinin üstündeyken iki kat saldırı gücü ve yetenek gücü kazanır. Canı %50 değerinin altındaykense iki kat mutlak sömürü kazanır."
+    "en": "",
+    "tr": ""
    },
    "kind": "radiant",
    "recipe": null,
    "icon": "items/DA_HandOfJusticeRadiant.png",
    "iconURL": "https://raw.communitydragon.org/latest/game/assets/maps/tft/icons/items/hexcore/tft5_item_handofjusticeradiant.png",
    "unique": false,
-   "stats": {
-    "CritChance": 40,
-    "ManaRegen": 2
-   },
+   "stats": {},
    "traitId": null
   },
   {
@@ -7566,8 +7215,8 @@
     "tr": "Işıltılı Can İksiri"
    },
    "desc": {
-    "en": "When the holder drops below 50% health, heal for 850 Health and heal allies for 150 Health over 3 seconds.\n\n[Single Use - This item is destroyed after activating in combat.]",
-    "tr": "Kullanıcı canı %50 değerinin altına düştüğünde 3 saniye içinde kullanıcı 850 Can ve takım arkadaşları 150 Can yeniler.\n\nTek Kullanımlık - Bu eşya çatışmada etkinleştikten sonra yok olur.]"
+    "en": "",
+    "tr": ""
    },
    "kind": "radiant",
    "recipe": null,
@@ -7584,20 +7233,15 @@
     "tr": "Işıltılı Hextech Silahkılıç"
    },
    "desc": {
-    "en": "Heal the lowest percent Health ally for 40% of damage dealt.\n\nAlly Healing:",
-    "tr": "Kullanıcı yüzdelik canı en düşük takım arkadaşını verdiği hasarın %40 kadarına eşdeğer miktarda iyileştirir.\n\nTakım Arkadaşlarına Yönelik İyileştirme:"
+    "en": "",
+    "tr": ""
    },
    "kind": "radiant",
    "recipe": null,
    "icon": "items/DA_HextechGunbladeRadiant.png",
    "iconURL": "https://raw.communitydragon.org/latest/game/assets/maps/tft/icons/items/hexcore/tft5_item_hextechgunbladeradiant.png",
    "unique": false,
-   "stats": {
-    "AD": 40,
-    "AP": 40,
-    "Omnivamp": 30,
-    "ManaRegen": 2
-   },
+   "stats": {},
    "traitId": null
   },
   {
@@ -7607,18 +7251,15 @@
     "tr": "Işıltılı Ebedi Kılıç"
    },
    "desc": {
-    "en": "Gain Precision.\n\nPrecision: Ability damage can critically strike. Extra Precision grants 10% Critical Strike Damage.",
-    "tr": "Kullanıcı isabetlilik kazanır.\n\nİsabetlilik: Yetenek hasarı kritik vuruş yapabilir. İlave isabetlilik %10 Kritik Vuruş Hasarı kazandırır."
+    "en": "",
+    "tr": ""
    },
    "kind": "radiant",
    "recipe": null,
    "icon": "items/DA_InfinityEdgeRadiant.png",
    "iconURL": "https://raw.communitydragon.org/latest/game/assets/maps/tft/icons/items/hexcore/tft5_item_infinityedgeradiant.png",
    "unique": false,
-   "stats": {
-    "AttackDamage": 75,
-    "CriticalStrikeChance": 75
-   },
+   "stats": {},
    "traitId": null
   },
   {
@@ -7628,19 +7269,15 @@
     "tr": "Işıltılı İyon Kıvılcımı"
    },
    "desc": {
-    "en": "30% Shred enemies within 2 hexes. When enemies cast an Ability, deal magic damage equal to 300% of the Mana spent.\n\nShred: Reduce Magic Resist",
-    "tr": "Kullanıcı 2 hücrelik bir alan içindeki rakipleri %30 örseler. Bu rakipler yetenek kullandıklarında harcadıkları mananın %300 kadarına eşdeğer miktarda büyü hasarı alır.\n\nÖrseleme: Örselenen birimlerin büyü direnci azalır."
+    "en": "",
+    "tr": ""
    },
    "kind": "radiant",
    "recipe": null,
    "icon": "items/DA_IonicSparkRadiant.png",
    "iconURL": "https://raw.communitydragon.org/latest/game/assets/maps/tft/icons/items/hexcore/tft5_item_ionicsparkradiant.png",
    "unique": false,
-   "stats": {
-    "Health": 500,
-    "AP": 30,
-    "MR": 70
-   },
+   "stats": {},
    "traitId": null
   },
   {
@@ -7650,18 +7287,15 @@
     "tr": "Işıltılı Mücevherli Eldiven"
    },
    "desc": {
-    "en": "Gain Precision.\n\nPrecision: Ability damage can critically strike. Extra Precision grants 10% Critical Strike Damage.",
-    "tr": "Kullanıcı isabetlilik kazanır.\n\nİsabetlilik: Yetenek hasarı kritik vuruş yapabilir. İlave isabetlilik %10 Kritik Vuruş Hasarı kazandırır."
+    "en": "",
+    "tr": ""
    },
    "kind": "radiant",
    "recipe": null,
    "icon": "items/DA_JeweledGauntletRadiant.png",
    "iconURL": "https://raw.communitydragon.org/latest/game/assets/maps/tft/icons/items/hexcore/tft5_item_jeweledgauntletradiant.png",
    "unique": false,
-   "stats": {
-    "AP": 75,
-    "CritChance": 75
-   },
+   "stats": {},
    "traitId": null
   },
   {
@@ -7671,19 +7305,15 @@
     "tr": "Işıltılı Kraken'in Öfkesi"
    },
    "desc": {
-    "en": "Attacks grant 7% stacking Attack Damage, up to 15 attacks. After 15 attacks, gain 30% Attack Speed.",
-    "tr": "Kullanıcının saldırıları birikecek şekilde %7 Saldırı Gücü sağlar. En fazla 15 kez birikebilir. Kullanıcı 15 saldırıdan sonra %30 Saldırı Hızı kazanır."
+    "en": "",
+    "tr": ""
    },
    "kind": "radiant",
    "recipe": null,
    "icon": "items/DA_KrakensFury_Radiant.png",
    "iconURL": "https://raw.communitydragon.org/latest/game/assets/maps/tft/icons/items/hexcore/tft_item_krakenslayerradiant.png",
    "unique": false,
-   "stats": {
-    "AD": 20,
-    "MR": 40,
-    "AS": 20
-   },
+   "stats": {},
    "traitId": null
   },
   {
@@ -7693,19 +7323,15 @@
     "tr": "Işıltılı Son Fısıltı"
    },
    "desc": {
-    "en": "Attacks and Ability damage 30% Sunders the target for the rest of combat. This effect does not stack.\n\nSunder: Reduce Armor",
-    "tr": "Kullanıcı saldırdığında ve yeteneğiyle hasar verdiğinde hedefi çatışmanın geri kalanı boyunca %30 aşındırır. Bu etki birikmez.\n\nAşındırma: Aşındırılan birimlerin zırhı azalır."
+    "en": "",
+    "tr": ""
    },
    "kind": "radiant",
    "recipe": null,
    "icon": "items/DA_LastWhisperRadiant.png",
    "iconURL": "https://raw.communitydragon.org/latest/game/assets/maps/tft/icons/items/hexcore/tft5_item_lastwhisperradiant.png",
    "unique": false,
-   "stats": {
-    "AttackDamage": 45,
-    "AttackSpeed": 40,
-    "CritChance": 40
-   },
+   "stats": {},
    "traitId": null
   },
   {
@@ -7715,8 +7341,8 @@
     "tr": "Işıltılı Şanslı Eşya Sandığı"
    },
    "desc": {
-    "en": "Use on a champion to open an armory of items especially suited for them.\n\nThese items are based on the champion's recommended items.",
-    "tr": "Bir şampiyonun üstünde kullanarak ona uygun eşyaların bulunduğu bir cephanelik aç.\n\nBu eşyalar şampiyonun önerilen eşyalarını baz alır."
+    "en": "",
+    "tr": ""
    },
    "kind": "radiant",
    "recipe": null,
@@ -7733,8 +7359,8 @@
     "tr": "Işıltılı Mana İksiri"
    },
    "desc": {
-    "en": "The holder gains 10 Mana. On cast, restore 80 Mana to the holder and 10 Mana to allies over 5 seconds.\n\n[Single Use - This item is destroyed after activating in combat.]",
-    "tr": "Kullanıcı 10 Mana kazanır. Yeteneğini kullandığında 5 saniye içinde kullanıcı 80 Mana ve takım arkadaşları 10 Mana yeniler.\n\n[Tek Kullanımlık - Bu eşya çatışmada etkinleştikten sonra yok olur.]"
+    "en": "",
+    "tr": ""
    },
    "kind": "radiant",
    "recipe": null,
@@ -7751,19 +7377,15 @@
     "tr": "Işıltılı Morellonomikon"
    },
    "desc": {
-    "en": "Attacks and Abilities deal 2% Burn and 33% Wound to enemies for 10 seconds.\n\nBurn: Deals a percent of the target’s max Health as true damage every second.\nWound: Reduces healing received.",
-    "tr": "Kullanıcının yeteneği ve saldırıları rakipleri 10 saniyeliğine %2 yakar ve %33 yaralar.\n\nYakma: Yanan birimler her saniye azami canlarının belli bir oranına eşdeğer miktarda gerçek hasar alır.\nYara: Yaralanan birimlerin aldığı iyileştirme etkileri azalır."
+    "en": "",
+    "tr": ""
    },
    "kind": "radiant",
    "recipe": null,
    "icon": "items/DA_MorellonomiconRadiant.png",
    "iconURL": "https://raw.communitydragon.org/latest/game/assets/maps/tft/icons/items/hexcore/tft5_item_morellonomiconradiant.png",
    "unique": false,
-   "stats": {
-    "Health": 300,
-    "AP": 35,
-    "ManaRegen": 2
-   },
+   "stats": {},
    "traitId": null
   },
   {
@@ -7773,20 +7395,15 @@
     "tr": "Işıltılı Nashor'un Dişi"
    },
    "desc": {
-    "en": "Attacks grant 4 bonus Mana, increased to if they critically strike.",
-    "tr": "Kullanıcının saldırıları 4 İlave Mana yeniler. Kritik vuruş yaparsa bu ilave artarak olur."
+    "en": "",
+    "tr": ""
    },
    "kind": "radiant",
    "recipe": null,
    "icon": "items/DA_NashorsToothRadiant.png",
    "iconURL": "https://raw.communitydragon.org/latest/game/assets/maps/tft/icons/items/hexcore/tft5_item_leviathanradiant.png",
    "unique": false,
-   "stats": {
-    "Health": 300,
-    "AbilityPower": 30,
-    "AttackSpeed": 20,
-    "CritChance": 40
-   },
+   "stats": {},
    "traitId": null
   },
   {
@@ -7796,19 +7413,15 @@
     "tr": "Işıltılı Muhafızın Adağı"
    },
    "desc": {
-    "en": "Combat Start: Gain 40 Mana.\n\nAt 40% Health, gain 30 Mana and a Shield equal to 50% max Health",
-    "tr": "Çatışma Başlangıcında: Kullanıcı 40 Mana kazanır.\n\nCanı %40 değerine düştüğünde 30 Mana ve azami canının %50 kadarına eşdeğer miktarda kalkan kazanır."
+    "en": "",
+    "tr": ""
    },
    "kind": "radiant",
    "recipe": null,
    "icon": "items/DA_ProtectorsVowRadiant.png",
    "iconURL": "https://raw.communitydragon.org/latest/game/assets/maps/tft/icons/items/hexcore/tft5_item_frozenheartradiant.png",
    "unique": false,
-   "stats": {
-    "Armor": 50,
-    "MR": 50,
-    "ManaRegen": 2
-   },
+   "stats": {},
    "traitId": null
   },
   {
@@ -7818,19 +7431,15 @@
     "tr": "Işıltılı Cıva"
    },
    "desc": {
-    "en": "Combat Start: Unstoppable for 45 seconds.\n\nGain 6% stacking Attack Speed every second.",
-    "tr": "Çatışma Başlangıcında: Kullanıcı 45 saniyeliğine durdurulamaz olur.\n\nKullanıcı her saniye birikecek şekilde %6 Saldırı Hızı kazanır."
+    "en": "",
+    "tr": ""
    },
    "kind": "radiant",
    "recipe": null,
    "icon": "items/DA_QuicksilverRadiant.png",
    "iconURL": "https://raw.communitydragon.org/latest/game/assets/maps/tft/icons/items/hexcore/tft5_item_quicksilverradiant.png",
    "unique": false,
-   "stats": {
-    "MagicResist": 40,
-    "AttackSpeed": 40,
-    "CritChance": 40
-   },
+   "stats": {},
    "traitId": null
   },
   {
@@ -7840,18 +7449,15 @@
     "tr": "Işıltılı Rabadon'un Şapkası"
    },
    "desc": {
-    "en": "It's witnessed - and unleashed - miracles and calamities both.{ItemTags.RabadonsDeathcap.DeadlierCapsStacks}",
-    "tr": "Yeri geldi mucizelere, yeri geldi musibetlere yol açtı.{ItemTags.RabadonsDeathcap.DeadlierCapsStacks}"
+    "en": "",
+    "tr": ""
    },
    "kind": "radiant",
    "recipe": null,
    "icon": "items/DA_RabadonsDeathcap_Radiant.png",
    "iconURL": "https://raw.communitydragon.org/latest/game/assets/maps/tft/icons/items/hexcore/tft5_item_rabadonsdeathcapradiant.png",
    "unique": false,
-   "stats": {
-    "AbilityPower": 100,
-    "DamageAmp": 30
-   },
+   "stats": {},
    "traitId": null
   },
   {
@@ -7861,18 +7467,15 @@
     "tr": "Işıltılı Kırmızı Güçlendirme"
    },
    "desc": {
-    "en": "Attacks and Abilities 2% Burn and 33% Wound enemies for 5 seconds.\n\nBurn: Deals a percent of the target’s max Health as true damage every second.\nWound: Reduces healing received.",
-    "tr": "Kullanıcının yeteneği ve saldırıları, rakipleri 5 saniyeliğine %2 yakar ve %33 yaralar.\n\nYakma: Yanan birimler her saniye azami canlarının belli bir oranına eşdeğer miktarda gerçek hasar alır.\nYara: Yaralanan birimlerin aldığı iyileştirme etkileri azalır."
+    "en": "",
+    "tr": ""
    },
    "kind": "radiant",
    "recipe": null,
    "icon": "items/DA_RedBuffRadiant.png",
    "iconURL": "https://raw.communitydragon.org/latest/game/assets/maps/tft/icons/items/hexcore/tft5_item_rapidfirecannonradiant.png",
    "unique": false,
-   "stats": {
-    "AttackSpeed": 80,
-    "DamageAmp": 6
-   },
+   "stats": {},
    "traitId": null
   },
   {
@@ -7882,19 +7485,15 @@
     "tr": "Işıltılı Shojin'in Mızrağı"
    },
    "desc": {
-    "en": "Attacks grant 10 bonus Mana.",
-    "tr": "Kullanıcının saldırıları 10 İlave Mana yeniler."
+    "en": "",
+    "tr": ""
    },
    "kind": "radiant",
    "recipe": null,
    "icon": "items/DA_SpearOfShojinRadiant.png",
    "iconURL": "https://raw.communitydragon.org/latest/game/assets/maps/tft/icons/items/hexcore/tft5_item_spearofshojinradiant.png",
    "unique": false,
-   "stats": {
-    "AttackDamage": 30,
-    "AbilityPower": 30,
-    "ManaPerSecond": 2
-   },
+   "stats": {},
    "traitId": null
   },
   {
@@ -7904,19 +7503,15 @@
     "tr": "Işıltılı Ruh Gömleği"
    },
    "desc": {
-    "en": "Regenerate 4% of missing Health each second.",
-    "tr": "Kullanıcı her saniye eksik canının % 4 kadarını yeniler."
+    "en": "",
+    "tr": ""
    },
    "kind": "radiant",
    "recipe": null,
    "icon": "items/DA_SpiritVisage_Radiant.png",
    "iconURL": "https://raw.communitydragon.org/latest/game/assets/maps/tft/icons/items/hexcore/tft_item_spiritvisagerr.png",
    "unique": false,
-   "stats": {
-    "Health": 700,
-    "IncomingDmgMod": 18,
-    "ManaRegen": 4
-   },
+   "stats": {},
    "traitId": null
   },
   {
@@ -7926,18 +7521,15 @@
     "tr": "Işıltılı Kararlı Yürek"
    },
    "desc": {
-    "en": "Gain 10% Durability. While above 50% Health, instead gain 30% Durability.{Augment.Variant.HeartofSteel.Tooltip}",
-    "tr": "Kullanıcı %10 Dayanıklılık kazanır. Canı %50 değerinin üstündeyken %30 Dayanıklılık kazanır. {Augment.Variant.HeartofSteel.Tooltip}"
+    "en": "",
+    "tr": ""
    },
    "kind": "radiant",
    "recipe": null,
    "icon": "items/DA_SteadfastHeartRadiant.png",
    "iconURL": "https://raw.communitydragon.org/latest/game/assets/maps/tft/icons/items/hexcore/tft5_item_nightharvesterradiant.png",
    "unique": false,
-   "stats": {
-    "Armor": 40,
-    "CritChance": 40
-   },
+   "stats": {},
    "traitId": null
   },
   {
@@ -7947,18 +7539,15 @@
     "tr": "Işıltılı Sterak'ın Güvencesi"
    },
    "desc": {
-    "en": "At 60% Health, gain a Shield equal to 80% of the wearer's maximum Health that rapidly decays over 6 seconds.",
-    "tr": "Kullanıcı, canı %60 değerine düştüğünde azami canının %80 kadarına eşdeğer miktarda kalkan kazanır. Kalkan 6 saniye içinde hızla azalarak kaybolur."
+    "en": "",
+    "tr": ""
    },
    "kind": "radiant",
    "recipe": null,
    "icon": "items/DA_SteraksGageRadiant.png",
    "iconURL": "https://raw.communitydragon.org/latest/game/assets/maps/tft/icons/items/hexcore/tft5_item_steraksgageradiant.png",
    "unique": false,
-   "stats": {
-    "Health": 600,
-    "AD": 90
-   },
+   "stats": {},
    "traitId": null
   },
   {
@@ -7968,20 +7557,15 @@
     "tr": "Işıltılı Hücum Gürzü"
    },
    "desc": {
-    "en": "Critical Strikes grant 10% Damage Amp for 5 seconds, stacking up to 4 times.",
-    "tr": "Kritik vuruşlar 5 saniyeliğine %10 Hasar Artışı kazandırır. Bu ilave en fazla 4 defa birikir."
+    "en": "",
+    "tr": ""
    },
    "kind": "radiant",
    "recipe": null,
    "icon": "items/DA_StrikersFlailRadiant.png",
    "iconURL": "https://raw.communitydragon.org/latest/game/assets/maps/tft/icons/items/hexcore/tft5_item_trapclawradiant.png",
    "unique": false,
-   "stats": {
-    "Health": 300,
-    "AttackSpeed": 20,
-    "CritChance": 40,
-    "DamageAmp": 20
-   },
+   "stats": {},
    "traitId": null
   },
   {
@@ -7991,18 +7575,15 @@
     "tr": "Işıltılı Günateşi Pelerini"
    },
    "desc": {
-    "en": "Gain 16% max Health.\n\nEvery 2 seconds, deal 2% Burn and 33% Wound to an enemy within 2 hexes for 10 seconds.\n\nBurn: Deals a percent of the target’s max Health as true damage every second.\nWound: Reduces healing received.",
-    "tr": "Kullanıcı %16 Azami Can kazanır.\n\nKullanıcı 2 saniyede bir 2 hücrelik bir alan içindeki bir rakibi 10 saniye boyunca %2 yakar ve %33 yaralar.\n\nYakma: Yanan birimler her saniye azami canlarının belli bir oranına eşdeğer miktarda gerçek hasar alır.\nYara: Yaralanan birimlerin aldığı iyileştirme etkileri azalır."
+    "en": "",
+    "tr": ""
    },
    "kind": "radiant",
    "recipe": null,
    "icon": "items/DA_SunfireCape_Radiant.png",
    "iconURL": "https://raw.communitydragon.org/latest/game/assets/maps/tft/icons/items/hexcore/tft5_item_sunfirecaperadiant.png",
    "unique": false,
-   "stats": {
-    "MaxHealth": 300,
-    "Armor": 40
-   },
+   "stats": {},
    "traitId": null
   },
   {
@@ -8012,18 +7593,15 @@
     "tr": "Işıltılı Hırsız Eldiveni"
    },
    "desc": {
-    "en": "Each round: Equip 2 random Radiant items\n\n[Consumes 3 item slots.]",
-    "tr": "Her Tur: Kullanıcı rasgele 2 ışıltılı eşya kazanır.\n\n[3 eşya yuvası kullanır.]"
+    "en": "",
+    "tr": ""
    },
    "kind": "radiant",
    "recipe": null,
    "icon": "items/DA_ThiefsGlovesRadiant.png",
    "iconURL": "https://raw.communitydragon.org/latest/game/assets/maps/tft/icons/items/hexcore/tft5_item_thiefsglovesradiant.png",
    "unique": false,
-   "stats": {
-    "Health": 150,
-    "CritChance": 20
-   },
+   "stats": {},
    "traitId": null
   },
   {
@@ -8033,18 +7611,15 @@
     "tr": "Işıltılı Titanın Azmi"
    },
    "desc": {
-    "en": "Gain 4% Attack Damage and 4% Ability Power when attacking or taking damage, stacking up to 25 times.\n\nAt full stacks, gain 20% Damage Amp and unstoppable.",
-    "tr": "Kullanıcı saldırırken veya hasar alırken en fazla 25 kez birikecek şekilde %4 Saldırı Gücü ve %4 Yetenek Gücü kazanır.\n\nAzami yüke ulaştığında %20 Hasar Artışı kazanır ve durdurulamaz olur."
+    "en": "",
+    "tr": ""
    },
    "kind": "radiant",
    "recipe": null,
    "icon": "items/DA_TitansResolve_Radiant.png",
    "iconURL": "https://raw.communitydragon.org/latest/game/assets/maps/tft/icons/items/hexcore/tft5_item_titansresolveradiant.png",
    "unique": false,
-   "stats": {
-    "Armor": 40,
-    "AttackSpeed": 20
-   },
+   "stats": {},
    "traitId": null
   },
   {
@@ -8054,19 +7629,15 @@
     "tr": "Işıltılı Hiçlik Değneği"
    },
    "desc": {
-    "en": "Attacks and Ability damage 30% Shred the target for the rest of combat. This effect does not stack.\n\nShred: Reduce Magic Resist",
-    "tr": "Kullanıcı saldırdığında ve yeteneğiyle hasar verdiğinde hedefi çatışmanın geri kalanı boyunca %30 örseler. Bu etki birikmez.\n\nÖrseleme: Örselenen birimlerin büyü direnci azalır."
+    "en": "",
+    "tr": ""
    },
    "kind": "radiant",
    "recipe": null,
    "icon": "items/DA_VoidStaffRadiant.png",
    "iconURL": "https://raw.communitydragon.org/latest/game/assets/maps/tft/icons/items/hexcore/tft5_item_voidstaffradiant.png",
    "unique": false,
-   "stats": {
-    "AP": 75,
-    "AttackSpeed": 30,
-    "ManaPerSecond": 2
-   },
+   "stats": {},
    "traitId": null
   },
   {
@@ -8076,17 +7647,15 @@
     "tr": "Işıltılı Warmog'un Zırhı"
    },
    "desc": {
-    "en": "Gain 36% max Health.",
-    "tr": "Kullanıcı %36 Azami Can kazanır."
+    "en": "",
+    "tr": ""
    },
    "kind": "radiant",
    "recipe": null,
    "icon": "items/DA_WarmogsArmorRadiant.png",
    "iconURL": "https://raw.communitydragon.org/latest/game/assets/maps/tft/icons/items/hexcore/tft5_item_warmogsarmorradiant.png",
    "unique": false,
-   "stats": {
-    "Health": 1200
-   },
+   "stats": {},
    "traitId": null
   }
  ],
@@ -8157,40 +7726,6 @@
    "icon": "augments/DA_BoxingLessons.png",
    "iconURL": "https://raw.communitydragon.org/latest/game/assets/maps/tft/icons/augments/hexcore/boxinglessons_i.png",
    "metaTier": "A",
-   "traitId": null
-  },
-  {
-   "id": "DA_18_BranchingOut",
-   "name": {
-    "en": "Branching Out",
-    "tr": "Dallan Budaklan"
-   },
-   "desc": {
-    "en": "Gain a random Emblem.",
-    "tr": "Rasgele bir amblem kazanırsın."
-   },
-   "rarity": "silver",
-   "category": "trait",
-   "icon": "augments/DA_18_BranchingOut.png",
-   "iconURL": "https://raw.communitydragon.org/latest/game/assets/maps/tft/icons/augments/hexcore/branching-out-i.png",
-   "metaTier": "S",
-   "traitId": null
-  },
-  {
-   "id": "DA_18_BranchingOutPlus",
-   "name": {
-    "en": "Branching Out+",
-    "tr": "Dallan Budaklan+"
-   },
-   "desc": {
-    "en": "Gain a random Emblem and a Reforger.",
-    "tr": "Rasgele bir amblem ve Yeniden İşleyici kazanırsın."
-   },
-   "rarity": "silver",
-   "category": "trait",
-   "icon": "augments/DA_18_BranchingOutPlus.png",
-   "iconURL": "https://raw.communitydragon.org/latest/game/assets/maps/tft/icons/augments/hexcore/branching-out-i.png",
-   "metaTier": "S",
    "traitId": null
   },
   {
@@ -8455,8 +7990,8 @@
     "tr": "Elektroşarj I"
    },
    "desc": {
-    "en": "Every 4 attacks an ally takes, they deal 30 / 50 / 70- (based on current Stage) magic damage to nearby enemies (1 second cooldown).",
-    "tr": "Dost birimler kendilerine yönelik her 4 saldırıda bir mevcut aşamaya bağlı olarak yakınlarındaki rakiplere 30 / 50 / 70 ila Büyü Hasarı verir (1 saniye bekleme süresi)."
+    "en": "Every 4 attacks an ally takes, they deal 25 / 40 / 60- (based on current Stage) magic damage to nearby enemies (1 second cooldown).",
+    "tr": "Dost birimler kendilerine yönelik her 4 saldırıda bir mevcut aşamaya bağlı olarak yakınlarındaki rakiplere 25 / 40 / 60 ila Büyü Hasarı verir (1 saniye bekleme süresi)."
    },
    "rarity": "silver",
    "category": "combat",
@@ -8557,8 +8092,8 @@
     "tr": "Akan Gözyaşları"
    },
    "desc": {
-    "en": "Gain a Tear of the Goddess. After your champions spend 6500 Mana, gain 2 more.",
-    "tr": "Bir Tanrıça'nın Gözyaşı kazanırsın. Şampiyonların 6500 Mana harcadıktan sonra 2 tane daha kazanırsın."
+    "en": "Gain a Tear of the Goddess. After your champions spend 7000 Mana, gain 2 more.",
+    "tr": "Bir Tanrıça'nın Gözyaşı kazanırsın. Şampiyonların 7000 Mana harcadıktan sonra 2 tane daha kazanırsın."
    },
    "rarity": "silver",
    "category": "utility",
@@ -8608,8 +8143,8 @@
     "tr": "Gelecek Odaklı"
    },
    "desc": {
-    "en": "Your Tactician loses 20 Health, but after 5 player combats, gain 3 4-cost champions and 8 gold.",
-    "tr": "Strateji ustan 20 Can kaybeder ancak oyunculara karşı 5 çatışmanın ardından 4 Altınlık 3 şampiyon ve 8 Altın kazanırsın."
+    "en": "Your Tactician loses 20 Health, but after 5 player combats, gain 3 4-cost champions and 5 gold.",
+    "tr": "Strateji ustan 20 Can kaybeder ancak oyunculara karşı 5 çatışmanın ardından 4 Altınlık 3 şampiyon ve 5 Altın kazanırsın."
    },
    "rarity": "silver",
    "category": "economy",
@@ -8636,31 +8171,14 @@
    "traitId": null
   },
   {
-   "id": "DA_18_GoodForSomethingI",
-   "name": {
-    "en": "Good For Something I",
-    "tr": "Kedi Olalı Bir Fare I"
-   },
-   "desc": {
-    "en": "Champions that aren't holding items have a 40% chance to drop 1 gold on death.",
-    "tr": "Eşyasız şampiyonlar katledildiklerinde %40 ihtimalle 1 Altın kazandırır."
-   },
-   "rarity": "silver",
-   "category": "economy",
-   "icon": "augments/DA_18_GoodForSomethingI.png",
-   "iconURL": "https://raw.communitydragon.org/latest/game/assets/maps/tft/icons/augments/hexcore/good-for-something-i.png",
-   "metaTier": "B",
-   "traitId": null
-  },
-  {
    "id": "DA_GroupHugI",
    "name": {
     "en": "Group Hug I",
     "tr": "Grup Kucaklaşması I"
    },
    "desc": {
-    "en": "Combat start: Champions grant other adjacent champions 6 Armor and Magic Resist. This effect stacks.",
-    "tr": "Çatışma Başlangıcında: Şampiyonlar, bitişiklerindeki diğer şampiyonlara 6 Zırh ve Büyü Direnci kazandırır. Bu etki birikir."
+    "en": "Combat start: Champions grant other adjacent champions 7 Armor and Magic Resist. This effect stacks.",
+    "tr": "Çatışma Başlangıcında: Şampiyonlar, bitişiklerindeki diğer şampiyonlara 7 Zırh ve Büyü Direnci kazandırır. Bu etki birikir."
    },
    "rarity": "silver",
    "category": "combat",
@@ -8840,23 +8358,6 @@
    "traitId": null
   },
   {
-   "id": "DA_18_OneTwoFive",
-   "name": {
-    "en": "One, Two, Five!",
-    "tr": "Bir, İki, Beş!"
-   },
-   "desc": {
-    "en": "Gain 1 random component, 2 gold, and 1 random 5-cost champion.",
-    "tr": "Rasgele 1 bileşen eşya, 2 Altın ve 5 Altınlık rasgele 1 şampiyon kazanırsın."
-   },
-   "rarity": "silver",
-   "category": "economy",
-   "icon": "augments/DA_18_OneTwoFive.png",
-   "iconURL": "https://raw.communitydragon.org/latest/game/assets/maps/tft/icons/augments/hexcore/one-two-five-i.png",
-   "metaTier": "B",
-   "traitId": null
-  },
-  {
    "id": "DA_18_OnesTwosThree",
    "name": {
     "en": "Ones Two Three",
@@ -8931,8 +8432,8 @@
     "tr": "Sabır Erdemdir"
    },
    "desc": {
-    "en": "Gain 4 rerolls now. Each round, gain 1 free reroll if you did not buy a champion last round.",
-    "tr": "Anında 4 yenileme hakkı kazanırsın. Her tur önceki turda bir şampiyon almadıysan 1 bedelsiz yenileme hakkı kazanırsın."
+    "en": "Gain 5 rerolls now. Each round, gain 1 free reroll if you did not buy a champion last round.",
+    "tr": "Anında 5 yenileme hakkı kazanırsın. Her tur önceki turda bir şampiyon almadıysan 1 bedelsiz yenileme hakkı kazanırsın."
    },
    "rarity": "silver",
    "category": "economy",
@@ -9452,23 +8953,6 @@
    "traitId": "DA_Primal18"
   },
   {
-   "id": "DA_18_BigGrabBag",
-   "name": {
-    "en": "Big Grab Bag",
-    "tr": "Büyük Çekiliş"
-   },
-   "desc": {
-    "en": "Gain 3 random components, 2 gold, and 1 Reforger.",
-    "tr": "Rasgele 3 bileşen eşya, 2 Altın ve bir Yeniden İşleyici kazanırsın."
-   },
-   "rarity": "gold",
-   "category": "utility",
-   "icon": "augments/DA_18_BigGrabBag.png",
-   "iconURL": "https://raw.communitydragon.org/latest/game/assets/maps/tft/icons/augments/hexcore/grab-bag-ii.png",
-   "metaTier": "A",
-   "traitId": null
-  },
-  {
    "id": "DA_BirthdayReunion",
    "name": {
     "en": "Birthday Reunion",
@@ -9696,8 +9180,8 @@
     "tr": "Atılganın Zarafeti"
    },
    "desc": {
-    "en": "At the start of combat, allies gain 25% Attack Speed for 4 seconds. On takedown, allies dash to their next target and gain this bonus again.",
-    "tr": "Çatışmanın başında dost birimler 4 saniyeliğine %25 Saldırı Hızı kazanır. Dost birimler alt etme halinde bir sonraki hedeflerine atılır ve bu ilaveyi tekrar kazanır."
+    "en": "At the start of combat, allies gain 30% Attack Speed for 4 seconds. On takedown, allies dash to their next target and gain this bonus again.",
+    "tr": "Çatışmanın başında dost birimler 4 saniyeliğine %30 Saldırı Hızı kazanır. Dost birimler alt etme halinde bir sonraki hedeflerine atılır ve bu ilaveyi tekrar kazanır."
    },
    "rarity": "gold",
    "category": "combat",
@@ -9798,8 +9282,8 @@
     "tr": "Tüketen Flora"
    },
    "desc": {
-    "en": "Gain a Flora Fatalis emblem. The champion holding the emblem gains 50% increased benefits from Flora Fatalis. Gain 3 gold.",
-    "tr": "Bir Flora Fatalis Amblemi kazanırsın. Ambleme sahip şampiyon Flora Fatalis özelliğinden %50 daha fazla faydalanır. 3 Altın kazanırsın."
+    "en": "Gain a Flora Fatalis emblem. The champion holding the emblem gains 70% increased benefits from Flora Fatalis. Gain 3 gold.",
+    "tr": "Bir Flora Fatalis Amblemi kazanırsın. Ambleme sahip şampiyon Flora Fatalis özelliğinden %70 daha fazla faydalanır. 3 Altın kazanırsın."
    },
    "rarity": "gold",
    "category": "trait",
@@ -9934,8 +9418,8 @@
     "tr": "İlk Öğretiler"
    },
    "desc": {
-    "en": "Your team gains 5% Attack Damage & Ability Power. This increases by 1% after each player combat. 1-cost champions gain double.",
-    "tr": "Takımın %5 Saldırı Gücü ve Yetenek Gücü kazanır. Bu ilave, oyunculara karşı her çatışmadan sonra %1 artar. 1 Altınlık şampiyonlar iki katını kazanır."
+    "en": "Your team gains 3% Attack Damage & Ability Power. This increases by 1% after each player combat. 1-cost champions gain double.",
+    "tr": "Takımın %3 Saldırı Gücü ve Yetenek Gücü kazanır. Bu ilave, oyunculara karşı her çatışmadan sonra %1 artar. 1 Altınlık şampiyonlar iki katını kazanır."
    },
    "rarity": "gold",
    "category": "combat",
@@ -9968,8 +9452,8 @@
     "tr": "Büyüt"
    },
    "desc": {
-    "en": "Fae pixies are now larger and grant 50% more Attack Damage and Ability Power. Fae champions gain 10% Attack Damage and Ability Power immediately. Gain a Xayah and a Rakan.",
-    "tr": "Fey perileri artık daha büyük olur ve fazladan %50 Saldırı Gücü ile Yetenek Gücü sağlar. Fey şampiyonları anında %10 Saldırı Gücü ve Yetenek Gücü kazanır. Bir Xayah ve Rakan kazanırsın."
+    "en": "Fae pixies are now larger and grant 50% more Attack Damage and Ability Power. Fae champions gain 18% Attack Damage and Ability Power immediately. Gain a Xayah and a Rakan.",
+    "tr": "Fey perileri artık daha büyük olur ve fazladan %50 Saldırı Gücü ile Yetenek Gücü sağlar. Fey şampiyonları anında %18 Saldırı Gücü ve Yetenek Gücü kazanır. Bir Xayah ve Rakan kazanırsın."
    },
    "rarity": "gold",
    "category": "combat",
@@ -10206,8 +9690,8 @@
     "tr": "Grup Kucaklaşması II"
    },
    "desc": {
-    "en": "Combat start: Champions grant other adjacent champions 9 Armor and Magic Resist. This effect stacks.",
-    "tr": "Çatışma Başlangıcında: Şampiyonlar, bitişiklerindeki diğer şampiyonlara 9 Zırh ve Büyü Direnci kazandırır. Bu etki birikir."
+    "en": "Combat start: Champions grant other adjacent champions 10 Armor and Magic Resist. This effect stacks.",
+    "tr": "Çatışma Başlangıcında: Şampiyonlar, bitişiklerindeki diğer şampiyonlara 10 Zırh ve Büyü Direnci kazandırır. Bu etki birikir."
    },
    "rarity": "gold",
    "category": "combat",
@@ -10393,8 +9877,8 @@
     "tr": "Mücevherli Nilüfer I"
    },
    "desc": {
-    "en": "Your team gains 10% Critical Strike Chance and Precision.\n\nPrecision: Ability damage can critically strike. Additional Precision grants 10% Critical Strike Damage.",
-    "tr": "Takımın %10 Kritik Vuruş İhtimali ve isabetlilik kazanır.\n\nİsabetlilik: Yetenek hasarı kritik vuruş yapabilir. Fazlalık isabetlilik %10 Kritik Vuruş Hasarı kazandırır."
+    "en": "Your team gains 15% Critical Strike Chance and Precision.\n\nPrecision: Ability damage can critically strike. Additional Precision grants 10% Critical Strike Damage.",
+    "tr": "Takımın %15 Kritik Vuruş İhtimali ve isabetlilik kazanır.\n\nİsabetlilik: Yetenek hasarı kritik vuruş yapabilir. Fazlalık isabetlilik %10 Kritik Vuruş Hasarı kazandırır."
    },
    "rarity": "gold",
    "category": "combat",
@@ -10608,6 +10092,57 @@
    "traitId": "DA_Riftbeast18"
   },
   {
+   "id": "DA_PandorasItemsIIMinus",
+   "name": {
+    "en": "Pandora's Items II",
+    "tr": "Pandora'nın Eşyaları II"
+   },
+   "desc": {
+    "en": "Round start: items on your bench are randomized.\n\nGain 2 random components and 1 gold.",
+    "tr": "Tur Başlangıcında: Zulandaki eşyalar rasgele değişir.\n\nRasgele 2 bileşen eşya ve 1 Altın kazanırsın."
+   },
+   "rarity": "gold",
+   "category": "utility",
+   "icon": "augments/DA_PandorasItemsIIMinus.png",
+   "iconURL": "https://raw.communitydragon.org/latest/game/assets/maps/tft/icons/augments/hexcore/pandora2.png",
+   "metaTier": null,
+   "traitId": null
+  },
+  {
+   "id": "DA_PandorasItemsIIPlus",
+   "name": {
+    "en": "Pandora's Items II+",
+    "tr": "Pandora'nın Eşyaları II+"
+   },
+   "desc": {
+    "en": "Round start: items on your bench are randomized.\n\nGain 2 random components and 4 gold.",
+    "tr": "Tur Başlangıcında: Zulandaki eşyalar rasgele değişir.\n\nRasgele 2 bileşen eşya ve 4 Altın kazanırsın."
+   },
+   "rarity": "gold",
+   "category": "utility",
+   "icon": "augments/DA_PandorasItemsIIPlus.png",
+   "iconURL": "https://cdn.metatft.com/file/metatft/augments/t_augmenticon_pandorasitems.png",
+   "metaTier": null,
+   "traitId": null
+  },
+  {
+   "id": "DA_PandorasItemsIIPlusPlus",
+   "name": {
+    "en": "Pandora's Items II++",
+    "tr": "Pandora'nın Eşyaları II++"
+   },
+   "desc": {
+    "en": "Round start: items on your bench are randomized.\n\nGain 2 random components and 6 gold.",
+    "tr": "Tur Başlangıcında: Zulandaki eşyalar rasgele değişir.\n\nRasgele 2 bileşen eşya ve 6 Altın kazanırsın."
+   },
+   "rarity": "gold",
+   "category": "utility",
+   "icon": "augments/DA_PandorasItemsIIPlusPlus.png",
+   "iconURL": "https://cdn.metatft.com/file/metatft/augments/t_augmenticon_pandorasitems.png",
+   "metaTier": null,
+   "traitId": null
+  },
+  {
    "id": "DA_PatientStudy",
    "name": {
     "en": "Patient Study",
@@ -10648,8 +10183,8 @@
     "tr": "Ana Karaktere Bir Şey Olmaz"
    },
    "desc": {
-    "en": "Your team gains 8 Armor and Magic Resist. After falling below 50% Health, increase this to 40 for the rest of combat.",
-    "tr": "Takımın 8 Zırh ve Büyü Direnci kazanır. Bu ilave, takımının canı %50 değerinin altına düştüğünde artarak çatışmanın geri kalanı boyunca 40 olur."
+    "en": "Your team gains 10 Armor and Magic Resist. After falling below 50% Health, increase this to 40 for the rest of combat.",
+    "tr": "Takımın 10 Zırh ve Büyü Direnci kazanır. Bu ilave, takımının canı %50 değerinin altına düştüğünde artarak çatışmanın geri kalanı boyunca 40 olur."
    },
    "rarity": "gold",
    "category": "combat",
@@ -10682,8 +10217,8 @@
     "tr": "Koruma Yemini"
    },
    "desc": {
-    "en": "Gain a Protector's Vow. Protector's Vow grants its holder 20% additional Mana from all sources and 200 max Health.",
-    "tr": "Bir Muhafızın Adağı kazanırsın. Muhafızın Adağı, kullanıcısına tüm kaynaklardan fazladan %20 Mana ve 200 Azami Can kazandırır."
+    "en": "Gain a Protector's Vow. Protector's Vow grants its holder 20% additional Mana from all sources and 175 max Health.",
+    "tr": "Bir Muhafızın Adağı kazanırsın. Muhafızın Adağı, kullanıcısına tüm kaynaklardan fazladan %20 Mana ve 175 Azami Can kazandırır."
    },
    "rarity": "gold",
    "category": "combat",
@@ -10890,7 +10425,7 @@
     "tr": "Rasgele bir amblem kazanırsın. 3 çatışma sonra bir tane daha kazanırsın."
    },
    "rarity": "gold",
-   "category": "economy",
+   "category": "trait",
    "icon": "augments/DA_SpreadingRoots.png",
    "iconURL": "https://raw.communitydragon.org/latest/game/assets/maps/tft/icons/augments/hexcore/spreadingroots_ii.png",
    "metaTier": "S",
@@ -10907,7 +10442,7 @@
     "tr": "Rasgele amblem ve Altın kazanırsın."
    },
    "rarity": "gold",
-   "category": "economy",
+   "category": "trait",
    "icon": "augments/DA_SpreadingRootsPlus.png",
    "iconURL": "https://raw.communitydragon.org/latest/game/assets/maps/tft/icons/augments/hexcore/spreadingroots_ii.png",
    "metaTier": "S",
@@ -11097,7 +10632,7 @@
    "category": "trait",
    "icon": "augments/DA_18_RivalsAugment.png",
    "iconURL": "https://cdn.metatft.com/file/metatft/augments/t_augmenticon_rivalstofriends.png",
-   "metaTier": "C",
+   "metaTier": "B",
    "traitId": "DA_18_Rival"
   },
   {
@@ -11651,8 +11186,8 @@
     "tr": "Safları Koru"
    },
    "desc": {
-    "en": "Champions in your back 2 rows gain 10% Ability Power and 9% Attack Damage for each champion that starts combat in your front row.",
-    "tr": "Son iki sıradaki şampiyonlar çatışmaya ön sırada başlayan her şampiyon için %10 Yetenek Gücü ve %9 Saldırı Gücü kazanır."
+    "en": "Champions in your back 2 rows gain 11% Ability Power and 11% Attack Damage for each champion that starts combat in your front row.",
+    "tr": "Son iki sıradaki şampiyonlar çatışmaya ön sırada başlayan her şampiyon için %11 Yetenek Gücü ve %11 Saldırı Gücü kazanır."
    },
    "rarity": "prismatic",
    "category": "combat",
@@ -12250,7 +11785,7 @@
     "tr": "1 Spatula, rasgele 3 bileşen eşya ve 5 Altın kazanırsın."
    },
    "rarity": "prismatic",
-   "category": "economy",
+   "category": "trait",
    "icon": "augments/DA_UrfsGrabBag.png",
    "iconURL": "https://raw.communitydragon.org/latest/game/assets/maps/tft/icons/augments/hexcore/urfs-grab-bag-iii.png",
    "metaTier": "B",
@@ -12325,54 +11860,88 @@
    "traitId": null
   },
   {
-   "id": "DA_PandorasItemsIIMinus",
+   "id": "DA_18_BigGrabBag",
    "name": {
-    "en": "Pandora's Items II",
-    "tr": "Pandora'nın Eşyaları II"
+    "en": "Big Grab Bag",
+    "tr": "Büyük Çekiliş"
    },
    "desc": {
-    "en": "Round start: items on your bench are randomized.\n\nGain random components and gold.",
-    "tr": "Tur Başlangıcında: Zulandaki eşyalar rasgele değişir.\n\nRasgele bileşen eşya ve Altın kazanırsın."
+    "en": "Gain 3 random components, 2 gold, and 1 Reforger.",
+    "tr": "Rasgele 3 bileşen eşya, 2 Altın ve bir Yeniden İşleyici kazanırsın."
    },
    "rarity": "unknown",
    "category": "unknown",
-   "icon": "augments/DA_PandorasItemsIIMinus.png",
-   "iconURL": "https://raw.communitydragon.org/latest/game/assets/maps/tft/icons/augments/hexcore/pandora2.png",
-   "metaTier": null,
+   "icon": "augments/DA_18_BigGrabBag.png",
+   "iconURL": "https://raw.communitydragon.org/latest/game/assets/maps/tft/icons/augments/hexcore/grab-bag-ii.png",
+   "metaTier": "A",
    "traitId": null
   },
   {
-   "id": "DA_PandorasItemsIIPlus",
+   "id": "DA_18_BranchingOut",
    "name": {
-    "en": "Pandora's Items II+",
-    "tr": "Pandora'nın Eşyaları II+"
+    "en": "Branching Out",
+    "tr": "Dallan Budaklan"
    },
    "desc": {
-    "en": "Round start: items on your bench are randomized.\n\nGain random components and gold.",
-    "tr": "Tur Başlangıcında: Zulandaki eşyalar rasgele değişir.\n\nRasgele bileşen eşya ve Altın kazanırsın."
+    "en": "Gain a random Emblem.",
+    "tr": "Rasgele bir amblem kazanırsın."
    },
    "rarity": "unknown",
    "category": "unknown",
-   "icon": null,
-   "iconURL": null,
-   "metaTier": null,
+   "icon": "augments/DA_18_BranchingOut.png",
+   "iconURL": "https://raw.communitydragon.org/latest/game/assets/maps/tft/icons/augments/hexcore/branching-out-i.png",
+   "metaTier": "S",
    "traitId": null
   },
   {
-   "id": "DA_PandorasItemsIIPlusPlus",
+   "id": "DA_18_BranchingOutPlus",
    "name": {
-    "en": "Pandora's Items II++",
-    "tr": "Pandora'nın Eşyaları II++"
+    "en": "Branching Out+",
+    "tr": "Dallan Budaklan+"
    },
    "desc": {
-    "en": "Round start: items on your bench are randomized.\n\nGain random components and gold.",
-    "tr": "Tur Başlangıcında: Zulandaki eşyalar rasgele değişir.\n\nRasgele bileşen eşya ve Altın kazanırsın."
+    "en": "Gain a random Emblem and a Reforger.",
+    "tr": "Rasgele bir amblem ve Yeniden İşleyici kazanırsın."
    },
    "rarity": "unknown",
    "category": "unknown",
-   "icon": null,
-   "iconURL": null,
-   "metaTier": null,
+   "icon": "augments/DA_18_BranchingOutPlus.png",
+   "iconURL": "https://raw.communitydragon.org/latest/game/assets/maps/tft/icons/augments/hexcore/branching-out-i.png",
+   "metaTier": "S",
+   "traitId": null
+  },
+  {
+   "id": "DA_18_GoodForSomethingI",
+   "name": {
+    "en": "Good For Something I",
+    "tr": "Kedi Olalı Bir Fare I"
+   },
+   "desc": {
+    "en": "Champions that aren't holding items have a % chance to drop 1 gold on death.",
+    "tr": "Eşyasız şampiyonlar katledildiklerinde % ihtimalle 1 Altın kazandırır."
+   },
+   "rarity": "unknown",
+   "category": "unknown",
+   "icon": "augments/DA_18_GoodForSomethingI.png",
+   "iconURL": "https://raw.communitydragon.org/latest/game/assets/maps/tft/icons/augments/hexcore/good-for-something-i.png",
+   "metaTier": "B",
+   "traitId": null
+  },
+  {
+   "id": "DA_18_OneTwoFive",
+   "name": {
+    "en": "One, Two, Five!",
+    "tr": "Bir, İki, Beş!"
+   },
+   "desc": {
+    "en": "Gain 1 random component, 2 gold, and 1 random 5-cost champion.",
+    "tr": "Rasgele 1 bileşen eşya, 2 Altın ve 5 Altınlık rasgele 1 şampiyon kazanırsın."
+   },
+   "rarity": "unknown",
+   "category": "unknown",
+   "icon": "augments/DA_18_OneTwoFive.png",
+   "iconURL": "https://raw.communitydragon.org/latest/game/assets/maps/tft/icons/augments/hexcore/one-two-five-i.png",
+   "metaTier": "B",
    "traitId": null
   }
  ],
