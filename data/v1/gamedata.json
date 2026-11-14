@@ -1,6 +1,6 @@
 {
  "schemaVersion": 1,
- "generatedAt": "2026-11-13T13:53:57Z",
+ "generatedAt": "2026-11-14T12:56:39Z",
  "set": {
   "key": "TFTSet18",
   "number": 18,
@@ -58,8 +58,8 @@
     "DA_RabadonsDeathcap",
     "DA_Artifact_RapidFireCannon"
    ],
-   "avgPlacement": 4.935,
-   "popularity": 0.0941
+   "avgPlacement": 4.936,
+   "popularity": 0.094
   },
   {
    "id": "DA_18_Camille",
@@ -109,8 +109,8 @@
     "DA_Bloodthirster",
     "DA_Quicksilver"
    ],
-   "avgPlacement": 5.669,
-   "popularity": 0.1307
+   "avgPlacement": 5.668,
+   "popularity": 0.131
   },
   {
    "id": "DA_Cinderling18",
@@ -143,8 +143,8 @@
      "tr": "Jilet Yapraklar"
     },
     "desc": {
-     "en": "Summon five razor-sharp leaves that converge on the current target, dealing a total of 340 / 510 / 770 (AD)(AP) physical damage and applying 20% Wound and 1% Burn for 4 seconds.\n\nScarlet Buff: Cinderling gains 22% Attack Damage each cast.\n\nWound: Reduces healing received.\nBurn: Deals a percent of the target's max Health as true damage every second.",
-     "tr": "Mevcut hedefin üzerinde birleşen jilet gibi keskin beş yaprak çağırarak toplam 340 / 510 / 770 Fiziksel Hasar (SG) (YG) verir. Ayrıca 4 saniyeliğine %20 yaralar ve %1 yakar.\n\nKızıl Güçlendirme: Közcük her kullanımda %22 Saldırı Gücü kazanır.\n\nYara: Yaralanan birimlerin aldığı iyileştirme etkileri azalır.\nYakma: Yanan birimler her saniye azami canlarının belli bir oranına eşdeğer miktarda gerçek hasar alır."
+     "en": "Summon five razor-sharp leaves that converge on the current target, dealing a total of 360 / 540 / 815 (AD)(AP) physical damage and applying 20% Wound and 1% Burn for 4 seconds.\n\nScarlet Buff: Cinderling gains 22% Attack Damage each cast.\n\nWound: Reduces healing received.\nBurn: Deals a percent of the target's max Health as true damage every second.",
+     "tr": "Mevcut hedefin üzerinde birleşen jilet gibi keskin beş yaprak çağırarak toplam 360 / 540 / 815 Fiziksel Hasar (SG) (YG) verir. Ayrıca 4 saniyeliğine %20 yaralar ve %1 yakar.\n\nKızıl Güçlendirme: Közcük her kullanımda %22 Saldırı Gücü kazanır.\n\nYara: Yaralanan birimlerin aldığı iyileştirme etkileri azalır.\nYakma: Yanan birimler her saniye azami canlarının belli bir oranına eşdeğer miktarda gerçek hasar alır."
     }
    },
    "icon": "champions/DA_Cinderling18.png",
@@ -160,8 +160,8 @@
     "DA_RedBuff",
     "DA_GuinsoosRageblade"
    ],
-   "avgPlacement": 4.722,
-   "popularity": 0.1173
+   "avgPlacement": 4.73,
+   "popularity": 0.117
   },
   {
    "id": "DA_Karma18",
@@ -211,8 +211,8 @@
     "DA_SpearOfShojin",
     "DA_ArchangelsStaff"
    ],
-   "avgPlacement": 4.611,
-   "popularity": 0.2478
+   "avgPlacement": 4.612,
+   "popularity": 0.2459
   },
   {
    "id": "DA_18_Kobuko",
@@ -245,8 +245,8 @@
      "tr": "Hayat Dansı"
     },
     "desc": {
-     "en": "Restore 349 / 399 / 599 (HP)(AP) Health over 2 seconds. The next attack is replaced with a bash that deals 140 / 175 / 220 (HP)(AP) magic damage.",
-     "tr": "2 saniye içinde 349 / 399 / 599 (Can) (YG) Can yeniler. Sonraki saldırısını 140 / 175 / 220 (Can) (YG) Büyü Hasarı veren bir darbeyle değiştirir."
+     "en": "Restore 349 / 399 / 599 (HP)(AP) Health over 2 seconds. The next attack is replaced with a bash that deals 185 / 225 / 285 (HP)(AP) magic damage.",
+     "tr": "2 saniye içinde 349 / 399 / 599 (Can) (YG) Can yeniler. Sonraki saldırısını 185 / 225 / 285 (Can) (YG) Büyü Hasarı veren bir darbeyle değiştirir."
     }
    },
    "icon": "champions/DA_18_Kobuko.png",
@@ -262,8 +262,8 @@
     "DA_SunfireCape",
     "DA_DragonsClaw"
    ],
-   "avgPlacement": 4.562,
-   "popularity": 0.1433
+   "avgPlacement": 4.559,
+   "popularity": 0.1425
   },
   {
    "id": "DA_18_Leona",
@@ -296,8 +296,8 @@
      "tr": "Kalkan Darbesi"
     },
     "desc": {
-     "en": "Passive: Start combat with 60 / 80 / 100 (AP) bonus Armor and Magic Resist that decays over 12 seconds.\n\nActive: Bash the current target, dealing 60 / 108 / 162 (Armor) magic damage and Stunning them for 1.5 seconds.",
-     "tr": "Pasif: Çatışmaya 12 saniye içinde azalarak kaybolacak şekilde 60 / 80 / 100 (YG) İlave Zırh ve Büyü Direnciyle başlar.\n\nAktif: Mevcut hedefe sertçe vurarak ona 60 / 108 / 162 (Zırh) Büyü Hasarı verir ve onu 1.5 saniyeliğine sersemletir."
+     "en": "Passive: Start combat with 60 / 80 / 100 (AP) bonus Armor and Magic Resist that decays over 12 seconds.\n\nActive: Bash the current target, dealing 72 / 120 / 174.4 (Armor) magic damage and Stunning them for 1.5 seconds.",
+     "tr": "Pasif: Çatışmaya 12 saniye içinde azalarak kaybolacak şekilde 60 / 80 / 100 (YG) İlave Zırh ve Büyü Direnciyle başlar.\n\nAktif: Mevcut hedefe sertçe vurarak ona 72 / 120 / 174.4 (Zırh) Büyü Hasarı verir ve onu 1.5 saniyeliğine sersemletir."
     }
    },
    "icon": "champions/DA_18_Leona.png",
@@ -314,7 +314,7 @@
     "DA_Evenshroud"
    ],
    "avgPlacement": 4.53,
-   "popularity": 0.3067
+   "popularity": 0.3047
   },
   {
    "id": "DA_18_Ornn",
@@ -364,8 +364,8 @@
     "DA_DragonsClaw",
     "DA_SteadfastHeart"
    ],
-   "avgPlacement": 4.61,
-   "popularity": 0.41
+   "avgPlacement": 4.612,
+   "popularity": 0.4062
   },
   {
    "id": "DA_18_Sentry",
@@ -398,8 +398,8 @@
      "tr": "Mavi Lazer"
     },
     "desc": {
-     "en": "Begin consuming 0.35 max Mana per second and channeling a laser on the target. Each second while casting, deal 160 / 240 / 360 (AP) magic damage to them and reduce their Magic Resist by 3.\n\nTeal Buff: Gain 2 Mana Regen for every 4 seconds channeled.",
-     "tr": "Her saniye 0.35 Azami Mana tüketmeye ve yoğunlaşarak hedefe bir lazer göndermeye başlar. Kullanım sırasında her saniye hedefe 160 / 240 / 360 Büyü Hasarı (YG) verir ve hedefin büyü direncini 3 azaltır.\n\nTurkuvaz Güçlendirme: Yoğunlaştığı her 4 saniye için 2 Mana Yenilenmesi kazanır."
+     "en": "Begin consuming 0.35 max Mana per second and channeling a laser on the target. Each second while casting, deal 170 / 255 / 385 (AP) magic damage to them and reduce their Magic Resist by 3.\n\nTeal Buff: Gain 2 Mana Regen for every 4 seconds channeled.",
+     "tr": "Her saniye 0.35 Azami Mana tüketmeye ve yoğunlaşarak hedefe bir lazer göndermeye başlar. Kullanım sırasında her saniye hedefe 170 / 255 / 385 Büyü Hasarı (YG) verir ve hedefin büyü direncini 3 azaltır.\n\nTurkuvaz Güçlendirme: Yoğunlaştığı her 4 saniye için 2 Mana Yenilenmesi kazanır."
     }
    },
    "icon": "champions/DA_18_Sentry.png",
@@ -409,14 +409,14 @@
    "poolCount": 30,
    "recommendedItems": [
     "DA_BlueBuff",
-    "DA_JeweledGauntlet",
     "DA_ArchangelsStaff",
+    "DA_JeweledGauntlet",
     "DA_RabadonsDeathcap",
     "DA_Component_NeedlesslyLargeRod",
     "DA_VoidStaff"
    ],
    "avgPlacement": 4.349,
-   "popularity": 0.2792
+   "popularity": 0.2819
   },
   {
    "id": "DA_18_Rakan",
@@ -467,8 +467,8 @@
     "DA_AdaptiveHelm",
     "DA_ThiefsGloves"
    ],
-   "avgPlacement": 4.734,
-   "popularity": 0.4007
+   "avgPlacement": 4.733,
+   "popularity": 0.3996
   },
   {
    "id": "DA_18_RekSai",
@@ -518,8 +518,8 @@
     "DA_SpiritVisage",
     "DA_IonicSpark"
    ],
-   "avgPlacement": 4.628,
-   "popularity": 0.1656
+   "avgPlacement": 4.625,
+   "popularity": 0.1639
   },
   {
    "id": "DA_18_Varus",
@@ -563,14 +563,14 @@
    "poolCount": 30,
    "recommendedItems": [
     "DA_SpearOfShojin",
-    "DA_LastWhisper",
     "DA_InfinityEdge",
+    "DA_LastWhisper",
     "DA_GuinsoosRageblade",
     "DA_Deathblade",
     "DA_GiantSlayer"
    ],
-   "avgPlacement": 4.717,
-   "popularity": 0.1756
+   "avgPlacement": 4.724,
+   "popularity": 0.1728
   },
   {
    "id": "DA_18_Veigar",
@@ -618,11 +618,11 @@
     "DA_BlueBuff",
     "DA_HextechGunblade",
     "DA_Artifact_Dawncore",
-    "DA_Artifact_LudensTempest",
-    "DA_RabadonsDeathcap"
+    "DA_RabadonsDeathcap",
+    "DA_Artifact_LudensTempest"
    ],
-   "avgPlacement": 4.448,
-   "popularity": 0.2657
+   "avgPlacement": 4.444,
+   "popularity": 0.2638
   },
   {
    "id": "DA_18_Xayah",
@@ -673,8 +673,8 @@
     "DA_LastWhisper",
     "DA_GiantSlayer"
    ],
-   "avgPlacement": 4.658,
-   "popularity": 0.2876
+   "avgPlacement": 4.653,
+   "popularity": 0.2865
   },
   {
    "id": "DA_18_Yorick",
@@ -725,8 +725,8 @@
     "DA_SpiritVisage",
     "DA_IonicSpark"
    ],
-   "avgPlacement": 4.548,
-   "popularity": 0.444
+   "avgPlacement": 4.549,
+   "popularity": 0.4414
   },
   {
    "id": "DA_18_Alistar",
@@ -776,8 +776,8 @@
     "DA_Crownguard",
     "DA_DragonsClaw"
    ],
-   "avgPlacement": 4.438,
-   "popularity": 0.4803
+   "avgPlacement": 4.437,
+   "popularity": 0.476
   },
   {
    "id": "DA_18_Caitlyn",
@@ -827,8 +827,8 @@
     "DA_Deathblade",
     "DA_GuinsoosRagebladeRadiant"
    ],
-   "avgPlacement": 5.747,
-   "popularity": 0.1083
+   "avgPlacement": 5.743,
+   "popularity": 0.1091
   },
   {
    "id": "DA_18_Elise",
@@ -861,8 +861,8 @@
      "tr": "Örümcek Kraliçe"
     },
     "desc": {
-     "en": "Transform into a spider and gain max Health. Attacks while in Spider Form deal 35 / 50 / 80 (AP) bonus magic damage and heal for 55 / 90 / 170 (AP). Subsequent casts grant decaying Attack Speed for seconds.",
-     "tr": "Örümceğe dönüşür ve Azami Can kazanır. Örümcek halindeki saldırılarıyla 35 / 50 / 80 (YG) İlave Büyü Hasarı verir ve 55 / 90 / 170 (YG) Can yeniler. Sonraki kullanımlarda saniye içinde azalarak kaybolacak şekilde Saldırı Hızı kazanır."
+     "en": "Transform into a spider and gain max Health. Attacks while in Spider Form deal 40 / 60 / 90 (AP) bonus magic damage and heal for 55 / 90 / 170 (AP). Subsequent casts grant decaying Attack Speed for seconds.",
+     "tr": "Örümceğe dönüşür ve Azami Can kazanır. Örümcek halindeki saldırılarıyla 40 / 60 / 90 (YG) İlave Büyü Hasarı verir ve 55 / 90 / 170 (YG) Can yeniler. Sonraki kullanımlarda saniye içinde azalarak kaybolacak şekilde Saldırı Hızı kazanır."
     }
    },
    "icon": "champions/DA_18_Elise.png",
@@ -878,8 +878,8 @@
     "DA_SpiritVisage",
     "DA_ProtectorsVow"
    ],
-   "avgPlacement": 5.208,
-   "popularity": 0.2329
+   "avgPlacement": 5.216,
+   "popularity": 0.2326
   },
   {
    "id": "DA_Gromp18_AP",
@@ -924,14 +924,14 @@
    "poolCount": 25,
    "recommendedItems": [
     "DA_LastWhisper",
-    "DA_InfinityEdge",
-    "DA_StrikersFlail",
+    "DA_SpearOfShojin",
+    "DA_BlueBuff",
     "DA_Component_RecurveBow",
     "DA_Component_TearOfTheGoddess",
     "DA_GuinsoosRageblade"
    ],
-   "avgPlacement": 4.551,
-   "popularity": 0.0844
+   "avgPlacement": 4.555,
+   "popularity": 0.0843
   },
   {
    "id": "DA_18_Kayle",
@@ -964,8 +964,8 @@
      "tr": "Güneş Yargısı"
     },
     "desc": {
-     "en": "Passive: Kayle ascends based on her star level, granting her stacking bonuses.\n\n1st Ascension: Attacks deal 65 / 97 / 110 (AP) bonus magic damage.\n2nd Ascension: Attacks 20% Shred enemies hit for 2 seconds.\n3rd Ascension: Attacks fire waves, dealing 35 (AP) magic damage to all other units hit.\n4th Ascension: Gain infinite range. Every 3rd wave is much larger.\n\nShred: Reduce Magic Resist",
-     "tr": "Pasif: Yıldız seviyesine bağlı olarak yükselir ve birikecek şekilde ilaveler kazanır.\n\n1. Yükseliş: Saldırılarıyla 65 / 97 / 110 (YG) İlave Büyü Hasarı verir.\n2. Yükseliş: Saldırılarının isabet ettiği rakipleri 2 saniyeliğine %20 örseler.\n3. Yükseliş: Saldırılarıyla dalgalar göndererek isabet alan tüm diğer birimlere 35 (YG) Büyü Hasarı verir.\n4. Yükseliş: Sınırsız menzil kazanır. Her 3. dalga çok daha büyük olur.\n\nÖrseleme: Örselenen birimlerin büyü direnci azalır."
+     "en": "Passive: Kayle ascends based on her star level, granting her stacking bonuses.\n\n1st Ascension: Attacks deal 68 / 102 / 115 (AP) bonus magic damage.\n2nd Ascension: Attacks 20% Shred enemies hit for 2 seconds.\n3rd Ascension: Attacks fire waves, dealing 35 (AP) magic damage to all other units hit.\n4th Ascension: Gain infinite range. Every 3rd wave is much larger.\n\nShred: Reduce Magic Resist",
+     "tr": "Pasif: Yıldız seviyesine bağlı olarak yükselir ve birikecek şekilde ilaveler kazanır.\n\n1. Yükseliş: Saldırılarıyla 68 / 102 / 115 (YG) İlave Büyü Hasarı verir.\n2. Yükseliş: Saldırılarının isabet ettiği rakipleri 2 saniyeliğine %20 örseler.\n3. Yükseliş: Saldırılarıyla dalgalar göndererek isabet alan tüm diğer birimlere 35 (YG) Büyü Hasarı verir.\n4. Yükseliş: Sınırsız menzil kazanır. Her 3. dalga çok daha büyük olur.\n\nÖrseleme: Örselenen birimlerin büyü direnci azalır."
     }
    },
    "icon": "champions/DA_18_Kayle.png",
@@ -981,8 +981,8 @@
     "DA_HextechGunblade",
     "DA_GiantSlayer"
    ],
-   "avgPlacement": 4.377,
-   "popularity": 0.2638
+   "avgPlacement": 4.374,
+   "popularity": 0.2618
   },
   {
    "id": "DA_18_LeBlanc",
@@ -1032,8 +1032,8 @@
     "DA_RedBuff",
     "DA_RabadonsDeathcap"
    ],
-   "avgPlacement": 4.495,
-   "popularity": 0.4413
+   "avgPlacement": 4.493,
+   "popularity": 0.4377
   },
   {
    "id": "DA_Murkwolf18",
@@ -1083,8 +1083,8 @@
     "DA_ThiefsGloves",
     "DA_Deathblade"
    ],
-   "avgPlacement": 4.33,
-   "popularity": 0.2504
+   "avgPlacement": 4.328,
+   "popularity": 0.2549
   },
   {
    "id": "DA_Scuttlecrab18",
@@ -1117,8 +1117,8 @@
      "tr": "Ritimci Yengeç"
     },
     "desc": {
-     "en": "Passive: Attacks are replaced by a dance that deals 50 / 75 / 112.5 (AD) physical damage to all adjacent enemies.\n\nActive: Burrow underground, gaining 15% Durability for 3 seconds and healing 325 / 400 / 675 (AP) over the duration.\n\nGreen Buff: When allies fall below 50% Health, they restore 15% max Health.",
-     "tr": "Pasif: Saldırılarını bitişiğindeki tüm rakiplere 50 / 75 / 112.5 Fiziksel Hasar (SG) veren bir dansla değiştirir.\n\nAktif: Yeraltına girerek 3 saniyeliğine %15 Dayanıklılık kazanır ve bu süre boyunca 325 / 400 / 675 Can (YG) yeniler.\n\nYeşil Güçlendirme: Dost birimler, canları %50 değerinin altına düştüğünde azami canlarının %15 kadarını yeniler."
+     "en": "Passive: Attacks are replaced by a dance that deals 60 / 90 / 135 (AD) physical damage to all adjacent enemies.\n\nActive: Burrow underground, gaining 15% Durability for 3 seconds and healing 325 / 400 / 675 (AP) over the duration.\n\nGreen Buff: When allies fall below 50% Health, they restore 15% max Health.",
+     "tr": "Pasif: Saldırılarını bitişiğindeki tüm rakiplere 60 / 90 / 135 Fiziksel Hasar (SG) veren bir dansla değiştirir.\n\nAktif: Yeraltına girerek 3 saniyeliğine %15 Dayanıklılık kazanır ve bu süre boyunca 325 / 400 / 675 Can (YG) yeniler.\n\nYeşil Güçlendirme: Dost birimler, canları %50 değerinin altına düştüğünde azami canlarının %15 kadarını yeniler."
     }
    },
    "icon": "champions/DA_Scuttlecrab18.png",
@@ -1128,14 +1128,14 @@
    "poolCount": 25,
    "recommendedItems": [
     "DA_GargoyleStoneplate",
-    "DA_WarmogsArmor",
     "DA_SpiritVisage",
-    "DA_SunfireCape",
+    "DA_WarmogsArmor",
     "DA_Evenshroud",
+    "DA_SunfireCape",
     "DA_ThiefsGloves"
    ],
-   "avgPlacement": 4.764,
-   "popularity": 0.23
+   "avgPlacement": 4.766,
+   "popularity": 0.232
   },
   {
    "id": "DA_18_Sejuani",
@@ -1185,8 +1185,8 @@
     "DA_SunfireCape",
     "DA_DragonsClaw"
    ],
-   "avgPlacement": 4.554,
-   "popularity": 0.3338
+   "avgPlacement": 4.552,
+   "popularity": 0.3315
   },
   {
    "id": "DA_18_Shen",
@@ -1236,8 +1236,8 @@
     "DA_ProtectorsVow",
     "DA_SunfireCape"
    ],
-   "avgPlacement": 4.638,
-   "popularity": 0.2131
+   "avgPlacement": 4.644,
+   "popularity": 0.2112
   },
   {
    "id": "DA_18_Teemo",
@@ -1270,8 +1270,8 @@
      "tr": "Aramızdaki Mantar"
     },
     "desc": {
-     "en": "Throw 2 clusters of mushrooms that deal 55 / 82 / 155 (AP) magic damage to the 3 nearest enemies. Then hurl a giant mushroom that deals 135 / 200 / 310 (AP) magic damage to the target.\n\nEach cast has a 10% / 12% / 15% chance to forage an extra mushroom that can be collected for bonus effects.\n\nRed: 1 Reroll (Reds Foraged: )\nGreen: 1 Tactician Health (Greens Foraged: )\nYellow: 2 XP (Yellows Foraged: )",
-     "tr": "En yakındaki 3 rakibe 55 / 82 / 155 Büyü Hasarı (YG) veren 2 mantar kümesi fırlatır. Ardından hedefe 135 / 200 / 310 Büyü Hasarı (YG) veren dev bir mantar fırlatır.\n\nHer yetenek kullanımında %10 / %12 / %15 ihtimalle fazladan bir mantar bulur. Bu mantarlar ilave etkiler için toplanabilir.\n\nKırmızı: 1 Yenileme Hakkı (Toplanan Kırmızılar: )\nYeşil: 1 Strateji Ustası Canı (Toplanan Yeşiller: )\nSarı: 2 XP (Toplanan Sarılar: )"
+     "en": "Throw 2 clusters of mushrooms that deal 55 / 82 / 155 (AP) magic damage to the 3 nearest enemies. Then hurl a giant mushroom that deals 135 / 200 / 310 (AP) magic damage to the target.\n\nEach cast has a 12% / 15% / 18% chance to forage an extra mushroom that can be collected for bonus effects.\n\nRed: 1 Reroll (Reds Foraged: )\nGreen: 1 Tactician Health (Greens Foraged: )\nYellow: 2 XP (Yellows Foraged: )",
+     "tr": "En yakındaki 3 rakibe 55 / 82 / 155 Büyü Hasarı (YG) veren 2 mantar kümesi fırlatır. Ardından hedefe 135 / 200 / 310 Büyü Hasarı (YG) veren dev bir mantar fırlatır.\n\nHer yetenek kullanımında %12 / %15 / %18 ihtimalle fazladan bir mantar bulur. Bu mantarlar ilave etkiler için toplanabilir.\n\nKırmızı: 1 Yenileme Hakkı (Toplanan Kırmızılar: )\nYeşil: 1 Strateji Ustası Canı (Toplanan Yeşiller: )\nSarı: 2 XP (Toplanan Sarılar: )"
     }
    },
    "icon": "champions/DA_18_Teemo.png",
@@ -1287,8 +1287,8 @@
     "DA_BlueBuff",
     "DA_VoidStaff"
    ],
-   "avgPlacement": 4.354,
-   "popularity": 0.1774
+   "avgPlacement": 4.353,
+   "popularity": 0.1769
   },
   {
    "id": "DA_18_Warwick",
@@ -1321,8 +1321,8 @@
      "tr": "Cani Diş"
     },
     "desc": {
-     "en": "Bite the current target, dealing 230 / 345 / 535 (AD) physical damage and healing for 0.25 (AP) of the damage dealt. Gain 20% Attack Speed for the rest of combat.",
-     "tr": "Mevcut hedefi ısırarak 230 / 345 / 535 (SG) Fiziksel Hasar verir ve verdiği hasarın 0.25 (YG) kadarına eşdeğer miktarda can yeniler. Çatışmanın geri kalanı boyunca %20 Saldırı Hızı kazanır."
+     "en": "Bite the current target, dealing 230 / 345 / 560 (AD) physical damage and healing for 0.25 (AP) of the damage dealt. Gain 20% Attack Speed for the rest of combat.",
+     "tr": "Mevcut hedefi ısırarak 230 / 345 / 560 (SG) Fiziksel Hasar verir ve verdiği hasarın 0.25 (YG) kadarına eşdeğer miktarda can yeniler. Çatışmanın geri kalanı boyunca %20 Saldırı Hızı kazanır."
     }
    },
    "icon": "champions/DA_18_Warwick.png",
@@ -1338,8 +1338,8 @@
     "DA_EdgeOfNight",
     "DA_GuinsoosRageblade"
    ],
-   "avgPlacement": 4.845,
-   "popularity": 0.053
+   "avgPlacement": 4.841,
+   "popularity": 0.0533
   },
   {
    "id": "DA_18_Yunara",
@@ -1389,8 +1389,8 @@
     "DA_RedBuff",
     "DA_GiantSlayer"
    ],
-   "avgPlacement": 4.617,
-   "popularity": 0.2092
+   "avgPlacement": 4.613,
+   "popularity": 0.2072
   },
   {
    "id": "DA_18_Azir",
@@ -1441,8 +1441,8 @@
     "DA_ArchangelsStaff",
     "DA_VoidStaff"
    ],
-   "avgPlacement": 4.289,
-   "popularity": 0.2333
+   "avgPlacement": 4.287,
+   "popularity": 0.2326
   },
   {
    "id": "DA_18_Cassiopeia",
@@ -1490,10 +1490,10 @@
     "DA_SpearOfShojin",
     "DA_VoidStaff",
     "DA_JeweledGauntlet",
-    "DA_BlueBuff"
+    "DA_Morellonomicon"
    ],
-   "avgPlacement": 4.887,
-   "popularity": 0.274
+   "avgPlacement": 4.893,
+   "popularity": 0.2726
   },
   {
    "id": "DA_18_Diana",
@@ -1540,12 +1540,12 @@
     "DA_ThiefsGloves",
     "DA_GargoyleStoneplate",
     "DA_IonicSpark",
-    "DA_WarmogsArmor",
     "DA_HandOfJustice",
+    "DA_WarmogsArmor",
     "DA_SunfireCape"
    ],
-   "avgPlacement": 4.582,
-   "popularity": 0.534
+   "avgPlacement": 4.584,
+   "popularity": 0.5301
   },
   {
    "id": "DA_Fiddlesticks18",
@@ -1596,8 +1596,8 @@
     "DA_SunfireCape",
     "DA_SpiritVisage"
    ],
-   "avgPlacement": 4.556,
-   "popularity": 0.5268
+   "avgPlacement": 4.554,
+   "popularity": 0.5228
   },
   {
    "id": "DA_18_Hecarim",
@@ -1647,8 +1647,8 @@
     "DA_SunfireCape",
     "DA_Evenshroud"
    ],
-   "avgPlacement": 4.634,
-   "popularity": 0.469
+   "avgPlacement": 4.632,
+   "popularity": 0.4677
   },
   {
    "id": "DA_18_KhaZix",
@@ -1680,8 +1680,8 @@
      "tr": "Korkularından Beslen"
     },
     "desc": {
-     "en": "Leap to the farthest enemy within 3 Hexes, dealing 230 / 310 / 450 (AP) magic damage. If they have no adjacent allies, deal 250 / 350 / 530 (AP) magic damage instead and gain 10 mana.{Augment.Variant.RivalsAugment.AbilityTooltip}",
-     "tr": "3 hücrelik bir alan içindeki en uzak rakibin üstüne atlayıp 230 / 310 / 450 Büyü Hasarı (YG) verir. Rakibin bitişiğinde bir dost birim yoksa 250 / 350 / 530 Büyü Hasarı (YG) verir ve 10 Mana kazanır.{Augment.Variant.RivalsAugment.AbilityTooltip}"
+     "en": "Leap to the farthest enemy within 3 Hexes, dealing 240 / 325 / 480 (AP) magic damage. If they have no adjacent allies, deal 260 / 360 / 540 (AP) magic damage instead and gain 10 mana.{Augment.Variant.RivalsAugment.AbilityTooltip}",
+     "tr": "3 hücrelik bir alan içindeki en uzak rakibin üstüne atlayıp 240 / 325 / 480 Büyü Hasarı (YG) verir. Rakibin bitişiğinde bir dost birim yoksa 260 / 360 / 540 Büyü Hasarı (YG) verir ve 10 Mana kazanır.{Augment.Variant.RivalsAugment.AbilityTooltip}"
     }
    },
    "icon": "champions/DA_18_KhaZix.png",
@@ -1697,8 +1697,8 @@
     "DA_NashorsTooth",
     "DA_StrikersFlail"
    ],
-   "avgPlacement": 4.99,
-   "popularity": 0.065
+   "avgPlacement": 4.991,
+   "popularity": 0.0641
   },
   {
    "id": "DA_KogMaw18_AD",
@@ -1750,8 +1750,8 @@
     "DA_InfinityEdge",
     "DA_Morellonomicon"
    ],
-   "avgPlacement": 4.307,
-   "popularity": 0.2496
+   "avgPlacement": 4.303,
+   "popularity": 0.2466
   },
   {
    "id": "DA_Krug18",
@@ -1765,7 +1765,8 @@
    "cost": 3,
    "traits": [
     "DA_Riftbeast18",
-    "DA_18_Brawler"
+    "DA_18_Brawler",
+    "DA_18_Summoner"
    ],
    "role": "AttackTank",
    "stats": {
@@ -1784,8 +1785,8 @@
      "tr": "Sert Kaya"
     },
     "desc": {
-     "en": "Passive: On death, split into two Kruglettes with 182 / 232 / 312 (HP) Health which immediately taunt, forcing enemies to attack them.\n\nActive: Gain 175 / 225 / 325 (AP) max Health, then roll into the target, dealing 223 / 288 / 423 (AD)(HP) damage.\n\nSlate Buff: On death, Krug and Kruglettes Shield allies for 8% max Health.",
-     "tr": "Pasif: Katledildiğinde 182 / 232 / 312 Cana (Can) sahip iki minik kayacıla bölünür. Kayacıllar rakipleri anında kışkırtarak kendilerine saldırmaya zorlar.\n\nAktif: 175 / 225 / 325 Azami Can (YG) kazanır, ardından hedefine doğru yuvarlanarak ona 223 / 288 / 423 Hasar (SG) (Can) verir.\n\nArduvaz Güçlendirme: Katledildiğinde kayacıl ve minik kayacıllar dost birimlere %8 Azami Cana eşdeğer miktarda kalkan kazandırır."
+     "en": "Passive: On death, split into two Kruglettes with 182 / 207 / 282 (HP) Health which immediately taunt, forcing enemies to attack them.\n\nActive: Gain 175 / 225 / 325 (AP) max Health, then roll into the target, dealing 223 / 288 / 423 (AD)(HP) damage.\n\nSlate Buff: On death, Krug and Kruglettes Shield allies for 8% max Health.",
+     "tr": "Pasif: Katledildiğinde 182 / 207 / 282 Cana (Can) sahip iki minik kayacıla bölünür. Kayacıllar rakipleri anında kışkırtarak kendilerine saldırmaya zorlar.\n\nAktif: 175 / 225 / 325 Azami Can (YG) kazanır, ardından hedefine doğru yuvarlanarak ona 223 / 288 / 423 Hasar (SG) (Can) verir.\n\nArduvaz Güçlendirme: Katledildiğinde kayacıl ve minik kayacıllar dost birimlere %8 Azami Cana eşdeğer miktarda kalkan kazandırır."
     }
    },
    "icon": "champions/DA_Krug18.png",
@@ -1801,8 +1802,8 @@
     "DA_SunfireCape",
     "DA_Crownguard"
    ],
-   "avgPlacement": 4.371,
-   "popularity": 0.4596
+   "avgPlacement": 4.368,
+   "popularity": 0.4634
   },
   {
    "id": "DA_CrimsonRaptor18",
@@ -1849,12 +1850,12 @@
     "DA_GuinsoosRageblade",
     "DA_HextechGunblade",
     "DA_TitansResolve",
-    "DA_InfinityEdge",
     "DA_LastWhisper",
+    "DA_InfinityEdge",
     "DA_KrakensFury"
    ],
-   "avgPlacement": 4.621,
-   "popularity": 0.1354
+   "avgPlacement": 4.618,
+   "popularity": 0.1377
   },
   {
    "id": "DA_18_MasterYi_AD",
@@ -1905,8 +1906,8 @@
     "DA_Quicksilver",
     "DA_HandOfJustice"
    ],
-   "avgPlacement": 4.434,
-   "popularity": 0.1614
+   "avgPlacement": 4.433,
+   "popularity": 0.1607
   },
   {
    "id": "DA_18_Rammus",
@@ -1953,11 +1954,11 @@
     "DA_WarmogsArmor",
     "DA_SpiritVisage",
     "DA_Crownguard",
-    "DA_SunfireCape",
-    "DA_SteadfastHeart"
+    "DA_SteadfastHeart",
+    "DA_SunfireCape"
    ],
-   "avgPlacement": 4.519,
-   "popularity": 0.2263
+   "avgPlacement": 4.518,
+   "popularity": 0.2243
   },
   {
    "id": "DA_18_Rengar",
@@ -2004,10 +2005,10 @@
     "DA_TitansResolve",
     "DA_Quicksilver",
     "DA_SteraksGage",
-    "DA_18_EmblemDefender"
+    "DA_HandOfJustice"
    ],
-   "avgPlacement": 4.47,
-   "popularity": 0.116
+   "avgPlacement": 4.475,
+   "popularity": 0.1151
   },
   {
    "id": "DA_18_Tristana",
@@ -2058,8 +2059,8 @@
     "DA_LastWhisper",
     "DA_GiantSlayer"
    ],
-   "avgPlacement": 4.663,
-   "popularity": 0.1404
+   "avgPlacement": 4.662,
+   "popularity": 0.1395
   },
   {
    "id": "DA_Vi18",
@@ -2109,8 +2110,8 @@
     "DA_SunfireCape",
     "DA_ThiefsGloves"
    ],
-   "avgPlacement": 4.583,
-   "popularity": 0.401
+   "avgPlacement": 4.581,
+   "popularity": 0.397
   },
   {
    "id": "DA_18_Ahri",
@@ -2160,8 +2161,8 @@
     "DA_18_EmblemInvoker",
     "DA_BlueBuff"
    ],
-   "avgPlacement": 4.476,
-   "popularity": 0.2617
+   "avgPlacement": 4.475,
+   "popularity": 0.2599
   },
   {
    "id": "DA_Amumu18",
@@ -2211,8 +2212,8 @@
     "DA_Crownguard",
     "DA_DragonsClaw"
    ],
-   "avgPlacement": 4.325,
-   "popularity": 0.6713
+   "avgPlacement": 4.328,
+   "popularity": 0.6649
   },
   {
    "id": "DA_18_Aphelios",
@@ -2245,8 +2246,8 @@
      "tr": "Ay Işığı Kıyımı"
     },
     "desc": {
-     "en": "Equip Severum and swipe the target (AS) times over 2 seconds, each dealing 70 / 105 / 850 (AD) physical damage.\n\nAfter the onslaught finishes, fire a blast that deals 490 / 735 / 5225 (AD)(AP) physical damage split among all enemies in a 2 Hex radius.",
-     "tr": "Severum'u kuşanır ve 2 saniye içinde hedefe (SH) kez saldırır. Her saldırıda 70 / 105 / 850 (SG) Fiziksel Hasar verir.\n\nKıyım bittikten sonra 2 hücrelik bir alandaki tüm rakipler arasında bölüştürülecek şekilde 490 / 735 / 5225 (SG) (YG) Fiziksel Hasar veren bir patlama gerçekleştirir."
+     "en": "Equip Severum and swipe the target (AS) times over 2 seconds, each dealing 70 / 105 / 850 (AD) physical damage.\n\nAfter the onslaught finishes, fire a blast that deals 540 / 810 / 5225 (AD)(AP) physical damage split among all enemies in a 2 Hex radius.",
+     "tr": "Severum'u kuşanır ve 2 saniye içinde hedefe (SH) kez saldırır. Her saldırıda 70 / 105 / 850 (SG) Fiziksel Hasar verir.\n\nKıyım bittikten sonra 2 hücrelik bir alandaki tüm rakipler arasında bölüştürülecek şekilde 540 / 810 / 5225 (SG) (YG) Fiziksel Hasar veren bir patlama gerçekleştirir."
     }
    },
    "icon": "champions/DA_18_Aphelios.png",
@@ -2260,10 +2261,10 @@
     "DA_InfinityEdge",
     "DA_Deathblade",
     "DA_18_EmblemElderwood",
-    "DA_GiantSlayer"
+    "DA_LastWhisper"
    ],
-   "avgPlacement": 4.353,
-   "popularity": 0.2925
+   "avgPlacement": 4.355,
+   "popularity": 0.2884
   },
   {
    "id": "DA_Brambleback18",
@@ -2314,7 +2315,7 @@
     "DA_TitansResolve"
    ],
    "avgPlacement": 4.248,
-   "popularity": 0.278
+   "popularity": 0.2819
   },
   {
    "id": "DA_18_Ezreal",
@@ -2364,8 +2365,8 @@
     "DA_StrikersFlail",
     "DA_RedBuff"
    ],
-   "avgPlacement": 4.354,
-   "popularity": 0.3694
+   "avgPlacement": 4.356,
+   "popularity": 0.3642
   },
   {
    "id": "DA_18_Lillia",
@@ -2415,8 +2416,8 @@
     "DA_SpiritVisage",
     "DA_Crownguard"
    ],
-   "avgPlacement": 4.415,
-   "popularity": 0.3992
+   "avgPlacement": 4.417,
+   "popularity": 0.397
   },
   {
    "id": "DA_18_Malphite",
@@ -2466,8 +2467,8 @@
     "DA_SteadfastHeart",
     "DA_DragonsClaw"
    ],
-   "avgPlacement": 4.594,
-   "popularity": 0.1326
+   "avgPlacement": 4.595,
+   "popularity": 0.1316
   },
   {
    "id": "DA_18_Morgana",
@@ -2517,7 +2518,7 @@
     "DA_RabadonsDeathcap",
     "DA_JeweledGauntlet"
    ],
-   "avgPlacement": 4.484,
+   "avgPlacement": 4.485,
    "popularity": 0.4255
   },
   {
@@ -2569,8 +2570,8 @@
     "DA_GuinsoosRageblade",
     "DA_Bloodthirster"
    ],
-   "avgPlacement": 4.302,
-   "popularity": 0.2608
+   "avgPlacement": 4.3,
+   "popularity": 0.2566
   },
   {
    "id": "DA_Sentinel18",
@@ -2621,7 +2622,7 @@
     "DA_AdaptiveHelm",
     "DA_Crownguard"
    ],
-   "avgPlacement": 4.277,
+   "avgPlacement": 4.278,
    "popularity": 1.0
   },
   {
@@ -2672,7 +2673,7 @@
     "DA_SteadfastHeart",
     "DA_BrambleVest"
    ],
-   "avgPlacement": 4.4,
+   "avgPlacement": 4.398,
    "popularity": 0.3763
   },
   {
@@ -2723,8 +2724,8 @@
     "DA_RedBuff",
     "DA_GuinsoosRageblade"
    ],
-   "avgPlacement": 4.445,
-   "popularity": 0.2494
+   "avgPlacement": 4.451,
+   "popularity": 0.2477
   },
   {
    "id": "DA_18_Soraka",
@@ -2772,10 +2773,10 @@
     "DA_JeweledGauntlet",
     "DA_ArchangelsStaff",
     "DA_VoidStaff",
-    "DA_BlueBuff"
+    "DA_NashorsTooth"
    ],
-   "avgPlacement": 4.272,
-   "popularity": 0.258
+   "avgPlacement": 4.273,
+   "popularity": 0.2554
   },
   {
    "id": "DA_18_Zyra",
@@ -2825,8 +2826,8 @@
     "DA_HextechGunblade",
     "DA_RedBuff"
    ],
-   "avgPlacement": 4.344,
-   "popularity": 0.2346
+   "avgPlacement": 4.347,
+   "popularity": 0.2337
   },
   {
    "id": "DA_18_Alune",
@@ -2877,8 +2878,8 @@
     "DA_RabadonsDeathcap",
     "DA_NashorsTooth"
    ],
-   "avgPlacement": 3.866,
-   "popularity": 0.349
+   "avgPlacement": 3.872,
+   "popularity": 0.3479
   },
   {
    "id": "DA_18_Ashe",
@@ -2928,8 +2929,8 @@
     "DA_GuinsoosRageblade",
     "DA_Deathblade"
    ],
-   "avgPlacement": 3.983,
-   "popularity": 0.206
+   "avgPlacement": 3.984,
+   "popularity": 0.2052
   },
   {
    "id": "DA_Draven18",
@@ -2978,8 +2979,8 @@
     "DA_LastWhisper",
     "DA_GiantSlayer"
    ],
-   "avgPlacement": 4.117,
-   "popularity": 0.3452
+   "avgPlacement": 4.119,
+   "popularity": 0.343
   },
   {
    "id": "DA_18_ElderDragon",
@@ -3029,8 +3030,8 @@
     "DA_StrikersFlail",
     "DA_HandOfJustice"
    ],
-   "avgPlacement": 3.863,
-   "popularity": 0.4183
+   "avgPlacement": 3.861,
+   "popularity": 0.4197
   },
   {
    "id": "DA_18_GnarSmall",
@@ -3081,7 +3082,7 @@
     "DA_TitansResolve",
     "DA_EdgeOfNight"
    ],
-   "avgPlacement": 3.544,
+   "avgPlacement": 3.55,
    "popularity": 0.0467
   },
   {
@@ -3095,7 +3096,8 @@
    },
    "cost": 5,
    "traits": [
-    "DA_18_Greenfather"
+    "DA_18_Greenfather",
+    "DA_18_Elderwood"
    ],
    "role": "MagicCaster",
    "stats": {
@@ -3126,13 +3128,13 @@
    "recommendedItems": [
     "DA_SpearOfShojin",
     "DA_GuinsoosRageblade",
-    "DA_BlueBuff",
     "DA_AdaptiveHelm",
+    "DA_BlueBuff",
     "DA_ThiefsGloves",
     "DA_ArchangelsStaff"
    ],
    "avgPlacement": 3.905,
-   "popularity": 0.4658
+   "popularity": 0.4633
   },
   {
    "id": "DA_18_Kennen",
@@ -3146,7 +3148,8 @@
    "cost": 5,
    "traits": [
     "DA_18_Inferno",
-    "DA_18_Executioner"
+    "DA_18_Executioner",
+    "DA_18_Sprykin"
    ],
    "role": "MagicAssassin",
    "stats": {
@@ -3182,8 +3185,8 @@
     "DA_RabadonsDeathcap",
     "DA_Morellonomicon"
    ],
-   "avgPlacement": 3.974,
-   "popularity": 0.4679
+   "avgPlacement": 3.976,
+   "popularity": 0.464
   },
   {
    "id": "DA_Lux18_Base",
@@ -3239,10 +3242,10 @@
     "DA_RabadonsDeathcap",
     "DA_VoidStaff",
     "DA_BlueBuff",
-    "DA_Morellonomicon"
+    "DA_AdaptiveHelm"
    ],
-   "avgPlacement": 3.589,
-   "popularity": 0.2752
+   "avgPlacement": 3.591,
+   "popularity": 0.2741
   },
   {
    "id": "DA_18_Maokai",
@@ -3293,7 +3296,7 @@
     "DA_DragonsClaw"
    ],
    "avgPlacement": 4.109,
-   "popularity": 0.4869
+   "popularity": 0.4844
   },
   {
    "id": "DA_Taric18",
@@ -3343,8 +3346,8 @@
     "DA_ThiefsGloves",
     "DA_Crownguard"
    ],
-   "avgPlacement": 3.836,
-   "popularity": 0.7272
+   "avgPlacement": 3.835,
+   "popularity": 0.7257
   }
  ],
  "traits": [
@@ -3512,8 +3515,8 @@
      "max": 25000,
      "style": "gold",
      "desc": {
-      "en": "(7) 10 per kill, 60 per loss",
-      "tr": "(7) Katletme başına 10 Öz, mağlubiyet başına 60 Öz"
+      "en": "(7) 10 per kill, 70 per loss",
+      "tr": "(7) Katletme başına 10 Öz, mağlubiyet başına 70 Öz"
      }
     }
    ],
@@ -3553,8 +3556,8 @@
      "max": 6,
      "style": "silver",
      "desc": {
-      "en": "(5) A second Stonebark Tree and Stonebark Trees gain 200 Health",
-      "tr": "(5) İkinci bir Taşkabuk Ağacı kazanırsın ve Taşkabuk Ağaçları 200 Can kazanır."
+      "en": "(5) A second Stonebark Tree and Stonebark Trees gain 125 Health",
+      "tr": "(5) İkinci bir Taşkabuk Ağacı kazanırsın ve Taşkabuk Ağaçları 125 Can kazanır."
      }
     },
     {
@@ -3594,7 +3597,8 @@
     "DA_18_LeBlanc",
     "DA_18_Hecarim",
     "DA_18_Ezreal",
-    "DA_18_GnarSmall"
+    "DA_18_GnarSmall",
+    "DA_18_Ivern"
    ]
   },
   {
@@ -3710,8 +3714,8 @@
      "max": 6,
      "style": "gold",
      "desc": {
-      "en": "(5) Ignite 2 shop slots, 3% Burn",
-      "tr": "(5) Dükkânındaki 2 yuva yanar, %3 Yakma etkisi kazanırsın."
+      "en": "(5) Ignite 2 shop slots, 4% Burn",
+      "tr": "(5) Dükkânındaki 2 yuva yanar, %4 Yakma etkisi kazanırsın."
      }
     },
     {
@@ -3719,8 +3723,8 @@
      "max": 25000,
      "style": "gold",
      "desc": {
-      "en": "(7) Ignite 4 shop slots, 4% Burn",
-      "tr": "(7) Dükkânındaki 4 yuva yanar, %4 Yakma etkisi kazanırsın."
+      "en": "(7) Ignite 4 shop slots, 5% Burn",
+      "tr": "(7) Dükkânındaki 4 yuva yanar, %5 Yakma etkisi kazanırsın."
      }
     }
    ],
@@ -3865,8 +3869,8 @@
      "max": 9,
      "style": "gold",
      "desc": {
-      "en": "(7) On combat start and every 5 seconds Riftbeasts grow gaining\n5% (AD) 5% (AP) % (AS)\n+5 (Armor) +5 (MR) +50 (HP) +1",
-      "tr": "(7) Çatışma başlangıcında ve her 5 saniyede bir Vadi Canavarları büyüyerek %5 (SG) %5 (YG) % (SH) +5 (Zırh) +5 (BD) +50 (Can) +1 kazanır."
+      "en": "(7) On combat start and every 5 seconds Riftbeasts grow gaining\n4% (AD) 4% (AP) % (AS)\n+5 (Armor) +5 (MR) +50 (HP) +1",
+      "tr": "(7) Çatışma başlangıcında ve her 5 saniyede bir Vadi Canavarları büyüyerek %4 (SG) %4 (YG) % (SH) +5 (Zırh) +5 (BD) +50 (Can) +1 kazanır."
      }
     },
     {
@@ -4006,8 +4010,8 @@
      "max": 25000,
      "style": "gold",
      "desc": {
-      "en": "(7) 55% (HP) 55% (AS), and 100% of the BFF's Ability applies to your Sprykin champions.",
-      "tr": "(7) %55 (Can), %55 (SH) ve büyük tüylü dostun yeteneğinin %100 kadarı Zıpırgil şampiyonlarına uygulanır."
+      "en": "(7) 55% (HP) 55% (AS), and 75% of the BFF's Ability applies to your Sprykin champions.",
+      "tr": "(7) %55 (Can), %55 (SH) ve büyük tüylü dostun yeteneğinin %75 kadarı Zıpırgil şampiyonlarına uygulanır."
      }
     }
    ],
@@ -4019,7 +4023,8 @@
     "DA_18_Teemo",
     "DA_18_Rammus",
     "DA_18_Tristana",
-    "DA_18_GnarSmall"
+    "DA_18_GnarSmall",
+    "DA_18_Kennen"
    ]
   },
   {
@@ -4592,6 +4597,7 @@
    "champions": [
     "DA_18_Yorick",
     "DA_18_Azir",
+    "DA_Krug18",
     "DA_CrimsonRaptor18",
     "DA_18_Zyra"
    ]
@@ -4795,8 +4801,8 @@
    },
    "type": "unique",
    "desc": {
-    "en": "After 8 seconds of combat, the Eclipse kills the lowest Health enemy, repeating every 3.5 seconds.",
-    "tr": "Çatışma başladıktan 8 saniye sonra Tutulma birimleri, canı en düşük olan rakibi katleder. Bu etki her 3.5 saniyede bir tekrarlanır."
+    "en": "After 8 seconds of combat, the Eclipse kills the lowest Health enemy, repeating every 3 seconds.",
+    "tr": "Çatışma başladıktan 8 saniye sonra Tutulma birimleri, canı en düşük olan rakibi katleder. Bu etki her 3 saniyede bir tekrarlanır."
    },
    "breakpoints": [
     {
@@ -4804,8 +4810,8 @@
      "max": 25000,
      "style": "unique",
      "desc": {
-      "en": "After 8 seconds of combat, the Eclipse kills the lowest Health enemy, repeating every 3.5 seconds.",
-      "tr": "Çatışma başladıktan 8 saniye sonra Tutulma birimleri, canı en düşük olan rakibi katleder. Bu etki her 3.5 saniyede bir tekrarlanır."
+      "en": "After 8 seconds of combat, the Eclipse kills the lowest Health enemy, repeating every 3 seconds.",
+      "tr": "Çatışma başladıktan 8 saniye sonra Tutulma birimleri, canı en düşük olan rakibi katleder. Bu etki her 3 saniyede bir tekrarlanır."
      }
     }
    ],
@@ -8109,8 +8115,8 @@
     "tr": "Odaklı Ateş"
    },
    "desc": {
-    "en": "Your team gains 10% Attack Damage. Every 5 seconds, they gain 5% more.",
-    "tr": "Takımın %10 Saldırı Gücü kazanır. Her 5 saniyede bir %5 daha kazanır."
+    "en": "Your team gains 10% Attack Damage. Every 5 seconds, they gain 4% more.",
+    "tr": "Takımın %10 Saldırı Gücü kazanır. Her 5 saniyede bir %4 daha kazanır."
    },
    "rarity": "silver",
    "category": "combat",
@@ -8806,8 +8812,8 @@
     "tr": "Yüklü Borç"
    },
    "desc": {
-    "en": "Gain 20 Gold. Your next augment is one tier lower.",
-    "tr": "20 Altın kazanırsın. Sonraki eklentin bir aşama düşük olur."
+    "en": "Gain 22 Gold. Your next augment is one tier lower.",
+    "tr": "22 Altın kazanırsın. Sonraki eklentin bir aşama düşük olur."
    },
    "rarity": "gold",
    "category": "economy",
@@ -9180,8 +9186,8 @@
     "tr": "Atılganın Zarafeti"
    },
    "desc": {
-    "en": "At the start of combat, allies gain 30% Attack Speed for 4 seconds. On takedown, allies dash to their next target and gain this bonus again.",
-    "tr": "Çatışmanın başında dost birimler 4 saniyeliğine %30 Saldırı Hızı kazanır. Dost birimler alt etme halinde bir sonraki hedeflerine atılır ve bu ilaveyi tekrar kazanır."
+    "en": "At the start of combat, allies gain 130% Attack Speed for 4 seconds. On takedown, allies dash to their next target and gain this bonus again.",
+    "tr": "Çatışmanın başında dost birimler 4 saniyeliğine %130 Saldırı Hızı kazanır. Dost birimler alt etme halinde bir sonraki hedeflerine atılır ve bu ilaveyi tekrar kazanır."
    },
    "rarity": "gold",
    "category": "combat",
@@ -9435,8 +9441,8 @@
     "tr": "Elektroşarj II"
    },
    "desc": {
-    "en": "Every 4 attacks an ally takes, they deal 50 / 80 / 110- (based on current Stage) magic damage to nearby enemies (1 second cooldown).",
-    "tr": "Dost birimler kendilerine yönelik her 4 saldırıda bir mevcut aşamaya bağlı olarak yakınlarındaki rakiplere 50 / 80 / 110 ila Büyü Hasarı verir (1 saniye bekleme süresi)."
+    "en": "Every 4 attacks an ally takes, they deal 35 / 65 / 90- (based on current Stage) magic damage to nearby enemies (1 second cooldown).",
+    "tr": "Dost birimler kendilerine yönelik her 4 saldırıda bir mevcut aşamaya bağlı olarak yakınlarındaki rakiplere 35 / 65 / 90 ila Büyü Hasarı verir (1 saniye bekleme süresi)."
    },
    "rarity": "gold",
    "category": "combat",
@@ -9826,8 +9832,8 @@
     "tr": "Yatırım Stratejisi I"
    },
    "desc": {
-    "en": "Your champions gain 9 permanent max health per interest you earn. Gain 3 gold now.",
-    "tr": "Şampiyonların kazandığın her birikim altını için kalıcı olarak 9 Azami Can kazanır. Anında 3 Altın kazanırsın."
+    "en": "Your champions gain 8 permanent max health per interest you earn. Gain 3 gold now.",
+    "tr": "Şampiyonların kazandığın her birikim altını için kalıcı olarak 8 Azami Can kazanır. Anında 3 Altın kazanırsın."
    },
    "rarity": "gold",
    "category": "combat",
@@ -9911,8 +9917,8 @@
     "tr": "İleri Safha Gücü"
    },
    "desc": {
-    "en": "Gain 2 XP at the start of player combat rounds. Your 5-cost champions gain 12% Health and 12% Attack Speed.\n\nCyber City Tactician's Crown, 2025",
-    "tr": "Oyunculara karşı çatışma turlarının başlangıcında 2 XP kazanırsın. 5 Altınlık şampiyonların %12 Can ve %12 Saldırı Hızı kazanır.\n\n2025 Siber Şehir Tactician's Crown"
+    "en": "Gain 2 XP at the start of player combat rounds. Your 5-cost champions gain 112% Health and 112% Attack Speed.\n\nCyber City Tactician's Crown, 2025",
+    "tr": "Oyunculara karşı çatışma turlarının başlangıcında 2 XP kazanırsın. 5 Altınlık şampiyonların %112 Can ve %112 Saldırı Hızı kazanır.\n\n2025 Siber Şehir Tactician's Crown"
    },
    "rarity": "gold",
    "category": "economy",
@@ -10098,8 +10104,8 @@
     "tr": "Pandora'nın Eşyaları II"
    },
    "desc": {
-    "en": "Round start: items on your bench are randomized.\n\nGain 2 random components and 1 gold.",
-    "tr": "Tur Başlangıcında: Zulandaki eşyalar rasgele değişir.\n\nRasgele 2 bileşen eşya ve 1 Altın kazanırsın."
+    "en": "Round start: items on your bench are randomized.\n\nGain 2 random components and gold.",
+    "tr": "Tur Başlangıcında: Zulandaki eşyalar rasgele değişir.\n\nRasgele 2 bileşen eşya ve Altın kazanırsın."
    },
    "rarity": "gold",
    "category": "utility",
@@ -10132,8 +10138,8 @@
     "tr": "Pandora'nın Eşyaları II++"
    },
    "desc": {
-    "en": "Round start: items on your bench are randomized.\n\nGain 2 random components and 6 gold.",
-    "tr": "Tur Başlangıcında: Zulandaki eşyalar rasgele değişir.\n\nRasgele 2 bileşen eşya ve 6 Altın kazanırsın."
+    "en": "Round start: items on your bench are randomized.\n\nGain 2 random components and 7 gold.",
+    "tr": "Tur Başlangıcında: Zulandaki eşyalar rasgele değişir.\n\nRasgele 2 bileşen eşya ve 7 Altın kazanırsın."
    },
    "rarity": "gold",
    "category": "utility",
@@ -10914,8 +10920,8 @@
     "tr": "Büyük Dönüş"
    },
    "desc": {
-    "en": "Your team gains 4 Health and 0.3% Attack Speed per missing player Health.",
-    "tr": "Takımın her eksik strateji ustası canı başına 4 Can ve %0.3 Saldırı Hızı kazanır."
+    "en": "Your team gains 4 Health and 0.4% Attack Speed per missing player Health.",
+    "tr": "Takımın her eksik strateji ustası canı başına 4 Can ve %0.4 Saldırı Hızı kazanır."
    },
    "rarity": "prismatic",
    "category": "combat",
@@ -11050,8 +11056,8 @@
     "tr": "Güçle İşlenmiş"
    },
    "desc": {
-    "en": "Gain 1 random Artifact. When you drop below 35 Health, gain 1 more random Artifact, 1 random completed item, and 2 random components.\n\nRemix Rumble Championship, 2023",
-    "tr": "Rasgele 1 yadigâr kazanırsın. Strateji ustanın canı 35 değerinin altına düştüğünde rasgele 1 yadigâr daha kazanırsın. Ayrıca rasgele 1 tamamlanmış eşya ve rasgele 2 bileşen eşya kazanırsın.\n\n2023 Remiks Curcunası Şampiyonası"
+    "en": "Gain 1 random Artifact. When you drop below 35 Health, gain 1 more random Artifact, 1 random completed item, and 3 random components.\n\nRemix Rumble Championship, 2023",
+    "tr": "Rasgele 1 yadigâr kazanırsın. Strateji ustanın canı 35 değerinin altına düştüğünde rasgele 1 yadigâr daha kazanırsın. Ayrıca rasgele 1 tamamlanmış eşya ve rasgele 3 bileşen eşya kazanırsın.\n\n2023 Remiks Curcunası Şampiyonası"
    },
    "rarity": "prismatic",
    "category": "utility",
@@ -11067,8 +11073,8 @@
     "tr": "Devasa ve Güçlü"
    },
    "desc": {
-    "en": "Your team becomes large, gaining 225 Health and 10% max Health.",
-    "tr": "Takımın büyür ve 225 Can ile %10 Azami Can kazanır."
+    "en": "Your team becomes large, gaining 225 Health and 110% max Health.",
+    "tr": "Takımın büyür ve 225 Can ile %110 Azami Can kazanır."
    },
    "rarity": "prismatic",
    "category": "combat",
@@ -11237,8 +11243,8 @@
     "tr": "Yatırım Stratejisi II"
    },
    "desc": {
-    "en": "Your champions gain 12 permanent max health per interest you earn. Your max interest is increased by 2. Gain 6 gold now.",
-    "tr": "Şampiyonların kazandığın her birikim altını için kalıcı olarak 12 Azami Can kazanır. Azami birikim altını sınırın 2 artar. Anında 6 Altın kazanırsın."
+    "en": "Your champions gain 10 permanent max health per interest you earn. Your max interest is increased by 2. Gain 6 gold now.",
+    "tr": "Şampiyonların kazandığın her birikim altını için kalıcı olarak 10 Azami Can kazanır. Azami birikim altını sınırın 2 artar. Anında 6 Altın kazanırsın."
    },
    "rarity": "prismatic",
    "category": "combat",
